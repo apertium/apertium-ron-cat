@@ -1,1 +1,9 @@
 * text=auto !eol
+/COPYING -text
+/INSTALL -text
+/NEWS -text
+/README -text
+/apertium-ca-ro.ca-ro.dix -text
+/apertium-ca-ro.ca.dix -text
+/apertium-ca-ro.ro.dix -text
+/apertium-ca-ro.trules-ca-ro.xml -text

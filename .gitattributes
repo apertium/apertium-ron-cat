@@ -6,6 +6,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-ca-ro.ca-more.dix -text
 /apertium-ca-ro.ca-ro.dix -text
 /apertium-ca-ro.ca.dix -text
 /apertium-ca-ro.ro.dix -text

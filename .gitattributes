@@ -13,5 +13,7 @@
 /apertium-ca-ro.trules-ca-ro.xml -text
 /apertium-ca-ro.trules-ro-ca.xml -text
 /autogen.sh -text
+/ca-ro.prob -text svneol=unset#unset
 /configure.ac -text
 /modes.xml -text
+/ro-ca.prob -text

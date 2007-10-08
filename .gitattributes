@@ -8,12 +8,12 @@
 /README -text
 /apertium-ca-ro.ca-more.dix -text
 /apertium-ca-ro.ca-ro.dix -text
+/apertium-ca-ro.ca-ro.t1x -text
 /apertium-ca-ro.ca.dix -text
 /apertium-ca-ro.post-ca.dix -text
 /apertium-ca-ro.post-ro.dix -text
+/apertium-ca-ro.ro-ca.t1x -text
 /apertium-ca-ro.ro.dix -text
-/apertium-ca-ro.trules-ca-ro.xml -text
-/apertium-ca-ro.trules-ro-ca.xml -text
 /autogen.sh -text
 /ca-ro.prob -text svneol=unset#unset
 /configure.ac -text

@@ -62,10 +62,6 @@ $(PREFIX1).translit.bin: $(AP_SRC1)/$(LANG1).translit.bin
 $(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 	cp $< $@
 
-$(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
-	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-	lt-comp lr $(BASENAME).$(PREFIX1).dix $@
-
 # -------------------
 # Catalan analysis:
 # -------------------

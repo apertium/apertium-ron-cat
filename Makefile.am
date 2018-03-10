@@ -11,7 +11,6 @@ PREFIX2=$(LANG2)-$(LANG1)
 BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON =		\
-	$(PREFIX1).translit.bin	\
 	$(PREFIX1).automorf.bin	\
 	$(PREFIX1).prob		\
 	$(PREFIX1).rlx.bin	\
@@ -50,9 +49,6 @@ TARGETS_COMMON =		\
 
 $(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
 	lt-trim $^ $@
-
-$(PREFIX1).translit.bin: $(AP_SRC1)/$(LANG1).translit.bin
-	cp $< $@
 
 # -------------------
 # Romanian generation:

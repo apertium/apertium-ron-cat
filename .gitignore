@@ -15,6 +15,7 @@
 /modes
 /*.mode
 /.deps
+/config.in~
 /config.in
 /config
 /*.prob

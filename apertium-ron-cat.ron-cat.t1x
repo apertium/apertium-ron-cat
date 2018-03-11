@@ -861,7 +861,7 @@
             <b pos="1"/>
             <lu>
               <get-case-from pos="1">
-                <lit v="haber"/>
+                <lit v="haver"/>
               </get-case-from>
               <lit-tag v="vbhaver.ifi"/>
               <lit-tag v="p3"/>
@@ -5295,7 +5295,7 @@
 	  <out><chunk name="x"><tags><tag><lit-tag v="SX"/></tag></tags>
 	   <lu>
            <get-case-from pos="1">
-              <lit v="haber"/>
+              <lit v="haver"/>
             </get-case-from>
             <lit-tag v="vbhaver"/>
             <lit-tag v="ger"/>
@@ -5318,7 +5318,7 @@
         <out><chunk name="x"><tags><tag><lit-tag v="SX"/></tag></tags>
           <lu>
            <get-case-from pos="1">
-              <lit v="haber"/>
+              <lit v="haver"/>
             </get-case-from>
             <lit-tag v="vbhaver"/>
             <clip pos="1" side="tl" part="lemh"/>
@@ -12629,7 +12629,7 @@ is not applicable because gender and number can not be taken from previous rules
         <out><chunk name="x"><tags><tag><lit-tag v="SX"/></tag></tags>
           <lu>
             <get-case-from pos="1">
-              <lit v="haber"/>
+              <lit v="haver"/>
             </get-case-from>           
             <lit-tag v="vbhaver.pis"/>
             <clip pos="1" side="tl" part="persona"/>
@@ -13054,7 +13054,7 @@ is not applicable because gender and number can not be taken from previous rules
         <out><chunk name="x"><tags><tag><lit-tag v="SX"/></tag></tags>
           <lu>
            <get-case-from pos="1">
-              <lit v="haber"/>
+              <lit v="haver"/>
             </get-case-from>
             <lit-tag v="vbhaver"/>
             <lit-tag v="pii"/>

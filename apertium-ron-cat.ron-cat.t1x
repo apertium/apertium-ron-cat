@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
-<transfer>
+<transfer default="chunk">
  <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>

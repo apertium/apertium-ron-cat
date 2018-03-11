@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
-<transfer>
+<transfer default="chunk">
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -77,23 +77,6 @@
   </section-def-vars>
 
   <section-rules>
-    <rule>
-      <pattern>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-            <out>
-              <lu>
-                <clip pos="1" side="tl" part="lem"/>
-    	        <clip pos="1" side="tl" part="a_nom"/>
-    	        <clip pos="1" side="tl" part="nbr"/>
-    	        <clip pos="1" side="tl" part="gen"/>
-              </lu>
-            </out>
-      </action>
-    </rule>
-
-
 
      <rule> <!-- REGLA: reset variables-->
        <pattern>

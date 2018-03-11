@@ -3,7 +3,7 @@
 
   <!-- ron → cat -->
 
-  <mode name="ron-cat" install="yes" gendebug="yes">
+  <mode name="ron-cat" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="ron-cat.automorf.bin"/>
@@ -36,7 +36,6 @@
       <program name="lt-proc $1">
         <file name="ron-cat.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="ron-cat.autopgen.bin"/>
       </program>
@@ -257,7 +256,7 @@
 
   <!-- cat → ron -->
 
-  <mode name="cat-ron" install="yes" gendebug="yes">
+  <mode name="cat-ron" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="cat-ron.automorf.bin"/>

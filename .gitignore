@@ -19,3 +19,5 @@
 /config.in
 /config
 /*.prob
+/dev/testvoc/ron-cat.testvoc
+/dev/testvoc/cat-ron.testvoc

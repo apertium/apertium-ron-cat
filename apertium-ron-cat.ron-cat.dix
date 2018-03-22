@@ -10475,10 +10475,10 @@
 
 <!-- Antropònims -->
 
-<e r="LR">          <p><l>Iisus<s n="np"/></l>                        <r>Jesús<s n="np"/></r></p></e>
-<e>                 <p><l>Ion<s n="np"/></l>                          <r>Joan<s n="np"/></r></p></e>
-<e>                 <p><l>Isus<s n="np"/></l>                         <r>Jesús<s n="np"/></r></p></e>
-<e>                 <p><l>Maria<s n="np"/></l>                        <r>Maria<s n="np"/></r></p></e>
+<e r="LR">          <p><l>Iisus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jesús<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ion<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Joan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Isus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jesús<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Maria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Maria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 
 <!-- Altres -->
 
@@ -10492,38 +10492,35 @@
 
 <!-- Numerals -->
 
-<e>                 <i>C<s n="num"/></i></e>
-<e>                 <i>D<s n="num"/></i></e>
-<e>                 <i>I<s n="num"/></i></e>
-<e>                 <i>II<s n="num"/></i></e>
-<e>                 <i>III<s n="num"/></i></e>
-<e>                 <i>IV<s n="num"/></i></e>
-<e>                 <i>IX<s n="num"/></i></e>
-<e>                 <i>L<s n="num"/></i></e>
-<e>                 <i>M<s n="num"/></i></e>
-<e>                 <i>V<s n="num"/></i></e>
-<e>                 <i>VI<s n="num"/></i></e>
-<e>                 <i>VII<s n="num"/></i></e>
-<e>                 <i>VIII<s n="num"/></i></e>
-<e>                 <i>X<s n="num"/></i></e>
-<e>                 <i>XI<s n="num"/></i></e>
-<e>                 <i>XII<s n="num"/></i></e>
-<e>                 <i>XIII<s n="num"/></i></e>
-<e>                 <i>XIV<s n="num"/></i></e>
-<e>                 <i>XIX<s n="num"/></i></e>
-<e>                 <i>XV<s n="num"/></i></e>
-<e>                 <i>XVI<s n="num"/></i></e>
-<e>                 <i>XVII<s n="num"/></i></e>
-<e>                 <i>XVIII<s n="num"/></i></e>
-<e>                 <i>XX<s n="num"/></i></e>
-<e>                 <i>XXI<s n="num"/></i></e>
+<e>                 <p><l>C<s n="num"/><s n="mf"/><s n="pl"/></l>     <r>C<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>D<s n="num"/><s n="mf"/><s n="pl"/></l>     <r>D<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>I<s n="num"/><s n="mf"/><s n="pl"/></l>     <r>I<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>II<s n="num"/><s n="mf"/><s n="pl"/></l>    <r>II<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>III<s n="num"/><s n="mf"/><s n="pl"/></l>   <r>III<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>IV<s n="num"/><s n="mf"/><s n="pl"/></l>    <r>IV<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>IX<s n="num"/><s n="mf"/><s n="pl"/></l>    <r>IX<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>L<s n="num"/><s n="mf"/><s n="pl"/></l>     <r>L<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>M<s n="num"/><s n="mf"/><s n="pl"/></l>     <r>M<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>V<s n="num"/><s n="mf"/><s n="pl"/></l>     <r>V<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>VI<s n="num"/><s n="mf"/><s n="pl"/></l>    <r>VI<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>VII<s n="num"/><s n="mf"/><s n="pl"/></l>   <r>VII<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>VIII<s n="num"/><s n="mf"/><s n="pl"/></l>  <r>VIII<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>X<s n="num"/><s n="mf"/><s n="pl"/></l>     <r>X<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XI<s n="num"/><s n="mf"/><s n="pl"/></l>    <r>XI<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XII<s n="num"/><s n="mf"/><s n="pl"/></l>   <r>XII<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XIII<s n="num"/><s n="mf"/><s n="pl"/></l>  <r>XIII<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XIV<s n="num"/><s n="mf"/><s n="pl"/></l>   <r>XIV<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XIX<s n="num"/><s n="mf"/><s n="pl"/></l>   <r>XIX<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XV<s n="num"/><s n="mf"/><s n="pl"/></l>    <r>XV<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XVI<s n="num"/><s n="mf"/><s n="pl"/></l>   <r>XVI<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XVII<s n="num"/><s n="mf"/><s n="pl"/></l>  <r>XVII<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XVIII<s n="num"/><s n="mf"/><s n="pl"/></l> <r>XVIII<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XX<s n="num"/><s n="mf"/><s n="pl"/></l>    <r>XX<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>XXI<s n="num"/><s n="mf"/><s n="pl"/></l>   <r>XXI<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>                 <p><l>cinci<s n="num"/></l>                       <r>cinc<s n="num"/></r></p></e>
-<e r="LR">          <p><l>cinci<b/>sute<s n="num"/><s n="mf"/><s n="sp"/></l><r>cinc-cents<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
-<e r="RL">          <p><l>cinci<b/>sute<s n="num"/><s n="mf"/><s n="sp"/></l><r>cinc-cents<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="RL">          <p><l>cinci<b/>sute<s n="num"/><s n="mf"/><s n="sp"/></l><r>cinc-cents<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
-<e r="LR">          <p><l>cinci<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>cinc-cents<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>cinci<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>cinc-cents<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>cinci<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>cinc-cents<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>cinci<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>cinc-cents<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>cinci<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>cinc-cents<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>cinci<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>cinc-cents<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
 <e>                 <p><l>cincisprezece<s n="num"/></l>               <r>quinze<s n="num"/></r></p></e>
 <e>                 <p><l>cincizeci<s n="num"/></l>                   <r>cinquanta<s n="num"/></r></p></e>
 <e>                 <p><l>cincizeci<b/>și<b/>cinci<s n="num"/></l>    <r>cinquanta-cinc<s n="num"/></r></p></e>
@@ -10539,9 +10536,9 @@
 <e r="RL">          <p><l>doisprezece<s n="num"/><s n="GD"/><s n="pl"/></l><r>dotze<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR">          <p><l>doisprezece<s n="num"/><s n="f"/><s n="pl"/></l><r>dotze<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR">          <p><l>doisprezece<s n="num"/><s n="m"/><s n="pl"/></l><r>dotze<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR">          <p><l>două<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>dos-cents<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>două<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>dos-cents<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>două<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>dos-cents<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>două<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>dos-cents<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>două<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>dos-cents<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>două<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>dos-cents<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
 <e>                 <p><l>douăzeci<s n="num"/></l>                    <r>vint<s n="num"/></r></p></e>
 <e>                 <p><l>douăzeci<b/>și<b/>cinci<s n="num"/></l>     <r>vint-i-cinc<s n="num"/></r></p></e>
 <e>                 <p><l>douăzeci<b/>și<b/>doi<s n="num"/></l>       <r>vint-i-dos<s n="num"/></r></p></e>
@@ -10556,9 +10553,9 @@
 <e>                 <p><l>miliarde<b/>de<s n="num"/></l>              <r>billons<b/>de<s n="num"/></r></p></e>
 <e>                 <p><l>milioane<b/>de<s n="num"/></l>              <r>milions<b/>de<s n="num"/></r></p></e>
 <e>                 <p><l>nouă<s n="num"/></l>                        <r>nou<s n="num"/></r></p></e>
-<e r="LR">          <p><l>nouă<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>nou-cents<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>nouă<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>nou-cents<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>nouă<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>nou-cents<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>nouă<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>nou-cents<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>nouă<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>nou-cents<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>nouă<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>nou-cents<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
 <e>                 <p><l>nouăsprezece<s n="num"/></l>                <r>dinou<s n="num"/></r></p></e>
 <e>                 <p><l>nouăzeci<s n="num"/></l>                    <r>noranta<s n="num"/></r></p></e>
 <e>                 <p><l>nouăzeci<b/>și<b/>doi<s n="num"/></l>       <r>noranta-dos<s n="num"/></r></p></e>
@@ -10574,9 +10571,9 @@
 <e>                 <p><l>o<b/>sută<s n="num"/></l>                   <r>cent<s n="num"/></r></p></e>
 <e>                 <p><l>o<b/>sută<b/>de<s n="num"/></l>             <r>cent<s n="num"/></r></p></e>
 <e>                 <p><l>opt<s n="num"/></l>                         <r>vuit<s n="num"/></r></p></e>
-<e r="LR">          <p><l>opt<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>vuit-cents<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>opt<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>vuit-cents<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>opt<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>vuit-cents<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>opt<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>vuit-cents<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>opt<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>vuit-cents<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>opt<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>vuit-cents<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
 <e>                 <p><l>optsprezece<s n="num"/></l>                 <r>divuit<s n="num"/></r></p></e>
 <e>                 <p><l>optzeci<s n="num"/></l>                     <r>vuitanta<s n="num"/></r></p></e>
 <e>                 <p><l>optzeci<b/>și<b/>cinci<s n="num"/></l>      <r>vuitanta-cinc<s n="num"/></r></p></e>
@@ -10590,9 +10587,9 @@
 <e>                 <p><l>optzeci<b/>și<b/>șase<s n="num"/></l>       <r>vuitanta-sis<s n="num"/></r></p></e>
 <e>                 <p><l>paisprezece<s n="num"/></l>                 <r>catorze<s n="num"/></r></p></e>
 <e>                 <p><l>patru<s n="num"/></l>                       <r>quatre<s n="num"/></r></p></e>
-<e r="LR">          <p><l>patru<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>quatre-cents<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>patru<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>quatre-cents<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>patru<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>quatre-cents<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>patru<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>quatre-cents<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>patru<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>quatre-cents<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>patru<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>quatre-cents<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
 <e>                 <p><l>patruzeci<s n="num"/></l>                   <r>quaranta<s n="num"/></r></p></e>
 <e>                 <p><l>patruzeci<b/>și<b/>doi<s n="num"/></l>      <r>quaranta-dos<s n="num"/></r></p></e>
 <e>                 <p><l>patruzeci<b/>și<b/>nouă<s n="num"/></l>     <r>quaranta-nou<s n="num"/></r></p></e>
@@ -10604,9 +10601,9 @@
 <e>                 <p><l>patruzeci<b/>și<b/>șase<s n="num"/></l>     <r>quaranta-sis<s n="num"/></r></p></e>
 <e>                 <p><l>sute<b/>de<s n="num"/></l>                  <r>centenars<b/>de<s n="num"/></r></p></e>
 <e>                 <p><l>trei<s n="num"/></l>                        <r>tres<s n="num"/></r></p></e>
-<e r="LR">          <p><l>trei<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>tres-cents<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>trei<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>tres-cents<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>trei<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>tres-cents<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>trei<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>tres-cents<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>trei<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>tres-cents<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>trei<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>tres-cents<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
 <e>                 <p><l>treisprezece<s n="num"/></l>                <r>tretze<s n="num"/></r></p></e>
 <e>                 <p><l>treizeci<s n="num"/></l>                    <r>trenta<s n="num"/></r></p></e>
 <e>                 <p><l>treizeci<b/>și<b/>cinci<s n="num"/></l>     <r>trenta-cinc<s n="num"/></r></p></e>
@@ -10635,9 +10632,9 @@
 <e>                 <p><l>șaizeci<b/>și<b/>șapte<s n="num"/></l>      <r>seixanta-set<s n="num"/></r></p></e>
 <e>                 <p><l>șaizeci<b/>și<b/>șase<s n="num"/></l>       <r>seixanta-sis<s n="num"/></r></p></e>
 <e>                 <p><l>șapte<s n="num"/></l>                       <r>set<s n="num"/></r></p></e>
-<e r="LR">          <p><l>șapte<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>set-cents<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>șapte<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>set-cents<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>șapte<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>set-cents<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>șapte<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>set-cents<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>șapte<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>set-cents<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>șapte<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>set-cents<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
 <e>                 <p><l>șaptesprezece<s n="num"/></l>               <r>disset<s n="num"/></r></p></e>
 <e>                 <p><l>șaptezeci<s n="num"/></l>                   <r>setanta<s n="num"/></r></p></e>
 <e>                 <p><l>șaptezeci<b/>și<b/>cinci<s n="num"/></l>    <r>setanta-cinc<s n="num"/></r></p></e>
@@ -10650,9 +10647,9 @@
 <e>                 <p><l>șaptezeci<b/>și<b/>șapte<s n="num"/></l>    <r>setanta-set<s n="num"/></r></p></e>
 <e>                 <p><l>șaptezeci<b/>și<b/>șase<s n="num"/></l>     <r>setanta-sis<s n="num"/></r></p></e>
 <e>                 <p><l>șase<s n="num"/></l>                        <r>sis<s n="num"/></r></p></e>
-<e r="LR">          <p><l>șase<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>sis-cents<s n="num"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>șase<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>sis-cents<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>șase<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>sis-cents<s n="num"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>șase<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>sis-cents<s n="num"/><s n="GD"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>șase<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>sis-cents<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>șase<b/>sute<s n="num"/><s n="mf"/><s n="pl"/></l><r>sis-cents<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
       
 <e>                 <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>                 <re>[a-z.]+@[a-z.]+</re><p><l><s n="num"/></l>    <r><s n="num"/></r></p></e>
@@ -13139,6 +13136,9 @@
 <e a="del">         <p><l>ținti<s n="vblex"/></l>                     <r>apuntar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>țintui<s n="vblex"/></l>                    <r>clavetejar<s n="vblex"/></r></p></e>
 <e>                 <p><l>țipa<s n="vblex"/></l>                      <r>baladrejar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>fi<g><b/>de<b/>neînțeles</g><s n="vblex"/></l><r>ser<g><b/>incomprensible</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>fi<g><b/>de<b/>înțeles</g><s n="vblex"/></l><r>ser<g><b/>comprensible</g><s n="vblex"/></r></p></e>
+<e>                 <p><l>fi<g><b/>nevoie</g><s n="vblex"/></l>       <r>ser<g><b/>necessari</g><s n="vblex"/></r></p></e>
 
     <!--  <e>
         <p>
@@ -13150,9 +13150,6 @@
 <e>                 <p><l>trebui<s n="vbmod"/></l>                    <r>haver<s n="vbmod"/></r></p></e>
 <e>                 <p><l>fi<s n="vblex"/></l>                        <r>ser<s n="vbser"/></r></p></e>
 <e>                 <p><l>avea<s n="vbavea"/></l>                     <r>haver<s n="vbhaver"/></r></p></e>
-<e a="delnou">      <p><l>fi<g><b/>de<b/>neînțeles</g><s n="vblex"/></l><r>ser<g><b/>incomprensible</g><s n="vbser"/></r></p></e>
-<e a="delnou">      <p><l>fi<g><b/>de<b/>înțeles</g><s n="vblex"/></l><r>ser<g><b/>comprensible</g><s n="vbser"/></r></p></e>
-<e>                 <p><l>fi<g><b/>nevoie</g><s n="vblex"/></l>       <r>ser<g><b/>necessari</g><s n="vbser"/></r></p></e>
 
 
 <e>                 <re>,</re><p><l><s n="cm"/></l>                   <r><s n="cm"/></r></p></e>

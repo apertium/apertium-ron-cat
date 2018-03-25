@@ -23,14 +23,41 @@
       <cat-item tags="vbser.fti.*"/>
       <cat-item tags="vblex.cni.*"/>
       <cat-item tags="vbser.cni.*"/>
+      <cat-item tags="vblex.prs.*"/>
+      <cat-item tags="vbser.prs.*"/>
+      <cat-item tags="vblex.imp.*"/>
+      <cat-item tags="vbser.imp.*"/>
       <cat-item tags="vblex.pis.*"/>
       <cat-item tags="vbser.pis.*"/>
       <cat-item tags="vblex.ifi.*"/>
       <cat-item tags="vbser.ifi.*"/>
+
+      <cat-item tags="vbmod.pri.*"/>
+      <cat-item tags="vbmod.pii.*"/>
+      <cat-item tags="vbmod.fti.*"/>
+      <cat-item tags="vbmod.cni.*"/>
+      <cat-item tags="vbmod.prs.*"/>
+      <cat-item tags="vbmod.imp.*"/>
+      <cat-item tags="vbmod.pis.*"/>
+      <cat-item tags="vbmod.ifi.*"/>
+    </def-cat>
+    <def-cat n="inf">
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vbser.inf"/>
+      <cat-item tags="vbmod.inf"/>
+    </def-cat>
+    <def-cat n="ger">
+      <cat-item tags="vblex.ger"/>
+      <cat-item tags="vbser.ger"/>
+      <cat-item tags="vbmod.ger"/>
     </def-cat>
     <def-cat n="pp">
       <cat-item tags="vblex.pp.*"/>
       <cat-item tags="vbser.pp.*"/>
+      <cat-item tags="vbmod.pp.*"/>
+    </def-cat>
+    <def-cat n="vbhaver">
+      <cat-item tags="vbhaver.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -71,6 +98,8 @@
       <attr-item tags="pri"/>
       <attr-item tags="fti"/>
       <attr-item tags="cni"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="imp"/>
       <attr-item tags="pis"/>
       <attr-item tags="ifi"/>
       <attr-item tags="pii"/>
@@ -92,10 +121,13 @@
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
       <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vbavea"/>
     </def-attr>
     <def-attr n="a_pp">
       <attr-item tags="vblex.pp"/>
       <attr-item tags="vbser.pp"/>
+      <attr-item tags="vbmod.pp"/>
     </def-attr>
   </section-def-attrs>
 
@@ -427,6 +459,75 @@
 	    </tags>
 	    <lu>   
 	      <var n="verb"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: INF">
+      <pattern>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="inf">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+	      <tag><clip pos="1" side="tl" part="temps"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <lit-tag v="3"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: GER">
+      <pattern>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="ger">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+	      <tag><clip pos="1" side="tl" part="temps"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <lit-tag v="3"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: VBHAVER (per si apareix sol)">
+      <pattern>
+	<pattern-item n="vbhaver"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="inf">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+	      <tag><lit-tag v="inf"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <lit-tag v="3"/>
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
 	</out>

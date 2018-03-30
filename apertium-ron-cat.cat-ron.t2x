@@ -10,14 +10,14 @@
   </section-def-cats>
 
   <section-def-attrs>
-    <def-attr n="pers">
+    <def-attr n="a_pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
       <attr-item tags="PD"/>
     </def-attr>
 
-    <def-attr n="gen">
+    <def-attr n="a_gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
       <attr-item tags="mf"/>
@@ -28,7 +28,7 @@
       <attr-item tags="mfn"/>
     </def-attr>
 
-    <def-attr n="nbr">
+    <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
@@ -52,12 +52,12 @@
 	  <when>
 	    <test>
 	      <equal>
-		<clip pos="1" part="gen"/>
+		<clip pos="1" part="a_gen"/>
 		<lit-tag v="GD"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="1" part="gen"/>
+	      <clip pos="1" part="a_gen"/>
 	      <lit-tag v="m"/>
 	    </let>
 	  </when>
@@ -66,12 +66,12 @@
 	  <when>
 	    <test>
 	      <equal>
-		<clip pos="1" part="nbr"/>
+		<clip pos="1" part="a_nbr"/>
 		<lit-tag v="ND"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="1" part="nbr"/>
+	      <clip pos="1" part="a_nbr"/>
 	      <lit-tag v="sg"/>
 	    </let>
 	  </when>
@@ -93,12 +93,12 @@
 	  <when>
 	    <test>
 	      <equal>
-		<clip pos="1" part="gen"/>
+		<clip pos="1" part="a_gen"/>
 		<lit-tag v="GD"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="1" part="gen"/>
+	      <clip pos="1" part="a_gen"/>
 	      <lit-tag v="mn"/>
 	    </let>
 	  </when>
@@ -107,12 +107,12 @@
 	  <when>
 	    <test>
 	      <equal>
-		<clip pos="1" part="nbr"/>
+		<clip pos="1" part="a_nbr"/>
 		<lit-tag v="ND"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="1" part="nbr"/>
+	      <clip pos="1" part="a_nbr"/>
 	      <lit-tag v="sg"/>
 	    </let>
 	  </when>

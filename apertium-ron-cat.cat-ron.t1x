@@ -14,6 +14,10 @@
     <def-cat n="artdef">
       <cat-item tags="det.def.*"/>
     </def-cat>
+    <def-cat n="prn">
+      <cat-item tags="prn.tn.pos.*"/>
+      <cat-item tags="prn.tn.*"/>
+    </def-cat>
     <def-cat n="vbcnj">
       <cat-item tags="vblex.pri.*"/>
       <cat-item tags="vbser.pri.*"/>
@@ -105,6 +109,7 @@
       <attr-item tags="pii"/>
       <attr-item tags="ger"/>
       <attr-item tags="inf"/>
+      <attr-item tags="pp"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -117,17 +122,17 @@
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
+      <attr-item tags="adj.ord"/>
+    </def-attr>
+    <def-attr n="a_prn">
+      <attr-item tags="prn.tn"/>
+      <attr-item tags="prn.tn.pos"/>
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbmod"/>
       <attr-item tags="vbavea"/>
-    </def-attr>
-    <def-attr n="a_pp">
-      <attr-item tags="vblex.pp"/>
-      <attr-item tags="vbser.pp"/>
-      <attr-item tags="vbmod.pp"/>
     </def-attr>
   </section-def-attrs>
 
@@ -157,7 +162,30 @@
 	      <lit v="aa"/>
 	    </modify-case>
 	  </when>
-	</choose>
+      </choose>
+    </def-macro>
+
+    <def-macro n="mod_maj2" npar="2" comment="Canvia la minúscula inicial d'un lema a majúscula si coincideix amb un altre lema">
+      <choose>
+	  <when>
+	    <test>
+              <and>
+	      <equal>
+		<case-of pos="1" side="sl" part="lemh"/>
+		<lit v="Aa"/>
+	      </equal>
+	      <equal>
+		<case-of pos="2" side="sl" part="lemh"/>
+		<lit v="aa"/>
+	      </equal>
+              </and>
+	    </test>
+	    <modify-case>
+	      <clip pos="2" side="tl" part="lemh"/>
+	      <lit v="Aa"/>
+	    </modify-case>
+	  </when>
+      </choose>
     </def-macro>
 
     <def-macro n="conj_verb1" npar="1" comment="Conjuga un verb simple">
@@ -411,6 +439,10 @@
 	<pattern-item n="nom"/>
       </pattern>
       <action>
+	<call-macro n="mod_maj2">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
 	<out>
 	  <chunk name="artdef_nom">
 	    <tags>
@@ -455,6 +487,34 @@
 	      <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
 	      <lit-tag v="4"/>
 	      <lit-tag v="5"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PRN">
+      <pattern>
+	<pattern-item n="prn"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="prn">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+	      <tag><lit-tag v="nom"/></tag>
+	      <tag><lit-tag v="ind"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_prn"/>
+	      <clip pos="1" side="tl" part="a_pers"/>
+	      <clip pos="1" side="tl" part="a_gen" link-to="2"/>
+	      <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+	      <lit-tag v="4"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
@@ -510,7 +570,8 @@
 	    </tags>
 	    <lu>   
 	      <clip pos="1" side="tl" part="lemh"/> 
-	      <clip pos="1" side="tl" part="a_pp"/>
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <clip pos="1" side="tl" part="a_temps"/>
 	      <lit-tag v="2"/>
 	      <lit-tag v="3"/>
 	      <clip pos="1" side="tl" part="lemq"/>

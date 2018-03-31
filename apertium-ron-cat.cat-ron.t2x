@@ -41,6 +41,108 @@
     <def-var n="genere"/>
   </section-def-vars>
 
+  <section-def-macros>
+
+    <def-macro n="elimina_GDND" npar="1" comment="Elimina les etiquetes 'GD' i 'ND'.">
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" part="a_gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" part="a_gen"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" part="a_nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" part="a_nbr"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+      </choose>  
+    </def-macro>
+
+    <def-macro n="elimina_GDND_adj" npar="1" comment="Elimina les etiquetes 'GD' i 'ND' d'un adjectiu">
+      <choose>
+	<when>
+	  <test>
+            <and>
+	      <equal>
+	        <clip pos="1" part="a_gen"/>
+	        <lit-tag v="GD"/>
+	      </equal>
+              <or>
+	        <equal>
+	          <clip pos="1" part="a_nbr"/>
+	          <lit-tag v="ND"/>
+	        </equal>
+	        <equal>
+	          <clip pos="1" part="a_nbr"/>
+	          <lit-tag v="sg"/>
+	        </equal>
+              </or>
+            </and>
+	  </test>
+	  <let>
+	    <clip pos="1" part="a_gen"/>
+	    <lit-tag v="mn"/>
+	  </let>
+	  <let>
+	    <clip pos="1" part="a_nbr"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+            <and>
+	      <equal>
+	        <clip pos="1" part="a_gen"/>
+	        <lit-tag v="GD"/>
+	      </equal>
+	      <equal>
+	        <clip pos="1" part="a_nbr"/>
+	        <lit-tag v="pl"/>
+	      </equal>
+            </and>
+	  </test>
+	  <let>
+	    <clip pos="1" part="a_gen"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" part="a_gen"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" part="a_gen"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>
+
+  </section-def-macros>
+
   <section-rules>
 
     <rule comment="REGLA: SN">
@@ -48,34 +150,9 @@
         <pattern-item n="SN"/>
       </pattern>
       <action>
-	<choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" part="a_gen"/>
-		<lit-tag v="GD"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <clip pos="1" part="a_gen"/>
-	      <lit-tag v="m"/>
-	    </let>
-	  </when>
-	</choose>
-	<choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" part="a_nbr"/>
-		<lit-tag v="ND"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <clip pos="1" part="a_nbr"/>
-	      <lit-tag v="sg"/>
-	    </let>
-	  </when>
-	</choose>
+	<call-macro n="elimina_GDND">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
 	    <clip pos="1" part="whole"/>
@@ -89,34 +166,9 @@
 	<pattern-item n="SA"/>
       </pattern>
       <action>
-	<choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" part="a_gen"/>
-		<lit-tag v="GD"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <clip pos="1" part="a_gen"/>
-	      <lit-tag v="mn"/>
-	    </let>
-	  </when>
-	</choose>
-	<choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" part="a_nbr"/>
-		<lit-tag v="ND"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <clip pos="1" part="a_nbr"/>
-	      <lit-tag v="sg"/>
-	    </let>
-	  </when>
-	</choose>
+	<call-macro n="elimina_GDND_adj">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
 	    <clip pos="1" part="whole"/>

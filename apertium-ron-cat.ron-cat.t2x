@@ -43,7 +43,7 @@
 
   <section-def-macros>
 
-    <def-macro n="elimina_GDND" npar="1" comment="Changes 'GD' to 'm' and 'ND' to 'sg'.">
+    <def-macro n="elimina_GDND" npar="1" comment="Elimina les etiquetes 'GD' i 'ND'.">
       <choose>
 	<when>
 	  <test>

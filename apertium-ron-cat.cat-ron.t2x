@@ -7,6 +7,12 @@
     <def-cat n="SA">
       <cat-item tags="SA.*"/>
     </def-cat>
+    <def-cat n="DET">
+      <cat-item tags="DET.*"/>
+    </def-cat>
+    <def-cat n="NUM">
+      <cat-item tags="NUM.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -129,12 +135,12 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="1" part="a_gen"/>
+	      <clip pos="1" part="a_nbr"/>
 	      <lit-tag v="ND"/>
 	    </equal>
 	  </test>
 	  <let>
-	    <clip pos="1" part="a_gen"/>
+	    <clip pos="1" part="a_nbr"/>
 	    <lit-tag v="sg"/>
 	  </let>
 	</when>
@@ -167,6 +173,38 @@
       </pattern>
       <action>
 	<call-macro n="elimina_GDND_adj">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: DET">
+      <pattern>
+	<pattern-item n="DET"/>
+      </pattern>
+      <action>
+	<call-macro n="elimina_GDND_adj">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: NUM">
+      <pattern>
+	<pattern-item n="NUM"/>
+      </pattern>
+      <action>
+	<call-macro n="elimina_GDND">
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>

@@ -14,9 +14,21 @@
     <def-cat n="artdef">
       <cat-item tags="det.def.*"/>
     </def-cat>
+    <def-cat n="det_predet">
+      <cat-item tags="det.def.*"/>
+      <cat-item tags="det.ind.*"/>
+      <cat-item tags="det.dem.*"/>
+      <cat-item tags="predet.*"/>
+    </def-cat>
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
     <def-cat n="prn">
       <cat-item tags="prn.tn.pos.*"/>
       <cat-item tags="prn.tn.*"/>
+      <cat-item tags="prn.itg.*"/>
+      <cat-item tags="prn.pro.*"/>
+      <cat-item tags="prn.pro.ref.*"/>
     </def-cat>
     <def-cat n="vbcnj">
       <cat-item tags="vblex.pri.*"/>
@@ -62,6 +74,12 @@
     </def-cat>
     <def-cat n="vbhaver">
       <cat-item tags="vbhaver.*"/>
+    </def-cat>
+    <def-cat n="rel">
+      <cat-item tags="rel.an.*"/>
+      <cat-item tags="rel.aa.*"/>
+      <cat-item tags="rel.nn.*"/>
+      <cat-item tags="rel.adv"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -123,10 +141,29 @@
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.ord"/>
+      <attr-item tags="adj.ind"/>
+    </def-attr>
+    <def-attr n="a_det">
+      <attr-item tags="det.ind"/>
+      <attr-item tags="det.def"/>
+      <attr-item tags="det.dem"/>
+      <attr-item tags="predet.def"/>
+    </def-attr>
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
     </def-attr>
     <def-attr n="a_prn">
       <attr-item tags="prn.tn"/>
       <attr-item tags="prn.tn.pos"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.pro"/>
+      <attr-item tags="prn.pro.ref"/>
+    </def-attr>
+    <def-attr n="a_rel">
+      <attr-item tags="rel.an"/>
+      <attr-item tags="rel.aa"/>
+      <attr-item tags="rel.nn"/>
+      <attr-item tags="rel.adv"/>
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
@@ -165,7 +202,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="mod_maj2" npar="2" comment="Canvia la minúscula inicial d'un lema a majúscula si coincideix amb un altre lema">
+    <def-macro n="mod_maj2" npar="2" comment="Canvia la minúscula inicial d'un lema a majúscula si un altre lema té majúscula inicial ">
       <choose>
 	  <when>
 	    <test>
@@ -524,6 +561,67 @@
 
 
 
+<!-- Regles de DET -->
+
+    <rule comment="REGLA: DET/PREDET">
+      <pattern>
+	<pattern-item n="det_predet"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="det">
+	    <tags>
+	      <tag><lit-tag v="DET"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+	      <tag><lit-tag v="nom"/></tag>
+	      <tag><lit-tag v="ind"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="a_gen" link-to="2"/>
+	      <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+	      <lit-tag v="4"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
+<!-- Regles de NUM -->
+
+    <rule comment="REGLA: NUM">
+      <pattern>
+	<pattern-item n="num"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="num">
+	    <tags>
+	      <tag><lit-tag v="NUM"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+	      <tag><lit-tag v="nom"/></tag>
+	      <tag><lit-tag v="ind"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_num"/>
+	      <clip pos="1" side="tl" part="a_gen" link-to="2"/>
+	      <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
 <!-- Regles de SA -->
 
     <rule comment="REGLA: ADJ">
@@ -674,6 +772,37 @@
 	      <clip pos="1" side="tl" part="lemh"/> 
 	      <clip pos="1" side="tl" part="a_verb"/>
 	      <lit-tag v="3"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
+<!-- Regles de REL -->
+
+    <rule comment="REGLA: REL">
+      <pattern>
+	<pattern-item n="rel"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="rel">
+	    <tags>
+	      <tag><lit-tag v="REL"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_cas"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_rel"/>
+	      <clip pos="1" side="tl" part="a_pers"/>
+	      <clip pos="1" side="tl" part="a_gen" link-to="2"/>
+	      <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+	      <clip pos="1" side="tl" part="a_cas" link-to="4"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>

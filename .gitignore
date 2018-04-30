@@ -19,7 +19,7 @@
 /config.in
 /config
 /*.prob
-/dev/testvoc/testvoc.ron-cat.txt
-/dev/testvoc/testvoc.cat-ron.txt
-/dev/testvoc/testvoc.ron-missing.txt
-/dev/testvoc/testvoc.cat-missing.txt
+/dev/testvoc/testvoc-errors.ron-cat.txt
+/dev/testvoc/testvoc-errors.cat-ron.txt
+/dev/testvoc/testvoc-missing.ron.txt
+/dev/testvoc/testvoc-missing.cat.txt

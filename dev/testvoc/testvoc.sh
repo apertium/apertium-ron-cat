@@ -7,7 +7,7 @@ if [[ $1 = "-u" ]];
 then
   echo "Looking for bidix entries missing from Romanian monodix …";
   pushd ../../ > /dev/null; bash dev/testvoc/bidix-unknowns.sh ron | grep -v ":<:" | grep -v "REGEX" > dev/testvoc/testvoc-missing.ron.txt; popd > /dev/null;
-  echo "Entries missing from monodix: "$(wc -l < testvoc.ron-missing.txt) | tee -a testvoc-summary.ron-cat.txt;
+  echo "Entries missing from monodix: "$(wc -l < testvoc-missing.ron.txt) | tee -a testvoc-summary.ron-cat.txt;
 fi
 echo "";
 
@@ -20,5 +20,5 @@ if [[ $1 = "-u" ]];
 then
   echo "Looking for bidix entries missing from Catalan monodix …";
   pushd ../../ > /dev/null; bash dev/testvoc/bidix-unknowns.sh cat | grep -v ":<:" | grep -v "REGEX" > dev/testvoc/testvoc-missing.cat.txt; popd > /dev/null;
-  echo "Entries missing from monodix: "$(wc -l < testvoc.cat-missing.txt) | tee -a testvoc-summary.cat-ron.txt;
+  echo "Entries missing from monodix: "$(wc -l < testvoc-missing.cat.txt) | tee -a testvoc-summary.cat-ron.txt;
 fi

@@ -2,8 +2,8 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 13242
-	Sdefs: 80
+	Entries: 13671
+	Sdefs: 78
 	Paradigms: 7
 
 -->
@@ -12,7 +12,6 @@
   <sdefs>
     <sdef n="detnt" /> 
     <sdef n="predet" /> 
-    <sdef n="atn" /> 
     <sdef n="enc" /> 
     <sdef n="pro" /> 
     <sdef n="tn" /> 
@@ -26,7 +25,6 @@
     <sdef n="f" /> 
     <sdef n="m" /> 
     <sdef n="mn" /> 
-    <sdef n="ac" /> 
     <sdef n="vbavea" /> 
     <sdef n="pps" /> 
     <sdef n="pper" /> 
@@ -456,7 +454,7 @@
 <e>                 <p><l>cântător</l>                                <r>cantador</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>cantitativ</l>                              <r>quantitatiu</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>capabil</l>                                 <r>capaç</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>căpiat</l>                                  <r>guillat</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>căpiat</l>                                  <r>guillat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>capitalist</l>                              <r>capitalista</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>capital</l>                                 <r>capital</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>capricios</l>                               <r>capritxós</r></p><par n="4-4__adj"/></e>
@@ -549,7 +547,7 @@
 <e r="LR" a="delia"><p><l>comemorabil</l>                             <r>commemoratiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>comemorativ</l>                             <r>commemoratiu</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>comercial</l>                               <r>comercial</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>comestibil</l>                              <r>comestible</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>comestibil</l>                              <r>comestible</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>comic</l>                                   <r>còmic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>comod</l>                                   <r>còmode</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>compact</l>                                 <r>compacte</r></p><par n="4-4__adj"/></e>
@@ -654,7 +652,7 @@
 <e>                 <p><l>crescător</l>                               <r>creixent</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>creștin</l>                                 <r>cristià</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>cretin</l>                                  <r>cretí</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>creț</l>                                    <r>arrisat</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>creț</l>                                    <r>arrissat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>criminal</l>                                <r>criminal</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>crispat</l>                                 <r>crispat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>cristalin</l>                               <r>cristal·lí</r></p><par n="4-4__adj"/></e>
@@ -965,7 +963,7 @@
 <e a="delia">       <p><l>epidemic</l>                                <r>epidèmic</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>epigonic</l>                                <r>epigònic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>ermetic</l>                                 <r>hermètic</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>eroic</l>                                   <r>eroic</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>eroic</l>                                   <r>heroic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>eronat</l>                                  <r>erroni</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>erotic</l>                                  <r>eròtic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>erudit</l>                                  <r>erudit</r></p><par n="4-4__adj"/></e>
@@ -1064,7 +1062,7 @@
 <e>                 <p><l>fericit</l>                                 <r>feliç</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>fermecat</l>                                <r>fetillat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>fermentat</l>                               <r>fermentat</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>ferm</l>                                    <r>firm</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>ferm</l>                                    <r>ferm</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>fertil</l>                                  <r>fèrtil</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>fervent</l>                                 <r>fervent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>festiv</l>                                  <r>festiu</r></p><par n="4-4__adj"/></e>
@@ -1173,7 +1171,8 @@
 <e>                 <p><l>galben</l>                                  <r>groc</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>galvanizat</l>                              <r>galvanitzat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>gângav</l>                                  <r>quec</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>gârbovit</l>                                <r>encorbat</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>gârbovit</l>                                <r>corbat</r></p><par n="4-4__adj"/></e>
+<e r="RL" a="delia"><p><l>gârbovit</l>                                <r>encorbat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>gastronomic</l>                             <r>gastronòmic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>gătit</l>                                   <r>engalanat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>gazos</l>                                   <r>gasós</r></p><par n="4-4__adj"/></e>
@@ -1192,7 +1191,7 @@
 <e a="delia">       <p><l>geros</l>                                   <r>gèlid</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>ghebos</l>                                  <r>gibós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>ghiftuit</l>                                <r>atipat</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>gigantic</l>                                <r>gegant</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>gigantic</l>                                <r>gegant</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>glaciar</l>                                 <r>glacial</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>global</l>                                  <r>global</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>glorios</l>                                 <r>gloriós</r></p><par n="4-4__adj"/></e>
@@ -1205,7 +1204,7 @@
 <e>                 <p><l>gras</l>                                    <r>gras</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>grăsuț</l>                                  <r>rodanxó</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>grațios</l>                                 <r>graciós</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>gratuit</l>                                 <r>gratuit</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>gratuit</l>                                 <r>gratuït</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>grav</l>                                    <r>greu</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>grecesc</l>                                 <r>grec</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>gregorian</l>                               <r>gregorià</r></p><par n="4-4__adj"/></e>
@@ -1294,7 +1293,7 @@
 <e>                 <p><l>impersonal</l>                              <r>impersonal</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>imperturbabil</l>                           <r>impertorbable</r></p><par n="4-2__adj"/></e>
 <e r="LR" a="delia"><p><l>impetuos</l>                                <r>impetuós</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>împielițat</l>                              <r>endiablat</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>împielițat</l>                              <r>endimoniat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>împietrit</l>                               <r>petrificat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>implacabil</l>                              <r>implacable</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>implicit</l>                                <r>implícit</r></p><par n="4-4__adj"/></e>
@@ -1347,7 +1346,7 @@
 <e a="delia">       <p><l>incompatibil</l>                            <r>incompatible</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>incompetent</l>                             <r>incompetent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>incomplet</l>                               <r>incomplet</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>incongruent</l>                             <r>incongrüent</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>incongruent</l>                             <r>incongruent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>înconjurător</l>                            <r>circumdant</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>inconștient</l>                             <r>inconscient</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>incontestabil</l>                           <r>incontestable</r></p><par n="4-2__adj"/></e>
@@ -1443,7 +1442,7 @@
 <e a="delia">       <p><l>îngăduitor</l>                              <r>indulgent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>îngâmfat</l>                                <r>envanit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>îngândurat</l>                              <r>pensatiu</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>ingenios</l>                                <r>ingeniós</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>ingenios</l>                                <r>enginyós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>ingenuu</l>                                 <r>ingenu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înghesuit</l>                               <r>apinyat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înglodat</l>                                <r>enfangat</r></p><par n="4-4__adj"/></e>
@@ -1469,6 +1468,7 @@
 <e a="delia">       <p><l>înrădăcinat</l>                             <r>arrelat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înrăit</l>                                  <r>endolentit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înroșit</l>                                 <r>enrogit</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>înroșit</l>                                 <r>envermellit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înrudit</l>                                 <r>emparentat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>însângerat</l>                              <r>ensangonat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înșelat</l>                                 <r>estafat</r></p><par n="4-4__adj"/></e>
@@ -1718,7 +1718,7 @@
 <e a="delia">       <p><l>lugubru</l>                                 <r>lúgubre</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>lui</l>                                     <r>seu</r></p><par n="pos__adj"/></e>
 <e a="delia">       <p><l>lumesc</l>                                  <r>mundanal</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>luminat</l>                                 <r>enllumenat</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>luminat</l>                                 <r>il·luminat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>luminos</l>                                 <r>lluminós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>lunar</l>                                   <r>mensual</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>lunatic</l>                                 <r>llunàtic</r></p><par n="4-4__adj"/></e>
@@ -1833,7 +1833,7 @@
 <e>                 <p><l>minuscul</l>                                <r>minúscul</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>minuțios</l>                                <r>minuciós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>miop</l>                                    <r>miop</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>miraculos</l>                               <r>meraculós</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>miraculos</l>                               <r>miraculós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>misterios</l>                               <r>misteriós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>mistic</l>                                  <r>místic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>miștocar</l>                                <r>folgós</r></p><par n="4-4__adj"/></e>
@@ -1915,7 +1915,8 @@
 <e>                 <p><l>necăsătorit</l>                             <r>fadrí</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>necesar</l>                                 <r>necessari</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>nechibzuit</l>                              <r>insensat</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>neciteț</l>                                 <r>illegible</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>neciteț</l>                                 <r>il·legible</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="delia"><p><l>neciteț</l>                                 <r>illegible</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>neclar</l>                                  <r>tèrbol</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>neclintit</l>                               <r>incommovible</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>necondițional</l>                           <r>incondicional</r></p><par n="4-2__adj"/></e>
@@ -1989,7 +1990,7 @@
 <e>                 <p><l>nervos</l>                                  <r>nerviós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>nesatisfăcut</l>                            <r>insatisfet</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>nescuzabil</l>                              <r>inexcusable</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>neserios</l>                                <r>insensato</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>neserios</l>                                <r>insensat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>nesigur</l>                                 <r>insegur</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>nestăpânit</l>                              <r>irrefrenable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>nestăvilit</l>                              <r>incontenible</r></p><par n="4-2__adj"/></e>
@@ -1998,7 +1999,7 @@
 <e a="delia">       <p><l>neted</l>                                   <r>nítid</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>neterminat</l>                              <r>inconclús</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>net</l>                                     <r>net</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>netrebuincios</l>                           <r>innecesari</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>netrebuincios</l>                           <r>innecessari</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>nevătămat</l>                               <r>il·lès</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>nevătămător</l>                             <r>innocu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>neverosimil</l>                             <r>inversemblant</r></p><par n="4-2__adj"/></e>
@@ -2169,7 +2170,7 @@
 <e a="delnou">      <p><l>perturbator</l>                             <r>pertorbador</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>pervers</l>                                 <r>pervers</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>pervertit</l>                               <r>pervertit</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>pesimist</l>                                <r>pesimista</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>pesimist</l>                                <r>pessimista</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>pestilent</l>                               <r>pestilent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>pestriț</l>                                 <r>bigarrat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>picant</l>                                  <r>picant</r></p><par n="4-2__adj"/></e>
@@ -2385,7 +2386,7 @@
 <e>                 <p><l>responsabil</l>                             <r>responsable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>restrâns</l>                                <r>restringit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>restrictiv</l>                              <r>restrictiu</r></p><par n="4-4__adj"/></e>
-<e a="delia???">    <p><l>reținut</l>                                 <r>contenido</r></p><par n="4-4__adj"/></e>
+<e a="delia???">    <p><l>reținut</l>                                 <r>reservat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>retras</l>                                  <r>retirat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>retrograd</l>                               <r>retrògrad</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>reversibil</l>                              <r>reversible</r></p><par n="4-2__adj"/></e>
@@ -2398,7 +2399,7 @@
 <e>                 <p><l>rezident</l>                                <r>resident</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>rezistent</l>                               <r>resistent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>rezonabil</l>                               <r>raonable</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>ridicol</l>                                 <r>ridícol</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>ridicol</l>                                 <r>ridícul</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>rigid</l>                                   <r>rígid</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>riguros</l>                                 <r>rigorós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>riscant</l>                                 <r>arriscat</r></p><par n="4-4__adj"/></e>
@@ -2412,6 +2413,7 @@
 <e>                 <p><l>roman</l>                                   <r>romà</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>romantic</l>                                <r>romàntic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>roșu</l>                                    <r>roig</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>roșu</l>                                    <r>vermell</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>rotund</l>                                  <r>rodó</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>roz</l>                                     <r>rosa</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>rudimentar</l>                              <r>rudimentari</r></p><par n="4-4__adj"/></e>
@@ -2435,7 +2437,7 @@
 <e a="delia">       <p><l>săltăreț</l>                                <r>saltironant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>salvator</l>                                <r>salvador</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>sănătos</l>                                 <r>sa</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>sângeros</l>                                <r>sagnant</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>sângeros</l>                                <r>sagnant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>sanguin</l>                                 <r>sanguini</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>sanitar</l>                                 <r>sanitari</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>săptămânal</l>                              <r>setmanal</r></p><par n="4-2__adj"/></e>
@@ -2848,7 +2850,7 @@
 <e r="LR" a="delia"><p><l>voluptos</l>                                <r>voluptuoso</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>voluptuos</l>                               <r>voluptuós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>vopsit</l>                                  <r>tenyit</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>vorbăreț</l>                                <r>parlanchín</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>vorbăreț</l>                                <r>xerraire</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>vostru</l>                                  <r>vostre</r></p><par n="pos__adj"/></e>
 <e a="delia">       <p><l>vulcanic</l>                                <r>volcànic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>vulcanizat</l>                              <r>vulcanitzat</r></p><par n="4-4__adj"/></e>
@@ -8697,7 +8699,6 @@
 <e r="LR">          <p><l>rată<s n="n"/><s n="f"/></l>                <r>terme<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>rază<s n="n"/><s n="f"/></l>                <r>llamp<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>rație<s n="n"/></l>                         <r>ració<s n="n"/></r></p></e>
-
 <e a="delnou">      <p><l>raționalitate<s n="n"/></l>                 <r>racionalitat<s n="n"/></r></p></e>
 <e a="delia">       <p><l>rațiune<s n="n"/></l>                       <r>raó<s n="n"/></r></p></e>
 <e a="delia">       <p><l>rață<s n="n"/></l>                          <r>oca<s n="n"/></r></p></e>
@@ -8759,7 +8760,6 @@
 <e a="delia">       <p><l>refracție<s n="n"/></l>                     <r>refracció<s n="n"/></r></p></e>
 <e a="delia">       <p><l>refren<s n="n"/><s n="nt"/></l>             <r>retronxa<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>refugiu<s n="n"/><s n="nt"/></l>            <r>refugi<s n="n"/><s n="m"/></r></p></e>
-      
 <e>                 <p><l>refuz<s n="n"/><s n="nt"/></l>              <r>negativa<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="delnou"><p><l>refuzare<s n="n"/></l>                     <r>negativa<s n="n"/></r></p></e>
 <e a="delia">       <p><l>regat<s n="n"/><s n="nt"/></l>              <r>regnat<s n="n"/><s n="m"/></r></p></e>
@@ -9117,7 +9117,7 @@
 <e a="delia">       <p><l>secreție<s n="n"/></l>                      <r>secreció<s n="n"/></r></p></e>
 <e a="delia">       <p><l>sector<s n="n"/><s n="nt"/></l>             <r>sector<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>secundă<s n="n"/><s n="f"/></l>             <r>segon<s n="n"/><s n="m"/></r></p></e>
-<e r="LR">          <p><l>securitate<s n="n"/></l>                    <r>seguretat<s n="n"/></r></p></e>
+<e>                 <p><l>securitate<s n="n"/></l>                    <r>seguretat<s n="n"/></r></p></e>
 <e>                 <p><l>secție<s n="n"/></l>                        <r>secció<s n="n"/></r></p></e>
 <e a="delia">       <p><l>sedativ<s n="n"/><s n="nt"/></l>            <r>sedatiu<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>sediu<s n="n"/><s n="nt"/></l>              <r>seu<s n="n"/><s n="f"/></r></p></e>
@@ -10491,6 +10491,158 @@
 <e r="LR">          <p><l>vreme<s n="n"/><s n="f"/><s n="sg"/></l>    <r>temps<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR">          <p><l>vreme<s n="n"/><s n="f"/><s n="pl"/></l>    <r>temps<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 
+<e>                 <p><l>locuinţă<s n="n"/></l>                      <r>habitatge<s n="n"/></r></p></e>
+<e>                 <p><l>număr<s n="n"/></l>                         <r>nombre<s n="n"/></r></p></e>
+<e>                 <p><l>faţetă<s n="n"/></l>                        <r>banda<s n="n"/></r></p></e>
+<e>                 <p><l>diagramă<s n="n"/></l>                      <r>diagrama<s n="n"/></r></p></e>
+<e>                 <p><l>piața<s n="n"/></l>                         <r>plaça<s n="n"/></r></p></e>
+<e>                 <p><l>automobil<s n="n"/></l>                     <r>automòbil<s n="n"/></r></p></e>
+<e>                 <p><l>mare<s n="n"/></l>                          <r>mar<s n="n"/></r></p></e>
+<e>                 <p><l>parcare<s n="n"/></l>                       <r>pàrquing<s n="n"/></r></p></e>
+<e>                 <p><l>locatar<s n="n"/></l>                       <r>llogater<s n="n"/></r></p></e>
+<e>                 <p><l>conte<s n="n"/></l>                         <r>comte<s n="n"/></r></p></e>
+<e>                 <p><l>ediție<s n="n"/></l>                        <r>edició<s n="n"/></r></p></e>
+<e>                 <p><l>interes<s n="n"/></l>                       <r>interès<s n="n"/></r></p></e>
+<e>                 <p><l>lemn<s n="n"/></l>                          <r>fusta<s n="n"/></r></p></e>
+<e>                 <p><l>vale<s n="n"/></l>                          <r>vall<s n="n"/></r></p></e>
+<e>                 <p><l>lume<s n="n"/></l>                          <r>gent<s n="n"/></r></p></e>
+<e>                 <p><l>ceașcă<s n="n"/></l>                        <r>copa<s n="n"/></r></p></e>
+<e>                 <p><l>ferăstrău<s n="n"/></l>                     <r>serra<s n="n"/></r></p></e>
+<e>                 <p><l>congres<s n="n"/></l>                       <r>congrés<s n="n"/></r></p></e>
+<e>                 <p><l>fermă<s n="n"/></l>                         <r>masia<s n="n"/></r></p></e>
+<e>                 <p><l>seamă<s n="n"/></l>                         <r>compte<s n="n"/></r></p></e>
+<e>                 <p><l>palat<s n="n"/></l>                         <r>palau<s n="n"/></r></p></e>
+<e>                 <p><l>opera<s n="n"/></l>                         <r>òpera<s n="n"/></r></p></e>
+<e>                 <p><l>dimensiune<s n="n"/></l>                    <r>mida<s n="n"/></r></p></e>
+<e>                 <p><l>castilian<s n="n"/></l>                     <r>castellà<s n="n"/></r></p></e>
+<e>                 <p><l>curte<s n="n"/></l>                         <r>cort<s n="n"/></r></p></e>
+<e>                 <p><l>cursă<s n="n"/></l>                         <r>cursa<s n="n"/></r></p></e>
+<e>                 <p><l>foaie<s n="n"/></l>                         <r>fulla<s n="n"/></r></p></e>
+<e>                 <p><l>morfologie<s n="n"/></l>                    <r>morfologia<s n="n"/></r></p></e>
+<e>                 <p><l>domeniu<s n="n"/></l>                       <r>àmbit<s n="n"/></r></p></e>
+<e>                 <p><l>sarcină<s n="n"/></l>                       <r>tasca<s n="n"/></r></p></e>
+<e>                 <p><l>pod<s n="n"/></l>                           <r>pont<s n="n"/></r></p></e>
+<e>                 <p><l>argint<s n="n"/></l>                        <r>plata<s n="n"/></r></p></e>
+<e>                 <p><l>fundație<s n="n"/></l>                      <r>fundació<s n="n"/></r></p></e>
+<e>                 <p><l>soț<s n="n"/></l>                           <r>marit<s n="n"/></r></p></e>
+<e>                 <p><l>bazin<s n="n"/></l>                         <r>conca<s n="n"/></r></p></e>
+<e>                 <p><l>eparhie<s n="n"/></l>                       <r>diòcesi<s n="n"/></r></p></e>
+<e>                 <p><l>presă<s n="n"/></l>                         <r>premsa<s n="n"/></r></p></e>
+<e>                 <p><l>istoric<s n="n"/></l>                       <r>historiador<s n="n"/></r></p></e>
+<e>                 <p><l>roșu<s n="n"/></l>                          <r>vermell<s n="n"/></r></p></e>
+<e>                 <p><l>absidă<s n="n"/></l>                        <r>absis<s n="n"/></r></p></e>
+<e>                 <p><l>valencian<s n="n"/></l>                     <r>valencià<s n="n"/></r></p></e>
+<e>                 <p><l>lucrător<s n="n"/></l>                      <r>treballador<s n="n"/></r></p></e>
+<e>                 <p><l>performanță<s n="n"/></l>                   <r>actuació<s n="n"/></r></p></e>
+<e>                 <p><l>conservare<s n="n"/></l>                    <r>conservació<s n="n"/></r></p></e>
+<e>                 <p><l>formulă<s n="n"/></l>                       <r>fórmula<s n="n"/></r></p></e>
+<e>                 <p><l>piatră<b/>cioplită<s n="n"/></l>            <r>carreu<s n="n"/></r></p></e>
+<e>                 <p><l>portal<s n="n"/></l>                        <r>portal<s n="n"/></r></p></e>
+<e>                 <p><l>putere<s n="n"/></l>                        <r>potència<s n="n"/></r></p></e>
+<e>                 <p><l>fruct<s n="n"/></l>                         <r>fruit<s n="n"/></r></p></e>
+<e>                 <p><l>sultan<s n="n"/></l>                        <r>sultà<s n="n"/></r></p></e>
+<e r="RL">          <p><l>lățime<s n="n"/></l>                        <r>ample<s n="n"/></r></p></e>
+<e>                 <p><l>dulgherie<s n="n"/></l>                     <r>fusteria<s n="n"/></r></p></e>
+<e>                 <p><l>constituție<s n="n"/></l>                   <r>constitució<s n="n"/></r></p></e>
+<e>                 <p><l>protagonist<s n="n"/></l>                   <r>protagonista<s n="n"/></r></p></e>
+<e>                 <p><l>lovitură<s n="n"/></l>                      <r>cop<s n="n"/></r></p></e>
+<e>                 <p><l>schit<s n="n"/></l>                         <r>ermita<s n="n"/></r></p></e>
+<e>                 <p><l>belgian<s n="n"/></l>                       <r>belga<s n="n"/></r></p></e>
+<e>                 <p><l>software<s n="n"/></l>                      <r>programari<s n="n"/></r></p></e>
+<e>                 <p><l>cimitir<s n="n"/></l>                       <r>cementiri<s n="n"/></r></p></e>
+<e>                 <p><l>persan<s n="n"/></l>                        <r>persa<s n="n"/></r></p></e>
+<e>                 <p><l>peisaj<s n="n"/></l>                        <r>paisatge<s n="n"/></r></p></e>
+<e>                 <p><l>emir<s n="n"/></l>                          <r>emir<s n="n"/></r></p></e>
+<e>                 <p><l>catapeasmă<s n="n"/></l>                    <r>retaule<s n="n"/></r></p></e>
+<e>                 <p><l>natură<s n="n"/></l>                        <r>natura<s n="n"/></r></p></e>
+<e>                 <p><l>metal<s n="n"/></l>                         <r>metall<s n="n"/></r></p></e>
+<e>                 <p><l>lățime<s n="n"/></l>                        <r>amplada<s n="n"/></r></p></e>
+<e>                 <p><l>electrician<s n="n"/></l>                   <r>electricista<s n="n"/></r></p></e>
+<e>                 <p><l>conservator<s n="n"/></l>                   <r>conservatori<s n="n"/></r></p></e>
+<e>                 <p><l>dans<s n="n"/></l>                          <r>dansa<s n="n"/></r></p></e>
+<e>                 <p><l>atmosferă<s n="n"/></l>                     <r>atmosfera<s n="n"/></r></p></e>
+<e>                 <p><l>lungime<s n="n"/></l>                       <r>llargada<s n="n"/></r></p></e>
+<e>                 <p><l>suveranitate<s n="n"/></l>                  <r>sobirania<s n="n"/></r></p></e>
+<e>                 <p><l>creștinism<s n="n"/></l>                    <r>cristianisme<s n="n"/></r></p></e>
+<e>                 <p><l>căldură<s n="n"/></l>                       <r>calor<s n="n"/></r></p></e>
+<e>                 <p><l>calif<s n="n"/></l>                         <r>califa<s n="n"/></r></p></e>
+<e>                 <p><l>jurisdicție<s n="n"/></l>                   <r>jurisdicció<s n="n"/></r></p></e>
+<e>                 <p><l>adept<s n="n"/></l>                         <r>seguidor<s n="n"/></r></p></e>
+<e>                 <p><l>abație<s n="n"/></l>                        <r>abadia<s n="n"/></r></p></e>
+<e>                 <p><l>unealtă<s n="n"/></l>                       <r>eina<s n="n"/></r></p></e>
+<e>                 <p><l>golf<s n="n"/></l>                          <r>badia<s n="n"/></r></p></e>
+<e>                 <p><l>rezoluție<s n="n"/></l>                     <r>resolució<s n="n"/></r></p></e>
+<e>                 <p><l>cântec<s n="n"/></l>                        <r>cant<s n="n"/></r></p></e>
+<e>                 <p><l>episcopie<s n="n"/></l>                     <r>bisbat<s n="n"/></r></p></e>
+<e>                 <p><l>coardă<s n="n"/></l>                        <r>corda<s n="n"/></r></p></e>
+<e>                 <p><l>câștigător<s n="n"/></l>                    <r>guanyador<s n="n"/></r></p></e>
+<e>                 <p><l>olandez<s n="n"/></l>                       <r>neerlandès<s n="n"/></r></p></e>
+<e>                 <p><l>secvență<s n="n"/></l>                      <r>seqüència<s n="n"/></r></p></e>
+<e>                 <p><l>legătură<s n="n"/></l>                      <r>enllaç<s n="n"/></r></p></e>
+<e>                 <p><l>colecție<s n="n"/></l>                      <r>col·lecció<s n="n"/></r></p></e>
+<e>                 <p><l>vorbitor<s n="n"/></l>                      <r>parlant<s n="n"/></r></p></e>
+<e>                 <p><l>ducat<s n="n"/></l>                         <r>ducat<s n="n"/></r></p></e>
+<e>                 <p><l>hidrogen<s n="n"/></l>                      <r>hidrogen<s n="n"/></r></p></e>
+<e>                 <p><l>aparat<g><b/>foto</g><s n="n"/></l>         <r>càmera<s n="n"/></r></p></e>
+<e>                 <p><l>scaun<s n="n"/></l>                         <r>escó<s n="n"/></r></p></e>
+<e>                 <p><l>principat<s n="n"/></l>                     <r>principat<s n="n"/></r></p></e>
+<e>                 <p><l>mesaj<s n="n"/></l>                         <r>missatge<s n="n"/></r></p></e>
+<e>                 <p><l>termen<s n="n"/></l>                        <r>termini<s n="n"/></r></p></e>
+<e>                 <p><l>reducere<s n="n"/></l>                      <r>reducció<s n="n"/></r></p></e>
+<e>                 <p><l>scenariu<s n="n"/></l>                      <r>guió<s n="n"/></r></p></e>
+<e>                 <p><l>masă<s n="n"/></l>                          <r>massa<s n="n"/></r></p></e>
+<e>                 <p><l>cultivare<s n="n"/></l>                     <r>conreu<s n="n"/></r></p></e>
+<e>                 <p><l>eliberare<s n="n"/></l>                     <r>alliberament<s n="n"/></r></p></e>
+<e>                 <p><l>cultivare<s n="n"/></l>                     <r>cultiu<s n="n"/></r></p></e>
+<e>                 <p><l>broască<s n="n"/></l>                       <r>granota<s n="n"/></r></p></e>
+<e>                 <p><l>spectacol<s n="n"/></l>                     <r>espectacle<s n="n"/></r></p></e>
+<e>                 <p><l>concurență<s n="n"/></l>                    <r>competència<s n="n"/></r></p></e>
+<e>                 <p><l>domeniu<s n="n"/></l>                       <r>abast<s n="n"/></r></p></e>
+<e>                 <p><l>martor<s n="n"/></l>                        <r>testimoni<s n="n"/></r></p></e>
+<e>                 <p><l>lungime<s n="n"/></l>                       <r>llargària<s n="n"/></r></p></e>
+<e>                 <p><l>ceas<s n="n"/></l>                          <r>rellotge<s n="n"/></r></p></e>
+<e>                 <p><l>consilier<s n="n"/></l>                     <r>regidor<s n="n"/></r></p></e>
+<e>                 <p><l>numire<s n="n"/></l>                        <r>nomenament<s n="n"/></r></p></e>
+<e>                 <p><l>elevație<s n="n"/></l>                      <r>elevació<s n="n"/></r></p></e>
+<e>                 <p><l>copil<s n="n"/></l>                         <r>infant<s n="n"/></r></p></e>
+<e>                 <p><l>grosime<s n="n"/></l>                       <r>gruix<s n="n"/></r></p></e>
+<e>                 <p><l>echipaj<s n="n"/></l>                       <r>tripulació<s n="n"/></r></p></e>
+<e>                 <p><l>afacere<s n="n"/></l>                       <r>repartiment<s n="n"/></r></p></e>
+<e>                 <p><l>reproducere<s n="n"/></l>                   <r>reproducció<s n="n"/></r></p></e>
+<e>                 <p><l>dizolvare<s n="n"/></l>                     <r>dissolució<s n="n"/></r></p></e>
+<e>                 <p><l>bibliografie<s n="n"/></l>                  <r>bibliografia<s n="n"/></r></p></e>
+<e>                 <p><l>extindere<s n="n"/></l>                     <r>ampliació<s n="n"/></r></p></e>
+<e>                 <p><l>occitan<s n="n"/></l>                       <r>occità<s n="n"/></r></p></e>
+<e>                 <p><l>parte<s n="n"/></l>                         <r>bàndol<s n="n"/></r></p></e>
+<e>                 <p><l>depozit<s n="n"/></l>                       <r>dipòsit<s n="n"/></r></p></e>
+<e>                 <p><l>faună<s n="n"/></l>                         <r>fauna<s n="n"/></r></p></e>
+<e>                 <p><l>lider<s n="n"/></l>                         <r>dirigent<s n="n"/></r></p></e>
+<e>                 <p><l>soție<s n="n"/></l>                         <r>muller<s n="n"/></r></p></e>
+<e>                 <p><l>nume<g><b/>locului</g><s n="n"/></l>        <r>topònim<s n="n"/></r></p></e>
+<e>                 <p><l>moștenire<s n="n"/></l>                     <r>llegat<s n="n"/></r></p></e>
+<e>                 <p><l>cărămidă<s n="n"/></l>                      <r>maó<s n="n"/></r></p></e>
+<e>                 <p><l>destin<s n="n"/></l>                        <r>destí<s n="n"/></r></p></e>
+<e>                 <p><l>ecuație<s n="n"/></l>                       <r>equació<s n="n"/></r></p></e>
+<e>                 <p><l>breton<s n="n"/></l>                        <r>bretó<s n="n"/></r></p></e>
+<e>                 <p><l>broșură<s n="n"/></l>                       <r>llibret<s n="n"/></r></p></e>
+<e>                 <p><l>propietate<s n="n"/></l>                    <r>finca<s n="n"/></r></p></e>
+<e>                 <p><l>masiv<s n="n"/></l>                         <r>massís<s n="n"/></r></p></e>
+<e>                 <p><l>drept<s n="n"/></l>                         <r>recta<s n="n"/></r></p></e>
+<e>                 <p><l>poveste<s n="n"/></l>                       <r>relat<s n="n"/></r></p></e>
+<e>                 <p><l>coordonată<s n="n"/></l>                    <r>coordenada<s n="n"/></r></p></e>
+<e>                 <p><l>animație<s n="n"/></l>                      <r>animació<s n="n"/></r></p></e>
+<e>                 <p><l>scenarist<s n="n"/></l>                     <r>guionista<s n="n"/></r></p></e>
+<e>                 <p><l>corespondență<s n="n"/></l>                 <r>correspondència<s n="n"/></r></p></e>
+<e>                 <p><l>proiectare<s n="n"/></l>                    <r>projecció<s n="n"/></r></p></e>
+<e>                 <p><l>gură<s n="n"/></l>                          <r>desembocadura<s n="n"/></r></p></e>
+<e>                 <p><l>lac<s n="n"/></l>                           <r>estany<s n="n"/></r></p></e>
+<e>                 <p><l>semidiametru<s n="n"/></l>                  <r>radi<s n="n"/></r></p></e>
+<e>                 <p><l>catedră<s n="n"/></l>                       <r>càtedra<s n="n"/></r></p></e>
+<e>                 <p><l>organ<s n="n"/></l>                         <r>orgue<s n="n"/></r></p></e>
+<e>                 <p><l>liliac<s n="n"/></l>                        <r>ratpenat<s n="n"/></r></p></e>
+<e>                 <p><l>nuntă<s n="n"/></l>                         <r>casament<s n="n"/></r></p></e>
+
+
 <!-- Topònims -->
 
 <e>                 <p><l>Africa<s n="np"/><s n="loc"/></l>           <r>Àfrica<s n="np"/><s n="top"/></r></p></e>
@@ -10881,6 +11033,282 @@
 <e>                 <p><l>Augusto<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Augusto<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>Manuel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Manuel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>Jaume<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jaume<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Àlex<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Àlex<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Álex<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Álex<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Jan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Martí<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Martí<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Biel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Biel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Èric<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Èric<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Pol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Pau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Nil<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Nil<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Leo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Leo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Lucas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Lucas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aleix<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aleix<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Arnau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Arnau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Enzo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Enzo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Bruno<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Bruno<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Gerard<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Gerard<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Adrià<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Adrià<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Roc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Roc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Jordi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jordi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Max<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Max<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Mohamed<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mohamed<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Dylan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Dylan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Roger<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Roger<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Joel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Joel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Izan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Izan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Julen<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Julen<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Martín<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Martín<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Adrián<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Adrián<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Joan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Joan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Mario<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mario<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Gael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Gael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Lluc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Lluc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Mateo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mateo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aran<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aran<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Arán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Arán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Guillem<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Guillem<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pablo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Víctor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Víctor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Oriol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Oriol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Alejandro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alejandro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Unai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Unai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Iker<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Iker<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aaron<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aaron<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aarón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aarón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Rayan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Rayan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Quim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Quim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Erik<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Erik<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Thiago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Thiago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Álvaro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Álvaro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Youssef<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Youssef<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Axel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Axel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Alan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Dídac<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Dídac<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Hèctor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Hèctor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Héctor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Héctor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Iván<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Iván<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Gabriel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Gabriel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Teo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Teo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Oliver<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Oliver<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Eloi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Eloi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Isaac<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Isaac<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Diego<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Diego<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Liam<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Liam<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Sergi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Sergi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aritz<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aritz<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Imran<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Imran<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Omar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Omar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Bernat<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Bernat<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Noah<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Noah<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Kilian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Kilian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aitor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aitor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aniol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aniol<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Amir<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Amir<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Derek<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Derek<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Àngel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Àngel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ángel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ángel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Asier<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Asier<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Javier<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Javier<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Nicolás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Nicolás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Raül<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Raül<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Raúl<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Raúl<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Miquel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Miquel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Sergio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Sergio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Miguel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Miguel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Cesc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Cesc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Blai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Blai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ferran<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ferran<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ismael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ismael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Nico<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Nico<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Jon<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jon<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Genís<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Genís<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Marcos<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Marcos<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Tomàs<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Tomàs<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Tomás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Tomás<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Edgar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Edgar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Josep<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Josep<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Neizan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Neizan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Òscar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Òscar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Óscar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Óscar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Elías<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Elías<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ilyas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ilyas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ares<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ares<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Pep<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pep<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Pere<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pere<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Marco<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Marco<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Akram<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Akram<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Rubén<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Rubén<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Manel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Manel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Darío<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Darío<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Noel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Noel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Abel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Abel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Guim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Guim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Kai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Kai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Pedro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Pedro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Toni<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Toni<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Yeray<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Yeray<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Àyoub<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Àyoub<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Áyoub<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Áyoub<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ayman<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ayman<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Enric<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Enric<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Cristián<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Cristián<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ibrahim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ibrahim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Luis<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Luis<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Saül<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Saül<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Saúl<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Saúl<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aday<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aday<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ot<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ot<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Andreu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Andreu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Guiu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Guiu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Kevin<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Kevin<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Leonardo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Leonardo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Bilal<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Bilal<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Guillermo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Guillermo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Eiden<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Eiden<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Walid<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Walid<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ander<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ander<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Elian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Elian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Elián<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Elián<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ibai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ibai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Marçal<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Marçal<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Nizar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Nizar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Yassin<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Yassin<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Bru<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Bru<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Eloy<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Eloy<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Luka<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Luka<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Sami<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Sami<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Santiago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Santiago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Amin<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Amin<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Magí<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Magí<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Mohamed<b/>Amin<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mohamed<b/>Amin<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Yago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Yago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Jofre<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jofre<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Matías<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Matías<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Bruc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Bruc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Iyad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Iyad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Mauro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mauro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Jesús<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jesús<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ramon<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ramon<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ramón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ramón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Abraham<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Abraham<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Alberto<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alberto<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Dani<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Dani<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Dante<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Dante<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Haron<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Haron<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Oleguer<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Oleguer<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Yahya<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Yahya<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ali<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ali<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Alí<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alí<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Andrés<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Andrés<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Francesc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Francesc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Miquel<b/>Àngel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Miquel<b/>Àngel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Miguel<b/>Ángel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Miguel<b/>Ángel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Saad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Saad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Carles<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Carles<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Eidan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Eidan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Gil<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Gil<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Iago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Iago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Mark<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mark<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Rafael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Rafael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Jorge<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jorge<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Siraj<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Siraj<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ahmed<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ahmed<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Alexis<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alexis<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Artur<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Artur<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Guerau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Guerau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Otger<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Otger<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Roi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Roi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Eduardo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Eduardo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Erick<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Erick<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Fèlix<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Fèlix<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Félix<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Félix<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ignacio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ignacio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Lluís<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Lluís<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Uriel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Uriel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Younes<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Younes<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aimar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aimar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Denís<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Denís<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Denis<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Denis<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Eder<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Eder<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Enrique<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Enrique<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Evan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Evan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Gonzalo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Gonzalo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Iu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Iu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Lukas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Lukas<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Nael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Nael<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Nel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Nel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Tiago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Tiago<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Zakaria<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Zakaria<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Anwar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Anwar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Guifré<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Guifré<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Haroun<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Haroun<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Joaquín<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Joaquín<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Juan<b/>José<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Juan<b/>José<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Yasser<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Yasser<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ziyad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ziyad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Brais<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Brais<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Fernando<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Fernando<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Mohammed<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mohammed<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Sebastián<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Sebastián<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Gorka<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Gorka<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Jad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Joaquim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Joaquim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>José<b/>Antonio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>José<b/>Antonio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>León<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>León<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Maher<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Maher<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Mateu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mateu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ricard<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ricard<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Adán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Adán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Alexandre<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alexandre<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Eudald<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Eudald<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ishak<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ishak<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Lorenzo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Lorenzo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Matteo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Matteo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Màxim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Màxim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Nacho<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Nacho<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Yassir<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Yassir<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Aron<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aron<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Arón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Arón<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Brian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Brian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ignasi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ignasi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>José<b/>Maria<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>José<b/>Maria<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>José<b/>María<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>José<b/>María<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Rai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Rai<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Sam<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Sam<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Tristan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Tristan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Tristán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Tristán<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Juan<b/>Manuel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Juan<b/>Manuel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Tian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Tian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Wassim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Wassim<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Anouar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Anouar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Badr<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Badr<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Cèsar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Cèsar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>César<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>César<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Hamza<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Hamza<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Mahamadou<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Mahamadou<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Moussa<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Moussa<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Musa<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Musa<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Noé<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Noé<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ziad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ziad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Alguer<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Alguer<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Amjad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Amjad<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Bryan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Bryan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Dan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Dan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Einar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Einar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Eneko<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Eneko<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Grau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Grau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Hug<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Hug<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Jacob<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jacob<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Lucca<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Lucca<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Reda<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Reda<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Roman<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Roman<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Román<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Román<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Romeo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Romeo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Ryan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ryan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
 <!-- Altres -->
 

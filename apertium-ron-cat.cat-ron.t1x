@@ -30,6 +30,9 @@
       <cat-item tags="prn.pro.*"/>
       <cat-item tags="prn.pro.ref.*"/>
     </def-cat>
+    <def-cat n="enc">
+      <cat-item tags="prn.enc.*"/>
+    </def-cat>
     <def-cat n="vbcnj">
       <cat-item tags="vblex.pri.*"/>
       <cat-item tags="vbser.pri.*"/>
@@ -135,13 +138,16 @@
     </def-attr>
     <def-attr n="a_np">
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
       <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
       <attr-item tags="np.al"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.ord"/>
       <attr-item tags="adj.ind"/>
+      <attr-item tags="adj.pos"/>
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det.ind"/>
@@ -158,6 +164,8 @@
       <attr-item tags="prn.itg"/>
       <attr-item tags="prn.pro"/>
       <attr-item tags="prn.pro.ref"/>
+      <attr-item tags="prn.enc"/>
+      <attr-item tags="prn.enc.ref"/>
     </def-attr>
     <def-attr n="a_rel">
       <attr-item tags="rel.an"/>
@@ -515,7 +523,7 @@
 	      <tag><clip pos="1" side="tl" part="a_gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
 	      <tag><lit-tag v="nom"/></tag>
-	      <tag><lit-tag v="ind"/></tag>
+	      <tag><lit-tag v="def"/></tag>
 	    </tags>
 	    <lu>   
 	      <clip pos="1" side="tl" part="lemh"/> 
@@ -751,6 +759,83 @@
 	      <lit-tag v="3"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: GER ENC">
+      <pattern>
+	<pattern-item n="ger"/>
+        <pattern-item n="enc"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="ger_enc">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+	    </tags>
+	    <mlu> 
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <lit-tag v="3"/>
+	    </lu>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="a_prn"/>
+              <clip pos="2" side="tl" part="a_pers"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <lit-tag v="nom"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	    </mlu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: GER ENC ENC">
+      <pattern>
+	<pattern-item n="ger"/>
+        <pattern-item n="enc"/>
+        <pattern-item n="enc"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk name="ger_enc">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+	    </tags>
+	    <mlu> 
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <lit-tag v="3"/>
+	    </lu>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="a_prn"/>
+              <clip pos="2" side="tl" part="a_pers"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <lit-tag v="dg"/>
+	    </lu>
+	    <lu>   
+	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="a_prn"/>
+              <clip pos="3" side="tl" part="a_pers"/>
+              <clip pos="3" side="tl" part="a_gen"/>
+              <clip pos="3" side="tl" part="a_nbr"/>
+              <lit-tag v="nom"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	    </mlu> 
 	  </chunk>
 	</out>
       </action>

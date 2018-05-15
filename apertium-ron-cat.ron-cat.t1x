@@ -5,7 +5,11 @@
       <cat-item tags="n.*"/>
     </def-cat>
     <def-cat n="np">
-      <cat-item tags="np.*"/>
+      <cat-item tags="np.al.*"/>
+      <cat-item tags="np.loc.*"/>
+      <cat-item tags="np.top.*"/>
+      <cat-item tags="np.ant.*"/>
+      <cat-item tags="np.cog.*"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
@@ -314,7 +318,11 @@
       <attr-item tags="n.acr"/>
     </def-attr>
     <def-attr n="a_np">
-      <attr-item tags="np"/>
+      <attr-item tags="np.al"/>
+      <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
+      <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
     </def-attr>
     <def-attr n="a_npant">
       <attr-item tags="np.ant"/>
@@ -6372,9 +6380,9 @@
     </rule>   
   
  <rule>
-   <!--  REGLA 18: NOM PROPI LLOC -->
+   <!--  REGLA 18: NOM PROPI -->
       <pattern>
-        <pattern-item n="nptop"/>
+        <pattern-item n="np"/>
       </pattern>
       <action>  
         <call-macro n="f_concord1">
@@ -6393,7 +6401,7 @@
 		  <get-case-from pos="1">
                     <clip pos="1" side="tl" part="lem"/>
 		  </get-case-from>  
-                    <clip pos="1" side="tl" part="a_nptop"/>
+                    <clip pos="1" side="tl" part="a_np"/>
                     <clip pos="1" side="tl" part="gen"/>
                     <clip pos="1" side="tl" part="a_nbr"/>
                   </lu>
@@ -6422,7 +6430,7 @@
                   <b/>
                   <lu>
                     <clip pos="1" side="tl" part="lem"/>
-                    <clip pos="1" side="tl" part="a_nptop"/>
+                    <clip pos="1" side="tl" part="a_np"/>
                     <clip pos="1" side="tl" part="gen"/>
                     <clip pos="1" side="tl" part="a_nbr"/>
                   </lu>
@@ -6446,7 +6454,7 @@
                 <out><chunk name="x"><tags><tag><lit-tag v="SX"/></tag></tags>
                   <lu>
                     <clip pos="1" side="tl" part="lem"/>
-                    <clip pos="1" side="tl" part="a_nptop"/>
+                    <clip pos="1" side="tl" part="a_np"/>
                     <clip pos="1" side="tl" part="gen"/>
                     <clip pos="1" side="tl" part="a_nbr"/>
                   </lu>

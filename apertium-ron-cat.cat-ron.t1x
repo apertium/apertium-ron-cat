@@ -6,7 +6,10 @@
       <cat-item tags="n.acr.*"/>
     </def-cat>
     <def-cat n="np">
-      <cat-item tags="np.*"/>
+      <cat-item tags="np.top.*"/>
+      <cat-item tags="np.ant.*"/>
+      <cat-item tags="np.cog.*"/>
+      <cat-item tags="np.al.*"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>

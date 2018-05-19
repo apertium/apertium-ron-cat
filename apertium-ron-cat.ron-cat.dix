@@ -2,9 +2,9 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 14501
+	Entries: 14890
 	Sdefs: 78
-	Paradigms: 7
+	Paradigms: 10
 
 -->
 <dictionary>
@@ -96,7 +96,14 @@
   <e>       <p><l><s n="adj"/><s n="m"/><s n="pl"/></l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l><s n="adj"/><s n="fn"/><s n="pl"/></l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
-<pardef n="4-3__adj">
+<pardef n="4-3sg__adj">
+  <e r="LR"><p><l><s n="adj"/><s n="mn"/><s n="sg"/></l><r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l><s n="adj"/><s n="f"/><s n="sg"/></l><r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l><s n="adj"/><s n="m"/><s n="pl"/></l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l><s n="adj"/><s n="fn"/><s n="pl"/></l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><s n="adj"/><s n="GD"/><s n="sg"/></l><r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+</pardef>
+<pardef n="4-3pl__adj">
   <e>       <p><l><s n="adj"/><s n="mn"/><s n="sg"/></l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l><s n="adj"/><s n="f"/><s n="sg"/></l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l><s n="adj"/><s n="m"/><s n="pl"/></l><r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -134,6 +141,18 @@
   <e>       <p><l><s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></l><r><s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l><s n="adj"/><s n="pos"/><s n="fn"/><s n="pl"/></l><r><s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+<pardef n="ind__adj">
+  <e>       <p><l><s n="adj"/><s n="ind"/><s n="mn"/><s n="sg"/></l><r><s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l><s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></l><r><s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l><s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></l><r><s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l><s n="adj"/><s n="ind"/><s n="fn"/><s n="pl"/></l><r><s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="ord__adj">
+  <e>       <p><l><s n="adj"/><s n="ord"/><s n="mn"/><s n="sg"/></l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l><s n="adj"/><s n="ord"/><s n="fn"/><s n="pl"/></l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
   </pardefs>
 
   <section id="main" type="standard">
@@ -142,7 +161,7 @@
 
 <e a="delia">       <p><l>abătut</l>                                  <r>alacaigut</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>abil</l>                                    <r>hàbil</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>abject</l>                                  <r>abjecte</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>abject</l>                                  <r>abjecte</r></p><par n="4-3pl__adj"/></e>
 <e a="delia">       <p><l>abominabil</l>                              <r>abominable</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>abordabil</l>                               <r>abordable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>abrupt</l>                                  <r>abrupte</r></p><par n="4-4__adj"/></e>
@@ -222,14 +241,11 @@
 <e a="delia">       <p><l>alpin</l>                                   <r>alpí</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>alternativ</l>                              <r>alternatiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>altruist</l>                                <r>altruista</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>alt<s n="adj"/><s n="ind"/><s n="mn"/><s n="sg"/></l><r>altre<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>alt<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>altre<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>alt<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>altre<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-<e>                 <p><l>alt<s n="adj"/><s n="ind"/><s n="fn"/><s n="pl"/></l><r>altre<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+<e>                 <p><l>alt</l>                                     <r>altre</r></p><par n="ind__adj"/></e>
 <e a="delia">       <p><l>alunecos</l>                                <r>relliscós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>amabil</l>                                  <r>amable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>amăgit</l>                                  <r>enganyat</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>amăgitor</l>                                <r>fal·laç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>amăgitor</l>                                <r>fal·laç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>amânat</l>                                  <r>demorat</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="delia"><p><l>amănunțit</l>                               <r>detallat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>amărât</l>                                  <r>amargat</r></p><par n="4-4__adj"/></e>
@@ -262,7 +278,7 @@
 <e>                 <p><l>anonim</l>                                  <r>anònim</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>anorexic</l>                                <r>anorèxic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>anormal</l>                                 <r>anormal</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>antepenultim</l>                            <r>antepenúltim</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>antepenultim</l>                            <r>antepenúltim</r></p><par n="ord__adj"/></e>
 <e>                 <p><l>anterior</l>                                <r>anterior</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>antiacademic</l>                            <r>antiacadèmic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>antiaerian</l>                              <r>antiaeri</r></p><par n="4-4__adj"/></e>
@@ -300,7 +316,7 @@
 <e>                 <p><l>arătos</l>                                  <r>guapo</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>arbitrar</l>                                <r>arbitrari</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>arctic</l>                                  <r>àrtic</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>ardelean</l>                                <r>transilvà</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>ardelean</l>                                <r>transsilvà</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>ardent</l>                                  <r>ardent</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>argintiu</l>                                <r>platejat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>argotic</l>                                 <r>argòtic</r></p><par n="4-4__adj"/></e>
@@ -331,7 +347,7 @@
 <e a="delia">       <p><l>atotputernic</l>                            <r>totpoderós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>atractiv</l>                                <r>atractiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>atrăgător</l>                               <r>atraient</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>atroce</l>                                  <r>atroç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>atroce</l>                                  <r>atroç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>atrofiat</l>                                <r>atrofiat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>audiovizual</l>                             <r>audiovisual</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>aurit</l>                                   <r>auri</r></p><par n="4-4__adj"/></e>
@@ -365,7 +381,7 @@
 <e a="delia">       <p><l>bănos</l>                                   <r>profitós</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>bănuitor</l>                                <r>desconfiat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>barbar</l>                                  <r>bàrbar</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>bărbătesc</l>                               <r>baronívol</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>bărbătesc</l>                               <r>baronívol</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>bărbierit</l>                               <r>afaitat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>bărbos</l>                                  <r>barbut</r></p><par n="4-4__adj"/></e>
 <e r="RL" a="delia"><p><l>barcelonez</l>                              <r>barcelonès</r></p><par n="4-4__adj"/></e>
@@ -422,7 +438,7 @@
 <e>                 <p><l>brutal</l>                                  <r>brutal</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>brut</l>                                    <r>brut</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>bubos</l>                                   <r>buós</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>bubuitor</l>                                <r>retrunyidor</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>bubuitor</l>                                <r>retrunyidor</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>bucolic</l>                                 <r>bucòlic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>bucuros</l>                                 <r>alegre</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>bufant</l>                                  <r>bombatxo</r></p><par n="4-4__adj"/></e>
@@ -438,10 +454,10 @@
 <e a="delia">       <p><l>butucănos</l>                               <r>xaró</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>buzat</l>                                   <r>morrut</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>calculat</l>                                <r>calculat</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>cald</l>                                    <r>calent</r></p><par n="4-2__adj"/></e>
+<e>                 <p><l>cald</l>                                    <r>calent</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>călduros</l>                                <r>càlid</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>călduț</l>                                  <r>tebi</r></p><par n="4-4__adj"/></e>
-<e a="delnou">      <p><l>calendaristic</l>                           <r>del<b/>calendari</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>calendaristic</l>                           <r>del<b/>calendari</r></p><par n="4-1__adj"/></e>
 <e a="delia">       <p><l>caligrafic</l>                              <r>caligràfic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>calmant</l>                                 <r>calmant</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>calomnios</l>                               <r>calumniós</r></p><par n="4-4__adj"/></e>
@@ -453,7 +469,7 @@
 <e a="delia">       <p><l>canin</l>                                   <r>caní</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>cântător</l>                                <r>cantador</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>cantitativ</l>                              <r>quantitatiu</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>capabil</l>                                 <r>capaç</r></p><par n="4-3__adj"/></e>
+<e>                 <p><l>capabil</l>                                 <r>capaç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>căpiat</l>                                  <r>guillat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>capitalist</l>                              <r>capitalista</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>capital</l>                                 <r>capital</r></p><par n="4-2__adj"/></e>
@@ -482,7 +498,7 @@
 <e a="delia">       <p><l>categoric</l>                               <r>categòric</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>catifelat</l>                               <r>envellutat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>catolic</l>                                 <r>catòlic</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>cauciucat</l>                               <r>cauxutat</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>cauciucat</l>                               <r>cautxutat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>caustic</l>                                 <r>càustic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>cavernos</l>                                <r>cavernós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>cazual</l>                                  <r>casual</r></p><par n="4-2__adj"/></e>
@@ -587,7 +603,7 @@
 <e>                 <p><l>confuz</l>                                  <r>confús</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>congenital</l>                              <r>congènit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>congestionat</l>                            <r>congestionat</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>congruent</l>                               <r>congrüent</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>congruent</l>                               <r>congruent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>conic</l>                                   <r>cònic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>conjugal</l>                                <r>conjugal</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>consecutiv</l>                              <r>consecutiu</r></p><par n="4-4__adj"/></e>
@@ -595,7 +611,7 @@
 <e>                 <p><l>conservator</l>                             <r>conservador</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>considerabil</l>                            <r>considerable</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>constant</l>                                <r>constant</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>consternant</l>                             <r>repentí</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>consternant</l>                             <r>sobtat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>consternat</l>                              <r>consternat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>conștient</l>                               <r>conscient</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>conștiincios</l>                            <r>conscienciós</r></p><par n="4-4__adj"/></e>
@@ -622,7 +638,7 @@
 <e a="delia">       <p><l>coordonat</l>                               <r>coordinat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>copilăros</l>                               <r>infantívol</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>copios</l>                                  <r>copiós</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>copleșitor</l>                              <r>esclafador</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>copleșitor</l>                              <r>esclafador</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>copulativ</l>                               <r>copulatiu</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>cordial</l>                                 <r>cordial</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>corect</l>                                  <r>correcte</r></p><par n="4-4__adj"/></e>
@@ -637,7 +653,7 @@
 <e a="delia">       <p><l>cosmopolit</l>                              <r>cosmopolita</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>costisitor</l>                              <r>costós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>cotidian</l>                                <r>quotidià</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>covârșitor</l>                              <r>aclaparador</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>covârșitor</l>                              <r>aclaparador</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>crăcănat</l>                                <r>sancallós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>cranial</l>                                 <r>cranial</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>cras</l>                                    <r>cras</r></p><par n="4-4__adj"/></e>
@@ -681,7 +697,7 @@
 <e>                 <p><l>curios</l>                                  <r>curiós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>cusut</l>                                   <r>cosit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>cutanat</l>                                 <r>cutani</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>cutezător</l>                               <r>audaç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>cutezător</l>                               <r>audaç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>cutremurător</l>                            <r>esglaiador</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>cvadrilateral</l>                           <r>quadrilàter</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>dactilografiat</l>                          <r>mecanografiat</r></p><par n="4-4__adj"/></e>
@@ -702,7 +718,7 @@
 <e a="delia">       <p><l>decoltat</l>                                <r>escotat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>deconcertant</l>                            <r>desconcertant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>decongelat</l>                              <r>descongelat</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>decorat</l>                                 <r>adornat</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>decorat</l>                                 <r>guarnit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>decrepit</l>                                <r>decrèpit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>defăimător</l>                              <r>difamatori</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>defavorabil</l>                             <r>desfavorable</r></p><par n="4-2__adj"/></e>
@@ -759,7 +775,7 @@
 <e a="delia">       <p><l>deșertic</l>                                <r>desèrtic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>desfăcut</l>                                <r>desfet</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>desfășurat</l>                              <r>desenrotllat</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>desfătător</l>                              <r>plaenter</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>desfătător</l>                              <r>plaent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>desfoiat</l>                                <r>esfullat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>desfrânat</l>                               <r>desenfrenat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>deșirat</l>                                 <r>esfilagarsat</r></p><par n="4-4__adj"/></e>
@@ -894,7 +910,7 @@
 <e>                 <p><l>dublu</l>                                   <r>doble</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>ductil</l>                                  <r>dúctil</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>duios</l>                                   <r>afectuós</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>dulceag</l>                                 <r>dulçàs</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>dulceag</l>                                 <r>dolçàs</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>dulce</l>                                   <r>dolç</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>durabil</l>                                 <r>durable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>durduliu</l>                                <r>molsut</r></p><par n="4-4__adj"/></e>
@@ -921,7 +937,7 @@
 <e>                 <p><l>efectiv</l>                                 <r>efectiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>efemer</l>                                  <r>efímer</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>efervescent</l>                             <r>efervescent</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>eficace</l>                                 <r>eficaç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>eficace</l>                                 <r>eficaç</r></p><par n="4-3sg__adj"/></e>
 <e>                 <p><l>eficient</l>                                <r>eficient</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>efuziv</l>                                  <r>efusiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>egalizator</l>                              <r>igualador</r></p><par n="4-4__adj"/></e>
@@ -1016,7 +1032,7 @@
 <e>                 <p><l>exploziv</l>                                <r>explosiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>expresiv</l>                                <r>expressiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>expres</l>                                  <r>exprés</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>expus</l>                                   <r>expost</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>expus</l>                                   <r>exposat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>extenuant</l>                               <r>extenuant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>extenuat</l>                                <r>extenuat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>exterior</l>                                <r>exterior</r></p><par n="4-2__adj"/></e>
@@ -1056,7 +1072,7 @@
 <e>                 <p><l>feminin</l>                                 <r>femení</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>feminist</l>                                <r>feminista</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>fenomenal</l>                               <r>fenomenal</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>fericit</l>                                 <r>feliç</r></p><par n="4-3__adj"/></e>
+<e>                 <p><l>fericit</l>                                 <r>feliç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>fermecat</l>                                <r>fetillat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>fermentat</l>                               <r>fermentat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>ferm</l>                                    <r>ferm</r></p><par n="4-4__adj"/></e>
@@ -1146,7 +1162,7 @@
 <e a="delia">       <p><l>fudul</l>                                   <r>presumptuós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>fugitiv</l>                                 <r>fugitiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>fulgerat</l>                                <r>fulminat</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>fulgerător</l>                              <r>llampegant</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>fulgerător</l>                              <r>llampegant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>fulgurant</l>                               <r>fulgurant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>fulminant</l>                               <r>fulminant</r></p><par n="4-2__adj"/></e>
 <e r="LR">          <p><l>fumuriu</l>                                 <r>grisós</r></p><par n="4-4__adj"/></e>
@@ -1215,7 +1231,7 @@
 <e>                 <p><l>grotesc</l>                                 <r>grotesc</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>grozav</l>                                  <r>estupend</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>grunjos</l>                                 <r>grumollós</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>guraliv</l>                                 <r>loquaç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>guraliv</l>                                 <r>loquaç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>gustos</l>                                  <r>apetitós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>gutural</l>                                 <r>gutural</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>guvernamental</l>                           <r>governamental</r></p><par n="4-2__adj"/></e>
@@ -1229,7 +1245,7 @@
 <e a="delia">       <p><l>handicapat</l>                              <r>minusvàlid</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>haotic</l>                                  <r>caòtic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>hapsân</l>                                  <r>avariciós</r></p><par n="4-4__adj"/></e>
-<e r="RL">          <p><l>harnic</l>                                  <r>diligent</r></p><par n="4-4__adj"/></e>
+<e r="RL">          <p><l>harnic</l>                                  <r>diligent</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>harnic</l>                                  <r>laboriós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>hărțuit</l>                                 <r>acorralat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>hazardat</l>                                <r>atzarós</r></p><par n="4-4__adj"/></e>
@@ -1324,7 +1340,7 @@
 <e a="delia">       <p><l>încâlcit</l>                                <r>embullat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>încântat</l>                                <r>encantat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>încântător</l>                              <r>encantador</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>incapabil</l>                               <r>incapaç</r></p><par n="4-3__adj"/></e>
+<e>                 <p><l>incapabil</l>                               <r>incapaç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>încăpățânat</l>                             <r>testarrut</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>încărunțit</l>                              <r>canós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>încătușat</l>                               <r>emmanillat</r></p><par n="4-4__adj"/></e>
@@ -1388,7 +1404,7 @@
 <e a="delia">       <p><l>îndoliat</l>                                <r>endolat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>îndopat</l>                                 <r>encebat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>îndrăcit</l>                                <r>endimoniat</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>îndrăzneț</l>                               <r>audaç</r></p><par n="4-3__adj"/></e>
+<e>                 <p><l>îndrăzneț</l>                               <r>audaç</r></p><par n="4-3sg__adj"/></e>
 <e r="LR" a="delia"><p><l>îndreptățit</l>                             <r>justificat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înduioșat</l>                               <r>entendrit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înduioșător</l>                             <r>entendridor</r></p><par n="4-4__adj"/></e>
@@ -1399,7 +1415,7 @@
 <e a="delia">       <p><l>industrial</l>                              <r>industrial</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>inedit</l>                                  <r>inèdit</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>inefabil</l>                                <r>inefable</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>ineficace</l>                               <r>ineficaç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>ineficace</l>                               <r>ineficaç</r></p><par n="4-3sg__adj"/></e>
 <e>                 <p><l>inegal</l>                                  <r>desigual</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>ineluctabil</l>                             <r>ineluctable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>inept</l>                                   <r>inepte</r></p><par n="4-4__adj"/></e>
@@ -1505,7 +1521,7 @@
 <e a="delia">       <p><l>insurmontabil</l>                           <r>insalvable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>însutit</l>                                 <r>centuplicat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>intact</l>                                  <r>intacte</r></p><par n="4-4__adj"/></e>
-<e r="LR">          <p><l>întâi</l>                                   <r>primer</r></p><par n="4-4__adj"/></e>
+<e r="LR">          <p><l>întâi</l>                                   <r>primer</r></p><par n="ord__adj"/></e>
 <e a="delia">       <p><l>întâmplător</l>                             <r>fortuït</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>intangibil</l>                              <r>intangible</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>întăritor</l>                               <r>enfortidor</r></p><par n="4-4__adj"/></e>
@@ -1561,7 +1577,7 @@
 <e a="delia">       <p><l>invariabil</l>                              <r>invariable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>învățat</l>                                 <r>ensenyat</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="delia"><p><l>învechit</l>                                <r>envellit</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>învecinat</l>                               <r>aveïnat</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>învecinat</l>                               <r>aveïnat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>inventiv</l>                                <r>inventiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>inverosimil</l>                             <r>inversemblant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>invers</l>                                  <r>invers</r></p><par n="4-4__adj"/></e>
@@ -1597,7 +1613,7 @@
 <e a="delia">       <p><l>ironic</l>                                  <r>irònic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>iscusit</l>                                 <r>destre</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>islamic</l>                                 <r>islàmic</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>israelian</l>                               <r>israelià</r></p><par n="4-2__adj"/></e>
+<e>                 <p><l>israelian</l>                               <r>israelià</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>isteric</l>                                 <r>histèric</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>isteț</l>                                   <r>eixerit</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>istoric</l>                                 <r>històric</r></p><par n="4-4__adj"/></e>
@@ -1606,7 +1622,7 @@
 <e a="delia">       <p><l>iubitor</l>                                 <r>amant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>iugoslav</l>                                <r>iugoslau</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>iulian</l>                                  <r>julià</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>iute</l>                                    <r>veloç</r></p><par n="4-3__adj"/></e>
+<e>                 <p><l>iute</l>                                    <r>veloç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>izbitor</l>                                 <r>esbalaïdor</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>izolant</l>                                 <r>aïllant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>jalnic</l>                                  <r>penós</r></p><par n="4-4__adj"/></e>
@@ -1654,7 +1670,7 @@
 <e a="delia">       <p><l>lărgit</l>                                  <r>eixamplat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>larg</l>                                    <r>extens</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>lasciv</l>                                  <r>lasciu</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>laș</l>                                     <r>covard</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>laș</l>                                     <r>covard</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>latent</l>                                  <r>latent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>lateral</l>                                 <r>lateral</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>latin</l>                                   <r>llatí</r></p><par n="4-4__adj"/></e>
@@ -1749,7 +1765,7 @@
 <e a="delia">       <p><l>maniac</l>                                  <r>maníac</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>mânios</l>                                  <r>furibund</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>manipulator</l>                             <r>manipulador</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>mănos</l>                                   <r>feraç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>mănos</l>                                   <r>feraç</r></p><par n="4-3sg__adj"/></e>
 <e a="delnou">      <p><l>marcant</l>                                 <r>destacat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>mare</l>                                    <r>gran</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>măreț</l>                                   <r>grandiós</r></p><par n="4-4__adj"/></e>
@@ -1785,7 +1801,7 @@
 <e>                 <p><l>maxim</l>                                   <r>màxim</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>mecanic</l>                                 <r>mecànic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>mediatic</l>                                <r>mediàtic</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>medical</l>                                 <r>metge</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>medical</l>                                 <r>mèdic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>medicinal</l>                               <r>medicinal</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>medieval</l>                                <r>medieval</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>mediocru</l>                                <r>mediocre</r></p><par n="4-2__adj"/></e>
@@ -1859,7 +1875,7 @@
 <e>                 <p><l>mort</l>                                    <r>mort</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>mortuar</l>                                 <r>mortuori</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>mucegăit</l>                                <r>florit</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>muieresc</l>                                <r>femenívol</r></p><par n="4-2__adj"/></e>
+<e>                 <p><l>muieresc</l>                                <r>femenívol</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>multilateral</l>                            <r>multilateral</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>multimedia</l>                              <r>multimèdia</r></p><par n="2-1__adj"/></e>
 <e>                 <p><l>multiplu</l>                                <r>múltiple</r></p><par n="4-2__adj"/></e>
@@ -1933,7 +1949,7 @@
 <e a="delia">       <p><l>nefast</l>                                  <r>nefast</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>nefavorabil</l>                             <r>desfavorable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>nefericit</l>                               <r>desgraciat</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>nefericit</l>                               <r>infeliç</r></p><par n="4-3__adj"/></e>
+<e>                 <p><l>nefericit</l>                               <r>infeliç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>nefiresc</l>                                <r>antinatural</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>nefolositor</l>                             <r>inservible</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>negativ</l>                                 <r>negatiu</r></p><par n="4-4__adj"/></e>
@@ -2141,7 +2157,7 @@
 <e a="delia">       <p><l>penetrant</l>                               <r>penetrant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>penibil</l>                                 <r>penós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>penitent</l>                                <r>penitent</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>penultim</l>                                <r>penúltim</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>penultim</l>                                <r>penúltim</r></p><par n="ord__adj"/></e>
 <e>                 <p><l>perceptibil</l>                             <r>perceptible</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>peren</l>                                   <r>perenne</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>perfect</l>                                 <r>perfecte</r></p><par n="4-4__adj"/></e>
@@ -2160,7 +2176,7 @@
 <e a="delia">       <p><l>perseverent</l>                             <r>perseverant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>persistent</l>                              <r>persistent</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>personal</l>                                <r>personal</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>perspicace</l>                              <r>perspicaç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>perspicace</l>                              <r>perspicaç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>persuasiv</l>                               <r>persuasiu</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="delnou"><p><l>perturbativ</l>                            <r>pertorbador</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>perturbator</l>                             <r>pertorbador</r></p><par n="4-4__adj"/></e>
@@ -2175,7 +2191,7 @@
 <e a="delia">       <p><l>pios</l>                                    <r>piadós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>pirpiriu</l>                                <r>flac</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>pitoresc</l>                                <r>pintoresc</r></p><par n="4-4__adj"/></e>
-<e a="delia???">    <p><l>pizmaș</l>                                  <r>pelusero</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>pizmaș</l>                                  <r>envejós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>placid</l>                                  <r>plàcid</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>plăcut</l>                                  <r>agradable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>plângăcios</l>                              <r>ploraner</r></p><par n="4-4__adj"/></e>
@@ -2192,7 +2208,7 @@
 <e a="delia">       <p><l>poliglot</l>                                <r>poliglot</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>politehnic</l>                              <r>politècnic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>politic</l>                                 <r>polític</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>politicos</l>                               <r>cortés</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>politicos</l>                               <r>cortès</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>polițienesc</l>                             <r>policial</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>polonez</l>                                 <r>polonès</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>poluant</l>                                 <r>contaminant</r></p><par n="4-2__adj"/></e>
@@ -2217,7 +2233,7 @@
 <e a="delia">       <p><l>pragmatic</l>                               <r>pragmàtic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>precar</l>                                  <r>precari</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>precis</l>                                  <r>precís</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>precoce</l>                                 <r>precoç</r></p><par n="4-3__adj"/></e>
+<e>                 <p><l>precoce</l>                                 <r>precoç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>preconceput</l>                             <r>preconcebut</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>precumpănitor</l>                           <r>prevalent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>predestinat</l>                             <r>predestinat</r></p><par n="4-4__adj"/></e>
@@ -2247,7 +2263,7 @@
 <e>                 <p><l>primar</l>                                  <r>primari</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>primitiv</l>                                <r>primitiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>primitor</l>                                <r>acollidor</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>prim</l>                                    <r>primer</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>prim</l>                                    <r>primer</r></p><par n="ord__adj"/></e>
 <e>                 <p><l>principal</l>                               <r>principal</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>prioritar</l>                               <r>prioritari</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>privilegiat</l>                             <r>privilegiat</r></p><par n="4-4__adj"/></e>
@@ -2298,7 +2314,7 @@
 <e>                 <p><l>pur</l>                                     <r>pur</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>purpuriu</l>                                <r>purpuri</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>pustiu</l>                                  <r>desert</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>puternic</l>                                <r>fort</r></p><par n="4-2__adj"/></e>
+<e>                 <p><l>puternic</l>                                <r>fort</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>puțin</l>                                   <r>poc</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>putred</l>                                  <r>putrefacte</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>putrezit</l>                                <r>podrit</r></p><par n="4-4__adj"/></e>
@@ -2313,7 +2329,7 @@
 <e a="delia">       <p><l>rampant</l>                                 <r>rampant</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>rânced</l>                                  <r>ranci</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>ranchiunos</l>                              <r>rancorós</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>rapace</l>                                  <r>rapaç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>rapace</l>                                  <r>rapaç</r></p><par n="4-3sg__adj"/></e>
 <e a="delnou">      <p><l>răpănos</l>                                 <r>ronyós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>rapid</l>                                   <r>ràpid</r></p><par n="4-4__adj"/></e>
 <e r="LR">          <p><l>rar</l>                                     <r>rar</r></p><par n="4-4__adj"/></e>
@@ -2365,7 +2381,7 @@
 <e a="delia">       <p><l>renegat</l>                                 <r>renegat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>renovat</l>                                 <r>renovat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>rentabil</l>                                <r>rendible</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>renumit</l>                                 <r>de<b/>renom</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>renumit</l>                                 <r>de<b/>renom</r></p><par n="4-1__adj"/></e>
 <e>                 <p><l>reprezentativ</l>                           <r>representatiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>reprobabil</l>                              <r>reprovable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>reproductiv</l>                             <r>reproductiu</r></p><par n="4-4__adj"/></e>
@@ -2427,7 +2443,7 @@
 <e a="delia">       <p><l>sâcâitor</l>                                <r>fastijós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>sacru</l>                                   <r>sagrat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>sadic</l>                                   <r>sàdic</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>sagace</l>                                  <r>sagaç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>sagace</l>                                  <r>sagaç</r></p><par n="4-3sg__adj"/></e>
 <e>                 <p><l>sălbatic</l>                                <r>salvatge</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>salin</l>                                   <r>salí</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>săltăreț</l>                                <r>saltironant</r></p><par n="4-2__adj"/></e>
@@ -2443,7 +2459,7 @@
 <e a="delia">       <p><l>satanic</l>                                 <r>satànic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>șaten</l>                                   <r>castany</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>satisfăcător</l>                            <r>satisfactori</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>satisfăcut</l>                              <r>satiset</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>satisfăcut</l>                              <r>satisfet</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>sătul</l>                                   <r>fart</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>saturat</l>                                 <r>saturat</r></p><par n="4-4__adj"/></e>
 <e r="LR">          <p><l>său</l>                                     <r>seu</r></p><par n="pos__adj"/></e>
@@ -2546,7 +2562,7 @@
 <e a="delia">       <p><l>spălățel</l>                                <r>endreçat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>spaniol</l>                                 <r>espanyol</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>spațial</l>                                 <r>espacial</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>spațios</l>                                 <r>espaciós</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>spațios</l>                                 <r>espaiós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>special</l>                                 <r>especial</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>specific</l>                                <r>específic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>spectacular</l>                             <r>espectacular</r></p><par n="4-2__adj"/></e>
@@ -2608,7 +2624,7 @@
 <e>                 <p><l>subit</l>                                   <r>sobtat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>sublim</l>                                  <r>sublim</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>subnormal</l>                               <r>subnormal</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>suborbital</l>                              <r>ombrívol</r></p><par n="4-2__adj"/></e>
+<e>                 <p><l>suborbital</l>                              <r>ombrívol</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>suborbital</l>                              <r>suborbital</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>subordonat</l>                              <r>subordinat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>șubred</l>                                  <r>trencadís</r></p><par n="4-4__adj"/></e>
@@ -2621,7 +2637,7 @@
 <e>                 <p><l>succesiv</l>                                <r>successiu</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>succint</l>                                 <r>succint</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>suculent</l>                                <r>suculent</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>sudic</l>                                   <r>del<b/>sud</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>sudic</l>                                   <r>del<b/>sud</r></p><par n="4-1__adj"/></e>
 <e>                 <p><l>suficient</l>                               <r>suficient</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>sufletesc</l>                               <r>anímic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>sufocant</l>                                <r>sufocant</r></p><par n="4-2__adj"/></e>
@@ -2644,7 +2660,6 @@
 <e>                 <p><l>suprarealist</l>                            <r>surrealista</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>suprem</l>                                  <r>suprem</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>surâzător</l>                               <r>somrient</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>surâzător</l>                               <r>sonriente</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>surd</l>                                    <r>sord</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>surdomut</l>                                <r>sordmut</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>surescitat</l>                              <r>sobreexcitat</r></p><par n="4-4__adj"/></e>
@@ -2680,7 +2695,7 @@
 <e a="delia">       <p><l>temperat</l>                                <r>temperat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>temporal</l>                                <r>temporal</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>temporar</l>                                <r>temporal</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>tenace</l>                                  <r>tenaç</r></p><par n="4-3__adj"/></e>
+<e a="delia">       <p><l>tenace</l>                                  <r>tenaç</r></p><par n="4-3sg__adj"/></e>
 <e a="delia">       <p><l>tenebros</l>                                <r>tenebrós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>tensionat</l>                               <r>tes</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>terapeutic</l>                              <r>terapèutic</r></p><par n="4-4__adj"/></e>
@@ -2689,10 +2704,10 @@
 <e a="delnou">      <p><l>terifiant</l>                               <r>aterrador</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>termic</l>                                  <r>tèrmic</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>terminologic</l>                            <r>terminològic</r></p><par n="4-4__adj"/></e>
-<e a="delnou">      <p><l>termo-electric</l>                          <r>termo-elèctric</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="delnou"><p><l>termo-electric</l>                         <r>termoelèctric</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>termoelectric</l>                           <r>termoelèctric</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>terorist</l>                                <r>terrorista</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>textil</l>                                  <r>textil</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>textil</l>                                  <r>tèxtil</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>tibetan</l>                                 <r>tibetà</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>ticălos</l>                                 <r>brivall</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>țicnit</l>                                  <r>sonat</r></p><par n="4-4__adj"/></e>
@@ -2740,16 +2755,16 @@
 <e>                 <p><l>turistic</l>                                <r>turístic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>ud</l>                                      <r>mullat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>uimit</l>                                   <r>atònit</r></p><par n="4-4__adj"/></e>
-<e r="RL">          <p><l>uimitor</l>                                 <r>sorprenent</r></p><par n="4-4__adj"/></e>
+<e r="RL">          <p><l>uimitor</l>                                 <r>sorprenent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>uituc</l>                                   <r>oblidadís</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>ulterior</l>                                <r>ulterior</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>ultim</l>                                   <r>últim</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>ultim</l>                                   <r>últim</r></p><par n="ord__adj"/></e>
 <e a="delia">       <p><l>ultragiat</l>                               <r>ultratjat</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>uluitor</l>                                 <r>enlluernador</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>umanitar</l>                                <r>humanitari</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>uman</l>                                    <r>humà</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>umanoid</l>                                 <r>humanoide</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>umbros</l>                                  <r>ombrívol</r></p><par n="4-2__adj"/></e>
+<e>                 <p><l>umbros</l>                                  <r>ombrívol</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>umed</l>                                    <r>humit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>umilitor</l>                                <r>humiliant</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>umil</l>                                    <r>humil</r></p><par n="4-2__adj"/></e>
@@ -2809,7 +2824,7 @@
 <e>                 <p><l>vesel</l>                                   <r>rialler</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>veșted</l>                                  <r>marcit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>vestimentar</l>                             <r>indumentari</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>vestit</l>                                  <r>de<b/>fama</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>vestit</l>                                  <r>de<b/>fama</r></p><par n="4-1__adj"/></e>
 <e a="delia">       <p><l>vexant</l>                                  <r>vexatori</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>vexat</l>                                   <r>vexat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>viabil</l>                                  <r>viable</r></p><par n="4-2__adj"/></e>
@@ -2835,7 +2850,7 @@
 <e a="delia">       <p><l>visceral</l>                                <r>visceral</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>vital</l>                                   <r>vital</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>viu</l>                                     <r>viu</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>vivace</l>                                  <r>vivaç</r></p><par n="4-3__adj"/></e>
+<e>                 <p><l>vivace</l>                                  <r>vivaç</r></p><par n="4-3sg__adj"/></e>
 <e>                 <p><l>vizibil</l>                                 <r>visible</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>vizual</l>                                  <r>visual</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>voalat</l>                                  <r>vetllat</r></p><par n="4-4__adj"/></e>
@@ -2914,7 +2929,7 @@
 <e a="mioara">      <p><l>antidepresiv</l>                            <r>antidepressiu</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>antiderapant</l>                            <r>antilliscant</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>antiguvernamental</l>                       <r>antigovernamental</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>antiiranian</l>                             <r>antiiranià</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>antiiranian</l>                             <r>antiiranià</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>antioccidental</l>                          <r>antioccidental</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>antipiretic</l>                             <r>antipirètic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>antistres</l>                               <r>antiestrès</r></p><par n="2-1__adj"/></e>
@@ -2948,7 +2963,7 @@
 <e a="mioara">      <p><l>arterial</l>                                <r>arterial</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>artezian</l>                                <r>artesià</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>artizanal</l>                               <r>artesanal</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>arămiu</l>                                  <r>d'aram</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>arămiu</l>                                  <r>d'aram</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>ascetic</l>                                 <r>ascètic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>aseptic</l>                                 <r>asèptic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>asexual</l>                                 <r>asexual</r></p><par n="4-2__adj"/></e>
@@ -2972,7 +2987,7 @@
 <e a="mioara">      <p><l>autocritic</l>                              <r>autocrític</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>automobilistic</l>                          <r>automobilístic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>autoreglabil</l>                            <r>autorregulable</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>aviatic</l>                                 <r>d'aviació</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>aviatic</l>                                 <r>d'aviació</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>axiomatic</l>                               <r>axiomàtic</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="mioara"><p><l>așa-numit</l>                              <r>així<b/>anomenat</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="mioara"><p><l>ațos</l>                                   <r>fibrós</r></p><par n="4-4__adj"/></e>
@@ -2983,8 +2998,8 @@
 <e a="delnou">      <p><l>basculant</l>                               <r>basculant</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>bavarez</l>                                 <r>bàvar</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>bazaltic</l>                                <r>basàltic</r></p><par n="4-4__adj"/></e>
-<e r="LR" a="mioara"><p><l>beat<b/>criță</l>                          <r>borratxo<g><b/>como<b/>una<b/>sopa</g></r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>beat<b/>turtă</l>                           <r>borratxo<g><b/>como<b/>una<b/>sopa</g></r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>beat<b/>criță</l>                          <r>borratxo<g><b/>com<b/>una<b/>sopa</g></r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>beat<b/>turtă</l>                           <r>borratxo<g><b/>com<b/>una<b/>sopa</g></r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>beatific</l>                                <r>beatífic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>belgian</l>                                 <r>belga</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>belicos</l>                                 <r>bel·licós</r></p><par n="4-4__adj"/></e>
@@ -3002,7 +3017,7 @@
 <e a="mioara">      <p><l>binar</l>                                   <r>binari</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>binecrescut</l>                             <r>ben<b/>educat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>biografic</l>                               <r>biogràfic</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>biped</l>                                   <r>bídepe</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>biped</l>                                   <r>bípede</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>birocratic</l>                              <r>burocràtic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>bisect</l>                                  <r>bixest</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>bisector</l>                                <r>bisector</r></p><par n="4-4__adj"/></e>
@@ -3032,7 +3047,7 @@
 <e a="delnou">      <p><l>cafeniu</l>                                 <r>brunenc</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>calitativ</l>                               <r>qualitatiu</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>calvinist</l>                               <r>calvinista</r></p><par n="4-2__adj"/></e>
-<e a="delnou">      <p><l>canadian</l>                                <r>canadenc</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>canadian</l>                                <r>canadenc</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>canonic</l>                                 <r>canònic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>capilar</l>                                 <r>capil·lar</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>capitonat</l>                               <r>encoixinat</r></p><par n="4-4__adj"/></e>
@@ -3049,11 +3064,11 @@
 <e r="LR" a="mioara"><p><l>catastrofic</l>                            <r>catastròfic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>caucazian</l>                               <r>caucàsic</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>ceh</l>                                     <r>txec</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>celtic</l>                                  <r>celta</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>celtic</l>                                  <r>celta</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>centrifug</l>                               <r>centrífug</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>cenușiu</l>                                 <r>grisós</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>certăreț</l>                                <r>baralladís</r></p><par n="4-4__adj"/></e>
-<e a="delnou">      <p><l>chefliu</l>                                 <r>tabolaire</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>chefliu</l>                                 <r>tabolaire</r></p><par n="4-2__adj"/></e>
 <e r="LR" a="mioara"><p><l>chinez</l>                                 <r>xinès</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>cilindric</l>                               <r>cilíndric</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>cinegetic</l>                               <r>cinegètic</r></p><par n="4-4__adj"/></e>
@@ -3112,11 +3127,11 @@
 <e a="delnou">      <p><l>căpos</l>                                   <r>capgròs</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="delnou"><p><l>dacic</l>                                  <r>daci</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>dadaist</l>                                 <r>dadaista</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>dansant</l>                                 <r>dansador</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>dansant</l>                                 <r>dansador</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>darwinist</l>                               <r>darwinista</r></p><par n="4-2__adj"/></e>
 <e r="LR" a="mioara"><p><l>de<b/>mâna<b/>a<b/>doua</l>                <r>de<b/>segona<b/>mà</r></p><par n="2-1__adj"/></e>
 <e a="mioara">      <p><l>de<b/>nuiele</l>                            <r>de<b/>vímet</r></p><par n="2-1__adj"/></e>
-<e a="mioara">      <p><l>decepționant</l>                            <r>decebedor</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>decepționant</l>                            <r>decebedor</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>decident</l>                                <r>decisiu</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>declanșator</l>                             <r>desencadenant</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>deconstructivist</l>                        <r>deconstructivista</r></p><par n="4-2__adj"/></e>
@@ -3135,7 +3150,7 @@
 <e a="mioara">      <p><l>destinat</l>                                <r>destinat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>determinist</l>                             <r>determinista</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>detestat</l>                                <r>detestat</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>dezamăgitor</l>                             <r>decebedor</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>dezamăgitor</l>                             <r>decebedor</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>dezarmant</l>                               <r>descoratjador</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>dezumanizant</l>                            <r>deshumanitzant</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>diacronic</l>                               <r>diacrònic</r></p><par n="4-4__adj"/></e>
@@ -3203,7 +3218,7 @@
 <e a="mioara">      <p><l>ezoteric</l>                                <r>esotèric</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>facial</l>                                  <r>facial</r></p><par n="4-2__adj"/></e>
 <e r="LR" a="mioara"><p><l>falnic</l>                                 <r>majestuós</r></p><par n="4-4__adj"/></e>
-<e a="delnou">      <p><l>falocentric</l>                             <r>falocèntric</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>falocentric</l>                             <r>fal·locèntric</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>familiarizat</l>                            <r>familiaritzat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>fantezist</l>                               <r>fantasiós</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>fastuos</l>                                 <r>fatuós</r></p><par n="4-4__adj"/></e>
@@ -3217,7 +3232,7 @@
 <e a="mioara">      <p><l>fenomenologic</l>                           <r>fenomenològic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>ferm<b/>convins</l>                         <r>fermament<b/>convençut</r></p><par n="4-4__adj"/></e>
 <e r="RL" a="delnou"><p><l>feroce</l>                                 <r>ferotge</r></p><par n="4-2__adj"/></e>
-<e a="delnou">      <p><l>feroce</l>                                  <r>feroç</r></p><par n="4-3__adj"/></e>
+<e a="delnou">      <p><l>feroce</l>                                  <r>feroç</r></p><par n="4-3sg__adj"/></e>
 <e a="mioara">      <p><l>feros</l>                                   <r>ferrós</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>feroviar</l>                                <r>ferroviari</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>firesc</l>                                  <r>natural</r></p><par n="4-2__adj"/></e>
@@ -3263,9 +3278,9 @@
 <e a="delnou">      <p><l>hedonist</l>                                <r>hedonista</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>hemostatic</l>                              <r>hemostàtic</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>heraldic</l>                                <r>heràldic</r></p><par n="4-4__adj"/></e>
-<e a="delnou">      <p><l>herculean</l>                               <r>herculeà</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>herculean</l>                               <r>herculi</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>hermafrodit</l>                             <r>hermafrodita</r></p><par n="4-2__adj"/></e>
-<e a="delnou">      <p><l>heteroclit</l>                              <r>heteòrclit</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>heteroclit</l>                              <r>heteròclit</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>hibernal</l>                                <r>hivernal</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>hidatic</l>                                 <r>hidatídic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>hidraulic</l>                               <r>hidràulic</r></p><par n="4-4__adj"/></e>
@@ -3285,7 +3300,7 @@
 <e a="mioara">      <p><l>hormonal</l>                                <r>hormonal</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>horticol</l>                                <r>hortícola</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>idiot</l>                                   <r>idiota</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>ieșit<b/>din<b/>comun</l>                   <r>fora<b/>del<b/>comú</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>ieșit<b/>din<b/>comun</l>                   <r>fora<b/>del<b/>comú</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>igienist</l>                                <r>higienista</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>imoral</l>                                  <r>immoral</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>impactant</l>                               <r>impactant</r></p><par n="4-2__adj"/></e>
@@ -3302,13 +3317,13 @@
 <e a="mioara">      <p><l>inapelabil</l>                              <r>inapel·lable</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>inaugural</l>                               <r>inaugural</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>incalculabil</l>                            <r>incalculable</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>incalificabil</l>                           <r>inqüalificable</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>incalificabil</l>                           <r>inqualificable</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>incandescent</l>                            <r>incandescent</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>incestuos</l>                               <r>incestuós</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>inchizitorial</l>                           <r>inquisitorial</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>incisiv</l>                                 <r>incisiu</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>inclasificabil</l>                          <r>inclassificable</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>incomensurabil</l>                          <r>incommesurable</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>incomensurabil</l>                          <r>incommensurable</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>incomunicabil</l>                           <r>incomunicable</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>inconceptibil</l>                           <r>inconcebible</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>inconfundabil</l>                           <r>inconfusible</r></p><par n="4-2__adj"/></e>
@@ -3365,7 +3380,7 @@
 <e a="delnou">      <p><l>ireconciliabil</l>                          <r>irreconciliable</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>ireductibil</l>                             <r>irreductible</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>irepetabil</l>                              <r>irrepetible</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>irepresibil</l>                             <r>irrepressible</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>irepresibil</l>                             <r>irreprimible</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>islamist</l>                                <r>islamista</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>islandez</l>                                <r>islandès</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>istoriografic</l>                           <r>historiogràfic</r></p><par n="4-4__adj"/></e>
@@ -3378,13 +3393,13 @@
 <e a="mioara">      <p><l>khmer</l>                                   <r>khmer</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>kitsch</l>                                  <r>kitsch</r></p><par n="2-1__adj"/></e>
 <e a="mioara">      <p><l>la<b/>mâna<b/>a<b/>doua</l>                 <r>de<b/>segona<b/>mà</r></p><par n="2-1__adj"/></e>
-<e a="mioara">      <p><l>lacrimal</l>                                <r>llacrimal</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>lacrimal</l>                                <r>lacrimal</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>lampant</l>                                 <r>llampant</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>lapon</l>                                   <r>lapó</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>larvar</l>                                  <r>larvari</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>lat<b/>în<b/>piept</l>                      <r>ample<b/>de<b/>pit</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>lat<b/>în<b/>spate</l>                      <r>ample<b/>d'esquena</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>lat<b/>în<b/>umeri</l>                      <r>ample<b/>d'espatlles</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>lat<b/>în<b/>piept</l>                      <r>ample<g><b/>de<b/>pit</g></r></p><par n="4-3pl__adj"/></e>
+<e a="mioara">      <p><l>lat<b/>în<b/>spate</l>                      <r>ample<g><b/>d'esquena</g></r></p><par n="4-3pl__adj"/></e>
+<e a="mioara">      <p><l>lat<b/>în<b/>umeri</l>                      <r>ample<g><b/>d'espatlles</g></r></p><par n="4-3pl__adj"/></e>
 <e a="mioara">      <p><l>latifundiar</l>                             <r>latifundista</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>laudativ</l>                                <r>laudatori</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>legionar</l>                                <r>legionari</r></p><par n="4-4__adj"/></e>
@@ -3407,7 +3422,7 @@
 <e a="mioara">      <p><l>litigios</l>                                <r>litigiós</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>liturgic</l>                                <r>litúrgic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>locuibil</l>                                <r>habitable</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>locvace</l>                                 <r>loquaç</r></p><par n="4-3__adj"/></e>
+<e a="mioara">      <p><l>locvace</l>                                 <r>loquaç</r></p><par n="4-3sg__adj"/></e>
 <e a="mioara">      <p><l>longitudinal</l>                            <r>longitudinal</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>lubric</l>                                  <r>lúbric</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>lubrifiant</l>                              <r>lubrificant</r></p><par n="4-2__adj"/></e>
@@ -3419,7 +3434,7 @@
 <e a="mioara">      <p><l>macrocefal</l>                              <r>macrocèfal</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>mafiot</l>                                  <r>mafiós</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>maltez</l>                                  <r>maltès</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>managerial</l>                              <r>de<b/>manager</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>managerial</l>                              <r>de<b/>direcció</r></p><par n="4-1__adj"/></e>
 <e r="LR" a="mioara"><p><l>median</l>                                 <r>mitjà</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>megaloman</l>                               <r>megalòman</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="mioara"><p><l>menit</l>                                  <r>destinat</r></p><par n="4-4__adj"/></e>
@@ -3470,7 +3485,7 @@
 <e r="LR" a="mioara"><p><l>neadevărat</l>                             <r>fals</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>neagricol</l>                               <r>no<b/>agrícola</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>nebiologic</l>                              <r>no<b/>biològic</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>nebotezat</l>                               <r>sense<b/>batejar</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>nebotezat</l>                               <r>sense<b/>batejar</r></p><par n="4-1__adj"/></e>
 <e r="LR" a="mioara"><p><l>nebănuit</l>                               <r>inesperat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>necontenit</l>                              <r>incessant</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>necontestat</l>                             <r>inqüestionable</r></p><par n="4-2__adj"/></e>
@@ -3492,7 +3507,7 @@
 <e a="mioara">      <p><l>nelocuibil</l>                              <r>inhabitable</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>nelocuit</l>                                <r>inhabitat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>nemuritor</l>                               <r>immortal</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>nemăsurat</l>                               <r>incommesurable</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>nemăsurat</l>                               <r>incommensurable</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>neobaroc</l>                                <r>neobarroc</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>neobrăzat</l>                               <r>malcarat</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>neodadaist</l>                              <r>neodadaista</r></p><par n="4-2__adj"/></e>
@@ -3501,20 +3516,20 @@
 <e a="mioara">      <p><l>neolitic</l>                                <r>neolític</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>neomenos</l>                                <r>ominós</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>nepregătit</l>                              <r>no<b/>preparat</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>nepublicat</l>                              <r>sense<b/>publicar</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>nepublicat</l>                              <r>sense<b/>publicar</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>nerealist</l>                               <r>irreal</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>nereformat</l>                              <r>sense<b/>reformar</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>nereformat</l>                              <r>sense<b/>reformar</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>neregulamentar</l>                          <r>no<b/>reglamentari</r></p><par n="4-4__adj"/></e>
-<e a="delnou">      <p><l>neregulat</l>                               <r>desuniforme</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>neregulat</l>                               <r>irregular</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>nereligios</l>                              <r>no<b/>religiós</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>nerevendicat</l>                            <r>no<b/>reivindicat</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>nerezolvat</l>                              <r>sense<b/>resoldre</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>nerezolvat</l>                              <r>sense<b/>resoldre</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>nesatisfăcător</l>                          <r>insatisfactori</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>nesemnat</l>                                <r>sense<b/>signar</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>nesemnat</l>                                <r>sense<b/>signar</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>nesituat</l>                                <r>no<b/>situat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>nesportiv</l>                               <r>no<b/>esportiu</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>nesupus</l>                                 <r>no<b/>sotmès</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>netăiat</l>                                 <r>sense<b/>tallar</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>netăiat</l>                                 <r>sense<b/>tallar</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>neurastenic</l>                             <r>neurastènic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>neurologic</l>                              <r>neurològic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>neurotic</l>                                <r>neuròtic</r></p><par n="4-4__adj"/></e>
@@ -3560,7 +3575,7 @@
 <e a="mioara">      <p><l>operativ</l>                                <r>operatiu</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>operațional</l>                             <r>operacional</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>orfic</l>                                   <r>òrfic</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>organizatoric</l>                           <r>d'organizació</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>organizatoric</l>                           <r>d'organizació</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>ortopedic</l>                               <r>ortopèdic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>ostrogot</l>                                <r>ostrogot</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>otoman</l>                                  <r>otomà</r></p><par n="4-4__adj"/></e>
@@ -3569,13 +3584,13 @@
 <e a="mioara">      <p><l>paleolitic</l>                              <r>paleolític</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>pancreatic</l>                              <r>pancreàtic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>pancromatic</l>                             <r>pancromàtic</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>panonic</l>                                 <r>panoni</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>panonic</l>                                 <r>pannònic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>paradigmatic</l>                            <r>paradigmàtic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>parietal</l>                                <r>parietal</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>parodiat</l>                                <r>parodiat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>patriarhal</l>                              <r>patriarcal</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>patriotic</l>                               <r>patriòtic</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>pașoptist</l>                               <r>pasoptista<b/>1848</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>pașoptist</l>                               <r>de<b/>1848</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>pediatric</l>                               <r>pediàtric</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>pedofil</l>                                 <r>pedòfil</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>pelvian</l>                                 <r>pèlvic</r></p><par n="4-4__adj"/></e>
@@ -3592,7 +3607,7 @@
 <e a="delnou">      <p><l>pertinent</l>                               <r>pertinent</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>petrochimic</l>                             <r>petroquímic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>petrografic</l>                             <r>petrogràfic</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>petrolier</l>                               <r>petroler</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>petrolier</l>                               <r>petrolier</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>petrolifer</l>                              <r>petrolífer</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>piroman</l>                                 <r>piròman</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>pitagoreic</l>                              <r>pitagòric</r></p><par n="4-4__adj"/></e>
@@ -3663,7 +3678,7 @@
 <e a="delnou">      <p><l>ramolit</l>                                 <r>xaruc</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>reacționar</l>                              <r>reaccionari</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>recidivist</l>                              <r>reincident</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>redacțional</l>                             <r>de<b/>redacció</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>redacțional</l>                             <r>de<b/>redacció</r></p><par n="4-1__adj"/></e>
 <e a="delnou">      <p><l>redescoperit</l>                            <r>redescobert</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>redesenat</l>                               <r>redibuixat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>reductibil</l>                              <r>reductible</r></p><par n="4-2__adj"/></e>
@@ -3685,7 +3700,7 @@
 <e a="delnou">      <p><l>reverențios</l>                             <r>reverenciós</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>revizuit</l>                                <r>revisat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>rezultant</l>                               <r>resultant</r></p><par n="4-2__adj"/></e>
-<e a="delnou">      <p><l>riveran</l>                                 <r>ribereny</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>riveran</l>                                 <r>riberenc</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>rombic</l>                                  <r>ròmbic</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="mioara"><p><l>rom</l>                                    <r>gitano</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>rugător</l>                                 <r>rogatiu</r></p><par n="4-4__adj"/></e>
@@ -3694,6 +3709,160 @@
 <e a="delnou">      <p><l>răposat</l>                                 <r>finat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>rătăcitor</l>                               <r>errant</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>rășinos</l>                                 <r>resinós</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>sacerdotal</l>                              <r>sacerdotal</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>salarial</l>                                <r>salarial</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>sanscrit</l>                                <r>sànscrit</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>saprofit</l>                                <r>sapròfit</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>sas</l>                                     <r>saxó</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>saudit</l>                                  <r>saudita</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>scandinav</l>                               <r>escandinau</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>scandinavic</l>                            <r>escandinau</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>schimbător</l>                              <r>canviant</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>schismatic</l>                              <r>cismàtic</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>scontat</l>                                <r>previst</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>scoțian</l>                                 <r>escocès</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>secesionist</l>                             <r>secessionista</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="delnou"><p><l>sectorial</l>                              <r>sectorial</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="mioara"><p><l>sefard</l>                                 <r>sefardita</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>sefardit</l>                                <r>sefardita</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>segregat</l>                                <r>segregat</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>segregaționist</l>                          <r>segregacionista</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>seismic</l>                                 <r>sísmic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>seismologic</l>                             <r>sismològic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>selectiv</l>                                <r>selectiu</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>seleucid</l>                                <r>selèucida</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>semestrial</l>                              <r>semestral</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>semicircular</l>                            <r>semicircular</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>senatorial</l>                              <r>senatorial</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>separatist</l>                              <r>separatista</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>septic</l>                                  <r>sèptic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>seropozitiv</l>                             <r>seropositiu</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>sexagenar</l>                               <r>sexagenari</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>sexist</l>                                  <r>sexista</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>sfidător</l>                                <r>desfaiant</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>sfințit</l>                                 <r>santificat</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>sfruntat</l>                               <r>descarat</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>siderurgic</l>                              <r>siderúrgic</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>silabic</l>                                 <r>sil·làbic</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>simbolist</l>                               <r>simbolista</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>simplificator</l>                           <r>simplificador</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>simplist</l>                                <r>simplista</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>simultaneist</l>                            <r>simultaneïsta</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>sincopat</l>                                <r>sincopat</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>sincronist</l>                              <r>sincronista</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>sinergic</l>                                <r>sinèrgic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>sinodal</l>                                 <r>sinodal</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>sionist</l>                                 <r>sionista</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>slav</l>                                    <r>eslau</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>slut</l>                                   <r>lleig</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>socio-economic</l>                          <r>socioeconòmic</r></p><par n="4-4__adj"/></e>
+<e r="RL" a="delnou"><p><l>soldățesc</l>                              <r>soldadesc</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>solicitant</l>                              <r>sol·licitant</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>somatic</l>                                 <r>somàtic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>soteriologic</l>                            <r>soteriològic</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>stabilizant</l>                            <r>estabilitzador</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>stabilizator</l>                            <r>estabilitzador</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>staționar</l>                               <r>estacionari</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>stenic</l>                                  <r>reconstituent</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>stereotip</l>                               <r>estereotípic</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>stereotipat</l>                             <r>estereotipat</r></p><par n="4-4__adj"/></e>
+<e r="LR">          <p><l>stereotipic</l>                             <r>estereotípic</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>stilistic</l>                               <r>estilístic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>stomacal</l>                                <r>estomacal</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>stradal</l>                                 <r>de<b/>carrer</r></p><par n="4-1__adj"/></e>
+<e a="mioara">      <p><l>stresat</l>                                 <r>estressat</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="delnou"><p><l>structural</l>                             <r>estructural</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>sublingual</l>                              <r>sublingual</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>subînțeles</l>                              <r>sobreentès</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>sulfuric</l>                                <r>sulfúric</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>sunit</l>                                   <r>sunnita</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="mioara"><p><l>superb</l>                                 <r>magnífic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>săpunos</l>                                 <r>sabonós</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>săsesc</l>                                  <r>saxó</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>tactic</l>                                  <r>tàctic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>tangent</l>                                 <r>tangent</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>tangențial</l>                              <r>tangencial</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>tarat</l>                                   <r>tarat</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>tarifar</l>                                 <r>aranzelari</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>telegrafic</l>                              <r>telegràfic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>telepatic</l>                               <r>telepàtic</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>tentant</l>                                <r>tentador</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>teologic</l>                                <r>teològic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>teuton</l>                                  <r>teutó</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>teutonic</l>                                <r>teutònic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>ticăloșit</l>                               <r>envilit</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>timpuriu</l>                                <r>primerenc</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>tipografic</l>                              <r>tipogràfic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>tipologic</l>                               <r>tipològic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>tiranic</l>                                 <r>tirànic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>titanic</l>                                 <r>titànic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>totalitar</l>                               <r>totalitari</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>totalitarist</l>                            <r>totalitarista</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>totemic</l>                                 <r>totèmic</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>trac</l>                                    <r>traci</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="delnou"><p><l>tracic</l>                                 <r>traci</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>tradiționalist</l>                          <r>tradicionalista</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>transatlantic</l>                           <r>transanlàntic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>tranșant</l>                                <r>tallant</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>tribal</l>                                  <r>tribal</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>tricolor</l>                                <r>tricolor</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>trienal</l>                                 <r>triennal</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>trifazat</l>                                <r>trifàsic</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>trifazic</l>                               <r>trifàsic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>trilateral</l>                              <r>trilateral</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>trilingv</l>                                <r>trilingüe</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>trimestrial</l>                             <r>trimestral</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>tripartit</l>                               <r>tripartit</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>trăit</l>                                   <r>vívid</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>tuberculos</l>                              <r>tuberculós</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>târziu</l>                                  <r>tardà</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>ultranaționalist</l>                        <r>ultranacionalista</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>uniform</l>                                 <r>uniforme</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>unionist</l>                                <r>unionista</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>unitar</l>                                  <r>unitari</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>univoc</l>                                  <r>unívoc</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>urbanistic</l>                              <r>urbanístic</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>urinar</l>                                  <r>urinari</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>utilitar</l>                                <r>utilitari</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>valencian</l>                               <r>valencià</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>valetudinar</l>                             <r>valetudinari</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>valoric</l>                                 <r>valòric</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>variu</l>                                  <r>variat</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>vascular</l>                                <r>vascular</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>vasoconstrictor</l>                         <r>vasoconstrictor</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>vasodilatator</l>                           <r>vasodilatador</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="delnou"><p><l>veritabil</l>                              <r>veraç</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>versatil</l>                                <r>versàtil</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>vertebral</l>                               <r>vertebral</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>vertebrat</l>                               <r>vertebrat</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>veterinar</l>                               <r>veterinari</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>viager</l>                                  <r>vitalici</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>vienez</l>                                  <r>vienès</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>vietnamez</l>                               <r>vietnamita</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>vindicativ</l>                              <r>vindicatiu</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>vinețiu</l>                                 <r>moradenc</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>violaceu</l>                                <r>violaci</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>violet</l>                                  <r>violeta</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>vizigot</l>                                 <r>visigot</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>vizionar</l>                                <r>visionari</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>votiv</l>                                   <r>votiu</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>vremelnic</l>                               <r>temporal</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>vânăt</l>                                   <r>lívid</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>zodiacal</l>                                <r>zodiacal</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="mioara"><p><l>zvăpăiat</l>                               <r>enjogassat</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>zăbrelit</l>                                <r>enreixat</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>împovărător</l>                             <r>aclaparador</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>începător</l>                               <r>principiant</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="mioara"><p><l>îndelung</l>                               <r>llarg</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>îndesat</l>                                 <r>farcit</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>îndrăgostit<b/>lulea</l>                    <r>bojament<b/>enamorat</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>înfloritor</l>                              <r>florent</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>înscăunat</l>                               <r>entronitzat</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>șiit</l>                                    <r>xiïta</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>știrb</l>                                   <r>desdentat</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>știutor</l>                                <r>coneixedor</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>țigănesc</l>                               <r>gitano</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>țăcănit</l>                                <r>guillat</r></p><par n="4-4__adj"/></e>
 
 <!-- Adverbis -->
 
@@ -11734,6 +11903,129 @@
 <e>                 <p><l>Xàtiva<s n="np"/><s n="top"/></l>           <r>Xàtiva<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Xelva<s n="np"/><s n="top"/></l>            <r>Xelva<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Xiva<b/>de<b/>Bunyol<s n="np"/><s n="top"/></l><r>Xiva<b/>de<b/>Bunyol<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Abadan<s n="np"/><s n="top"/></l>           <r>Abadan<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Abhazia<s n="np"/><s n="top"/></l>          <r>Abkhàzia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Abidjan<s n="np"/><s n="top"/></l>          <r>Abidjan<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Adelaide<s n="np"/><s n="top"/></l>         <r>Adelaida<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Aden<s n="np"/><s n="top"/></l>             <r>Aden<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Adrianopol<s n="np"/><s n="top"/></l>       <r>Andrinópolis<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Afganistan<s n="np"/><s n="top"/></l>       <r>Afganistan<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Ahaia<s n="np"/><s n="top"/></l>            <r>Acaia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Albion<s n="np"/><s n="top"/></l>           <r>Albió<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Alexandria<s n="np"/><s n="top"/></l>       <r>Alexandria<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Alger<s n="np"/><s n="top"/></l>            <r>Argel<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Algeria<s n="np"/><s n="top"/></l>          <r>Argèlia<s n="np"/><s n="top"/></r></p></e>
+<e a="delnou">      <p><l>Amazon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Amazones<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Americi<s n="np"/><s n="top"/></l>          <r>Amèriques<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Amman<s n="np"/><s n="top"/></l>            <r>Amman<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Amsterdam<s n="np"/><s n="top"/></l>        <r>Àmsterdam<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Anatolia<s n="np"/><s n="top"/></l>         <r>Anatòlia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Andaluzia<s n="np"/><s n="top"/></l>        <r>Andalusia<s n="np"/><s n="top"/></r></p></e>
+<e r="LR" a="mioara"><p><l>Andora<s n="np"/><s n="top"/></l>          <r>Andorra<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Andorra<s n="np"/><s n="top"/></l>          <r>Andorra<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Angola<s n="np"/><s n="top"/></l>           <r>Angola<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Annapolis<s n="np"/><s n="top"/></l>        <r>Annapolis<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Antarctica<s n="np"/><s n="top"/></l>       <r>Antàrtida<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Antile<s n="np"/><s n="top"/></l>           <r>Antilles<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Antiohia<s n="np"/><s n="top"/></l>         <r>Antioquia<s n="np"/><s n="top"/></r></p></e>
+<e r="LR" a="mioara"><p><l>Antwerpen<s n="np"/><s n="top"/></l>       <r>Anvers<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Anvers<s n="np"/><s n="top"/></l>           <r>Anvers<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Apalași<s n="np"/><s n="top"/></l>          <r>Apalatxes<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Apenini<s n="np"/><s n="top"/></l>          <r>Apenins<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Aquitania<s n="np"/><s n="top"/></l>        <r>Aquitània<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Arabia<s n="np"/><s n="top"/></l>           <r>Aràbia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Aragon<s n="np"/><s n="top"/></l>           <r>Aragó<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Argentina<s n="np"/><s n="top"/></l>        <r>Argentina<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Armenia<s n="np"/><s n="top"/></l>          <r>Armènia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Astrahan<s n="np"/><s n="top"/></l>         <r>Àstrakhan<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Atena<s n="np"/><s n="top"/></l>            <r>Atenes<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Azerbaidjan<s n="np"/><s n="top"/></l>      <r>Azerbaidjan<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Așhabad<s n="np"/><s n="top"/></l>          <r>Aixkhabad<s n="np"/><s n="top"/></r></p></e>
+<e a="delnou">      <p><l>Bagdad<s n="np"/><s n="top"/></l>           <r>Bagdad<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Balaton<s n="np"/><s n="top"/></l>          <r>Balaton<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Baleare<s n="np"/><s n="top"/></l>          <r>Balears<s n="np"/><s n="top"/></r></p></e>
+<e a="delnou">      <p><l>Barcelona<s n="np"/><s n="top"/></l>        <r>Barcelona<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Bavaria<s n="np"/><s n="top"/></l>          <r>Baviera<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Beijing<s n="np"/><s n="top"/></l>          <r>Pekín<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Beoția<s n="np"/><s n="top"/></l>           <r>Beòcia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Berezina<s n="np"/><s n="top"/></l>         <r>Beresina<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Berna<s n="np"/><s n="top"/></l>            <r>Berna<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Bonn<s n="np"/><s n="top"/></l>             <r>Bonn<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Bosnia<s n="np"/><s n="top"/></l>           <r>Bòsnia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Bratislava<s n="np"/><s n="top"/></l>       <r>Bratislava<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Bruxelles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Brussel·les<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Butan<s n="np"/><s n="top"/></l>            <r>Bhutan<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Calcutta<s n="np"/><s n="top"/></l>         <r>Calcuta<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>California<s n="np"/><s n="top"/></l>       <r>Califòrnia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Cambodgia<s n="np"/><s n="top"/></l>        <r>Cambodja<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Camerun<s n="np"/><s n="top"/></l>          <r>Camerun<s n="np"/><s n="top"/></r></p></e>
+<e a="delnou">      <p><l>Canada<s n="np"/><s n="top"/><s n="f"/></l> <r>Canadà<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Canare<s n="np"/><s n="top"/></l>           <r>Canàries<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Catalunia<s n="np"/><s n="top"/></l>        <r>Catalunya<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Caucaz<s n="np"/><s n="top"/></l>           <r>Caucas<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Chișinău<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Chisinau<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Cipru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Xipre<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Cracovia<s n="np"/><s n="top"/></l>         <r>Cracòvia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Dobrogea<s n="np"/><s n="top"/></l>         <r>Dobruja<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Dubai<s n="np"/><s n="top"/></l>            <r>Dubai<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Erevan<s n="np"/><s n="top"/></l>           <r>Ierevan<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Florența<s n="np"/><s n="top"/></l>         <r>Florència<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Florida<s n="np"/><s n="top"/></l>          <r>Florida<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Galicia<s n="np"/><s n="top"/></l>          <r>Galícia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Georgia<s n="np"/><s n="top"/></l>          <r>Geòrgia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Gibraltar<s n="np"/><s n="top"/></l>        <r>Gibraltar<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Helsinki<s n="np"/><s n="top"/><s n="sg"/></l><r>Hèlsinki<s n="np"/><s n="top"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Herțegovina<s n="np"/><s n="top"/></l>      <r>Herzegovina<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Indonezia<s n="np"/><s n="top"/></l>        <r>Indonèsia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Iordan<s n="np"/><s n="top"/></l>           <r>Jordà<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Islamabad<s n="np"/><s n="top"/></l>        <r>Islamabad<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Jamaica<s n="np"/><s n="top"/></l>          <r>Jamaica<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Kremlin<s n="np"/><s n="top"/></l>          <r>Kremlin<s n="np"/><s n="top"/></r></p></e>
+<e a="delnou">      <p><l>Kyoto<s n="np"/><s n="top"/></l>            <r>Kyoto<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Laponia<s n="np"/><s n="top"/></l>          <r>Lapònia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Liban<s n="np"/><s n="top"/></l>            <r>Líban<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Liberia<s n="np"/><s n="top"/></l>          <r>Libèria<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Libia<s n="np"/><s n="top"/></l>            <r>Líbia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Lisabona<s n="np"/><s n="top"/></l>         <r>Lisboa<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Marburg<s n="np"/><s n="top"/></l>          <r>Marburg<s n="np"/><s n="top"/></r></p></e>
+<e a="delnou">      <p><l>Marrakesh<s n="np"/><s n="top"/></l>        <r>Marràqueix<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Meca<s n="np"/><s n="top"/></l>             <r>la<b/>Meca<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Medina<s n="np"/><s n="top"/></l>           <r>Medina<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Mendoza<s n="np"/><s n="top"/></l>          <r>Mendoza<s n="np"/><s n="top"/></r></p></e>
+<e a="delnou">      <p><l>Mexic<s n="np"/><s n="top"/></l>            <r>Mèxic<s n="np"/><s n="top"/></r></p></e>
+<e a="delnou">      <p><l>Nairobi<s n="np"/><s n="top"/></l>          <r>Nairobi<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Nicosia<s n="np"/><s n="top"/></l>          <r>Nicòsia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Nigeria<s n="np"/><s n="top"/></l>          <r>Nigèria<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Nil<s n="np"/><s n="top"/></l>              <r>Nil<s n="np"/><s n="top"/></r></p></e>
+<e a="delnou">      <p><l>Oceania<s n="np"/><s n="top"/></l>          <r>Oceania<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Pakistan<s n="np"/><s n="top"/></l>         <r>Pakistan<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Palermo<s n="np"/><s n="top"/></l>          <r>Palerm<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Palestina<s n="np"/><s n="top"/></l>        <r>Palestina<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Persia<s n="np"/><s n="top"/></l>           <r>Pèrsia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Pirinei<s n="np"/><s n="top"/></l>          <r>Pirineus<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Prusia<s n="np"/><s n="top"/></l>           <r>Prússia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Ruanda<s n="np"/><s n="top"/></l>           <r>Ruanda<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Sankt<b/>Petersburg<s n="np"/><s n="top"/></l><r>Sant<b/>Petersburg<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Sarajevo<s n="np"/><s n="top"/></l>         <r>Sarajevo<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Siria<s n="np"/><s n="top"/></l>            <r>Síria<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Slobozia<s n="np"/><s n="top"/></l>         <r>Slobozia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Tbilisi<s n="np"/><s n="top"/></l>          <r>Tbilisi<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Teheran<s n="np"/><s n="top"/></l>          <r>Teheran<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Tibet<s n="np"/><s n="top"/></l>            <r>Tíbet<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Tighina<s n="np"/><s n="top"/></l>          <r>Tighina<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Tiraspol<s n="np"/><s n="top"/></l>         <r>Tiraspol<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Tracia<s n="np"/><s n="top"/></l>           <r>Tràcia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Transnistria<s n="np"/><s n="top"/></l>     <r>Transnístria<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Tubingen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tübingen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Varșovia<s n="np"/><s n="top"/></l>         <r>Varsòvia<s n="np"/><s n="top"/></r></p></e>
+<e r="LR" a="mioara"><p><l>Vestfalia<s n="np"/><s n="top"/></l>       <r>Vestfàlia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Viena<s n="np"/><s n="top"/></l>            <r>Viena<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Vilnius<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Vilna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Vistula<s n="np"/><s n="top"/></l>          <r>Vístula<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Volga<s n="np"/><s n="top"/></l>            <r>Volga<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Westfalia<s n="np"/><s n="top"/></l>        <r>Vestfàlia<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Zimbabwe<s n="np"/><s n="top"/></l>         <r>Zimbàbue<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Țări<b/>de<b/>Jos<s n="np"/><s n="top"/><s n="f"/></l><r>Països<b/>Baixos<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 
 
 <!-- Antropònims -->
@@ -12146,6 +12438,7 @@
 <e>                 <p><l>Disney<s n="np"/><s n="al"/></l>            <r>Disney<s n="np"/><s n="al"/></r></p></e>
 <e>                 <p><l>Discovery<s n="np"/><s n="al"/></l>         <r>Discovery<s n="np"/><s n="al"/></r></p></e>
 <e>                 <p><l>Dumnezeu<s n="np"/><s n="al"/></l>          <r>Déu<s n="np"/><s n="al"/></r></p></e>
+<e a="delnou">      <p><l>Europol<s n="np"/><s n="al"/></l>           <r>Europol<s n="np"/><s n="al"/></r></p></e>
 <e>                 <p><l>Ford<s n="np"/><s n="al"/><s n="nt"/></l>   <r>Ford<s n="np"/><s n="al"/><s n="m"/></r></p></e>
 <e>                 <p><l>Poliție<s n="np"/><s n="al"/></l>           <r>Policia<s n="np"/><s n="al"/></r></p></e>
 <e a="delnou">      <p><l>Wikipedia<s n="np"/><s n="al"/></l>         <r>Viquipèdia<s n="np"/><s n="al"/></r></p></e>
@@ -14871,6 +15164,121 @@
 <e a="delnou">      <p><l>fi<g><b/>de<b/>înțeles</g><s n="vblex"/></l><r>ser<g><b/>comprensible</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>nevoie</g><s n="vblex"/></l>       <r>ser<g><b/>necessari</g><s n="vblex"/></r></p></e>
 
+<e a="mioara">      <p><l>adverbializa<s n="vblex"/></l>              <r>adverbialitzar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ajunge<g><b/>la<b/>liman</g><s n="vblex"/></l><r>aboiar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>alcaliniza<s n="vblex"/></l>                <r>alcalinitzar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>amplifica<s n="vblex"/></l>                 <r>amplificar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>aprinde<g><b/>la<b/>față</g><s n="vblex"/></l><r>posar<g><b/>vermell</g><s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>apuca<g><b/>de<b/>băut</g><s n="vblex"/></l><r>beure<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>arginta<s n="vblex"/></l>                   <r>platejar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>axa<s n="vblex"/></l>                       <r>centrar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>așterne<s n="vblex"/></l>                  <r>estendre<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>bate<g><b/>la<b/>ochi</g><s n="vblex"/></l> <r>cridar<g><b/>l'atenció</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>bate<g><b/>în<b/>lemn</g><s n="vblex"/></l> <r>tocar<g><b/>fusta</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>bate<g>la<b/>ușă</g><s n="vblex"/></l>      <r>trucar<g>a<b/>la<b/>porta</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>bea<g><b/>până<b/>la<b/>fund</g><s n="vblex"/></l><r>apurar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>blagoslovi<s n="vblex"/></l>               <r>beneir<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>blegi<s n="vblex"/></l>                     <r>estovar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>blinda<s n="vblex"/></l>                    <r>blindar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>bracona<s n="vblex"/></l>                   <r>caçar<g><b/>furtivament</g><s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>branșa<s n="vblex"/></l>                   <r>connectar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>cantona<s n="vblex"/></l>                   <r>acantonar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>capitula<s n="vblex"/></l>                  <r>capitular<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>caria<s n="vblex"/></l>                     <r>cariar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>castra<s n="vblex"/></l>                    <r>castrar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>catagrafia<s n="vblex"/></l>               <r>inventariar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>cerne<s n="vblex"/></l>                     <r>cernir<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>chinui<s n="vblex"/></l>                    <r>turmentar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>ciocăni<g>la<b/>ușă</g><s n="vblex"/></l>   <r>tocar<g>la<b/>puerta</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>compatibiliza<s n="vblex"/></l>             <r>compatibilitzar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>concluziona<s n="vblex"/></l>              <r>concloure<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>conta<s n="vblex"/></l>                    <r>importar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>coresponda<s n="vblex"/></l>                <r>mantener<g><b/>correspondencia</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>curta<s n="vblex"/></l>                     <r>cortejar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>cădea<g><b/>bolnav</g><s n="vblex"/></l>    <r>emmalaltir<s n="vblex"/></r></p></e>
+<e r="LR" a="delnou"><p><l>cădea<g><b/>la<b/>pat</g><s n="vblex"/></l><r>emmalaltir<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>da<g><b/>cu<b/>dobândă</g><s n="vblex"/></l><r>prestar<g><b/>a<b/>interés</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>da<g><b/>pe<b/>brazdă</g><s n="vblex"/></l> <r>portar<g><b/>pel<b/>bon<b/>camí</g><s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>deplânge<s n="vblex"/></l>                 <r>deplorar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>discerne<s n="vblex"/></l>                  <r>discernir<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>diviza<s n="vblex"/></l>                   <r>dividir<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>ecraniza<s n="vblex"/></l>                  <r>dur<g>a<b/>la<b/>pantalla</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>egala<s n="vblex"/></l>                     <r>igualar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>enumera<s n="vblex"/></l>                   <r>enumerar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>evangheliza<s n="vblex"/></l>               <r>evangelitzar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>evolua<s n="vblex"/></l>                    <r>evolucionar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>excava<s n="vblex"/></l>                    <r>excavar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>extrapola<s n="vblex"/></l>                 <r>extrapolar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>fi<g><b/>stăpân<b/>pe<b/>situație</g><s n="vblex"/></l><r>ser<g><b/>dueño<b/>de<b/>la<b/>situación</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>figura<s n="vblex"/></l>                    <r>figurar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>fluctua<s n="vblex"/></l>                   <r>fluctuar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>gravita<s n="vblex"/></l>                   <r>gravitar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>grupa<s n="vblex"/></l>                     <r>agrupar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>gâfâi<s n="vblex"/></l>                     <r>jadear<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>ieși<g><b/>la<b/>liman</g><s n="vblex"/></l><r>aboiar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>impurifica<s n="vblex"/></l>                <r>impurificar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>insera<s n="vblex"/></l>                    <r>inserir<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>inventaria<s n="vblex"/></l>                <r>inventariar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>iriga<s n="vblex"/></l>                     <r>irrigar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>lista<s n="vblex"/></l>                    <r>imprimir<s n="vblex"/></r></p></e>
+<e r="LR" a="????????????mioara"><p><l>lua<g><b/>înapoi</g><s n="vblex"/></l><r>recobrar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>lumina<g><b/>de<b/>ziuă</g><s n="vblex"/></l><r>fer<g><b/>de<b/>dia</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>lustrui<s n="vblex"/></l>                   <r>llustrar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>lărgi<s n="vblex"/></l>                     <r>ampliar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>lăuda<s n="vblex"/></l>                     <r>lloar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>mira<s n="vblex"/></l>                      <r>fascinar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>moderniza<s n="vblex"/></l>                 <r>modernitzar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>oficializa<s n="vblex"/></l>                <r>oficialitzar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>piti<s n="vblex"/></l>                     <r>amagar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>plesni<g><b/>din<b/>bici</g><s n="vblex"/></l><r>fuetejar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>pocni<s n="vblex"/></l>                     <r>bufetejar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>pocni<g><b/>din<b/>bici</g><s n="vblex"/></l><r>fuetejar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>printa<s n="vblex"/></l>                   <r>imprimir<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>profila<s n="vblex"/></l>                   <r>perfilar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>propaga<s n="vblex"/></l>                   <r>propagar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>rambursa<s n="vblex"/></l>                  <r>reemborsar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>raporta<s n="vblex"/></l>                  <r>informar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>rata<s n="vblex"/></l>                      <r>fallar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>readuce<s n="vblex"/></l>                   <r>tornar<g><b/>a<b/>portar</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>realege<s n="vblex"/></l>                   <r>reelegir<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>reanima<s n="vblex"/></l>                   <r>reanimar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>reauzi<s n="vblex"/></l>                    <r>tornar<g><b/>a<b/>sentir</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>recenza<s n="vblex"/></l>                   <r>reseñar<s n="vblex"/></r></p></e>
+<e r="LR" a="delnou"><p><l>recepționa<s n="vblex"/></l>               <r>rebre<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>reconcilia<s n="vblex"/></l>                <r>reconciliar<s n="vblex"/></r></p></e>
+<e r="LR" a="delnou"><p><l>reda<s n="vblex"/></l>                     <r>representar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>redeveni<s n="vblex"/></l>                  <r>tornar<g><b/>a<b/>ser</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>refuza<s n="vblex"/></l>                    <r>rebutjar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>reintra<s n="vblex"/></l>                   <r>tornar<g><b/>a<b/>entrar</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>releva<s n="vblex"/></l>                    <r>realçar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>retrăi<s n="vblex"/></l>                    <r>reviure<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>revanșa<s n="vblex"/></l>                   <r>prendre<g><b/>la<b/>revenja</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>revedea<s n="vblex"/></l>                   <r>tornar<g><b/>a<b/>veure</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>reînvia<s n="vblex"/></l>                   <r>reavivar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>robi<s n="vblex"/></l>                      <r>esclavitzar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>rugini<s n="vblex"/></l>                    <r>aherrumbrar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>scinda<s n="vblex"/></l>                    <r>escindir<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>scurtcircuita<s n="vblex"/></l>             <r>curtcircuitar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>scârțâi<s n="vblex"/></l>                  <r>grinyolar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>sfârâi<s n="vblex"/></l>                    <r>grinyolar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>sluți<s n="vblex"/></l>                    <r>enlletgir<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>sta<g><b/>ca<b/>pe<b/>jar</g><s n="vblex"/></l><r>estar<g><b/>en<b/>ascuas</g><s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>sta<g><b/>ca<b/>pe<b/>jeratic</g><s n="vblex"/></l><r>estar<g><b/>en<b/>ascuas</g><s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>sta<g><b/>ca<b/>pe<b/>jăratic</g><s n="vblex"/></l><r>estar<g><b/>en<b/>ascuas</g><s n="vblex"/></r></p></e>
+<e r="LR" a="delnou"><p><l>subintitula<s n="vblex"/></l>              <r>subtitular<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>suna<g>la<b/>ușă</g><s n="vblex"/></l>      <r>trucar<g>al<b/>timbre</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>săpa<s n="vblex"/></l>                      <r>excavar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>trage<g><b/>la<b/>răspundere</g><s n="vblex"/></l><r>cridar<g><b/>a<b/>capítol</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>urâți<s n="vblex"/></l>                     <r>enlletgir<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>zdruncina<s n="vblex"/></l>                 <r>batzegar<s n="vblex"/></r></p></e>
+<e r="LR" a="delnou"><p><l>împotrivi<s n="vblex"/></l>                <r>oposar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>împunge<s n="vblex"/></l>                   <r>punxar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>împăduri<s n="vblex"/></l>                  <r>poblar<g><b/>d'arbres</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>împărtăși<s n="vblex"/></l>                 <r>compartir<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>înjumătăți<s n="vblex"/></l>                <r>reduir<g><b/>a<b/>la<b/>meitat</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>înlătura<s n="vblex"/></l>                  <r>apartar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>învia<s n="vblex"/></l>                     <r>ressucitar<s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>șicana<s n="vblex"/></l>                   <r>fotre<s n="vblex"/></r></p></e>
 
     <!--  <e>
         <p>

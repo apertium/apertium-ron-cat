@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 14890
+	Entries: 15469
 	Sdefs: 78
 	Paradigms: 10
 
@@ -11640,6 +11640,588 @@
 <e>                 <p><l>organ<s n="n"/></l>                         <r>orgue<s n="n"/></r></p></e>
 <e>                 <p><l>liliac<s n="n"/></l>                        <r>ratpenat<s n="n"/></r></p></e>
 <e>                 <p><l>nuntă<s n="n"/></l>                         <r>casament<s n="n"/></r></p></e>
+
+<e r="LR" a="mioara"><p><l>abandonare<s n="n"/><s n="f"/></l>         <r>abandonament<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>abolire<s n="n"/></l>                       <r>abolició<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>absenteism<s n="n"/><s n="nt"/></l>         <r>absentisme<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>absorbire<s n="n"/></l>                    <r>absorció<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>absorbție<s n="n"/></l>                     <r>absorció<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>abstinență<s n="n"/></l>                    <r>abstinència<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>abstracționism<s n="n"/><s n="nt"/></l>     <r>abstraccionisme<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>abstracțiune<s n="n"/></l>                 <r>abstracció<s n="n"/></r></p></e>
+<e r="LR" a="delnou"><p><l>abstragere<s n="n"/></l>                   <r>abstracció<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>abulie<s n="n"/></l>                        <r>abúlia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>abțibild<s n="n"/><s n="nt"/></l>           <r>calcomania<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>abținere<s n="n"/></l>                      <r>abstenció<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>acadea<s n="n"/></l>                        <r>piruleta<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>academism<s n="n"/><s n="nt"/></l>          <r>academicisme<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>accelerare<s n="n"/></l>                   <r>acceleració<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>accepție<s n="n"/></l>                     <r>acepció<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>accepțiune<s n="n"/></l>                    <r>acepció<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>achiziționare<s n="n"/></l>                <r>adquisició<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>acoladă<s n="n"/><s n="f"/></l>             <r>claudàtor<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acoperământ<s n="n"/><s n="nt"/></l>       <r>coberta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="mioara"><p><l>acordeonist<s n="n"/><s n="GD"/></l>       <r>acordionista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acordeonist<s n="n"/><s n="m"/></l>        <r>acordionista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acordeonist<s n="n"/><s n="f"/></l>        <r>acordionista<s n="n"/><s n="mf"/></r></p></e>
+<e a="delnou">      <p><l>acquis<s n="n"/><s n="nt"/></l>             <r>cabal<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>acreditare<s n="n"/></l>                    <r>acreditació<s n="n"/></r></p></e>
+<e r="RL" a="mioara"><p><l>acrobat<s n="n"/><s n="GD"/></l>           <r>acròbata<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acrobat<s n="n"/><s n="m"/></l>            <r>acròbata<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acrobat<s n="n"/><s n="f"/></l>            <r>acròbata<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>acromegalie<s n="n"/></l>                   <r>acromegàlia<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acroțare<s n="n"/><s n="f"/></l>           <r>enganxall<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>action-painting<s n="n"/><s n="nt"/></l>    <r>action-painting<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>action<b/>painting<s n="n"/><s n="nt"/></l> <r>action<b/>painting<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>actualizare<s n="n"/></l>                   <r>actualització<s n="n"/></r></p></e>
+<e r="RL" a="mioara"><p><l>acuarelist<s n="n"/><s n="GD"/></l>        <r>aquarelista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acuarelist<s n="n"/><s n="m"/></l>         <r>aquarelista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acuarelist<s n="n"/><s n="f"/></l>         <r>aquarelista<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>acupunctură<s n="n"/></l>                   <r>acupuntura<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acuratețe<s n="n"/><s n="f"/></l>          <r>cura<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acuză<s n="n"/></l>                        <r>acusació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>addenda<s n="n"/></l>                       <r>addenda<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>adenom<s n="n"/><s n="nt"/></l>             <r>adenoma<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>adenopatie<s n="n"/></l>                    <r>adenopatia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aderență<s n="n"/></l>                      <r>adherència<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>adicție<s n="n"/></l>                       <r>adicció<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>adiere<s n="n"/><s n="f"/></l>             <r>bufada<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>adrenalină<s n="n"/></l>                    <r>adrenalina<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>aducere<b/>la<b/>cunoștință<s n="n"/></l>  <r>notificaciónç<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aducere<b/>la<b/>zi<s n="n"/></l>           <r>posada<b/>al<b/>dia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>adulare<s n="n"/></l>                       <r>adulació<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>adulație<s n="n"/></l>                     <r>adulació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>adunătură<s n="n"/><s n="f"/></l>           <r>pasterada<s n="n"/><s n="f"/></r></p></e>
+<e a="delnou">      <p><l>adverb<s n="n"/><s n="nt"/></l>             <r>adverbi<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>adverbializare<s n="n"/></l>                <r>adverbialització<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>adâncire<s n="n"/><s n="f"/></l>            <r>enfondiment<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>adăugare<s n="n"/></l>                      <r>agregació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aeroclub<s n="n"/><s n="nt"/></l>           <r>aeroclub<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>aerofagie<s n="n"/></l>                     <r>aerofàgia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aerofobie<s n="n"/></l>                     <r>aerofòbia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aeromodelism<s n="n"/><s n="nt"/></l>       <r>aeromodelisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>aeronautică<s n="n"/></l>                   <r>aeronàutica<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aerosol<s n="n"/></l>                       <r>aerosol<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aeroterapie<s n="n"/></l>                   <r>aeroteràpia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>afazie<s n="n"/></l>                        <r>afàsia<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>afiliație<s n="n"/></l>                    <r>afiliació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>afiliere<s n="n"/></l>                      <r>afiliació<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>afișare<s n="n"/></l>                      <r>exposició<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>afonie<s n="n"/></l>                        <r>afonia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>afront<s n="n"/><s n="nt"/></l>             <r>afrontament<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>agasare<s n="n"/></l>                      <r>irritació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>agată<s n="n"/></l>                         <r>àgata<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>agiotaj<s n="n"/><s n="nt"/></l>            <r>agiotatge<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>agnosticism<s n="n"/><s n="nt"/></l>        <r>agnosticisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>agorafobie<s n="n"/></l>                    <r>agorafòbia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>agrafă<s n="n"/><s n="f"/></l>              <r>fermall<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>agregat<s n="n"/><s n="nt"/></l>            <r>agregat<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>agrement<s n="n"/><s n="nt"/></l>           <r>pati<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>alan<s n="n"/></l>                          <r>alà<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>albinuță<s n="n"/></l>                      <r>abelleta<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>albinărel<s n="n"/></l>                    <r>abellerol<s n="n"/></r></p></e>
+<e r="RL" a="mioara"><p><l>alchimist<s n="n"/><s n="GD"/></l>         <r>alquimista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>alchimist<s n="n"/><s n="m"/></l>          <r>alquimista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>alchimist<s n="n"/><s n="f"/></l>          <r>alquimista<s n="n"/><s n="mf"/></r></p></e>
+<e a="delnou">      <p><l>aldehidă<s n="n"/><s n="f"/></l>            <r>aldehid<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>alegorie<s n="n"/></l>                      <r>al·legoria<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>alergologie<s n="n"/></l>                   <r>al·lergologia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>alergătură<s n="n"/><s n="f"/></l>          <r>atrafegament<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>alică<s n="n"/><s n="f"/></l>               <r>perdigó<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>alienare<s n="n"/></l>                      <r>alienació<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>alifie<s n="n"/></l>                       <r>pomada<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aliniere<s n="n"/></l>                      <r>alineació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>alopatie<s n="n"/></l>                      <r>al·lopatia<s n="n"/></r></p></e>
+<e r="RL" a="mioara"><p><l>alpinist<s n="n"/><s n="GD"/></l>          <r>alpinista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>alpinist<s n="n"/><s n="m"/></l>           <r>alpinista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>alpinist<s n="n"/><s n="f"/></l>           <r>alpinista<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>alteritate<s n="n"/></l>                    <r>alteritat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>alternanță<s n="n"/></l>                    <r>alternança<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>alură<s n="n"/><s n="f"/></l>               <r>porte<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>aluvionare<s n="n"/><s n="f"/></l>         <r>al·luvió<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>aluviune<s n="n"/><s n="f"/></l>            <r>al·luvió<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>aluzie<s n="n"/></l>                        <r>al·lusió<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>amalgamare<s n="n"/><s n="f"/></l>          <r>amalgament<s n="n"/><s n="m"/></r></p></e>
+
+
+<e r="LR" a="mioara"><p><l>amanetare<s n="n"/><s n="f"/></l>          <r>empeño<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ambarcațiune<s n="n"/></l>                 <r>embarcació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>ameliorare<s n="n"/></l>                    <r>millora<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>amenajare<s n="n"/><s n="f"/></l>           <r>acondicionamient<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>amenoree<s n="n"/></l>                      <r>amenorrea<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>amiază<s n="n"/><s n="f"/></l>             <r>midgia<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>amibă<s n="n"/></l>                         <r>ameba<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>amiciție<s n="n"/></l>                     <r>amistat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>amidon<s n="n"/><s n="nt"/></l>             <r>almidó<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>amigdalită<s n="n"/></l>                    <r>amigdalitis<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>amnezie<s n="n"/></l>                       <r>amnèsia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>amnistie<s n="n"/></l>                      <r>amnistia<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>amnistiere<s n="n"/></l>                   <r>amnistia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>amoniac<s n="n"/><s n="nt"/></l>            <r>amoníac<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>amorțire<s n="n"/><s n="f"/></l>            <r>adormecimiento<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>amplificare<s n="n"/></l>                   <r>ampliació<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>amplificație<s n="n"/></l>                  <r>amplificació<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>amprentă<s n="n"/></l>                      <r>impronta<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>amurg<s n="n"/><s n="nt"/></l>              <r>ocàs<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>amvon<s n="n"/><s n="nt"/></l>              <r>púlpit<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>amăgire<s n="n"/><s n="f"/></l>             <r>engany<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>anagramă<s n="n"/><s n="f"/></l>            <r>anagrama<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>anarhie<s n="n"/></l>                       <r>anarquia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>anason<s n="n"/></l>                        <r>anís<s n="n"/></r></p></e>
+<e r="RL" a="mioara"><p><l>anatomist<s n="n"/><s n="GD"/></l>         <r>anatomista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>anatomist<s n="n"/><s n="m"/></l>          <r>anatomista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>anatomist<s n="n"/><s n="f"/></l>          <r>anatomista<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>ancadrament<s n="n"/><s n="nt"/></l>        <r>encuadramiento<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>anchetare<s n="n"/></l>                    <r>indagación<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>andropauză<s n="n"/></l>                    <r>andropausia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>anestezic<s n="n"/><s n="nt"/></l>          <r>anestèsic<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>anestezie<s n="n"/></l>                     <r>anestèsia<s n="n"/></r></p></e>
+<e r="RL" a="mioara"><p><l>anestezist<s n="n"/><s n="GD"/></l>        <r>anestesista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>anestezist<s n="n"/><s n="m"/></l>         <r>anestesista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>anestezist<s n="n"/><s n="f"/></l>         <r>anestesista<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>anevrism<s n="n"/><s n="nt"/></l>           <r>aneurisma<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>angevin<s n="n"/></l>                       <r>angeví<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>angină<s n="n"/></l>                        <r>angina<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>angrenaj<s n="n"/><s n="nt"/></l>           <r>engranatge<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>anihilare<s n="n"/></l>                     <r>aniquil·lació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>animozitate<s n="n"/></l>                   <r>animositat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>anod<s n="n"/></l>                          <r>ànode<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>anomalie<s n="n"/></l>                      <r>anomalia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>anonimat<s n="n"/><s n="nt"/></l>           <r>anonimat<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>anormalitate<s n="n"/></l>                  <r>anormalitat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>antagonism<s n="n"/><s n="nt"/></l>         <r>antagonisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>antebraț<s n="n"/><s n="nt"/></l>           <r>avantbraç<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>antecesor<s n="n"/></l>                     <r>antecessor<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>anterioritate<s n="n"/></l>                 <r>anterioritat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>antibiotic<s n="n"/><s n="nt"/></l>         <r>antibiòtic<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>anticoncepțional<s n="n"/><s n="nt"/></l>   <r>anticonceptiu<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>antidepresiv<s n="n"/><s n="nt"/></l>       <r>antidepressiu<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>antigel<s n="n"/><s n="nt"/></l>            <r>anticongelant<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>antigen<s n="n"/><s n="nt"/></l>            <r>antígen<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>antimoniu<s n="n"/><s n="nt"/></l>          <r>antimoni<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>antinevralgic<s n="n"/><s n="nt"/></l>      <r>antineuràlgic<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>antipiretic<s n="n"/><s n="nt"/></l>        <r>antipirètic<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>antitradiționalism<s n="n"/><s n="nt"/></l> <r>antitradicionalisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>antologie<s n="n"/></l>                     <r>antologia<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>antren<s n="n"/><s n="nt"/></l>            <r>vivacitat<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>antrepriză<s n="n"/></l>                    <r>contracta<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>antropolog<s n="n"/></l>                    <r>antropòleg<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>antropologie<s n="n"/></l>                  <r>antropologia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>anuar<s n="n"/><s n="nt"/></l>              <r>anuari<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>anvelopă<s n="n"/></l>                      <r>coberta<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>apanaj<s n="n"/><s n="nt"/></l>            <r>privilegi<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>apatie<s n="n"/></l>                        <r>apatia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>apel<b/>telefonic<s n="n"/><s n="nt"/></l>  <r>trucada<b/>telefònica<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>apetență<s n="n"/></l>                      <r>apetència<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aplanare<s n="n"/></l>                      <r>mitigació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aplazie<s n="n"/></l>                       <r>aplòsia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>apocalips<s n="n"/><s n="nt"/></l>          <r>apocalipsi<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>apocalipsă<s n="n"/><s n="f"/></l>         <r>apocalipsi<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>apofiză<s n="n"/></l>                       <r>apòfisi<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>apologetică<s n="n"/></l>                   <r>apologètica<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>apologie<s n="n"/></l>                      <r>apologia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>apoplexie<s n="n"/></l>                     <r>apoplexia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aporie<s n="n"/></l>                        <r>aporia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>apostilă<s n="n"/></l>                      <r>postil·la<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>apostolat<s n="n"/><s n="nt"/></l>          <r>apostolat<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>apostolie<s n="n"/><s n="f"/></l>          <r>apostolat<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>apostrof<s n="n"/><s n="nt"/></l>           <r>apòstrof<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>apoteoză<s n="n"/></l>                      <r>apoteosi<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>apoziție<s n="n"/></l>                      <r>aposició<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aprindere<b/>de<b/>plămâni<s n="n"/></l>    <r>congestió<b/>pulmonar<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aprinzător<s n="n"/><s n="nt"/></l>         <r>encenedor<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>aprovizionare<s n="n"/><s n="f"/></l>       <r>abastament<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>aproximare<s n="n"/></l>                   <r>aproximació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aproximație<s n="n"/></l>                   <r>aproximació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>apă<b/>de<b/>băut<s n="n"/></l>             <r>aigua<b/>potable<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>arac<s n="n"/></l>                          <r>aspre<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aragoneză<s n="n"/><s n="f"/></l>           <r>aragonès<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>aramă<s n="n"/><s n="f"/></l>              <r>coure<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>aranjament<s n="n"/><s n="nt"/></l>         <r>arranjament<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>arat<s n="n"/><s n="nt"/></l>               <r>arada<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>arborare<s n="n"/></l>                     <r>elevació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>arcaș<s n="n"/></l>                         <r>arquer<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>arcuș<s n="n"/><s n="nt"/></l>             <r>arc<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ardere<s n="n"/></l>                       <r>combustió<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>arestare<s n="n"/></l>                     <r>detenció<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>argat<s n="n"/></l>                         <r>criat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>argint<s n="n"/><s n="nt"/></l>             <r>plata<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>argintărie<s n="n"/></l>                    <r>plateria<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>argon<s n="n"/><s n="nt"/></l>              <r>argó<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>arhaism<s n="n"/><s n="nt"/></l>            <r>arcaisme<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>arhetip<s n="n"/><s n="nt"/></l>            <r>arquetip<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>arhiduce<s n="n"/></l>                      <r>arxiduc<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>arhiepiscopie<s n="n"/><s n="f"/></l>       <r>arquebisbat<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>arhiereu<s n="n"/></l>                     <r>jerarca<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>arhivar<s n="n"/></l>                       <r>arxiver<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>arhivistică<s n="n"/></l>                   <r>arxivologia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>ariditate<s n="n"/></l>                     <r>aridesa<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>ariergardă<s n="n"/></l>                    <r>retaguàrdia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aristocrație<s n="n"/></l>                  <r>aristocràcia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>arlechin<s n="n"/></l>                      <r>arlequí<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>armator<s n="n"/></l>                       <r>armador<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>armean<s n="n"/></l>                        <r>armeni<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>armură<s n="n"/></l>                        <r>armadura<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>armătură<s n="n"/></l>                     <r>armadura<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>arpagic<s n="n"/><s n="nt"/></l>            <r>cebollí<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>arsen<s n="n"/><s n="nt"/></l>             <r>arsènic<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>art<b/>deco<s n="n"/><s n="f"/></l>         <r>art<b/>deco<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>art<b/>nouveau<s n="n"/><s n="f"/></l>      <r>art<b/>nouveau<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>arterită<s n="n"/></l>                      <r>arteritis<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>articol<b/>hotărât<s n="n"/><s n="nt"/></l> <r>article<b/>determinat<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>articol<b/>nehotărât<s n="n"/><s n="nt"/></l><r>article<b/>indeterminat<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="delnou"><p><l>articulare<s n="n"/></l>                   <r>articulació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>artilerist<s n="n"/></l>                    <r>artiller<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>artizan<s n="n"/></l>                       <r>artesà<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>artizanat<s n="n"/><s n="nt"/></l>          <r>artesania<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>artritism<s n="n"/><s n="nt"/></l>          <r>artritisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>artroză<s n="n"/></l>                       <r>artrosi<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>aruncător<s n="n"/></l>                     <r>llançador<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>arătură<s n="n"/></l>                       <r>llaurada<s n="n"/></r></p></e>
+<e r="RL" a="mioara"><p><l>ascet<s n="n"/><s n="GD"/></l>             <r>asceta<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ascet<s n="n"/><s n="m"/></l>              <r>asceta<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ascet<s n="n"/><s n="f"/></l>              <r>asceta<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>ascită<s n="n"/></l>                        <r>ascitis<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ascuțime<s n="n"/></l>                     <r>agudesa<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>ascuțiș<s n="n"/><s n="nt"/></l>            <r>tall<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>asediere<s n="n"/><s n="f"/></l>           <r>setge<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>asfaltare<s n="n"/><s n="f"/></l>           <r>asfaltat<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>asfințit<s n="n"/><s n="nt"/></l>          <r>ocàs<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>asfixie<s n="n"/></l>                       <r>asfíxia<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>asfixiere<s n="n"/></l>                    <r>asfíxia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>asiduitate<s n="n"/></l>                    <r>assiduïtat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>asigurare<b/>completă<s n="n"/><s n="f"/></l><r>assegurança<g><b/>a<b/>tot<b/>risc</g><s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>asin<s n="n"/></l>                          <r>ase<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>asistență<b/>de<b/>pre-aderare<s n="n"/></l><r>ajuda<g><b/>de<b/>preadhesió</g><s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>asperitate<s n="n"/></l>                   <r>aspror<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>aspic<s n="n"/><s n="nt"/></l>             <r>gelatina<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="mioara"><p><l>aspirant<s n="n"/><s n="GD"/></l>          <r>aspirant<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>aspirant<s n="n"/><s n="m"/></l>           <r>aspirant<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>aspirant<s n="n"/><s n="f"/></l>           <r>aspirant<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>astenie<s n="n"/></l>                       <r>astènia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>asteroid<s n="n"/></l>                      <r>asteroide<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>astigmatism<s n="n"/><s n="nt"/></l>        <r>astigmatisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>astm<s n="n"/><s n="nt"/></l>               <r>asma<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>astmatic<s n="n"/></l>                      <r>asmàtic<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>astmă<s n="n"/></l>                        <r>asma<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>astrofizician<s n="n"/></l>                 <r>astrofísic<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>astrofizică<s n="n"/></l>                   <r>astrofísica<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>astronom<s n="n"/></l>                      <r>astrònom<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>asuprire<s n="n"/></l>                     <r>opressió<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atacant<s n="n"/><s n="f"/></l>            <r>atacant<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL" a="mioara"><p><l>atacant<s n="n"/><s n="GD"/></l>           <r>atacant<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atacant<s n="n"/><s n="m"/></l>            <r>atacant<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atacator<s n="n"/></l>                     <r>agressor<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>atavism<s n="n"/><s n="nt"/></l>            <r>atavisme<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atașat<s n="n"/></l>                       <r>agregat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>atașat<b/>comercial<s n="n"/><s n="m"/></l> <r>agregat<b/>comercial<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>atașat<b/>cultural<s n="n"/><s n="m"/></l>  <r>agregat<b/>cultural<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>atașat<g><b/>de<b/>presă</g><s n="n"/><s n="m"/></l><r>agregat<g><b/>de<b/>premsa</g><s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>atașat<b/>militar<s n="n"/><s n="m"/></l>   <r>agregat<b/>militar<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>atașată<b/>comercială<s n="n"/><s n="f"/></l><r>agregat<b/>comercial<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>atașată<b/>culturală<s n="n"/><s n="f"/></l><r>agregat<b/>cultural<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>atașată<g><b/>de<b/>presă</g><s n="n"/><s n="f"/></l><r>agregat<g><b/>de<b/>premsa</g><s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>atașată<b/>militară<s n="n"/><s n="f"/></l> <r>agregat<b/>militar<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>atelaj<s n="n"/><s n="nt"/></l>             <r>tir<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atelă<s n="n"/></l>                        <r>taula<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>atemporalitate<s n="n"/></l>                <r>atemporalitat<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ateneu<s n="n"/><s n="nt"/></l>            <r>ateneu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atentare<s n="n"/><s n="f"/></l>           <r>atemptat<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>atenuare<s n="n"/></l>                      <r>atenuació<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atenționare<s n="n"/></l>                  <r>advertència<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atestare<s n="n"/><s n="f"/></l>           <r>testimoni<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>atingere<s n="n"/><s n="f"/></l>            <r>toc<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>atlas<s n="n"/><s n="nt"/></l>              <r>atles<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>atol<s n="n"/></l>                          <r>atoló<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>atomizare<s n="n"/></l>                     <r>atomització<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>atomizator<s n="n"/><s n="nt"/></l>         <r>atomitzador<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atomizor<s n="n"/><s n="nt"/></l>          <r>atomitzador<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>atonie<s n="n"/></l>                        <r>atonia<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>atotputernicie<s n="n"/><s n="f"/></l>      <r>omnipotència<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>atribuție<s n="n"/></l>                     <r>atribució<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>atrocitate<s n="n"/></l>                    <r>atrocitat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>atrofie<s n="n"/></l>                       <r>atròfia<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atrofiere<s n="n"/></l>                    <r>atròfia<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>atu<s n="n"/><s n="nt"/></l>               <r>avantatge<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>auspiciu<s n="n"/><s n="nt"/></l>           <r>auspici<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>austeritate<s n="n"/></l>                   <r>austeritat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>australian<s n="n"/></l>                    <r>australià<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>autarhie<s n="n"/></l>                      <r>autarquia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>autenticitate<s n="n"/></l>                 <r>autenticitat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>autobasculantă<s n="n"/><s n="f"/></l>      <r>bolquet<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>autocamion<s n="n"/><s n="nt"/></l>         <r>autocamió<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>autocar<s n="n"/><s n="nt"/></l>            <r>autocar<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>autocisternă<s n="n"/><s n="f"/></l>        <r>autotanc<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>autocolant<s n="n"/><s n="nt"/></l>         <r>adhesiu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="mioara"><p><l>autocrat<s n="n"/><s n="GD"/></l>          <r>autòcrata<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>autocrat<s n="n"/><s n="m"/></l>           <r>autòcrata<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>autocrat<s n="n"/><s n="f"/></l>           <r>autòcrata<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>autocratic<s n="n"/></l>                    <r>autocràtic<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>autocrație<s n="n"/></l>                    <r>autocràcia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>autodeterminare<s n="n"/></l>               <r>autodeterminació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>autoevaluare<s n="n"/></l>                  <r>autoevaluació<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>automatism<s n="n"/><s n="nt"/></l>         <r>automatisme<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="mioara"><p><l>automobilist<s n="n"/><s n="GD"/></l>      <r>automobilista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>automobilist<s n="n"/><s n="m"/></l>       <r>automobilista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>automobilist<s n="n"/><s n="f"/></l>       <r>automobilista<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>autopilot<s n="n"/></l>                     <r>autopilot<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>autoportret<s n="n"/><s n="nt"/></l>        <r>autoretrat<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>autopsie<s n="n"/></l>                      <r>autòpsia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>autoritarism<s n="n"/><s n="nt"/></l>       <r>autoritarisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>autosatisfacție<s n="n"/></l>               <r>autosatisfacció<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>autostop<s n="n"/><s n="nt"/></l>           <r>autoestop<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="mioara"><p><l>autostopist<s n="n"/><s n="GD"/></l>       <r>autoestopista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>autostopist<s n="n"/><s n="m"/></l>        <r>autoestopista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>autostopist<s n="n"/><s n="f"/></l>        <r>autoestopista<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>autosugestie<s n="n"/></l>                  <r>autosuggestió<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>autoturism<s n="n"/><s n="nt"/></l>        <r>turisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>autoutilitară<s n="n"/><s n="f"/></l>       <r>utilitari<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>aversă<s n="n"/><s n="f"/></l>              <r>xàfec<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>avion<b/>de<b/>pasageri<s n="n"/><s n="nt"/></l><r>avió<g><b/>de<b/>passatgers</g><s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>avitaminoză<s n="n"/></l>                   <r>avitaminosi<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>avorton<s n="n"/></l>                       <r>avortí<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>avuție<s n="n"/><s n="f"/></l>             <r>haver<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>axare<s n="n"/></l>                        <r>polarització<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>axiomă<s n="n"/><s n="f"/></l>              <r>axioma<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>axon<s n="n"/></l>                          <r>axó<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>azot<s n="n"/><s n="nt"/></l>              <r>nitrogen<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>așezământ<s n="n"/><s n="nt"/></l>         <r>institució<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>așternut<s n="n"/><s n="nt"/></l>          <r>llençol<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ațipeală<s n="n"/><s n="f"/></l>           <r>entreson<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>ațipire<s n="n"/><s n="f"/></l>             <r>entreson<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>babilonie<s n="n"/></l>                     <r>babel<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>babor<s n="n"/><s n="nt"/></l>              <r>babord<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>babă<s n="n"/></l>                          <r>vella<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>baci<s n="n"/></l>                          <r>rabadà<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bacteriolog<s n="n"/></l>                   <r>bacteriòleg<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>badminton<s n="n"/><s n="nt"/></l>          <r>bàdminton<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>baftă<s n="n"/></l>                        <r>sort<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>baga<s n="n"/><s n="f"/></l>                <r>carei<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>baghetă<s n="n"/></l>                       <r>vareta<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>baieră<s n="n"/><s n="f"/></l>             <r>cordó<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bal<s n="n"/><s n="nt"/></l>               <r>ball<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>baladă<s n="n"/></l>                        <r>balada<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>balalaică<s n="n"/></l>                     <r>balalaica<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>balans<s n="n"/><s n="nt"/></l>            <r>balanç<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>balansare<s n="n"/><s n="f"/></l>           <r>balanceig<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>balastieră<s n="n"/></l>                    <r>pedrera<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>balaur<s n="n"/></l>                        <r>drac<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>baldachin<s n="n"/><s n="nt"/></l>          <r>baldaquí<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>balet<s n="n"/><s n="nt"/></l>              <r>ballet<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>baliză<s n="n"/></l>                        <r>balisa<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>balneoterapie<s n="n"/></l>                 <r>balneoteràpia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>balonare<s n="n"/><s n="f"/></l>            <r>flat<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>baltă<s n="n"/><s n="f"/></l>              <r>bassal<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>banalitate<s n="n"/></l>                    <r>banalitat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>banchiză<s n="n"/></l>                      <r>banquisa<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bancomat<s n="n"/><s n="nt"/></l>           <r>caixer<b/>automàtic<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bancă<b/>a<b/>acuzaților<s n="n"/><s n="f"/></l><r>banc<g><b/>dels<b/>acusats</g><s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>bandă<b/>rulantă<s n="n"/></l>              <r>cinta<b/>transportadora<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bani<b/>gheață<s n="n"/><s n="m"/><s n="pl"/></l><r>diners<b/>en<b/>efectiu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="mioara">      <p><l>bani<b/>lichizi<s n="n"/><s n="m"/><s n="pl"/></l><r>diners<b/>líquids<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="mioara">      <p><l>bani<b/>peșin<s n="n"/><s n="m"/><s n="pl"/></l><r>diners<b/>al<b/>comptat<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="mioara">      <p><l>barcagiu<s n="n"/></l>                      <r>barquer<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>barcă<b/>cu<b/>pânze<s n="n"/><s n="f"/></l><r>veler<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bard<s n="n"/></l>                          <r>bard<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bardă<s n="n"/></l>                        <r>destral<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>baretă<s n="n"/></l>                       <r>gorra<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>baril<s n="n"/></l>                        <r>barril<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bariton<s n="n"/></l>                       <r>baríton<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bariu<s n="n"/><s n="nt"/></l>              <r>bari<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>baroneasă<s n="n"/></l>                    <r>baronessa<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>baros<s n="n"/><s n="nt"/></l>             <r>maça<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>baschet<s n="n"/><s n="nt"/></l>            <r>basquetbol<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>basculantă<s n="n"/><s n="f"/></l>          <r>bolquet<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>basm<s n="n"/><s n="m"/></l>               <r>conte<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>basma<s n="n"/><s n="f"/></l>              <r>mocador<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>basorelief<s n="n"/><s n="nt"/></l>         <r>baix<b/>relleu<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bastarn<s n="n"/></l>                       <r>bastarn<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bastion<s n="n"/><s n="nt"/></l>            <r>baluard<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>batalion<s n="n"/><s n="nt"/></l>           <r>batalló<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>batic<s n="n"/><s n="nt"/></l>             <r>mocador<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>batiscaf<s n="n"/><s n="nt"/></l>           <r>batiscaf<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bavarez<s n="n"/></l>                       <r>bàvar<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bazalt<s n="n"/><s n="nt"/></l>             <r>basalt<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bazin<b/>de<b/>înot<s n="n"/><s n="nt"/></l><r>piscina<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>begonie<s n="n"/></l>                       <r>begònia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>belciug<s n="n"/><s n="nt"/></l>            <r>argolla<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>belea<s n="n"/></l>                         <r>desventura<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bemol<s n="n"/></l>                         <r>bemoll<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>benzinănie<s n="n"/></l>                    <r>benzinera<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>benă<s n="n"/><s n="f"/></l>               <r>bolquet<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>beret<s n="n"/><s n="nt"/></l>             <r>boina<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>beretă<s n="n"/></l>                       <r>boina<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bergamotă<s n="n"/></l>                     <r>bergamota<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>beriliu<s n="n"/><s n="nt"/></l>            <r>beril·li<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>berlinez<s n="n"/></l>                      <r>berlinès<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>berlină<s n="n"/></l>                       <r>berlina<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bețivan<s n="n"/></l>                       <r>beverri<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bibelou<s n="n"/><s n="nt"/></l>            <r>bibelot<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>biberon<s n="n"/><s n="nt"/></l>            <r>biberó<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bibilică<s n="n"/></l>                      <r>pintada<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>biblioraft<s n="n"/><s n="nt"/></l>         <r>arxivador<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>biceps<s n="n"/></l>                        <r>bíceps<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bici<s n="n"/><s n="nt"/></l>               <r>fuet<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="mioara"><p><l>biciclist<s n="n"/><s n="GD"/></l>         <r>ciclista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>biciclist<s n="n"/><s n="m"/></l>          <r>ciclista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>biciclist<s n="n"/><s n="f"/></l>          <r>ciclista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bidiviu<s n="n"/></l>                      <r>corser<s n="n"/></r></p></e>
+<e r="LR" a="delnou"><p><l>bifurcare<s n="n"/></l>                    <r>bifurcació<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>bifurcație<s n="n"/></l>                    <r>bifurcació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bigam<s n="n"/></l>                         <r>bígam<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bigamie<s n="n"/></l>                       <r>bigàmia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bigot<s n="n"/></l>                         <r>beat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bigudiu<s n="n"/><s n="nt"/></l>            <r>bigudí<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bijutier<s n="n"/></l>                      <r>joier<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bilanț<s n="n"/><s n="nt"/></l>             <r>balanç<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bilet<b/>de<b/>liberă<b/>trecere<s n="n"/><s n="nt"/></l><r>salconduit<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bilingvism<s n="n"/><s n="nt"/></l>         <r>bilingüisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bilă<s n="n"/></l>                          <r>bola<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>binefacere<s n="n"/></l>                    <r>beneficiència<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>binom<s n="n"/><s n="nt"/></l>              <r>binoma<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>biocenoză<s n="n"/></l>                     <r>biocenosi<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>biocurent<s n="n"/><s n="m"/></l>           <r>biocorrent<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>biopsie<s n="n"/></l>                       <r>biòpsia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bioritm<s n="n"/><s n="nt"/></l>            <r>bioritme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bipartidism<s n="n"/><s n="nt"/></l>        <r>bipartidisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bipolaritate<s n="n"/></l>                  <r>bipolaritat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bipolarizare<s n="n"/></l>                  <r>bipolarització<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bir<s n="n"/><s n="nt"/></l>               <r>tribut<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="mioara"><p><l>birocrat<s n="n"/><s n="GD"/></l>          <r>buròcrata<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>birocrat<s n="n"/><s n="m"/></l>           <r>buròcrata<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>birocrat<s n="n"/><s n="f"/></l>           <r>buròcrata<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>birocratizare<s n="n"/></l>                 <r>burocratització<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>birt<s n="n"/><s n="nt"/></l>               <r>fonda<g><b/></g><s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>biruință<s n="n"/><s n="nt"/></l>          <r>triomf<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bisectoare<s n="n"/></l>                    <r>bisectriu<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bismut<s n="n"/><s n="nt"/></l>             <r>bismut<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bismut<s n="n"/><s n="nt"/></l>            <r>quitrà<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bisturiu<s n="n"/><s n="nt"/></l>           <r>bisturí<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bit<s n="n"/></l>                           <r>bit<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>biter<s n="n"/><s n="nt"/></l>              <r>bíter<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bitter<s n="n"/><s n="nt"/></l>            <r>bíter<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bitum<s n="n"/><s n="nt"/></l>             <r>quitrà<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bizantinism<s n="n"/><s n="nt"/></l>        <r>bizantinisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bizarerie<s n="n"/></l>                     <r>estranyesa<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bizon<s n="n"/></l>                         <r>bisó<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bișnițar<s n="n"/></l>                     <r>trafica<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>blacheu<s n="n"/><s n="nt"/></l>            <r>puntera<b/>metàl·lica<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>blagoslovire<s n="n"/></l>                 <r>benedicció<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>blam<s n="n"/><s n="nt"/></l>              <r>censura<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>blamare<s n="n"/></l>                      <r>reprobació<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>blană<s n="n"/></l>                        <r>pell<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>blasfemie<s n="n"/></l>                     <r>blasfèmia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>blastoderm<s n="n"/><s n="nt"/></l>         <r>blastoderma<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>blazare<s n="n"/><s n="f"/></l>            <r>avorriment<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>blefarită<s n="n"/></l>                     <r>blefaritis<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>blenoragie<s n="n"/></l>                    <r>blennorràgia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>blestemăție<s n="n"/></l>                   <r>canallada<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>blindaj<s n="n"/><s n="nt"/></l>            <r>blindatge<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bliț<s n="n"/><s n="nt"/></l>               <r>flaix<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bluf<s n="n"/><s n="nt"/></l>               <r>bluf<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bluzon<s n="n"/><s n="nt"/></l>             <r>brusa<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>blândețe<s n="n"/></l>                     <r>tendresa<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>blănar<s n="n"/></l>                        <r>pelleter<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>boa<s n="n"/><s n="f"/></l>                 <r>boa<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>boarfă<s n="n"/><s n="f"/></l>              <r>parrac<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bob<s n="n"/></l>                          <r>gra<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>boboc<s n="n"/></l>                         <r>capoll<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>boboc<b/>de<b/>gâscă<s n="n"/></l>          <r>pollet<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>boboc<b/>de<b/>rață<s n="n"/></l>           <r>anedó<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bocănit<s n="n"/><s n="nt"/></l>           <r>martelleig<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bocănitură<s n="n"/><s n="f"/></l>          <r>martelleig<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bodigard<s n="n"/></l>                     <r>guardaespatlles<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bodiguard<s n="n"/></l>                    <r>guardaespatlles<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bodyguard<s n="n"/></l>                     <r>guardaespatlles<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>boemie<s n="n"/></l>                        <r>bohèmia<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>boierime<s n="n"/></l>                     <r>aristocràcia<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bolboroseală<s n="n"/><s n="f"/></l>       <r>balboteig<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bolț<s n="n"/><s n="nt"/></l>               <r>pern<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bombardier<s n="n"/><s n="nt"/></l>         <r>bombarder<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bombeu<s n="n"/><s n="nt"/></l>             <r>puntera<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>bombăneală<s n="n"/><s n="f"/></l>          <r>grunyit<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bombănitor<s n="n"/></l>                    <r>botzinaire<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bomfaier<s n="n"/><s n="nt"/></l>           <r>serra<g><b/>de<b/>metall</g><s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bondar<s n="n"/></l>                       <r>abellot<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bonetă<s n="n"/><s n="f"/></l>             <r>gorra<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>bonificație<s n="n"/></l>                   <r>bonificació<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bonitate<s n="n"/></l>                     <r>solvència<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bonus<s n="n"/><s n="nt"/></l>              <r>bonificació<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>bonă<s n="n"/></l>                          <r>mainadera<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>boom<s n="n"/><s n="nt"/></l>               <r>boom<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bor<s n="n"/><s n="nt"/></l>                <r>bor<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>borangic<s n="n"/><s n="nt"/></l>          <r>seda<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>bordei<s n="n"/><s n="nt"/></l>             <r>fumall<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>borderou<s n="n"/><s n="nt"/></l>           <r>relació<b/>detallada<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>bormașină<s n="n"/></l>                     <r>perforadora<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>boroboață<s n="n"/></l>                     <r>entremaliadura<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bortă<s n="n"/><s n="f"/></l>               <r>forat<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>boschet<s n="n"/></l>                       <r>bosquet<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bostan<s n="n"/><s n="m"/></l>             <r>carabassa<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>botanist<s n="n"/></l>                      <r>botànic<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>botniță<s n="n"/><s n="f"/></l>             <r>morrió<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bovarism<s n="n"/><s n="nt"/></l>           <r>bovarisme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>boxer<s n="n"/></l>                         <r>boxejador<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>boxă<b/>a<b/>acuzaților<s n="n"/><s n="f"/></l><r>banc<g><b/>dels<b/>acusats</g><s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>boț<s n="n"/><s n="nt"/></l>               <r>bola<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>braconaj<s n="n"/><s n="nt"/></l>           <r>caça<b/>furtiva<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>braconier<s n="n"/></l>                     <r>caçador<b/>furtivo<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>braconieră<s n="n"/></l>                    <r>caçadora<b/>furtiva<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>brancardier<s n="n"/></l>                   <r>portalliteres<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>brancardă<s n="n"/></l>                    <r>llitera<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>brand<s n="n"/><s n="nt"/></l>             <r>marca<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>branșament<s n="n"/><s n="nt"/></l>        <r>entroncament<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>branșă<s n="n"/><s n="f"/></l>             <r>ram<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bravadă<s n="n"/></l>                       <r>bravata<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bravură<s n="n"/></l>                       <r>bravesa<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>brazdă<s n="n"/><s n="f"/></l>              <r>solc<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>brazdă<b/>de<b/>flori<s n="n"/><s n="f"/></l><r>arriata<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>brazilian<s n="n"/></l>                     <r>brasiler<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>breaslă<s n="n"/><s n="f"/></l>             <r>gremi<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>breslaș<s n="n"/></l>                       <r>agremiat<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>briefing<s n="n"/><s n="nt"/></l>           <r>briefing<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>brom<s n="n"/><s n="nt"/></l>               <r>brom<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bronhie<s n="n"/><s n="f"/></l>             <r>bronqui<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bronhoscopie<s n="n"/></l>                  <r>broncoscòpia<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bronhospasm<s n="n"/><s n="nt"/></l>        <r>bronceospasme<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>broscuță<s n="n"/></l>                      <r>granoteta<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bruiaj<s n="n"/><s n="nt"/></l>            <r>interferència<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bruiere<s n="n"/></l>                      <r>perturbació<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>brumă<s n="n"/><s n="f"/></l>              <r>gebre<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>brădet<s n="n"/><s n="nt"/></l>             <r>avetar<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>budism<s n="n"/><s n="nt"/></l>             <r>budisme<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="mioara"><p><l>budist<s n="n"/><s n="GD"/></l>            <r>budista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>budist<s n="n"/><s n="m"/></l>             <r>budista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>budist<s n="n"/><s n="f"/></l>             <r>budista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bulină<s n="n"/><s n="f"/></l>             <r>piga<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>bun<b/>gust<s n="n"/><s n="nt"/></l>        <r>bon<b/>gust<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bundestag<s n="n"/><s n="nt"/></l>          <r>bundestag<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bună<b/>creștere<s n="n"/></l>              <r>bona<b/>educació<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bust<s n="n"/><s n="nt"/></l>               <r>bust<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>butie<s n="n"/></l>                         <r>bóta<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>buturugă<s n="n"/><s n="f"/></l>            <r>soc<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bâlbâială<s n="n"/><s n="f"/></l>           <r>tartamudeig<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bâlbâială<s n="n"/><s n="f"/></l>           <r>balbuceig<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bâlbâit<s n="n"/></l>                       <r>tartamut<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bârlog<s n="n"/><s n="nt"/></l>             <r>cau<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bâtlan<s n="n"/><s n="m"/></l>              <r>bernat<b/>pescaire<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bâtă<s n="n"/></l>                          <r>porra<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bâzdâganie<s n="n"/><s n="f"/></l>         <r>bestiola<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bâzâială<s n="n"/><s n="nt"/></l>          <r>brunzit<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bâzâit<s n="n"/><s n="nt"/></l>            <r>brunzit<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="mioara"><p><l>bădărănie<s n="n"/></l>                    <r>grollería<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bălăceală<s n="n"/><s n="f"/></l>           <r>xipolleig<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>bălărie<s n="n"/></l>                       <r>mala<b/>herba<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bărbier<s n="n"/></l>                       <r>barber<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bărzăun<s n="n"/></l>                       <r>borinot<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>bătaie<b/>de<b/>cap<s n="n"/><s n="f"/></l> <r>maldecap<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>bătăuș<s n="n"/></l>                        <r>barallós<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>băutură<b/>răcoritoare<s n="n"/><s n="f"/></l><r>refresc<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="mioara"><p><l>băștinaș<s n="n"/><s n="GD"/></l>          <r>indígena<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>băștinaș<s n="n"/><s n="m"/></l>           <r>indígena<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>băștinaș<s n="n"/><s n="f"/></l>           <r>indígena<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>băț<s n="n"/><s n="nt"/></l>                <r>vara<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>băț<b/>de<b/>chibrit<s n="n"/><s n="nt"/></l><r>llumí<s n="n"/><s n="m"/></r></p></e>
 
 
 <!-- Topònims -->

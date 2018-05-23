@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 15852
+	Entries: 15853
 	Sdefs: 78
 	Paradigms: 10
 
@@ -416,7 +416,7 @@
 <e>                 <p><l>bizar</l>                                   <r>rar</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>blajin</l>                                  <r>bondadós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>blamabil</l>                                <r>reprensible</r></p><par n="4-2__adj"/></e>
-<e a="delia">       <p><l>blând</l>                                   <r>bla</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>blând</l>                                   <r>tou</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>blazat</l>                                  <r>fastiguejat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>blestemat</l>                               <r>maleït</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>blindat</l>                                 <r>blindat</r></p><par n="4-4__adj"/></e>
@@ -2857,7 +2857,7 @@
 <e a="delia">       <p><l>volubil</l>                                 <r>voluble</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>voluminos</l>                               <r>voluminós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>voluntar</l>                                <r>voluntari</r></p><par n="4-4__adj"/></e>
-<e r="LR" a="delia"><p><l>voluptos</l>                                <r>voluptuoso</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="delia"><p><l>voluptos</l>                                <r>voluptuós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>voluptuos</l>                               <r>voluptuós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>vopsit</l>                                  <r>tenyit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>vorbăreț</l>                                <r>xerraire</r></p><par n="4-2__adj"/></e>
@@ -2989,7 +2989,7 @@
 <e a="mioara">      <p><l>autoreglabil</l>                            <r>autoregulable</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>aviatic</l>                                 <r>d'aviació</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>axiomatic</l>                               <r>axiomàtic</r></p><par n="4-4__adj"/></e>
-<e r="LR" a="mioara"><p><l>așa-numit</l>                              <r>així<b/>anomenat</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara" i="yes"><p><l>așa-numit</l>                      <r>així<b/>anomenat</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="mioara"><p><l>ațos</l>                                   <r>fibrós</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="mioara"><p><l>bachic</l>                                 <r>bàquic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>balonat</l>                                 <r>flatulent</r></p><par n="4-4__adj"/></e>
@@ -3095,7 +3095,7 @@
 <e a="mioara">      <p><l>conformist</l>                              <r>conformista</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>congregațional</l>                          <r>congregacional</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>conotativ</l>                               <r>connotatiu</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>constatabil</l>                             <r>comprobable</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>constatabil</l>                             <r>comprovable</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>consternant</l>                             <r>consternant</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>constitutiv</l>                             <r>constitutiu</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>consuetudinar</l>                           <r>consuetudinari</r></p><par n="4-4__adj"/></e>
@@ -3522,7 +3522,7 @@
 <e a="mioara">      <p><l>neregulamentar</l>                          <r>no<b/>reglamentari</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>neregulat</l>                               <r>irregular</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>nereligios</l>                              <r>no<b/>religiós</r></p><par n="4-4__adj"/></e>
-<e a="delnou">      <p><l>nerevendicat</l>                            <r>no<b/>reivindicat</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>nerevendicat</l>                            <r>no<b/>reivindicat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>nerezolvat</l>                              <r>sense<b/>resoldre</r></p><par n="4-1__adj"/></e>
 <e a="mioara">      <p><l>nesatisfăcător</l>                          <r>insatisfactori</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>nesemnat</l>                                <r>sense<b/>signar</r></p><par n="4-1__adj"/></e>
@@ -3786,7 +3786,7 @@
 <e a="mioara">      <p><l>tarifar</l>                                 <r>aranzelari</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>telegrafic</l>                              <r>telegràfic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>telepatic</l>                               <r>telepàtic</r></p><par n="4-4__adj"/></e>
-<e r="LR" a="mioara"><p><l>tentant</l>                                <r>tentador</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>tentant</l>                                 <r>temptador</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>teologic</l>                                <r>teològic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>teuton</l>                                  <r>teutó</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>teutonic</l>                                <r>teutònic</r></p><par n="4-4__adj"/></e>
@@ -3831,7 +3831,7 @@
 <e a="mioara">      <p><l>vascular</l>                                <r>vascular</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>vasoconstrictor</l>                         <r>vasoconstrictor</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>vasodilatator</l>                           <r>vasodilatador</r></p><par n="4-4__adj"/></e>
-<e r="LR" a="delnou"><p><l>veritabil</l>                              <r>veraç</r></p><par n="4-2__adj"/></e>
+<e a="delnou">      <p><l>veritabil</l>                               <r>veraç</r></p><par n="4-3sg__adj"/></e>
 <e a="delnou">      <p><l>versatil</l>                                <r>versàtil</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>vertebral</l>                               <r>vertebral</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>vertebrat</l>                               <r>vertebrat</r></p><par n="4-4__adj"/></e>
@@ -4646,6 +4646,7 @@
 <e>                 <p><l>alt<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>altre<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL">          <p><l>alt<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>altre<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL">          <p><l>alt<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>altre<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>cel<s n="det"/><s n="def"/><s n="GD"/><s n="sg"/></l><r>el<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>                 <p><l>cel<s n="det"/><s n="def"/><s n="mn"/><s n="sg"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>cel<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
 <e>                 <p><l>cel<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>

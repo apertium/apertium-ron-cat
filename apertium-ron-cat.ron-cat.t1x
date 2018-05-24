@@ -3706,9 +3706,9 @@
                 <with-param pos="1"/>
               </call-macro>
 	      <out>
-                <chunk name="det_nom">
+                <chunk name="det_adj">
 	        <tags>
-	          <tag><lit-tag v="SA"/></tag>
+	          <tag><lit-tag v="SN"/></tag>
 	          <tag><var n="genere"/></tag>
 	          <tag><var n="nombre"/></tag>
 	          <tag><clip pos="1" side="sl" part="a_cas"/></tag>

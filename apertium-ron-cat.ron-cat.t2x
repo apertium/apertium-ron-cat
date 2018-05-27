@@ -7,6 +7,9 @@
     <def-cat n="SA">
       <cat-item tags="SA.*"/>
     </def-cat>
+    <def-cat n="SV">
+      <cat-item tags="SV.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -45,52 +48,89 @@
 
     <def-macro n="elimina_GDND" npar="1" comment="Elimina les etiquetes 'GD' i 'ND'.">
       <choose>
-	<when>
-	  <test>
-	    <equal>
-	      <clip pos="1" part="a_gen"/>
-	      <lit-tag v="GD"/>
-	    </equal>
-	  </test>
-	  <let>
-	    <clip pos="1" part="a_gen"/>
-	    <lit-tag v="m"/>
-	  </let>
-	</when>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" part="a_gen"/>
+              <lit-tag v="GD"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" part="a_gen"/>
+            <lit-tag v="m"/>
+          </let>
+        </when>
       </choose>
       <choose>
-	<when>
-	  <test>
-	    <equal>
-	      <clip pos="1" part="a_nbr"/>
-	      <lit-tag v="ND"/>
-	    </equal>
-	  </test>
-	  <let>
-	    <clip pos="1" part="a_nbr"/>
-	    <lit-tag v="sg"/>
-	  </let>
-	</when>
-      </choose>  
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" part="a_nbr"/>
+              <lit-tag v="ND"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" part="a_nbr"/>
+            <lit-tag v="sg"/>
+          </let>
+        </when>
+      </choose>
     </def-macro>
 
   </section-def-macros>
 
   <section-rules>
 
-    <rule comment="REGLA: SA">
+    <rule comment="SN">
       <pattern>
-	<pattern-item n="SA"/>
+        <pattern-item n="SN"/>
       </pattern>
       <action>
-	<call-macro n="elimina_GDND">
-	  <with-param pos="1"/>
-	</call-macro>
-	<out>
-	  <chunk>
-	    <clip pos="1" part="whole"/>
-	  </chunk>
-	</out>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="SA">
+      <pattern>
+        <pattern-item n="SA"/>
+      </pattern>
+      <action>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="SN + SV">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+        </out>
       </action>
     </rule>
 

@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 18491
+	Entries: 18487
 	Sdefs: 77
 	Paradigms: 10
 
@@ -10,83 +10,83 @@
 <dictionary>
   <alphabet></alphabet>
   <sdefs>
-    <sdef n="detnt" /> 
-    <sdef n="predet" /> 
-    <sdef n="enc" /> 
-    <sdef n="pro" /> 
-    <sdef n="tn" /> 
-    <sdef n="acr" /> 
-    <sdef n="ant" /> 
-    <sdef n="al" /> 
-    <sdef n="n" /> 
-    <sdef n="np" /> 
-    <sdef n="adj" /> 
-    <sdef n="f" /> 
-    <sdef n="m" /> 
-    <sdef n="mn" /> 
-    <sdef n="vbavea" /> 
-    <sdef n="pps" /> 
-    <sdef n="pper" /> 
-    <sdef n="mf" /> 
-    <sdef n="fn" /> 
-    <sdef n="mfn" /> 
-    <sdef n="sg" /> 
-    <sdef n="pl" /> 
-    <sdef n="adv" /> 
-    <sdef n="preadv" /> 
-    <sdef n="pr" /> 
-    <sdef n="prn" /> 
-    <sdef n="rel" /> 
-    <sdef n="nn" /> 
-    <sdef n="an" /> 
-    <sdef n="aa" /> 
-    <sdef n="ind" /> 
-    <sdef n="itg" /> 
-    <sdef n="det" /> 
-    <sdef n="dem" /> 
-    <sdef n="def" /> 
-    <sdef n="cnjcoo" /> 
-    <sdef n="cnjsub" /> 
-    <sdef n="cnjadv" /> 
-    <sdef n="nt" /> 
-    <sdef n="vaux" /> 
-    <sdef n="vbser" /> 
-    <sdef n="vbhaver" /> 
-    <sdef n="vblex" /> 
-    <sdef n="vbmod" /> 
-    <sdef n="inf" /> 
-    <sdef n="ger" /> 
-    <sdef n="pp" /> 
-    <sdef n="pri" /> 
-    <sdef n="ifi" /> 
-    <sdef n="p1" /> 
-    <sdef n="p2" /> 
-    <sdef n="p3" /> 
-    <sdef n="pii" /> 
-    <sdef n="fti" /> 
-    <sdef n="cni" /> 
-    <sdef n="prs" /> 
-    <sdef n="pis" /> 
-    <sdef n="fts" /> 
-    <sdef n="imp" /> 
-    <sdef n="pos" /> 
-    <sdef n="gen" /> 
-    <sdef n="nom" /> 
-    <sdef n="dg" /> 
-    <sdef n="sp" /> 
-    <sdef n="ref" /> 
-    <sdef n="sup" /> 
-    <sdef n="num" /> 
-    <sdef n="ij" /> 
-    <sdef n="sent" /> 
-    <sdef n="cm" /> 
-    <sdef n="GD" /> 
-    <sdef n="ND" /> 
-    <sdef n="lpar" /> 
-    <sdef n="rpar" /> 
-    <sdef n="lquest" /> 
-    <sdef n="top" /> 
-    <sdef n="ord" /> 
+    <sdef n="detnt" />
+    <sdef n="predet" />
+    <sdef n="enc" />
+    <sdef n="pro" />
+    <sdef n="tn" />
+    <sdef n="acr" />
+    <sdef n="ant" />
+    <sdef n="al" />
+    <sdef n="n" />
+    <sdef n="np" />
+    <sdef n="adj" />
+    <sdef n="f" />
+    <sdef n="m" />
+    <sdef n="mn" />
+    <sdef n="vbavea" />
+    <sdef n="pps" />
+    <sdef n="pper" />
+    <sdef n="mf" />
+    <sdef n="fn" />
+    <sdef n="mfn" />
+    <sdef n="sg" />
+    <sdef n="pl" />
+    <sdef n="adv" />
+    <sdef n="preadv" />
+    <sdef n="pr" />
+    <sdef n="prn" />
+    <sdef n="rel" />
+    <sdef n="nn" />
+    <sdef n="an" />
+    <sdef n="aa" />
+    <sdef n="ind" />
+    <sdef n="itg" />
+    <sdef n="det" />
+    <sdef n="dem" />
+    <sdef n="def" />
+    <sdef n="cnjcoo" />
+    <sdef n="cnjsub" />
+    <sdef n="cnjadv" />
+    <sdef n="nt" />
+    <sdef n="vaux" />
+    <sdef n="vbser" />
+    <sdef n="vbhaver" />
+    <sdef n="vblex" />
+    <sdef n="vbmod" />
+    <sdef n="inf" />
+    <sdef n="ger" />
+    <sdef n="pp" />
+    <sdef n="pri" />
+    <sdef n="ifi" />
+    <sdef n="p1" />
+    <sdef n="p2" />
+    <sdef n="p3" />
+    <sdef n="pii" />
+    <sdef n="fti" />
+    <sdef n="cni" />
+    <sdef n="prs" />
+    <sdef n="pis" />
+    <sdef n="fts" />
+    <sdef n="imp" />
+    <sdef n="pos" />
+    <sdef n="gen" />
+    <sdef n="nom" />
+    <sdef n="dg" />
+    <sdef n="sp" />
+    <sdef n="ref" />
+    <sdef n="sup" />
+    <sdef n="num" />
+    <sdef n="ij" />
+    <sdef n="sent" />
+    <sdef n="cm" />
+    <sdef n="GD" />
+    <sdef n="ND" />
+    <sdef n="lpar" />
+    <sdef n="rpar" />
+    <sdef n="lquest" />
+    <sdef n="top" />
+    <sdef n="ord" />
   </sdefs>
   <pardefs>
 <pardef n="4-4__adj">
@@ -151,6 +151,14 @@
   <e>       <p><l><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></l><r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l><s n="adj"/><s n="ord"/><s n="fn"/><s n="pl"/></l><r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="Maria__np">
+  <e r="LR"><p><l><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="np"/><s n="ant"/><s n="gen"/><s n="f"/><s n="sg"/></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+<pardef n="Carmen__np">
+  <e>       <p><l><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
   </pardefs>
 
@@ -3865,6 +3873,11 @@
 <e a="mioara">      <p><l>autocratic</l>                              <r>autocràtic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>teocratic</l>                               <r>teocràtic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>toponimic</l>                               <r>toponímic</r></p><par n="4-4__adj"/></e>
+<e a="delia">       <p><l>postum</l>                                  <r>pòstum</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>bombănitor</l>                              <r>botzinaire</r></p><par n="4-2__adj"/></e>
+<e a="mioara">      <p><l>constructiv</l>                             <r>constructiu</r></p><par n="4-4__adj"/></e>
+<e a="mioara">      <p><l>problematic</l>                             <r>problemàtic</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>potrivit</l>                                <r>idoni</r></p><par n="4-4__adj"/></e>
 
 <!-- Adverbis -->
 
@@ -4721,7 +4734,7 @@
 <e a="delia">       <p><l>abces<s n="n"/><s n="nt"/></l>              <r>abscés<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>abdicare<s n="n"/></l>                      <r>abdicació<s n="n"/></r></p></e>
 <e a="delia">       <p><l>abdomen<s n="n"/><s n="nt"/></l>            <r>abdomen<s n="n"/><s n="m"/></r></p></e>
-<e a="delia">       <p><l>abdominoplastie<s n="n"/></l>               <r>abdominoplastia<s n="n"/></r></p></e>
+<e a="delia">       <p><l>abdominoplastie<s n="n"/></l>               <r>abdominoplàstia<s n="n"/></r></p></e>
 <e a="delia">       <p><l>abecedar<s n="n"/><s n="nt"/></l>           <r>abecedari<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>aberație<s n="n"/></l>                      <r>aberració<s n="n"/></r></p></e>
 <e a="delnou">      <p><l>abilitare<s n="n"/></l>                     <r>habilitació<s n="n"/></r></p></e>
@@ -4760,7 +4773,7 @@
 <e>                 <p><l>acoperire<s n="n"/></l>                     <r>cobertura<s n="n"/></r></p></e>
 <e a="delia">       <p><l>acoperiș<s n="n"/><s n="nt"/></l>           <r>teulada<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>acord<s n="n"/><s n="nt"/></l>              <r>acord<s n="n"/><s n="m"/></r></p></e>
-<e a="delnou">      <p><l>acord<b/>de<b/>politică<b/>socială<s n="n"/><s n="nt"/></l><r>acord<b/>social<s n="n"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>acord<g><b/>de<b/>politică<b/>socială</g><s n="n"/><s n="nt"/></l><r>acord<b/>social<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>acordare<s n="n"/><s n="f"/></l>            <r>atorgament<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>acreală<s n="n"/></l>                       <r>acritud<s n="n"/></r></p></e>
 <e a="delia">       <p><l>acrime<s n="n"/></l>                        <r>acrimònia<s n="n"/></r></p></e>
@@ -4950,9 +4963,6 @@
 <e>                 <p><l>amărăciune<s n="n"/></l>                    <r>amargor<s n="n"/></r></p></e>
 <e>                 <p><l>an<s n="n"/></l>                            <r>any<s n="n"/></r></p></e>
 <e a="delnou">      <p><l>anacronism<s n="n"/><s n="nt"/></l>         <r>anacronisme<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" a="delia"><p><l>anacronist<s n="n"/><s n="GD"/></l>         <r>anacronista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>anacronist<s n="n"/><s n="m"/></l>          <r>anacronista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>anacronist<s n="n"/><s n="f"/></l>          <r>anacronista<s n="n"/><s n="mf"/></r></p></e>
 <e a="delia">       <p><l>anafură<s n="n"/></l>                       <r>hòstia<s n="n"/></r></p></e>
 <e r="RL" a="delia"><p><l>anahoret<s n="n"/><s n="GD"/></l>           <r>anacoreta<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="delia"><p><l>anahoret<s n="n"/><s n="m"/></l>            <r>anacoreta<s n="n"/><s n="mf"/></r></p></e>
@@ -5070,7 +5080,7 @@
 <e>                 <p><l>arbitru<s n="n"/></l>                       <r>àrbitre<s n="n"/></r></p></e>
 <e>                 <p><l>arbore<s n="n"/></l>                        <r>arbre<s n="n"/></r></p></e>
 <e>                 <p><l>arc<s n="n"/><s n="nt"/></l>                <r>arc<s n="n"/><s n="m"/></r></p></e>
-<e a="delia">       <p><l>arcadă<s n="n"/></l>                        <r>arquejada<s n="n"/></r></p></e>
+<e a="delia">       <p><l>arcadă<s n="n"/></l>                        <r>arcada<s n="n"/></r></p></e>
 <e>                 <p><l>arcă<s n="n"/></l>                          <r>arca<s n="n"/></r></p></e>
 <e a="delia">       <p><l>ardei<s n="n"/></l>                         <r>pebrer<s n="n"/></r></p></e>
 <e a="delia">       <p><l>ardoare<s n="n"/><s n="f"/></l>             <r>ardor<s n="n"/><s n="m"/></r></p></e>
@@ -5248,7 +5258,7 @@
 <e a="delnou">      <p><l>așezare<s n="n"/><s n="f"/></l>             <r>assentament<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>așteptare<s n="n"/></l>                     <r>espera<s n="n"/></r></p></e>
 <e a="delia">       <p><l>ață<s n="n"/><s n="f"/></l>                 <r>fil<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>babă<s n="n"/></l>                          <r>jaia<s n="n"/></r></p></e>
+<e>                 <p><l>babă<s n="n"/><s n="f"/></l>                <r>jai<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>bacalaureat<s n="n"/><s n="nt"/></l>        <r>batxillerat<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>bacil<s n="n"/></l>                         <r>bacil<s n="n"/></r></p></e>
 <e>                 <p><l>bacterie<s n="n"/><s n="f"/></l>            <r>bacteri<s n="n"/><s n="m"/></r></p></e>
@@ -5325,7 +5335,6 @@
 <e a="delia">       <p><l>bebeluș<s n="n"/></l>                       <r>bebè<s n="n"/></r></p></e>
 <e a="delia">       <p><l>bec<s n="n"/><s n="nt"/></l>                <r>bombeta<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>beci<s n="n"/><s n="nt"/></l>               <r>soterrani<s n="n"/><s n="m"/></r></p></e>
-<e a="delia">       <p><l>beculeț<s n="n"/><s n="nt"/></l>            <r>bombeteta<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>belșug<s n="n"/><s n="nt"/></l>             <r>profusió<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>beneficiu<s n="n"/><s n="nt"/></l>          <r>benefici<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>benzină<s n="n"/></l>                       <r>gasolina<s n="n"/></r></p></e>
@@ -5478,7 +5487,7 @@
 <e a="delia">       <p><l>bunăvoință<s n="n"/></l>                    <r>benevolència<s n="n"/></r></p></e>
 <e>                 <p><l>burete<s n="n"/><s n="m"/></l>              <r>esponja<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>burghez<s n="n"/></l>                       <r>burgès<s n="n"/></r></p></e>
-<e>                 <p><l>burghezie<s n="n"/></l>                     <r>burguesia<s n="n"/></r></p></e>
+<e>                 <p><l>burghezie<s n="n"/></l>                     <r>burgesia<s n="n"/></r></p></e>
 <e a="delia">       <p><l>burghiu<s n="n"/><s n="nt"/></l>            <r>barrina<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>buric<s n="n"/><s n="nt"/></l>              <r>melic<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>burlan<s n="n"/><s n="nt"/></l>             <r>baixant<s n="n"/><s n="m"/></r></p></e>
@@ -5501,8 +5510,8 @@
 <e>                 <p><l>buzunar<s n="n"/><s n="nt"/></l>            <r>butxaca<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>buză<s n="n"/><s n="f"/></l>                <r>llavi<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>bâlci<s n="n"/><s n="nt"/></l>              <r>fira<s n="n"/><s n="f"/></r></p></e>
-<e a="delia">       <p><l>bârfeală<s n="n"/><s n="f"/></l>            <r>xafarderia<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>bârfă<s n="n"/><s n="f"/></l>               <r>tafaneria<s n="n"/><s n="m"/></r></p></e>
+<e a="delia">       <p><l>bârfeală<s n="n"/><s n="f"/></l>            <r>xafarderia<s n="n"/><s n="f"/></r></p></e>
+<e>                 <p><l>bârfă<s n="n"/><s n="f"/></l>               <r>tafaneria<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>bârnă<s n="n"/><s n="f"/></l>               <r>travesser<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>bâzdâganie<s n="n"/><s n="f"/></l>          <r>espantall<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">          <p><l>băcănie<s n="n"/><s n="f"/><s n="ND"/></l>  <r>ultramarins<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -5605,7 +5614,7 @@
 <e>                 <p><l>camion<s n="n"/><s n="nt"/></l>             <r>camió<s n="n"/><s n="m"/></r></p></e>
 <e r="LR">          <p><l>campament<s n="n"/><s n="nt"/></l>          <r>campament<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>campanie<s n="n"/></l>                      <r>campanya<s n="n"/></r></p></e>
-<e a="delia">       <p><l>camping<s n="n"/><s n="nt"/></l>            <r>càmping<s n="n"/><s n="f"/></r></p></e>
+<e a="delia">       <p><l>camping<s n="n"/><s n="nt"/></l>            <r>càmping<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>campion<s n="n"/></l>                       <r>campió<s n="n"/></r></p></e>
 <e>                 <p><l>campionat<s n="n"/><s n="nt"/></l>          <r>campionat<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>camuflaj<s n="n"/><s n="nt"/></l>           <r>camuflatge<s n="n"/><s n="m"/></r></p></e>
@@ -5805,7 +5814,7 @@
 <e r="LR" a="delia"><p><l>chichiță<s n="n"/><s n="f"/></l>            <r>truc<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>chil<s n="n"/><s n="nt"/></l>               <r>quilo<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>chilie<s n="n"/></l>                        <r>cel·la<s n="n"/></r></p></e>
-<e a="delia">       <p><l>chilipir<s n="n"/><s n="nt"/></l>           <r>canga<s n="n"/><s n="f"/></r></p></e>
+<e a="delia">       <p><l>chilipir<s n="n"/><s n="nt"/></l>           <r>cep<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>chilot<s n="n"/></l>                        <r>eslip<s n="n"/></r></p></e>
 <e a="delnou">      <p><l>chimen<s n="n"/></l>                        <r>comí<s n="n"/></r></p></e>
 <e>                 <p><l>chimie<s n="n"/></l>                        <r>química<s n="n"/></r></p></e>
@@ -6353,7 +6362,7 @@
 <e>                 <p><l>damă<s n="n"/></l>                          <r>dama<s n="n"/></r></p></e>
 <e a="delia">       <p><l>dangăt<s n="n"/><s n="nt"/></l>             <r>clasc<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>dans<s n="n"/><s n="nt"/></l>               <r>ball<s n="n"/><s n="m"/></r></p></e>
-<e r="RL">          <p><l>dans<s n="n"/><s n="nt"/></l>               <r>dança<s n="n"/><s n="f"/></r></p></e>
+<e r="RL">          <p><l>dans<s n="n"/><s n="nt"/></l>               <r>dansa<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>dantelă<s n="n"/><s n="f"/></l>             <r>encaix<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>dantură<s n="n"/></l>                       <r>dentadura<s n="n"/></r></p></e>
 <e>                 <p><l>datină<s n="n"/></l>                        <r>costum<s n="n"/></r></p></e>
@@ -6967,9 +6976,9 @@
 <e a="delia">       <p><l>felicitare<s n="n"/></l>                    <r>felicitació<s n="n"/></r></p></e>
 <e>                 <p><l>felie<s n="n"/></l>                         <r>tallada<s n="n"/></r></p></e>
 <e a="delia">       <p><l>felinar<s n="n"/><s n="nt"/></l>            <r>fanal<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>femeie<s n="n"/></l>                        <r>dona<s n="n"/></r></p></e>
-<e>                 <p><l>femeie<b/>de<b/>știință<s n="n"/></l>       <r>científica<s n="n"/></r></p></e>
-<e>                 <p><l>femelă<s n="n"/></l>                        <r>femella<s n="n"/></r></p></e>
+<e>                 <p><l>femeie<s n="n"/><s n="f"/></l>              <r>dona<s n="n"/><s n="f"/></r></p></e>
+<e>                 <p><l>femeie<b/>de<b/>știință<s n="n"/><s n="f"/></l><r>científic<s n="n"/><s n="f"/></r></p></e>
+<e>                 <p><l>femelă<s n="n"/><s n="f"/></l>              <r>femella<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>feminism<s n="n"/><s n="nt"/></l>           <r>feminisme<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="delnou"><p><l>feminist<s n="n"/><s n="f"/></l>           <r>feminista<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL" a="delnou"><p><l>feminist<s n="n"/><s n="GD"/></l>          <r>feminista<s n="n"/><s n="mf"/></r></p></e>
@@ -7861,9 +7870,7 @@
 <e r="LR" a="delia"><p><l>jăratic<s n="n"/><s n="nt"/></l>            <r>brasa<s n="n"/><s n="f"/></r></p></e>
 <e>                 <i>kWh<s n="n"/></i></e>
 <e a="delia">       <p><l>kaizer<s n="n"/></l>                        <r>kàiser<s n="n"/></r></p></e>
-<e r="LR">          <p><l>karate<s n="n"/><s n="f"/><s n="pl"/></l>   <r>karate<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
-<e r="RL">          <p><l>karate<s n="n"/><s n="f"/><s n="pl"/></l>   <r>karate<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>karate<s n="n"/><s n="f"/><s n="pl"/></l>   <r>karate<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>karate<s n="n"/><s n="nt"/></l>             <r>karate<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>karateka<s n="n"/></l>                      <r>karateka<s n="n"/></r></p></e>
 <e r="RL" a="delia"><p><l>karatist<s n="n"/><s n="GD"/></l>           <r>karateka<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="delia"><p><l>karatist<s n="n"/><s n="m"/></l>            <r>karateka<s n="n"/><s n="mf"/></r></p></e>
@@ -8081,9 +8088,9 @@
 <e a="delia">       <p><l>machetă<s n="n"/></l>                       <r>maqueta<s n="n"/></r></p></e>
 <e a="delia">       <p><l>machiaj<s n="n"/><s n="nt"/></l>            <r>maquillatge<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>machism<s n="n"/><s n="nt"/></l>            <r>machismo<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" a="delia"><p><l>machist<s n="n"/><s n="GD"/></l>            <r>machista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>machist<s n="n"/><s n="m"/></l>             <r>machista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>machist<s n="n"/><s n="f"/></l>             <r>machista<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL" a="delia"><p><l>machist<s n="n"/><s n="GD"/></l>            <r>masclista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="delia"><p><l>machist<s n="n"/><s n="m"/></l>             <r>masclista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="delia"><p><l>machist<s n="n"/><s n="f"/></l>             <r>masclista<s n="n"/><s n="mf"/></r></p></e>
 <e a="delia">       <p><l>macho<s n="n"/></l>                         <r>macho<s n="n"/></r></p></e>
 <e a="delia">       <p><l>macrobiotică<s n="n"/></l>                  <r>macrobiòtica<s n="n"/></r></p></e>
 <e a="delia">       <p><l>macrocefalie<s n="n"/></l>                  <r>macrocefàlia<s n="n"/></r></p></e>
@@ -8763,8 +8770,8 @@
 <e>                 <p><l>ocazie<s n="n"/><s n="f"/></l>              <r>oportunitat<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>occident<s n="n"/><s n="nt"/></l>           <r>occident<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>ocean<s n="n"/><s n="nt"/></l>              <r>oceà<s n="n"/><s n="m"/></r></p></e>
-<e a="delia">       <p><l>ocheadă<s n="n"/><s n="f"/></l>             <r>picada<b/>d'ull<s n="n"/><s n="m"/></r></p></e>
-<e a="delia">       <p><l>ochean<s n="n"/><s n="nt"/></l>             <r>ullera<b/>de<b/>llarga<b/>vista<s n="n"/><s n="f"/></r></p></e>
+<e a="delia">       <p><l>ocheadă<s n="n"/><s n="f"/></l>             <r>picada<g><b/>d'ull</g><s n="n"/><s n="m"/></r></p></e>
+<e a="delia">       <p><l>ochean<s n="n"/><s n="nt"/></l>             <r>ullera<g><b/>de<b/>llarga<b/>vista</g><s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>ochelari<s n="n"/><s n="m"/></l>            <r>ulleres<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>ochi<s n="n"/></l>                          <r>ull<s n="n"/></r></p></e>
 <e a="delia">       <p><l>ochire<s n="n"/><s n="f"/></l>              <r>cop<b/>d'ull<s n="n"/><s n="m"/></r></p></e>
@@ -9036,9 +9043,7 @@
 <e a="delia">       <p><l>patinaj<s n="n"/><s n="nt"/></l>            <r>patinatge<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>patinator<s n="n"/></l>                     <r>patinador<s n="n"/></r></p></e>
 <e a="delia">       <p><l>patologie<s n="n"/></l>                     <r>patologia<s n="n"/></r></p></e>
-<e r="RL" a="delia"><p><l>patriarh<s n="n"/><s n="GD"/></l>           <r>patriarca<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>patriarh<s n="n"/><s n="m"/></l>            <r>patriarca<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>patriarh<s n="n"/><s n="f"/></l>            <r>patriarca<s n="n"/><s n="mf"/></r></p></e>
+<e a="delia">       <p><l>patriarh<s n="n"/><s n="m"/></l>            <r>patriarca<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>patrie<s n="n"/></l>                        <r>pàtria<s n="n"/></r></p></e>
 <e>                 <p><l>patrimoniu<s n="n"/><s n="nt"/></l>         <r>patrimoni<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>patron<s n="n"/></l>                        <r>patró<s n="n"/></r></p></e>
@@ -9145,13 +9150,14 @@
 <e a="delia">       <p><l>perversiune<s n="n"/></l>                   <r>perversió<s n="n"/></r></p></e>
 <e>                 <p><l>pescar<s n="n"/></l>                        <r>pescador<s n="n"/></r></p></e>
 <e>                 <p><l>pescuit<s n="n"/><s n="nt"/></l>            <r>pesca<s n="n"/><s n="f"/></r></p></e>
-<e a="delia">       <p><l>pescărie<s n="n"/></l>                      <r>pescateria<s n="n"/></r></p></e>
+<e r="RL" a="delia"><p><l>pescărie<s n="n"/></l>                      <r>pescateria<s n="n"/></r></p></e>
+<e a="delia">       <p><l>pescărie<s n="n"/></l>                      <r>peixateria<s n="n"/></r></p></e>
 <e a="delia">       <p><l>pescăruș<s n="n"/><s n="m"/></l>            <r>gavina<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>pesetă<s n="n"/></l>                        <r>pesseta<s n="n"/></r></p></e>
-<e>                 <p><l>pesimism<s n="n"/><s n="nt"/></l>           <r>pesimisme<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" a="delia"><p><l>pesimist<s n="n"/><s n="GD"/></l>           <r>pesimista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>pesimist<s n="n"/><s n="m"/></l>            <r>pesimista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>pesimist<s n="n"/><s n="f"/></l>            <r>pesimista<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>pesimism<s n="n"/><s n="nt"/></l>           <r>pessimisme<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="delia"><p><l>pesimist<s n="n"/><s n="GD"/></l>           <r>pessimista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="delia"><p><l>pesimist<s n="n"/><s n="m"/></l>            <r>pessimista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="delia"><p><l>pesimist<s n="n"/><s n="f"/></l>            <r>pessimista<s n="n"/><s n="mf"/></r></p></e>
 <e a="delia">       <p><l>pestilență<s n="n"/></l>                    <r>pestilència<s n="n"/></r></p></e>
 <e>                 <p><l>petardă<s n="n"/><s n="f"/></l>             <r>coet<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>petiție<s n="n"/></l>                       <r>petició<s n="n"/></r></p></e>
@@ -9341,7 +9347,6 @@
 <e a="delia">       <p><l>posteritate<s n="n"/></l>                   <r>posteritat<s n="n"/></r></p></e>
 <e a="delnou">      <p><l>postmodernism<s n="n"/><s n="nt"/></l>      <r>postmodernisme<s n="n"/><s n="m"/></r></p></e>
 <e a="delnou">      <p><l>postmodernitate<s n="n"/></l>               <r>postmodernitat<s n="n"/></r></p></e>
-<e a="delia">       <p><l>postum<s n="adj"/></l>                      <r>pòstum<s n="adj"/></r></p></e>
 <e a="delia">       <p><l>postură<s n="n"/></l>                       <r>postura<s n="n"/></r></p></e>
 <e a="delia">       <p><l>potcoavă<s n="n"/></l>                      <r>ferradura<s n="n"/></r></p></e>
 <e a="delia">       <p><l>potecă<s n="n"/></l>                        <r>sendera<s n="n"/></r></p></e>
@@ -10321,7 +10326,8 @@
 <e>                 <p><l>sticlă<s n="n"/></l>                        <r>ampolla<s n="n"/></r></p></e>
 <e a="delia">       <p><l>stigmat<s n="n"/><s n="nt"/></l>            <r>estigma<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>stil<s n="n"/><s n="nt"/></l>               <r>estil<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>stilou<s n="n"/><s n="nt"/></l>             <r>estilogràfica<s n="n"/><s n="f"/></r></p></e>
+<e r="RL">          <p><l>stilou<s n="n"/><s n="nt"/></l>             <r>estilogràfica<s n="n"/><s n="f"/></r></p></e>
+<e>                 <p><l>stilou<s n="n"/><s n="nt"/></l>             <r>ploma<b/>estilogràfica<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>stimul<s n="n"/><s n="nt"/></l>             <r>estímul<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>stimă<s n="n"/></l>                         <r>estima<s n="n"/></r></p></e>
 <e a="delia">       <p><l>stindard<s n="n"/><s n="nt"/></l>           <r>estendard<s n="n"/><s n="m"/></r></p></e>
@@ -10730,7 +10736,8 @@
 <e a="delia">       <p><l>tristețe<s n="n"/></l>                      <r>tristesa<s n="n"/></r></p></e>
 <e a="delia">       <p><l>triumf<s n="n"/><s n="nt"/></l>             <r>triomf<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>triunghi<s n="n"/><s n="nt"/></l>           <r>triangle<s n="n"/><s n="m"/></r></p></e>
-<e a="delia">       <p><l>trișor<s n="n"/></l>                        <r>trampista<s n="n"/></r></p></e>
+<e r="RL">          <p><l>trișor<s n="n"/><s n="GD"/></l>             <r>trampista<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>trișor<s n="n"/></l>                        <r>trampós<s n="n"/></r></p></e>
 <e>                 <p><l>trofeu<s n="n"/><s n="nt"/></l>             <r>trofeu<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>trompă<s n="n"/></l>                        <r>trompa<s n="n"/></r></p></e>
 <e a="delia">       <p><l>tron<s n="n"/><s n="nt"/></l>               <r>tron<s n="n"/><s n="m"/></r></p></e>
@@ -10997,9 +11004,9 @@
 <e a="delia">       <p><l>violare<s n="n"/></l>                       <r>violació<s n="n"/></r></p></e>
 <e a="delia">       <p><l>violator<s n="n"/></l>                      <r>violador<s n="n"/></r></p></e>
 <e a="delia">       <p><l>violență<s n="n"/></l>                      <r>violència<s n="n"/></r></p></e>
-<e r="LR">          <p><l>violonist<s n="n"/><s n="f"/></l>           <r>violonista<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL">          <p><l>violonist<s n="n"/><s n="GD"/></l>          <r>violonista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>violonist<s n="n"/><s n="m"/></l>           <r>violonista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR">          <p><l>violonist<s n="n"/><s n="f"/></l>           <r>violinista<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL">          <p><l>violonist<s n="n"/><s n="GD"/></l>          <r>violinista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR">          <p><l>violonist<s n="n"/><s n="m"/></l>           <r>violinista<s n="n"/><s n="mf"/></r></p></e>
 <e a="delia">       <p><l>viperă<s n="n"/></l>                        <r>vibra<s n="n"/></r></p></e>
 <e>                 <p><l>virare<s n="n"/><s n="f"/></l>              <r>gir<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>virginitate<s n="n"/></l>                   <r>virginitat<s n="n"/></r></p></e>
@@ -11118,9 +11125,9 @@
 <e a="delia">       <p><l>zodiac<s n="n"/><s n="nt"/></l>             <r>zodíac<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>zonă<s n="n"/></l>                          <r>zona<s n="n"/></r></p></e>
 <e a="delnou">      <p><l>zonă<b/>centrală<s n="n"/></l>              <r>zona<b/>cèntrica<s n="n"/></r></p></e>
-<e r="LR">          <p><l>zori<s n="n"/><s n="m"/><s n="pl"/></l>     <r>matinada<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-<e r="RL">          <p><l>zori<s n="n"/><s n="m"/><s n="pl"/></l>     <r>matinada<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>zori<s n="n"/><s n="m"/><s n="pl"/></l>     <r>matinada<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL">          <p><l>zori<s n="n"/><s n="m"/><s n="pl"/></l>     <r>matinada<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>zori<s n="n"/><s n="m"/><s n="pl"/></l>     <r>matinada<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e a="delia">       <p><l>zumzet<s n="n"/><s n="nt"/></l>             <r>brunzit<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>zvon<s n="n"/><s n="nt"/></l>               <r>remor<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>zână<s n="n"/></l>                          <r>fada<s n="n"/></r></p></e>
@@ -11189,7 +11196,7 @@
 <e>                 <p><l>înfruntare<s n="n"/><s n="f"/></l>          <r>enfrontament<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>înfrângere<s n="n"/></l>                    <r>derrota<s n="n"/></r></p></e>
 <e a="delia">       <p><l>înfumurare<s n="n"/><s n="f"/></l>          <r>estufament<s n="n"/><s n="m"/></r></p></e>
-<e r="RL">          <p><l>înfățișare<s n="n"/><s n="f"/></l>          <r>aparença<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">          <p><l>înfățișare<s n="n"/><s n="f"/></l>          <r>aparença<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>înger<s n="n"/><s n="m"/></l>               <r>àngel<s n="n"/><s n="m"/></r></p></e>
 <e r="LR">          <p><l>înger<s n="n"/><s n="f"/></l>               <r>àngel<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>înghesuială<s n="n"/></l>                   <r>gentada<s n="n"/></r></p></e>
@@ -11622,9 +11629,9 @@
 <e a="delnou">      <p><l>action-painting<s n="n"/><s n="nt"/></l>    <r>action-painting<s n="n"/><s n="m"/></r></p></e>
 <e a="delnou">      <p><l>action<b/>painting<s n="n"/><s n="nt"/></l> <r>action<b/>painting<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>actualizare<s n="n"/></l>                   <r>actualització<s n="n"/></r></p></e>
-<e r="RL" a="mioara"><p><l>acuarelist<s n="n"/><s n="GD"/></l>        <r>aquarelista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="mioara"><p><l>acuarelist<s n="n"/><s n="m"/></l>         <r>aquarelista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="mioara"><p><l>acuarelist<s n="n"/><s n="f"/></l>         <r>aquarelista<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL" a="mioara"><p><l>acuarelist<s n="n"/><s n="GD"/></l>        <r>aquarel·lista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acuarelist<s n="n"/><s n="m"/></l>         <r>aquarel·lista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>acuarelist<s n="n"/><s n="f"/></l>         <r>aquarel·lista<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>acupunctură<s n="n"/></l>                   <r>acupuntura<s n="n"/></r></p></e>
 <e r="LR" a="mioara"><p><l>acuratețe<s n="n"/><s n="f"/></l>          <r>cura<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="mioara"><p><l>acuză<s n="n"/></l>                        <r>acusació<s n="n"/></r></p></e>
@@ -11798,7 +11805,8 @@
 <e a="delnou">      <p><l>arhetip<s n="n"/><s n="nt"/></l>            <r>arquetip<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>arhiduce<s n="n"/></l>                      <r>arxiduc<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>arhiepiscopie<s n="n"/><s n="f"/></l>       <r>arquebisbat<s n="n"/><s n="m"/></r></p></e>
-<e r="LR" a="mioara"><p><l>arhiereu<s n="n"/></l>                     <r>jerarca<s n="n"/></r></p></e>
+<e r="LR" a="mioara"><p><l>arhiereu<s n="n"/><s n="m"/></l>           <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>arhiereu<s n="n"/><s n="f"/></l>           <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>arhivar<s n="n"/></l>                       <r>arxiver<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>arhivistică<s n="n"/></l>                   <r>arxivologia<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>ariditate<s n="n"/></l>                     <r>aridesa<s n="n"/></r></p></e>
@@ -12085,7 +12093,6 @@
 <e a="mioara">      <p><l>bombardier<s n="n"/><s n="nt"/></l>         <r>bombarder<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>bombeu<s n="n"/><s n="nt"/></l>             <r>puntera<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>bombăneală<s n="n"/><s n="f"/></l>          <r>grunyit<s n="n"/><s n="m"/></r></p></e>
-<e a="mioara">      <p><l>bombănitor<s n="adj"/></l>                  <r>botzinaire<s n="adj"/></r></p></e>
 <e a="mioara">      <p><l>bomfaier<s n="n"/><s n="nt"/></l>           <r>serra<g><b/>de<b/>metall</g><s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="mioara"><p><l>bondar<s n="n"/></l>                       <r>abellot<s n="n"/></r></p></e>
 <e r="LR" a="mioara"><p><l>bonetă<s n="n"/><s n="f"/></l>             <r>gorra<s n="n"/><s n="f"/></r></p></e>
@@ -12193,7 +12200,6 @@
 <e a="mioara">      <p><l>cameră<b/>foto<s n="n"/></l>                <r>càmera<g>de<b/>fotos</g><s n="n"/></r></p></e>
 <e a="delnou">      <p><l>camfor<s n="n"/><s n="nt"/></l>             <r>càmfora<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>camionetă<s n="n"/></l>                     <r>camioneta<s n="n"/></r></p></e>
-<e a="mioara">      <p><l>camping<s n="n"/><s n="nt"/></l>            <r>càmping<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>campus<s n="n"/><s n="nt"/></l>             <r>campus<s n="n"/><s n="m"/></r></p></e>
 <e a="delnou">      <p><l>canat<s n="n"/><s n="nt"/></l>              <r>batent<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>cancelar<s n="n"/></l>                      <r>canceller<s n="n"/></r></p></e>
@@ -12401,7 +12407,6 @@
 <e a="mioara">      <p><l>consolare<s n="n"/><s n="f"/></l>           <r>consol<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>consorțiu<s n="n"/><s n="nt"/></l>          <r>consorci<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>constituționalitate<s n="n"/></l>           <r>constitucionalitat<s n="n"/></r></p></e>
-<e a="mioara">      <p><l>constructiv<s n="adj"/></l>                 <r>constructiu<s n="adj"/></r></p></e>
 <e a="delnou">      <p><l>constructivism<s n="n"/><s n="nt"/></l>     <r>constructivisme<s n="n"/><s n="m"/></r></p></e>
 <e a="delnou">      <p><l>constrângere<s n="n"/><s n="f"/></l>        <r>constrenyiment<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="mioara"><p><l>consultare<s n="n"/></l>                   <r>consulta<s n="n"/></r></p></e>
@@ -12761,7 +12766,7 @@
 <e a="delnou">      <p><l>elan<s n="n"/><s n="nt"/></l>               <r>afany<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>electivitate<s n="n"/></l>                  <r>electivitat<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>electroliză<s n="n"/></l>                   <r>electròlisi<s n="n"/></r></p></e>
-<e a="mioara">      <p><l>electrostatică<s n="n"/></l>                <r>electroestàtica<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>electrostatică<s n="n"/></l>                <r>electrostàtica<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>electrotehnician<s n="n"/></l>              <r>tècnic<b/>electrònic<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>electrotehnică<s n="n"/></l>                <r>electrotècnia<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>electroterapie<s n="n"/></l>                <r>electroteràpia<s n="n"/></r></p></e>
@@ -13143,7 +13148,9 @@
 <e r="LR" a="mioara"><p><l>idiot<s n="n"/><s n="m"/></l>              <r>idiota<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>idiot<s n="n"/><s n="f"/></l>              <r>idiota<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>idioție<s n="n"/></l>                      <r>idiotesa<s n="n"/></r></p></e>
-<e a="mioara">      <p><l>ierarh<s n="n"/></l>                        <r>jerarca<s n="n"/></r></p></e>
+<e r="RL" a="mioara"><p><l>ierarh<s n="n"/><s n="GD"/></l>            <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ierarh<s n="n"/><s n="m"/></l>             <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>ierarh<s n="n"/><s n="f"/></l>             <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>ieromonah<s n="n"/></l>                     <r>hieromonjo<s n="n"/></r></p></e>
 <e r="RL" a="mioara"><p><l>igienist<s n="n"/><s n="GD"/></l>          <r>higienista<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>igienist<s n="n"/><s n="m"/></l>           <r>higienista<s n="n"/><s n="mf"/></r></p></e>
@@ -13514,7 +13521,7 @@
 <e r="LR" a="mioara"><p><l>menționare<s n="n"/></l>                   <r>menció<s n="n"/></r></p></e>
 <e r="LR" a="mioara"><p><l>meseriaș<s n="n"/></l>                     <r>operari<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>mesteacăn<s n="n"/></l>                     <r>bedoll<s n="n"/></r></p></e>
-<e a="delnou">      <p><l>metafizică<s n="n"/></l>                    <r>metafisíca<s n="n"/></r></p></e>
+<e a="delnou">      <p><l>metafizică<s n="n"/></l>                    <r>metafísica<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>metan<s n="n"/><s n="nt"/></l>              <r>metà<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>metanol<s n="n"/></l>                       <r>metanol<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>metapsihică<s n="n"/></l>                   <r>metafísica<s n="n"/></r></p></e>
@@ -13956,7 +13963,6 @@
 <e r="LR" a="mioara"><p><l>prisosință<s n="n"/></l>                   <r>abundància<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>prisăcar<s n="n"/></l>                      <r>abellar<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>proactivitate<s n="n"/></l>                 <r>proactivitat<s n="n"/></r></p></e>
-<e a="mioara">      <p><l>problematic<s n="adj"/></l>                 <r>problemàtic<s n="adj"/></r></p></e>
 <e a="mioara">      <p><l>problematică<s n="n"/></l>                  <r>problemàtica<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>proclamare<s n="n"/></l>                    <r>proclamació<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>procurator<s n="n"/></l>                    <r>procurador<s n="n"/></r></p></e>
@@ -14002,8 +14008,7 @@
 <e r="LR" a="mioara"><p><l>prăvălie<s n="n"/></l>                     <r>botiga<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>pugilism<s n="n"/><s n="nt"/></l>           <r>pugilisme<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="mioara"><p><l>pugilist<s n="n"/><s n="GD"/></l>          <r>pugilista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="mioara"><p><l>pugilist<s n="n"/><s n="m"/></l>           <r>pugilista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="mioara"><p><l>pugilist<s n="n"/><s n="f"/></l>           <r>pugilista<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>pugilist<s n="n"/></l>                      <r>boxejador<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>pui<s n="n"/><s n="m"/></l>                 <r>cria<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>pulpită<s n="n"/></l>                       <r>pulpitis<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>punctaj<s n="n"/><s n="nt"/></l>            <r>puntuació<s n="n"/><s n="f"/></r></p></e>
@@ -14671,9 +14676,6 @@
 <e r="RL" a="mioara"><p><l>violoncelist<s n="n"/><s n="GD"/></l>      <r>violoncelista<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>violoncelist<s n="n"/><s n="m"/></l>       <r>violoncelista<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>violoncelist<s n="n"/><s n="f"/></l>       <r>violoncelista<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL" a="mioara"><p><l>violonist<s n="n"/><s n="GD"/></l>         <r>violinista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="mioara"><p><l>violonist<s n="n"/><s n="m"/></l>          <r>violinista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="mioara"><p><l>violonist<s n="n"/><s n="f"/></l>          <r>violinista<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>viraj<s n="n"/><s n="nt"/></l>              <r>viratge<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>virtuoz<s n="n"/></l>                       <r>virtuós<s n="n"/></r></p></e>
 <e r="LR" a="mioara"><p><l>viscol<s n="n"/><s n="nt"/></l>            <r>torb<s n="n"/><s n="m"/></r></p></e>
@@ -15583,394 +15585,394 @@
 <e>                 <p><l>Romeo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Romeo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>Ryan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ryan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
-<e>                 <p><l>﻿Ada<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>﻿Ada<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Adela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Adela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Adelaida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Adelaida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Adelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Adelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Adina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Adina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Adriana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Adriana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Agata<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Agata<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Aglaia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aglaia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Agripina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Agripina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Aida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Alberta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alberta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Albertina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Albertina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Alexandra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alexandra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Alexandrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alexandrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Alice<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alice<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Alida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Alina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Alis<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alis<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Alma<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Alma<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Amalia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Amalia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Amanda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Amanda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Amelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Amelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anabela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anabela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anaida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anaida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anamaria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anamaria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anastasia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anastasia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ancuța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ancuța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Andra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Andra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Andrada<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Andrada<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Andreea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Andreea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anemona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anemona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Aneta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aneta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Angela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Angela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anghelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anghelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anișoara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anișoara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Antoaneta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Antoaneta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Antonela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Antonela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Antonia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Antonia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Anuța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Anuța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ariadna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ariadna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ariana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ariana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Arina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Arina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Aristița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aristița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Artemisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Artemisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Astrid<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Astrid<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Atena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Atena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Augustina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Augustina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Aura<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aura<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Aurelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aurelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Aureliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aureliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Aurica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aurica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Aurora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Aurora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Axenia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Axenia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Beatrice<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Beatrice<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Betina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Betina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Bianca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Bianca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Blanduzia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Blanduzia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Bogdana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Bogdana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Brândușa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Brândușa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Camelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Camelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Carina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Carina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Carla<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Carla<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Carmen<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Carmen<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Carmina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Carmina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Carolina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Carolina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Casandra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Casandra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Casiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Casiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Caterina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Caterina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Catinca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Catinca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Catrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Catrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Catrinel<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Catrinel<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Cătălina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cătălina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Cecilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cecilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Celia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Celia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Cerasela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cerasela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Cezara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cezara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Cipriana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cipriana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Clara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Clara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Clarisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Clarisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Claudia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Claudia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Clementina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Clementina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Cleopatra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cleopatra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Codrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Codrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Codruța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Codruța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Constanța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Constanța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Constantina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Constantina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Consuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Consuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Coralia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Coralia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Corina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Corina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Cornelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cornelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Cosmina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cosmina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Crenguța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Crenguța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Crina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Crina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Cristina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Cristina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Daciana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Daciana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dafina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dafina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Daiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Daiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dalia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dalia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Daniela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Daniela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Daria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Daria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dariana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dariana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Delia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Delia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Demetra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Demetra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Denisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Denisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Despina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Despina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Diana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Diana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dida<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Didina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Didina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dimitrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dimitrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dochia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dochia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Doina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Doina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Domnica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Domnica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Doriana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Doriana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dorina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dorina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dorli<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dorli<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Draga<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Draga<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dumitra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dumitra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Dumitrana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Dumitrana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ecaterina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ecaterina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Eftimia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Eftimia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Elena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Elena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Eleonora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Eleonora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Eliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Eliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Elisabeta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Elisabeta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Elisaveta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Elisaveta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Eliza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Eliza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Elodia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Elodia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Elvira<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Elvira<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Emanuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Emanuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Emilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Emilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Erica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Erica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Estera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Estera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Eufrosina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Eufrosina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Eugenia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Eugenia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Eusebia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Eusebia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Eva<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Eva<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Evanghelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Evanghelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Evelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Evelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Fabia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Fabia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Fabiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Fabiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Felicia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Felicia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Filofteia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Filofteia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Fiona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Fiona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Flavia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Flavia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Floare<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Floare<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Floarea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Floarea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Flora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Flora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Florența<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Florența<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Florentina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Florentina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Floriana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Floriana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Florica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Florica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Florina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Florina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Francesca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Francesca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Frusina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Frusina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Gabriela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Gabriela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Geanina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Geanina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Gențiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Gențiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Georgeta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Georgeta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Georgia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Georgia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Georgiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Georgiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Geta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Geta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Gherghina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Gherghina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Gianina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Gianina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Gina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Gina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Giorgiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Giorgiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Grațiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Grațiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Grațiela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Grațiela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Henrieta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Henrieta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Heracleea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Heracleea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Hortensia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Hortensia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Iasmina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Iasmina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ileana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ileana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ilinca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ilinca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ilona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ilona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ioana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ioana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ioanina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ioanina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Iolanda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Iolanda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ionela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ionela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ionelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ionelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Iosefina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Iosefina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Iridenta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Iridenta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Irina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Irina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Iris<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Iris<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Isabela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Isabela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Iulia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Iulia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Iuliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Iuliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Iustina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Iustina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ivona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ivona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Izabela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Izabela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Jana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Jana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Janeta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Janeta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Janina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Janina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Jasmina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Jasmina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Jeana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Jeana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Julia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Julia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Julieta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Julieta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Larisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Larisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Laura<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Laura<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Laurenția<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Laurenția<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lavinia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lavinia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lăcrămioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lăcrămioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Leana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Leana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Leontina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Leontina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Leopoldina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Leopoldina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Letiția<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Letiția<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Liana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Liana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lidia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lidia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ligia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ligia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lili<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lili<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Liliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Liliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Livia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Livia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Loredana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Loredana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lorelei<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lorelei<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lorena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lorena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Luana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Luana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lucia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lucia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Luciana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Luciana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Lucreția<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lucreția<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ludmila<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ludmila<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ludovica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ludovica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Luiza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Luiza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Luminița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Luminița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Magdalena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Magdalena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Maia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Maia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Malvina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Malvina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Manuela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Marcela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marcela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Marcheta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marcheta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Marga<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marga<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Margareta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Margareta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Maria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Maria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mariana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mariana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Maricica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Maricica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Marilena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marilena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Marina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Marinela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marinela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Marioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Marta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Marta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Matilda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Matilda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mădălina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mădălina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mălina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mălina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mărioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mărioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Măriuca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Măriuca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Melania<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Melania<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Melina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Melina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mihaela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mihaela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Milena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Milena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Minodora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Minodora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mioara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mirabela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mirabela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mirela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mirela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mirona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mirona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Miruna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Miruna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Mona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Monalisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Monalisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Monica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Monica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Nadia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Nadia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Narcisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Narcisa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Natalia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Natalia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Natașa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Natașa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Nicoleta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Nicoleta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Niculina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Niculina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Nidia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Nidia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Noemi<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Noemi<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Nora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Nora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Norica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Norica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Oana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Oana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Octavia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Octavia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Octaviana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Octaviana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ofelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ofelia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Olga<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Olga<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Olimpia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Olimpia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Olivia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Olivia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ortansa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ortansa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Otilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Otilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ozana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ozana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Pamela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Pamela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Paraschiva<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Paraschiva<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Patricia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Patricia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Paula<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Paula<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Paulica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Paulica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Paulina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Paulina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Petronela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Petronela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Petruța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Petruța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Pompilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Pompilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Profira<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Profira<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Rada<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Rada<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Rafila<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Rafila<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Raluca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Raluca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ramona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ramona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Rebeca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Rebeca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Renata<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Renata<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Rica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Rica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Roberta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Roberta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Robertina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Robertina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Rodica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Rodica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Romanița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Romanița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Romina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Romina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Roxana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Roxana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Roxelana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Roxelana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Roza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Roza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Rozalia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Rozalia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ruxanda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ruxanda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ruxandra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ruxandra<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Sabina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sabina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Sabrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sabrina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Safta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Safta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Salomea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Salomea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Sanda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sanda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Saveta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Saveta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Savina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Savina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Sânziana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sânziana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Semenica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Semenica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Severina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Severina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Sidonia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sidonia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Silvana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Silvana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Silvia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Silvia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Silviana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Silviana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Simina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Simina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Simona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Simona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Smaranda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Smaranda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Sofia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sofia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Sonia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sonia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Sorana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sorana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Sorina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Sorina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Speranța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Speranța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Stana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Stana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Stanca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Stanca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Stela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Stela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Steliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Steliana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Steluța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Steluța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Suzana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Suzana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Svetlana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Svetlana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ștefana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ștefana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Ștefania<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ștefania<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Tamara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tamara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Tania<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tania<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Tatiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tatiana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Teea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Teea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Teodora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Teodora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Teodosia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Teodosia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Teona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Teona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Tiberia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tiberia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Timea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Timea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Tinca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tinca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Tincuța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tincuța<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Tudora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tudora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Tudorița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tudorița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Tudosia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Tudosia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Valentina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Valentina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Valeria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Valeria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Vanesa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Vanesa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Varvara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Varvara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Vasilica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Vasilica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Venera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Venera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Vera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Vera<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Veronica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Veronica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Veta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Veta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Vicenția<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Vicenția<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Victoria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Victoria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Violeta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Violeta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Viorela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Viorela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Viorica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Viorica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Virginia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Virginia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Viviana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Viviana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Vlădelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Vlădelina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Voichița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Voichița<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Xenia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Xenia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Zaharia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Zaharia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Zamfira<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Zamfira<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Zaraza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Zaraza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Zenobia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Zenobia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Zenovia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Zenovia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Zina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Zina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e>                 <p><l>﻿Ada</l><r>﻿Ada</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Adela</l><r>Adela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Adelaida</l><r>Adelaida</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Adelina</l><r>Adelina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Adina</l><r>Adina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Adriana</l><r>Adriana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Agata</l><r>Agata</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Aglaia</l><r>Aglaia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Agripina</l><r>Agripina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Aida</l><r>Aida</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Alberta</l><r>Alberta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Albertina</l><r>Albertina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Alexandra</l><r>Alexandra</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Alexandrina</l><r>Alexandrina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Alice</l><r>Alice</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Alida</l><r>Alida</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Alina</l><r>Alina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Alis</l><r>Alis</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Alma</l><r>Alma</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Amalia</l><r>Amalia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Amanda</l><r>Amanda</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Amelia</l><r>Amelia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ana</l><r>Ana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anabela</l><r>Anabela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anaida</l><r>Anaida</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anamaria</l><r>Anamaria</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anastasia</l><r>Anastasia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anca</l><r>Anca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ancuța</l><r>Ancuța</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anda</l><r>Anda</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Andra</l><r>Andra</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Andrada</l><r>Andrada</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Andreea</l><r>Andreea</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anemona</l><r>Anemona</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Aneta</l><r>Aneta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Angela</l><r>Angela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anghelina</l><r>Anghelina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anica</l><r>Anica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anișoara</l><r>Anișoara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Antoaneta</l><r>Antoaneta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Antonela</l><r>Antonela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Antonia</l><r>Antonia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Anuța</l><r>Anuța</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ariadna</l><r>Ariadna</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ariana</l><r>Ariana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Arina</l><r>Arina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Aristița</l><r>Aristița</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Artemisa</l><r>Artemisa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Astrid</l><r>Astrid</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Atena</l><r>Atena</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Augustina</l><r>Augustina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Aura</l><r>Aura</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Aurelia</l><r>Aurelia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Aureliana</l><r>Aureliana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Aurica</l><r>Aurica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Aurora</l><r>Aurora</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Axenia</l><r>Axenia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Beatrice</l><r>Beatrice</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Betina</l><r>Betina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Bianca</l><r>Bianca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Blanduzia</l><r>Blanduzia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Bogdana</l><r>Bogdana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Brândușa</l><r>Brândușa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Camelia</l><r>Camelia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Carina</l><r>Carina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Carla</l><r>Carla</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Carmen</l><r>Carmen</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Carmina</l><r>Carmina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Carolina</l><r>Carolina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Casandra</l><r>Casandra</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Casiana</l><r>Casiana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Caterina</l><r>Caterina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Catinca</l><r>Catinca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Catrina</l><r>Catrina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Catrinel</l><r>Catrinel</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Cătălina</l><r>Cătălina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Cecilia</l><r>Cecilia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Celia</l><r>Celia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Cerasela</l><r>Cerasela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Cezara</l><r>Cezara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Cipriana</l><r>Cipriana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Clara</l><r>Clara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Clarisa</l><r>Clarisa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Claudia</l><r>Claudia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Clementina</l><r>Clementina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Cleopatra</l><r>Cleopatra</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Codrina</l><r>Codrina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Codruța</l><r>Codruța</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Constanța</l><r>Constanța</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Constantina</l><r>Constantina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Consuela</l><r>Consuela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Coralia</l><r>Coralia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Corina</l><r>Corina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Cornelia</l><r>Cornelia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Cosmina</l><r>Cosmina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Crenguța</l><r>Crenguța</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Crina</l><r>Crina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Cristina</l><r>Cristina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Daciana</l><r>Daciana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dafina</l><r>Dafina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Daiana</l><r>Daiana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dalia</l><r>Dalia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dana</l><r>Dana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Daniela</l><r>Daniela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Daria</l><r>Daria</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dariana</l><r>Dariana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Delia</l><r>Delia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Demetra</l><r>Demetra</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Denisa</l><r>Denisa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Despina</l><r>Despina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Diana</l><r>Diana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dida</l><r>Dida</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Didina</l><r>Didina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dimitrina</l><r>Dimitrina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dina</l><r>Dina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dochia</l><r>Dochia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Doina</l><r>Doina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Domnica</l><r>Domnica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dora</l><r>Dora</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Doriana</l><r>Doriana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dorina</l><r>Dorina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dorli</l><r>Dorli</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Draga</l><r>Draga</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dumitra</l><r>Dumitra</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Dumitrana</l><r>Dumitrana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ecaterina</l><r>Ecaterina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Eftimia</l><r>Eftimia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Elena</l><r>Elena</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Eleonora</l><r>Eleonora</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Eliana</l><r>Eliana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Elisabeta</l><r>Elisabeta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Elisaveta</l><r>Elisaveta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Eliza</l><r>Eliza</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Elodia</l><r>Elodia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Elvira</l><r>Elvira</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Emanuela</l><r>Emanuela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Emilia</l><r>Emilia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Erica</l><r>Erica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Estera</l><r>Estera</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Eufrosina</l><r>Eufrosina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Eugenia</l><r>Eugenia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Eusebia</l><r>Eusebia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Eva</l><r>Eva</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Evanghelina</l><r>Evanghelina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Evelina</l><r>Evelina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Fabia</l><r>Fabia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Fabiana</l><r>Fabiana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Felicia</l><r>Felicia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Filofteia</l><r>Filofteia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Fiona</l><r>Fiona</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Flavia</l><r>Flavia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Floare</l><r>Floare</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Floarea</l><r>Floarea</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Flora</l><r>Flora</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Florența</l><r>Florența</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Florentina</l><r>Florentina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Floriana</l><r>Floriana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Florica</l><r>Florica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Florina</l><r>Florina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Francesca</l><r>Francesca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Frusina</l><r>Frusina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Gabriela</l><r>Gabriela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Geanina</l><r>Geanina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Gențiana</l><r>Gențiana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Georgeta</l><r>Georgeta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Georgia</l><r>Georgia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Georgiana</l><r>Georgiana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Geta</l><r>Geta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Gherghina</l><r>Gherghina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Gianina</l><r>Gianina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Gina</l><r>Gina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Giorgiana</l><r>Giorgiana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Grațiana</l><r>Grațiana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Grațiela</l><r>Grațiela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Henrieta</l><r>Henrieta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Heracleea</l><r>Heracleea</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Hortensia</l><r>Hortensia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Iasmina</l><r>Iasmina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ica</l><r>Ica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ileana</l><r>Ileana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ilinca</l><r>Ilinca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ilona</l><r>Ilona</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ina</l><r>Ina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ioana</l><r>Ioana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ioanina</l><r>Ioanina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Iolanda</l><r>Iolanda</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ionela</l><r>Ionela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ionelia</l><r>Ionelia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Iosefina</l><r>Iosefina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Iridenta</l><r>Iridenta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Irina</l><r>Irina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Iris</l><r>Iris</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Isabela</l><r>Isabela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Iulia</l><r>Iulia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Iuliana</l><r>Iuliana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Iustina</l><r>Iustina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ivona</l><r>Ivona</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Izabela</l><r>Izabela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Jana</l><r>Jana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Janeta</l><r>Janeta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Janina</l><r>Janina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Jasmina</l><r>Jasmina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Jeana</l><r>Jeana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Julia</l><r>Julia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Julieta</l><r>Julieta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Larisa</l><r>Larisa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Laura</l><r>Laura</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Laurenția</l><r>Laurenția</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lavinia</l><r>Lavinia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lăcrămioara</l><r>Lăcrămioara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Leana</l><r>Leana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lelia</l><r>Lelia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Leontina</l><r>Leontina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Leopoldina</l><r>Leopoldina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Letiția</l><r>Letiția</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lia</l><r>Lia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Liana</l><r>Liana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lidia</l><r>Lidia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ligia</l><r>Ligia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lili</l><r>Lili</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Liliana</l><r>Liliana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lioara</l><r>Lioara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Livia</l><r>Livia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Loredana</l><r>Loredana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lorelei</l><r>Lorelei</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Lorena</l><r>Lorena</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Luana</l><r>Luana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lucia</l><r>Lucia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Luciana</l><r>Luciana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Lucreția</l><r>Lucreția</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ludmila</l><r>Ludmila</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ludovica</l><r>Ludovica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Luiza</l><r>Luiza</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Luminița</l><r>Luminița</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Magdalena</l><r>Magdalena</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Maia</l><r>Maia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Malvina</l><r>Malvina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Manuela</l><r>Manuela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mara</l><r>Mara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Marcela</l><r>Marcela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Marcheta</l><r>Marcheta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Marga</l><r>Marga</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Margareta</l><r>Margareta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Maria</l><r>Maria</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mariana</l><r>Mariana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Maricica</l><r>Maricica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Marilena</l><r>Marilena</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Marina</l><r>Marina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Marinela</l><r>Marinela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Marioara</l><r>Marioara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Marta</l><r>Marta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Matilda</l><r>Matilda</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mădălina</l><r>Mădălina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mălina</l><r>Mălina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mărioara</l><r>Mărioara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Măriuca</l><r>Măriuca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Melania</l><r>Melania</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Melina</l><r>Melina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mihaela</l><r>Mihaela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Milena</l><r>Milena</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mina</l><r>Mina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Minodora</l><r>Minodora</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mioara</l><r>Mioara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mirabela</l><r>Mirabela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mirela</l><r>Mirela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mirona</l><r>Mirona</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Miruna</l><r>Miruna</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Mona</l><r>Mona</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Monalisa</l><r>Monalisa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Monica</l><r>Monica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Nadia</l><r>Nadia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Narcisa</l><r>Narcisa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Natalia</l><r>Natalia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Natașa</l><r>Natașa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Nicoleta</l><r>Nicoleta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Niculina</l><r>Niculina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Nidia</l><r>Nidia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Noemi</l><r>Noemi</r></p><par n="Carmen__np"/></e>
+<e>                 <p><l>Nora</l><r>Nora</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Norica</l><r>Norica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Oana</l><r>Oana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Octavia</l><r>Octavia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Octaviana</l><r>Octaviana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ofelia</l><r>Ofelia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Olga</l><r>Olga</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Olimpia</l><r>Olimpia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Olivia</l><r>Olivia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ortansa</l><r>Ortansa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Otilia</l><r>Otilia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ozana</l><r>Ozana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Pamela</l><r>Pamela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Paraschiva</l><r>Paraschiva</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Patricia</l><r>Patricia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Paula</l><r>Paula</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Paulica</l><r>Paulica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Paulina</l><r>Paulina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Petronela</l><r>Petronela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Petruța</l><r>Petruța</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Pompilia</l><r>Pompilia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Profira</l><r>Profira</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Rada</l><r>Rada</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Rafila</l><r>Rafila</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Raluca</l><r>Raluca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ramona</l><r>Ramona</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Rebeca</l><r>Rebeca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Renata</l><r>Renata</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Rica</l><r>Rica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Roberta</l><r>Roberta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Robertina</l><r>Robertina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Rodica</l><r>Rodica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Romanița</l><r>Romanița</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Romina</l><r>Romina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Roxana</l><r>Roxana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Roxelana</l><r>Roxelana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Roza</l><r>Roza</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Rozalia</l><r>Rozalia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ruxanda</l><r>Ruxanda</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ruxandra</l><r>Ruxandra</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Sabina</l><r>Sabina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Sabrina</l><r>Sabrina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Safta</l><r>Safta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Salomea</l><r>Salomea</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Sanda</l><r>Sanda</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Saveta</l><r>Saveta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Savina</l><r>Savina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Sânziana</l><r>Sânziana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Semenica</l><r>Semenica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Severina</l><r>Severina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Sidonia</l><r>Sidonia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Silvana</l><r>Silvana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Silvia</l><r>Silvia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Silviana</l><r>Silviana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Simina</l><r>Simina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Simona</l><r>Simona</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Smaranda</l><r>Smaranda</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Sofia</l><r>Sofia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Sonia</l><r>Sonia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Sorana</l><r>Sorana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Sorina</l><r>Sorina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Speranța</l><r>Speranța</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Stana</l><r>Stana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Stanca</l><r>Stanca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Stela</l><r>Stela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Steliana</l><r>Steliana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Steluța</l><r>Steluța</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Suzana</l><r>Suzana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Svetlana</l><r>Svetlana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ștefana</l><r>Ștefana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Ștefania</l><r>Ștefania</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Tamara</l><r>Tamara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Tania</l><r>Tania</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Tatiana</l><r>Tatiana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Teea</l><r>Teea</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Teodora</l><r>Teodora</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Teodosia</l><r>Teodosia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Teona</l><r>Teona</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Tiberia</l><r>Tiberia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Timea</l><r>Timea</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Tinca</l><r>Tinca</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Tincuța</l><r>Tincuța</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Tudora</l><r>Tudora</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Tudorița</l><r>Tudorița</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Tudosia</l><r>Tudosia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Valentina</l><r>Valentina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Valeria</l><r>Valeria</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Vanesa</l><r>Vanesa</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Varvara</l><r>Varvara</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Vasilica</l><r>Vasilica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Venera</l><r>Venera</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Vera</l><r>Vera</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Veronica</l><r>Veronica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Veta</l><r>Veta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Vicenția</l><r>Vicenția</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Victoria</l><r>Victoria</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Violeta</l><r>Violeta</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Viorela</l><r>Viorela</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Viorica</l><r>Viorica</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Virginia</l><r>Virginia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Viviana</l><r>Viviana</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Vlădelina</l><r>Vlădelina</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Voichița</l><r>Voichița</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Xenia</l><r>Xenia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Zaharia</l><r>Zaharia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Zamfira</l><r>Zamfira</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Zaraza</l><r>Zaraza</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Zenobia</l><r>Zenobia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Zenovia</l><r>Zenovia</r></p><par n="Maria__np"/></e>
+<e>                 <p><l>Zina</l><r>Zina</r></p><par n="Maria__np"/></e>
 
 <!-- Altres -->
 
@@ -17307,12 +17309,6 @@
 <e>                 <p><l>ieși<s n="vblex"/></l>                      <r>partir<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>ieși<g><b/>la<b/>iveală</g><s n="vblex"/></l><r>sortir<g><b/>a<b/>la<b/>llum</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>ieși<g><b/>în<b/>întâmpinare</g><s n="vblex"/></l><r>sortir<g><b/>a<b/>la<b/>trobada</g><s n="vblex"/></r></p></e>
-      <!--<e>
-        <p>
-          <l>idóneo</l>
-          <r>potrivit<s n="adj"/></r>
-        </p>
-      </e> -->
 <e>                 <p><l>ignora<s n="vblex"/></l>                    <r>ignorar<s n="vblex"/></r></p></e>
 <e>                 <p><l>ilumina<s n="vblex"/></l>                   <r>il·luminar<s n="vblex"/></r></p></e>
 <e>                 <p><l>ilustra<s n="vblex"/></l>                   <r>il·lustrar<s n="vblex"/></r></p></e>
@@ -18814,7 +18810,7 @@
 <e a="delnou">      <p><l>împărtăși<s n="vblex"/></l>                 <r>compartir<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>înjumătăți<s n="vblex"/></l>                <r>reduir<g><b/>a<b/>la<b/>meitat</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>înlătura<s n="vblex"/></l>                  <r>apartar<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>învia<s n="vblex"/></l>                     <r>ressucitar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>învia<s n="vblex"/></l>                     <r>ressuscitar<s n="vblex"/></r></p></e>
 <e r="LR" a="mioara"><p><l>șicana<s n="vblex"/></l>                   <r>fotre<s n="vblex"/></r></p></e>
 
 <e>                 <p><l>putea<s n="vbmod"/></l>                     <r>poder<s n="vbmod"/></r></p></e>

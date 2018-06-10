@@ -541,6 +541,7 @@
       <attr-item tags="prs"/>
       <attr-item tags="imp"/>
       <attr-item tags="ifi"/>
+      <attr-item tags="fts"/>
     </def-attr>
   </section-def-attrs>
 
@@ -1077,6 +1078,128 @@
             <let>
               <var n="temps"/>
               <lit-tag v="fti"/>
+            </let>
+            <let>
+              <var n="persona"/>
+              <clip pos="1" side="tl" part="a_pers"/>
+            </let>
+            <let>
+              <var n="nombre"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+            </let>
+            <let>
+              <var n="auxiliar_lema"/>
+              <lit v="haver"/>
+            </let>
+            <let>
+              <var n="auxiliar"/>
+              <concat>
+                <lit-tag v="vaux"/>
+                <clip pos="1" side="tl" part="a_temps"/>
+                <clip pos="1" side="tl" part="a_pers" link-to="4"/>
+                <clip pos="1" side="tl" part="a_nbr" link-to="5"/>
+                <lit v="$ ^"/>
+              </concat>
+            </let>
+            <let>
+              <var n="verb"/>
+              <concat>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="tl" part="a_verb"/>
+                <lit-tag v="pp"/>
+                <lit-tag v="m"/>
+                <lit-tag v="sg"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </concat>
+            </let>
+          </when>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="a_verb"/>
+                  <lit-tag v="vbavea"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="a_temps"/>
+                  <lit-tag v="cni"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="a_temps"/>
+                  <lit-tag v="inf"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="a_temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <var n="temps"/>
+              <lit-tag v="cni"/>
+            </let>
+            <let>
+              <var n="persona"/>
+              <clip pos="1" side="tl" part="a_pers"/>
+            </let>
+            <let>
+              <var n="nombre"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+            </let>
+            <let>
+              <var n="auxiliar_lema"/>
+              <lit v="haver"/>
+            </let>
+            <let>
+              <var n="auxiliar"/>
+              <concat>
+                <lit-tag v="vaux"/>
+                <clip pos="1" side="tl" part="a_temps"/>
+                <clip pos="1" side="tl" part="a_pers" link-to="4"/>
+                <clip pos="1" side="tl" part="a_nbr" link-to="5"/>
+                <lit v="$ ^"/>
+              </concat>
+            </let>
+            <let>
+              <var n="verb"/>
+              <concat>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="tl" part="a_verb"/>
+                <lit-tag v="pp"/>
+                <lit-tag v="m"/>
+                <lit-tag v="sg"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </concat>
+            </let>
+          </when>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="a_verb"/>
+                  <lit-tag v="vbavea"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="a_temps"/>
+                  <lit-tag v="pri"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="a_temps"/>
+                  <lit-tag v="inf"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="a_temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_temps"/>
+              <lit-tag v="fts"/>
+            </let>
+            <let>
+              <var n="temps"/>
+              <lit-tag v="fts"/>
             </let>
             <let>
               <var n="persona"/>
@@ -12923,52 +13046,6 @@ is not applicable because gender and number can not be taken from previous rules
     </rule>
 
 
-
-<rule>
-<!-- REGLA 92: CONDICIONAL PASSAT -->
-<!-- Per a traduir  "aș fi făcut" com a "hubiera hecho" que se usa en vez de "habría hecho" -->
-      <pattern>
-        <pattern-item n="vbaveacni"/>
-<!--Gemma <pattern-item n="inf"/> el tagger tria malament, quan trie inf canviar verb per inf-->
-        <pattern-item n="catverb"/>
-        <pattern-item n="pp"/>
-      </pattern>
-      <action>
-       <choose>
-        <when>
-         <test>
-           <equal>
-              <clip pos="2" side="sl" part="lem"/>
-                <lit v="fi"/>
-           </equal>
-        </test>
-        <out><chunk name="x"><tags><tag><lit-tag v="SX"/></tag></tags>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="haver"/>
-            </get-case-from>
-            <lit-tag v="vbhaver.pis"/>
-            <clip pos="1" side="tl" part="a_pers"/>
-            <clip pos="1" side="tl" part="a_nbr"/>
-           <!-- <clip pos="1" side="tl" part="lemq"/>-->
-          </lu>
-          <b/>
-          <lu>
-            <clip pos="3" side="tl" part="lemh"/>
-            <clip pos="3" side="tl" part="a_verb"/>
-            <lit-tag v="pp.m.sg"/>
-            <clip pos="3" side="tl" part="lemq"/>
-          </lu>
-        </chunk></out>
-       </when>
-       </choose>
-        <call-macro n="f_bcond">
-          <with-param pos="1"/>
-          <with-param pos="2"/>
-        </call-macro>
-
-      </action>
-    </rule>
 
 <!--REGLA 95 DELIA: VERB Acusativo + PREP PE + NOM - VERB + PREP A + NOM-->
       <rule>

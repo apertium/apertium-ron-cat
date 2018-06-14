@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 22366
+	Entries: 22381
 	Sdefs: 78
 	Paradigms: 15
 
@@ -15472,8 +15472,7 @@
 <e>                 <p><l>specie<s n="n"/></l>                        <r>espècie<s n="n"/></r></p></e>
 <e a="delia">       <p><l>specificare<s n="n"/></l>                   <r>especificació<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>specimen<s n="n"/><s n="nt"/></l>           <r>espècimen<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>spectacol<s n="n"/></l>                     <r>espectacle<s n="n"/></r></p></e>
-<e>                 <p><l>spectacol<s n="n"/><s n="nt"/></l>          <r>espectáculo<s n="n"/><s n="m"/></r></p></e>
+<e>                 <p><l>spectacol<s n="n"/><s n="nt"/></l>          <r>espectacle<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>spectator<s n="n"/></l>                     <r>espectador<s n="n"/></r></p></e>
 <e>                 <p><l>spectru<s n="n"/><s n="nt"/></l>            <r>espectre<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>speculant<s n="n"/></l>                     <r>especulador<s n="n"/></r></p></e>
@@ -20459,7 +20458,7 @@
 <e a="delia">       <p><l>avea<g><b/>nevoie<b/>de</g><s n="vblex"/></l><r>necessitar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>avea<g><b/>o<b/>noapte<b/>albă</g><s n="vblex"/></l><r>passar<g><b/>una<b/>nit<b/>en<b/>blanc</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>avea<g><b/>premieră</g><s n="vblex"/></l>   <r>estrenar<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>avea<g><b/>tupeu</g><s n="vblex"/></l>      <r>tenir<g><b/>morro</g><s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>avea<g><b/>tupeu</g><s n="vblex"/></l>      <r>tenir<g><b/>barra</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>avea<g><b/>voie</g><s n="vblex"/></l>       <r>tenir<g><b/>permís</g><s n="vblex"/></r></p></e>
 <e r="LR">          <p><l>avea<g><b/>încredere</g><s n="vblex"/></l>  <r>confiar<s n="vblex"/></r></p></e>
 <e>                 <p><l>aventura<s n="vblex"/></l>                  <r>aventurar<s n="vblex"/></r></p></e>
@@ -20473,7 +20472,6 @@
 <e a="del">         <p><l>baliza<s n="vblex"/></l>                    <r>abalisar<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>banaliza<s n="vblex"/></l>                  <r>trivialitzar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>baricada<s n="vblex"/></l>                  <r>atrinxerar<s n="vblex"/></r></p></e>
-<e>                 <p><l>bate<s n="vblex"/></l>                      <r>batir<s n="vblex"/></r></p></e>
 <e>                 <p><l>bate<s n="vblex"/></l>                      <r>batre<s n="vblex"/></r></p></e>
 <e>                 <p><l>bate<g><b/>joc</g><s n="vblex"/></l>        <r>burlar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>bate<g><b/>la<b/>cap</g><s n="vblex"/></l>  <r>donar<g><b/>la<b/>llanda</g><s n="vblex"/></r></p></e>
@@ -20511,7 +20509,8 @@
 <e a="delia">       <p><l>buimăci<s n="vblex"/></l>                   <r>atordir<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>burduși<s n="vblex"/></l>                   <r>entatxonar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>bâigui<s n="vblex"/></l>                    <r>balbotejar<s n="vblex"/></r></p></e>
-<e a="del">         <p><l>bâjbâi<s n="vblex"/></l>                    <r>titubar<s n="vblex"/></r></p></e>
+<e r="RL" a="del">  <p><l>bâjbâi<s n="vblex"/></l>                    <r>titubar<s n="vblex"/></r></p></e>
+<e a="del">         <p><l>bâjbâi<s n="vblex"/></l>                    <r>titubejar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>bâlbâi<s n="vblex"/></l>                    <r>balbotejar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>bântui<s n="vblex"/></l>                    <r>assolar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>bârfi<s n="vblex"/></l>                     <r>malparlar<s n="vblex"/></r></p></e>
@@ -20558,8 +20557,8 @@
 <e>                 <p><l>certa<s n="vblex"/></l>                     <r>renyar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>certifica<s n="vblex"/></l>                 <r>certificar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>cerui<s n="vblex"/></l>                     <r>encerar<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>chefui<s n="vblex"/></l>                    <r>fer<b/>gresca<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>cheli<s n="vblex"/></l>                     <r>quedar<g><b/>calb</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>chefui<s n="vblex"/></l>                    <r>fer<g><b/>gresca</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>cheli<s n="vblex"/></l>                     <r>encalbir<s n="vblex"/></r></p></e>
 <e>                 <p><l>cheltui<s n="vblex"/></l>                   <r>gastar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>chercheli<s n="vblex"/></l>                 <r>engatar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>chestiona<s n="vblex"/></l>                 <r>qüestionar<s n="vblex"/></r></p></e>
@@ -20592,7 +20591,7 @@
 <e a="delia">       <p><l>clăti<s n="vblex"/></l>                     <r>esbandir<s n="vblex"/></r></p></e>
 <e>                 <p><l>clătina<s n="vblex"/></l>                   <r>trontollar<s n="vblex"/></r></p></e>
 <e>                 <p><l>coace<s n="vblex"/></l>                     <r>coure<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>coafa<s n="vblex"/></l>                     <r>arreglar<g><b/>el<b/>pèl</g><s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>coafa<s n="vblex"/></l>                     <r>pentinar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>coaliza<s n="vblex"/></l>                   <r>coalitzar<s n="vblex"/></r></p></e>
 <e>                 <p><l>coborî<s n="vblex"/></l>                    <r>baixar<s n="vblex"/></r></p></e>
 <e>                 <p><l>coda<s n="vblex"/></l>                      <r>xifrar<s n="vblex"/></r></p></e>
@@ -20709,8 +20708,9 @@
 <e a="delnou">      <p><l>croi<g><b/>drum</g><s n="vblex"/></l>       <r>obrir<g><b/>pas</g><s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>croi<g><b/>planuri</g><s n="vblex"/></l>    <r>planejar<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>croniciza<s n="vblex"/></l>                 <r>agreujar<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>cruci<s n="vblex"/></l>                     <r>persignar<s n="vblex"/></r></p></e>
-<e r="LR" a="del">  <p><l>crăpa<s n="vblex"/></l>                     <r>fendre<s n="vblex"/></r></p></e>
+<e r="RL" a="delia"><p><l>cruci<s n="vblex"/></l>                     <r>persignar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>cruci<s n="vblex"/></l>                     <r>signar<s n="vblex"/></r></p></e>
+<e r="LR" a="del">  <p><l>crăpa<s n="vblex"/></l>                     <r>trencar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>crăpa<g><b/>ușa</g><s n="vblex"/></l>       <r>entreobrir<g><b/>la<b/>porta</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>cuantifica<s n="vblex"/></l>                <r>quantificar<s n="vblex"/></r></p></e>
 <e>                 <p><l>cuceri<s n="vblex"/></l>                    <r>conquistar<s n="vblex"/></r></p></e>
@@ -20740,8 +20740,9 @@
 <e>                 <p><l>da<s n="vblex"/></l>                        <r>donar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>da<g><b/>binețe</g><s n="vblex"/></l>       <r>donar<g><b/>el<b/>bon<b/>dia</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>da<g><b/>bătut</g><s n="vblex"/></l>        <r>donar<g><b/>per<b/>vençut</g><s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>da<g><b/>de<b/>bănuit</g><s n="vblex"/></l> <r>despertar<g><b/>sospites</g><s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>da<g><b/>foc</g><s n="vblex"/></l>          <r>prendre<g><b/>foc</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>da<g><b/>de<b/>bănuit</g><s n="vblex"/></l> <r>aixecar<g><b/>sospites</g><s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>da<g><b/>foc</g><s n="vblex"/></l>          <r>calar<g><b/>foc</g><s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>da<g><b/>foc</g><s n="vblex"/></l>          <r>incendiar<s n="vblex"/></r></p></e>
 <e r="LR" a="delia"><p><l>da<g><b/>greș</g><s n="vblex"/></l>         <r>fallar<s n="vblex"/></r></p></e>
 <e>                 <p><l>da<g><b/>naștere</g><s n="vblex"/></l>      <r>engendrar<s n="vblex"/></r></p></e>
 <e>                 <p><l>da<g><b/>o<b/>sărutare</g><s n="vblex"/></l><r>fer<g><b/>un<b/>petó</g><s n="vblex"/></r></p></e>
@@ -20841,11 +20842,12 @@
 <e r="LR" a="del">  <p><l>desființa<s n="vblex"/></l>                 <r>dissoldre<s n="vblex"/></r></p></e>
 <e r="LR">          <p><l>desfășura<s n="vblex"/></l>                 <r>tenir<g><b/>lloc</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>deshidrata<s n="vblex"/></l>                <r>deshidratar<s n="vblex"/></r></p></e>
-<e a="del">         <p><l>despica<s n="vblex"/></l>                   <r>fendir<s n="vblex"/></r></p></e>
+<e r="RL" a="del">  <p><l>despica<s n="vblex"/></l>                   <r>fendir<s n="vblex"/></r></p></e>
+<e a="del">         <p><l>despica<s n="vblex"/></l>                   <r>fendre<s n="vblex"/></r></p></e>
 <e>                 <p><l>despovăra<s n="vblex"/></l>                 <r>esplaiar<s n="vblex"/></r></p></e>
 <e>                 <p><l>desprinde<s n="vblex"/></l>                 <r>desprendre<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>desproprietări<s n="vblex"/></l>            <r>desapropiar<s n="vblex"/></r></p></e>
-<e>                 <p><l>despuia<s n="vblex"/></l>                   <r>despojar<s n="vblex"/></r></p></e>
+<e>                 <p><l>despuia<s n="vblex"/></l>                   <r>despullar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>despăduri<s n="vblex"/></l>                 <r>desboscar<s n="vblex"/></r></p></e>
 <e>                 <p><l>despărți<s n="vblex"/></l>                  <r>acomiadar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>destabiliza<s n="vblex"/></l>               <r>desestabilitzar<s n="vblex"/></r></p></e>
@@ -20908,7 +20910,7 @@
 <e a="del">         <p><l>disona<s n="vblex"/></l>                    <r>dissonar<s n="vblex"/></r></p></e>
 <e>                 <p><l>dispensa<s n="vblex"/></l>                  <r>dispensar<s n="vblex"/></r></p></e>
 <e>                 <p><l>dispera<s n="vblex"/></l>                   <r>desesperar<s n="vblex"/></r></p></e>
-<e>                 <p><l>disprețui<s n="vblex"/></l>                 <r>despreciar<s n="vblex"/></r></p></e>
+<e>                 <p><l>disprețui<s n="vblex"/></l>                 <r>menysprear<s n="vblex"/></r></p></e>
 <e>                 <p><l>dispune<s n="vblex"/></l>                   <r>disposar<s n="vblex"/></r></p></e>
 <e>                 <p><l>disputa<s n="vblex"/></l>                   <r>disputar<s n="vblex"/></r></p></e>
 <e>                 <p><l>dispărea<s n="vblex"/></l>                  <r>desaparèixer<s n="vblex"/></r></p></e>
@@ -21028,7 +21030,7 @@
 <e a="del">         <p><l>face<g><b/>față</g><s n="vblex"/></l>       <r>fer<g><b/>front</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>face<g><b/>foamea</g><s n="vblex"/></l>     <r>passar<g><b/>fam</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>face<g><b/>loc</g><s n="vblex"/></l>        <r>fer<g><b/>lloc</g><s n="vblex"/></r></p></e>
-<e a="del">         <p><l>face<g><b/>mofturi</g><s n="vblex"/></l>    <r>fer<g><b/>melindros</g><s n="vblex"/></r></p></e>
+<e a="del">         <p><l>face<g><b/>mofturi</g><s n="vblex"/></l>    <r>perdre<g><b/>el<b/>temps</g><s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>face<g><b/>noapte<b/>albă</g><s n="vblex"/></l><r>passar<g><b/>la<b/>nit<b/>en<b/>blanc</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>face<g><b/>parte</g><s n="vblex"/></l>      <r>formar<g><b/>part</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>face<g><b/>planuri</g><s n="vblex"/></l>    <r>fer<g>plans</g><s n="vblex"/></r></p></e>
@@ -21051,10 +21053,10 @@
 <e>                 <p><l>fi<g><b/>dor</g><s n="vblex"/></l>          <r>trobar<g><b/>a<b/>faltar</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>fi<g><b/>gata</g><s n="vblex"/></l>         <r>estar<g><b/>llest</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>fi<g><b/>gata<b/>să</g><s n="vblex"/></l>   <r>estar<g><b/>a<b/>punt<b/>de</g><s n="vblex"/></r></p></e>
-<e>                 <p><l>fi<g><b/>la<b/>putere</g><s n="vblex"/></l> <r>estar<g><b/>en<b/>el<b/>poder</g><s n="vblex"/></r></p></e>
+<e>                 <p><l>fi<g><b/>la<b/>putere</g><s n="vblex"/></l> <r>estar<g><b/>al<b/>poder</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>rușine</g><s n="vblex"/></l>       <r>fer<g><b/>vergonya</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>teamă</g><s n="vblex"/></l>        <r>tenir<g><b/>por</g><s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>fi<g><b/>în<b/>legătură</g><s n="vblex"/></l><r>estar<g><b/>relacionat</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>fi<g><b/>în<b/>legătură</g><s n="vblex"/></l><r>tenir<g><b/>relació</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>filma<s n="vblex"/></l>                     <r>filmar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>filtra<s n="vblex"/></l>                    <r>filtrar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>finaliza<s n="vblex"/></l>                  <r>finalitzar<s n="vblex"/></r></p></e>
@@ -21259,7 +21261,7 @@
 <e a="del">         <p><l>lamina<s n="vblex"/></l>                    <r>laminar<s n="vblex"/></r></p></e>
 <e>                 <p><l>lansa<s n="vblex"/></l>                     <r>llançar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>lapida<s n="vblex"/></l>                    <r>lapidar<s n="vblex"/></r></p></e>
-<e a="del">         <p><l>latiniza<s n="vblex"/></l>                  <r>latinitzar<s n="vblex"/></r></p></e>
+<e a="del">         <p><l>latiniza<s n="vblex"/></l>                  <r>llatinitzar<s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>lecui<s n="vblex"/></l>                    <r>curar<s n="vblex"/></r></p></e>
 <e>                 <p><l>lega<s n="vblex"/></l>                      <r>lligar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>legaliza<s n="vblex"/></l>                  <r>legalitzar<s n="vblex"/></r></p></e>
@@ -21282,13 +21284,15 @@
 <e>                 <p><l>lua<s n="vblex"/></l>                       <r>prendre<s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>lua<g><b/>adio</g><s n="vblex"/></l>       <r>dir<g><b/>adéu</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>lua<g><b/>cunoștință</g><s n="vblex"/></l>  <r>prendre<g><b/>nota</g><s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>lua<g><b/>de<b/>bărbat</g><s n="vblex"/></l><r>prendre<g><b/>per<b/>marit</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>lua<g><b/>de<b/>bărbat</g><s n="vblex"/></l><r>enmaridar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>lua<g><b/>de<b/>gât</g><s n="vblex"/></l>   <r>agafar<g><b/>pel<b/>coll</g><s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>lua<g><b/>de<b/>nevastă</g><s n="vblex"/></l><r>prendre<g><b/>per<b/>muller</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>lua<g><b/>de<b/>nevastă</g><s n="vblex"/></l><r>amullerar<s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>lua<g><b/>la<b/>revedere</g><s n="vblex"/></l><r>acomiadar<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>lua<g><b/>la<b/>zor</g><s n="vblex"/></l>   <r>bonegar<s n="vblex"/></r></p></e>
+<e r="RL" a="delnou"><p><l>lua<g><b/>la<b/>zor</g><s n="vblex"/></l>  <r>bonegar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>lua<g><b/>la<b/>zor</g><s n="vblex"/></l>   <r>renyar<s n="vblex"/></r></p></e>
 <e r="LR" a="delia"><p><l>lua<g><b/>legătura</g><s n="vblex"/></l>    <r>contactar<s n="vblex"/></r></p></e>
-<e>                 <p><l>lua<g><b/>micul<b/>dejun</g><s n="vblex"/></l><r>desdejunar<s n="vblex"/></r></p></e>
+<e r="RL">          <p><l>lua<g><b/>micul<b/>dejun</g><s n="vblex"/></l><r>desdejunar<s n="vblex"/></r></p></e>
+<e>                 <p><l>lua<g><b/>micul<b/>dejun</g><s n="vblex"/></l><r>esmorzar<s n="vblex"/></r></p></e>
 <e>                 <p><l>lua<g><b/>în<b/>seamă</g><s n="vblex"/></l> <r>fer<g><b/>cas</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>luci<s n="vblex"/></l>                      <r>lluir<s n="vblex"/></r></p></e>
 <e r="LR">          <p><l>lucra<s n="vblex"/></l>                     <r>treballar<s n="vblex"/></r></p></e>
@@ -21448,7 +21452,8 @@
 <e>                 <p><l>participa<s n="vblex"/></l>                 <r>participar<s n="vblex"/></r></p></e>
 <e>                 <p><l>pasiona<s n="vblex"/></l>                   <r>apassionar<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>pecetlui<s n="vblex"/></l>                  <r>segellar<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>pedala<s n="vblex"/></l>                    <r>pedalar<s n="vblex"/></r></p></e>
+<e r="RL" a="delia"><p><l>pedala<s n="vblex"/></l>                    <r>pedalar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>pedala<s n="vblex"/></l>                    <r>pedalejar<s n="vblex"/></r></p></e>
 <e>                 <p><l>pedepsi<s n="vblex"/></l>                   <r>castigar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>penaliza<s n="vblex"/></l>                  <r>penalitzar<s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>pendula<s n="vblex"/></l>                  <r>bascular<s n="vblex"/></r></p></e>
@@ -21554,7 +21559,8 @@
 <e>                 <p><l>proceda<s n="vblex"/></l>                   <r>procedir<s n="vblex"/></r></p></e>
 <e>                 <p><l>procesa<s n="vblex"/></l>                   <r>processar<s n="vblex"/></r></p></e>
 <e>                 <p><l>proclama<s n="vblex"/></l>                  <r>proclamar<s n="vblex"/></r></p></e>
-<e>                 <p><l>procrea<s n="vblex"/></l>                   <r>procrear<s n="vblex"/></r></p></e>
+<e>                 <p><l>procrea<s n="vblex"/></l>                   <r>engendrar<s n="vblex"/></r></p></e>
+<e r="RL">          <p><l>procrea<s n="vblex"/></l>                   <r>procrear<s n="vblex"/></r></p></e>
 <e>                 <p><l>procura<s n="vblex"/></l>                   <r>procurar<s n="vblex"/></r></p></e>
 <e>                 <p><l>produce<s n="vblex"/></l>                   <r>produir<s n="vblex"/></r></p></e>
 <e r="LR" a="delia"><p><l>profetiza<s n="vblex"/></l>                 <r>profetitzar<s n="vblex"/></r></p></e>
@@ -21587,7 +21593,7 @@
 <e>                 <p><l>pune<s n="vblex"/></l>                      <r>posar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>pune<b/>în<b/>mișcare<s n="vblex"/></l>     <r>donar<g><b/>d'alta</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>pune<g><b/>capăt<b/>la</g><s n="vblex"/></l><r>posar<g><b/>fi</g><s n="vblex"/></r></p></e>
-<e r="LR" a="delia"><p><l>pune<g><b/>foc</g><s n="vblex"/></l>        <r>prendre<g><b/>foc</g><s n="vblex"/></r></p></e>
+<e r="LR" a="delia"><p><l>pune<g><b/>foc</g><s n="vblex"/></l>        <r>calar<g><b/>foc</g><s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>pune<g><b/>la<b/>cale</g><s n="vblex"/></l> <r>planejar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>pune<g><b/>la<b/>treabă</g><s n="vblex"/></l><r>posar<g><b/>a<b/>treballar</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>pune<g><b/>masa</g><s n="vblex"/></l>       <r>parar<g><b/>taula</g><s n="vblex"/></r></p></e>
@@ -21796,7 +21802,8 @@
 <e>                 <p><l>ruga<s n="vblex"/></l>                      <r>pregar<s n="vblex"/></r></p></e>
 <e>                 <p><l>ruina<s n="vblex"/></l>                     <r>arruïnar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>rula<s n="vblex"/></l>                      <r>rodar<s n="vblex"/></r></p></e>
-<e>                 <p><l>rupe<s n="vblex"/></l>                      <r>rompre<s n="vblex"/></r></p></e>
+<e r="RL">          <p><l>rupe<s n="vblex"/></l>                      <r>rompre<s n="vblex"/></r></p></e>
+<e>                 <p><l>rupe<s n="vblex"/></l>                      <r>trencar<s n="vblex"/></r></p></e>
 <e>                 <p><l>rușina<s n="vblex"/></l>                    <r>avergonyir<s n="vblex"/></r></p></e>
 <e>                 <p><l>râde<s n="vblex"/></l>                      <r>riure<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>râvni<s n="vblex"/></l>                     <r>cobejar<s n="vblex"/></r></p></e>
@@ -21861,7 +21868,7 @@
 <e a="delia">       <p><l>sculpta<s n="vblex"/></l>                   <r>esculpir<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>scumpi<s n="vblex"/></l>                    <r>encarir<s n="vblex"/></r></p></e>
 <e>                 <p><l>scurge<s n="vblex"/></l>                    <r>transcórrer<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>scurta<s n="vblex"/></l>                    <r>acurtar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>scurta<s n="vblex"/></l>                    <r>escurçar<s n="vblex"/></r></p></e>
 <e>                 <p><l>scuti<s n="vblex"/></l>                     <r>lliurar<s n="vblex"/></r></p></e>
 <e>                 <p><l>scutura<s n="vblex"/></l>                   <r>sacsejar<s n="vblex"/></r></p></e>
 <e>                 <p><l>scuza<s n="vblex"/></l>                     <r>disculpar<s n="vblex"/></r></p></e>
@@ -21870,7 +21877,7 @@
 <e>                 <p><l>scădea<s n="vblex"/></l>                    <r>restar<s n="vblex"/></r></p></e>
 <e>                 <p><l>scăpa<s n="vblex"/></l>                     <r>escapar<s n="vblex"/></r></p></e>
 <e>                 <p><l>scărpina<s n="vblex"/></l>                  <r>gratar<s n="vblex"/></r></p></e>
-<e>                 <p><l>sechestra<s n="vblex"/></l>                 <r>segrestrar<s n="vblex"/></r></p></e>
+<e>                 <p><l>sechestra<s n="vblex"/></l>                 <r>segrestar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>secreta<s n="vblex"/></l>                   <r>secretar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>seculariza<s n="vblex"/></l>                <r>secularitzar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>secționa<s n="vblex"/></l>                  <r>seccionar<s n="vblex"/></r></p></e>
@@ -21885,7 +21892,8 @@
 <e>                 <p><l>semnala<s n="vblex"/></l>                   <r>assenyalar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>semnaliza<s n="vblex"/></l>                 <r>senyalitzar<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>semnifica<s n="vblex"/></l>                 <r>significar<s n="vblex"/></r></p></e>
-<e r="LR">          <p><l>semăna<s n="vblex"/></l>                    <r>paréixer<s n="vblex"/></r></p></e>
+<e r="RL">          <p><l>semăna<s n="vblex"/></l>                    <r>parèixer<s n="vblex"/></r></p></e>
+<e>                 <p><l>semăna<s n="vblex"/></l>                    <r>semblar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>sensibiliza<s n="vblex"/></l>               <r>sensibilitzar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>sentenția<s n="vblex"/></l>                 <r>sentenciar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>sentimentaliza<s n="vblex"/></l>            <r>sentimentalitzar<s n="vblex"/></r></p></e>
@@ -22002,7 +22010,7 @@
 <e r="LR">          <p><l>stârni<s n="vblex"/></l>                    <r>provocar<s n="vblex"/></r></p></e>
 <e r="LR" a="delia"><p><l>stăpâni<s n="vblex"/></l>                   <r>dominar<s n="vblex"/></r></p></e>
 <e r="LR">          <p><l>stărui<s n="vblex"/></l>                    <r>insistir<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>subaprecia<s n="vblex"/></l>                <r>subvalorar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>subaprecia<s n="vblex"/></l>                <r>infravalorar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>subcontracta<s n="vblex"/></l>              <r>subcontractar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>subestima<s n="vblex"/></l>                 <r>subestimar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>subjuga<s n="vblex"/></l>                   <r>subjugar<s n="vblex"/></r></p></e>
@@ -22106,7 +22114,8 @@
 <e>                 <p><l>tenta<s n="vblex"/></l>                     <r>temptar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>teologiza<s n="vblex"/></l>                 <r>teologitzar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>teoretiza<s n="vblex"/></l>                 <r>teoritzar<s n="vblex"/></r></p></e>
-<e a="del">         <p><l>terfeli<s n="vblex"/></l>                   <r>macular<s n="vblex"/></r></p></e>
+<e a="del">         <p><l>terfeli<s n="vblex"/></l>                   <r>tacar<s n="vblex"/></r></p></e>
+<e r="RL" a="del">  <p><l>terfeli<s n="vblex"/></l>                   <r>macular<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>tergiversa<s n="vblex"/></l>                <r>tergiversar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>terifia<s n="vblex"/></l>                   <r>atemorir<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>teritorializa<s n="vblex"/></l>             <r>territorialitzar<s n="vblex"/></r></p></e>
@@ -22187,7 +22196,7 @@
 <e>                 <p><l>trăda<s n="vblex"/></l>                     <r>trair<s n="vblex"/></r></p></e>
 <e>                 <p><l>trăi<s n="vblex"/></l>                      <r>viure<s n="vblex"/></r></p></e>
 <e>                 <p><l>tulbura<s n="vblex"/></l>                   <r>commoure<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>tunde<s n="vblex"/></l>                     <r>tallar<g><b/>el<b/>pèl</g><s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>tunde<s n="vblex"/></l>                     <r>tallar<g><b/>els<b/>cabells</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>turba<s n="vblex"/></l>                     <r>enrabiar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>turti<s n="vblex"/></l>                     <r>aixafar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>tutela<s n="vblex"/></l>                    <r>tutelar<s n="vblex"/></r></p></e>
@@ -22277,7 +22286,8 @@
 <e a="del">         <p><l>viscoli<s n="vblex"/></l>                   <r>terbolinar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>vitaliza<s n="vblex"/></l>                  <r>vitalitzar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>vitrifica<s n="vblex"/></l>                 <r>vitrificar<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>vitupera<s n="vblex"/></l>                  <r>vituperar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>vitupera<s n="vblex"/></l>                  <r>blasmar<s n="vblex"/></r></p></e>
+<e r="RL" a="delia"><p><l>vitupera<s n="vblex"/></l>                  <r>vituperar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>vivifica<s n="vblex"/></l>                  <r>vivificar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>viza<s n="vblex"/></l>                      <r>visar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>viziona<s n="vblex"/></l>                   <r>visionar<s n="vblex"/></r></p></e>
@@ -22314,7 +22324,7 @@
 <e r="LR" a="delia"><p><l>zidi<s n="vblex"/></l>                      <r>edificar<s n="vblex"/></r></p></e>
 <e r="RL">          <p><l>zugrăvi<s n="vblex"/></l>                   <r>pintar<s n="vblex"/></r></p></e>
 <e>                 <p><l>zugrăvi<s n="vblex"/></l>                   <r>retratar<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>zvoni<s n="vblex"/></l>                     <r>córrer<b/>el<b/>rumor<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>zvoni<s n="vblex"/></l>                     <r>córrer<g><b/>el<b/>rumor</g><s n="vblex"/></r></p></e>
 <e r="LR">          <p><l>zvârli<s n="vblex"/></l>                    <r>tirar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>zâmbi<s n="vblex"/></l>                     <r>somriure<s n="vblex"/></r></p></e>
 <e>                 <p><l>zăbovi<s n="vblex"/></l>                    <r>entretenir<s n="vblex"/></r></p></e>
@@ -22510,7 +22520,7 @@
 <e a="delia">       <p><l>șerpui<s n="vblex"/></l>                    <r>serpentejar<s n="vblex"/></r></p></e>
 <e>                 <p><l>șifona<s n="vblex"/></l>                    <r>arrugar<s n="vblex"/></r></p></e>
 <e>                 <p><l>șoca<s n="vblex"/></l>                      <r>xocar<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>șoma<s n="vblex"/></l>                      <r>estar<g><b/>en<b/>atur</g><s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>șoma<s n="vblex"/></l>                      <r>estar<g><b/>a<b/>l'atur</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>șovăi<s n="vblex"/></l>                     <r>titubejar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>ștampila<s n="vblex"/></l>                  <r>segellar<s n="vblex"/></r></p></e>
 <e>                 <p><l>șterge<s n="vblex"/></l>                    <r>esborrar<s n="vblex"/></r></p></e>
@@ -22534,7 +22544,8 @@
 <e r="LR" a="mioara"><p><l>ajunge<g><b/>la<b/>liman</g><s n="vblex"/></l><r>aboiar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>alcaliniza<s n="vblex"/></l>                <r>alcalinitzar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>amplifica<s n="vblex"/></l>                 <r>amplificar<s n="vblex"/></r></p></e>
-<e a="mioara">      <p><l>aprinde<g><b/>la<b/>față</g><s n="vblex"/></l><r>posar<g><b/>vermell</g><s n="vblex"/></r></p></e>
+<e r="RL" a="mioara"><p><l>aprinde<g><b/>la<b/>față</g><s n="vblex"/></l><r>posar<g><b/>vermell</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>aprinde<g><b/>la<b/>față</g><s n="vblex"/></l><r>enrojolar<s n="vblex"/></r></p></e>
 <e r="LR" a="mioara"><p><l>apuca<g><b/>de<b/>băut</g><s n="vblex"/></l><r>beure<s n="vblex"/></r></p></e>
 <e r="RL" a="mioara"><p><l>arginta<s n="vblex"/></l>                  <r>platejar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>arginta<s n="vblex"/></l>                   <r>argentar<s n="vblex"/></r></p></e>
@@ -22554,17 +22565,19 @@
 <e a="delnou">      <p><l>caria<s n="vblex"/></l>                     <r>cariar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>castra<s n="vblex"/></l>                    <r>castrar<s n="vblex"/></r></p></e>
 <e r="LR" a="mioara"><p><l>catagrafia<s n="vblex"/></l>               <r>inventariar<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>cerne<s n="vblex"/></l>                     <r>cernir<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>cerne<s n="vblex"/></l>                     <r>sedassar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>cerne<s n="vblex"/></l>                     <r>distingir<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>cerne<s n="vblex"/></l>                     <r>plovisquejar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>chinui<s n="vblex"/></l>                    <r>turmentar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>ciocăni<g>la<b/>ușă</g><s n="vblex"/></l>   <r>tocar<g>la<b/>puerta</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>compatibiliza<s n="vblex"/></l>             <r>compatibilitzar<s n="vblex"/></r></p></e>
 <e r="LR" a="mioara"><p><l>concluziona<s n="vblex"/></l>              <r>concloure<s n="vblex"/></r></p></e>
 <e r="LR" a="mioara"><p><l>conta<s n="vblex"/></l>                    <r>importar<s n="vblex"/></r></p></e>
-<e a="mioara">      <p><l>coresponda<s n="vblex"/></l>                <r>mantener<g><b/>correspondencia</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>coresponda<s n="vblex"/></l>                <r>mantenir<g><b/>correspondència</g><s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>curta<s n="vblex"/></l>                     <r>cortejar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>cădea<g><b/>bolnav</g><s n="vblex"/></l>    <r>emmalaltir<s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>cădea<g><b/>la<b/>pat</g><s n="vblex"/></l><r>emmalaltir<s n="vblex"/></r></p></e>
-<e a="mioara">      <p><l>da<g><b/>cu<b/>dobândă</g><s n="vblex"/></l><r>prestar<g><b/>a<b/>interés</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>da<g><b/>cu<b/>dobândă</g><s n="vblex"/></l><r>prestar<g><b/>a<b/>interès</g><s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>da<g><b/>pe<b/>brazdă</g><s n="vblex"/></l> <r>portar<g><b/>pel<b/>bon<b/>camí</g><s n="vblex"/></r></p></e>
 <e r="LR" a="mioara"><p><l>deplânge<s n="vblex"/></l>                 <r>deplorar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>discerne<s n="vblex"/></l>                  <r>discernir<s n="vblex"/></r></p></e>
@@ -22576,12 +22589,12 @@
 <e a="delnou">      <p><l>evolua<s n="vblex"/></l>                    <r>evolucionar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>excava<s n="vblex"/></l>                    <r>excavar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>extrapola<s n="vblex"/></l>                 <r>extrapolar<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>fi<g><b/>stăpân<b/>pe<b/>situație</g><s n="vblex"/></l><r>ser<g><b/>dueño<b/>de<b/>la<b/>situación</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>fi<g><b/>stăpân<b/>pe<b/>situație</g><s n="vblex"/></l><r>ser<g><b/>l'amo<b/>de<b/>la<b/>situació</g><s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>figura<s n="vblex"/></l>                    <r>figurar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>fluctua<s n="vblex"/></l>                   <r>fluctuar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>gravita<s n="vblex"/></l>                   <r>gravitar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>grupa<s n="vblex"/></l>                     <r>agrupar<s n="vblex"/></r></p></e>
-<e a="mioara">      <p><l>gâfâi<s n="vblex"/></l>                     <r>jadear<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>gâfâi<s n="vblex"/></l>                     <r>esbufegar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>ieși<g><b/>la<b/>liman</g><s n="vblex"/></l><r>aboiar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>impurifica<s n="vblex"/></l>                <r>impurificar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>insera<s n="vblex"/></l>                    <r>inserir<s n="vblex"/></r></p></e>
@@ -22590,7 +22603,8 @@
 <e r="LR" a="mioara"><p><l>lista<s n="vblex"/></l>                    <r>imprimir<s n="vblex"/></r></p></e>
 <e r="LR" a="????????????mioara"><p><l>lua<g><b/>înapoi</g><s n="vblex"/></l><r>recobrar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>lumina<g><b/>de<b/>ziuă</g><s n="vblex"/></l><r>fer<g><b/>de<b/>dia</g><s n="vblex"/></r></p></e>
-<e a="mioara">      <p><l>lustrui<s n="vblex"/></l>                   <r>llustrar<s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>lustrui<s n="vblex"/></l>                   <r>enllustrar<s n="vblex"/></r></p></e>
+<e r="RL" a="mioara"><p><l>lustrui<s n="vblex"/></l>                  <r>llustrar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>lărgi<s n="vblex"/></l>                     <r>ampliar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>lăuda<s n="vblex"/></l>                     <r>lloar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>mira<s n="vblex"/></l>                      <r>fascinar<s n="vblex"/></r></p></e>
@@ -22610,7 +22624,7 @@
 <e a="mioara">      <p><l>realege<s n="vblex"/></l>                   <r>reelegir<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>reanima<s n="vblex"/></l>                   <r>reanimar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>reauzi<s n="vblex"/></l>                    <r>tornar<g><b/>a<b/>sentir</g><s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>recenza<s n="vblex"/></l>                   <r>reseñar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>recenza<s n="vblex"/></l>                   <r>ressenyar<s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>recepționa<s n="vblex"/></l>               <r>rebre<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>reconcilia<s n="vblex"/></l>                <r>reconciliar<s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>reda<s n="vblex"/></l>                     <r>representar<s n="vblex"/></r></p></e>
@@ -22623,7 +22637,7 @@
 <e a="mioara">      <p><l>revedea<s n="vblex"/></l>                   <r>tornar<g><b/>a<b/>veure</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>reînvia<s n="vblex"/></l>                   <r>reavivar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>robi<s n="vblex"/></l>                      <r>esclavitzar<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>rugini<s n="vblex"/></l>                    <r>aherrumbrar<s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>rugini<s n="vblex"/></l>                    <r>rovellar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>scinda<s n="vblex"/></l>                    <r>escindir<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>scurtcircuita<s n="vblex"/></l>             <r>curtcircuitar<s n="vblex"/></r></p></e>
 <e r="LR" a="mioara"><p><l>scârțâi<s n="vblex"/></l>                  <r>grinyolar<s n="vblex"/></r></p></e>

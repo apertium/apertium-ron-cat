@@ -46,7 +46,7 @@
 
   <section-def-macros>
 
-    <def-macro n="elimina_GDND" npar="1" comment="Elimina les etiquetes 'GD' i 'ND'.">
+    <def-macro n="elimina_GDND" npar="1" comment="Elimina les etiquetes 'GD' i 'ND'">
       <choose>
         <when>
           <test>
@@ -74,6 +74,50 @@
             <lit-tag v="sg"/>
           </let>
         </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_concord_SN_SV" npar="2" comment="Realitza la concordança d'un SN i un SV">
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal caseless="yes">
+                <clip pos="1" part="lem"/>
+                <lit v="prnsubj"/>
+              </equal>
+              <or>
+                <equal>
+                  <clip pos="1" part="a_pers"/>
+                  <lit-tag v="p1"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="a_pers"/>
+                  <lit-tag v="p2"/>
+                </equal>
+              </or>
+            </and>
+          </test>         
+          <let>
+            <clip pos="2" part="a_pers"/>
+            <clip pos="1" part="a_pers"/>
+          </let>
+          <let>
+            <clip pos="2" part="a_nbr"/>
+            <clip pos="1" part="a_nbr"/>
+          </let>
+        </when>
+
+        <otherwise>
+          <let>
+            <clip pos="2" part="a_pers"/>
+            <lit-tag v="p3"/>
+          </let>
+          <let>
+            <clip pos="2" part="a_nbr"/>
+            <clip pos="1" part="a_nbr"/>
+          </let>
+        </otherwise>
       </choose>
     </def-macro>
 
@@ -121,6 +165,10 @@
       <action>
         <call-macro n="elimina_GDND">
           <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord_SN_SV">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
         <out>
           <chunk>

@@ -5565,23 +5565,61 @@
         <pattern-item n="num"/>
       </pattern>
       <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+
+        <choose><!-- Les xifres que no estan escrites no tenen nombre i cal afegir-lo -->
+          <when>
+            <test>
+              <equal>
+                <var n="nombre"/>
+                <lit v=""/>
+              </equal>
+            </test>
+            <choose>
+              <when>
+                <test>
+                  <equal caseless="yes">
+                    <clip pos="1" side="tl" part="lem"/>
+                    <lit v="1"/>
+                  </equal>
+                </test>
+                <let>
+                  <var n="nombre"/>
+                  <lit-tag v="sg"/>
+                </let>
+              </when>
+              <otherwise>
+                <let>
+                  <var n="nombre"/>
+                  <lit-tag v="pl"/>
+                </let>
+              </otherwise>
+            </choose>
+          </when>
+        </choose>
+
         <out>
           <chunk name="num">
           <tags>
             <tag><lit-tag v="SN"/></tag>
-            <tag><lit-tag v="mf"/></tag>
-            <tag><lit-tag v="sp"/></tag>
+            <tag><var n="genere"/></tag>
+            <tag><var n="nombre"/></tag>
             <tag><lit-tag v="nom"/></tag>
             <tag><lit-tag v="ind"/></tag>
           </tags>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_num"/>
-            <clip pos="1" side="tl" part="a_gen" link-to="2"/>
-            <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+            <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
+            <clip pos="1" side="tl" part="a_gen_mf"/>
+            <clip pos="1" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+            <clip pos="1" side="tl" part="a_nbr_sp"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
-        </chunk></out>
+          </chunk>
+         </out>
       </action>
     </rule>
 

@@ -569,7 +569,6 @@
     <def-var n="auxiliar"/>
     <def-var n="auxiliar_lema"/>
 
-
     <def-var n="uno"/>
     <def-var n="concDet"/>
     <def-var n="concAdj"/>

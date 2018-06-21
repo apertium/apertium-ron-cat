@@ -30,10 +30,8 @@
       <cat-item tags="prn.tn.pos.*"/>
       <cat-item tags="prn.tn.*"/>
       <cat-item tags="prn.itg.*"/>
-      <cat-item tags="prn.pro.*"/>
-      <cat-item tags="prn.pro.ref.*"/>
     </def-cat>
-    <def-cat n="enc">
+    <def-cat n="prnenc">
       <cat-item tags="prn.enc.*"/>
     </def-cat>
     <def-cat n="vbcnj">
@@ -1019,11 +1017,11 @@
     <rule comment="REGLA: GER ENC">
       <pattern>
         <pattern-item n="ger"/>
-        <pattern-item n="enc"/>
+        <pattern-item n="prnenc"/>
       </pattern>
       <action>
         <out>
-          <chunk name="ger_enc">
+          <chunk name="ger_prnenc">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
@@ -1053,12 +1051,12 @@
     <rule comment="REGLA: GER ENC ENC">
       <pattern>
         <pattern-item n="ger"/>
-        <pattern-item n="enc"/>
-        <pattern-item n="enc"/>
+        <pattern-item n="prnenc"/>
+        <pattern-item n="prnenc"/>
       </pattern>
       <action>
         <out>
-          <chunk name="ger_enc">
+          <chunk name="ger_prnenc_prnenc">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_verb"/></tag>

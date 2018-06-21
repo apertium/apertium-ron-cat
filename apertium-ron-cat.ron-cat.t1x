@@ -98,6 +98,10 @@
       <cat-item tags="vbmod.ger"/>
     </def-cat>
 
+    <def-cat n="num_xifra">
+      <cat-item tags="num"/>
+    </def-cat>
+
     <def-cat n="mesos">
       <cat-item lemma="ianuarie" tags="n.*"/>
       <cat-item lemma="februarie" tags="n.*"/>
@@ -192,7 +196,7 @@
     <def-cat n="prepde">
       <cat-item lemma="de" tags="pr"/>
     </def-cat>
-    <def-cat n="prepîn">
+    <def-cat n="prep_în">
       <cat-item lemma="în" tags="pr"/>
     </def-cat>
     <def-cat n="prepdintr-">
@@ -5624,7 +5628,7 @@
 
 
 
-<!-- Regles de SA -->
+<!-- Regles de SAdj -->
 
     <rule comment="ADJ">
       <pattern>
@@ -5784,7 +5788,7 @@
               <out>
                 <chunk name="adj">
                 <tags>
-                  <tag><lit-tag v="SA"/></tag>
+                  <tag><lit-tag v="SAdj"/></tag>
                   <tag><var n="genere"/></tag>
                   <tag><var n="nombre"/></tag>
                   <tag><clip pos="1" side="sl" part="a_cas"/></tag>
@@ -5814,7 +5818,7 @@
         <out>
           <chunk name="pp">
             <tags>
-              <tag><lit-tag v="SA"/></tag>
+              <tag><lit-tag v="SAdj"/></tag>
               <tag><lit-tag v="GD"/></tag>
               <tag><lit-tag v="ND"/></tag>
               <tag><lit-tag v="nom"/></tag>
@@ -5830,6 +5834,189 @@
             </lu>
           </chunk>
         </out>
+      </action>
+    </rule>
+
+
+
+<!-- Regles de SAdv -->
+
+    <rule comment="prep + NUMERAL (any)">
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="num_xifra"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="în"/>
+              </equal>
+            </test>
+            <out>
+              <chunk name="artdef_num">
+              <tags>
+                <tag><lit-tag v="SAdv"/></tag>
+              </tags>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="el"/>
+                </get-case-from>
+                <lit-tag v="det.def"/>
+                <lit-tag v="m"/>
+                <lit-tag v="sg"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="a_num"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="prep_num">
+              <tags>
+                <tag><lit-tag v="SAdv"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_prep"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="a_num"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+    <rule comment="prep + NUMERAL (dia) + NOM (mes) + NUMERAL (any)">
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="num_xifra"/>
+        <pattern-item n="mesos"/>
+        <pattern-item n="num_xifra"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="în"/>
+              </equal>
+            </test>
+            <out>
+              <chunk name="artdef_num">
+              <tags>
+                <tag><lit-tag v="SAdv"/></tag>
+              </tags>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="el"/>
+                </get-case-from>
+                <lit-tag v="det.def"/>
+                <lit-tag v="m"/>
+                <lit-tag v="sg"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="a_num"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit v="de"/>
+                <lit-tag v="pr"/>
+              </lu>
+              <b pos="2"/>
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="tl" part="a_nom"/>
+                <clip pos="3" side="tl" part="a_gen"/>
+                <clip pos="3" side="tl" part="a_nbr"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit v="de"/>
+                <lit-tag v="pr"/>
+              </lu>
+              <b pos="3"/>
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="tl" part="a_num"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="prep_num">
+              <tags>
+                <tag><lit-tag v="SAdv"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_prep"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              <b/>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="el"/>
+                </get-case-from>
+                <lit-tag v="det.def"/>
+                <lit-tag v="m"/>
+                <lit-tag v="sg"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="a_num"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit v="de"/>
+                <lit-tag v="pr"/>
+              </lu>
+              <b pos="2"/>
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="tl" part="a_nom"/>
+                <clip pos="3" side="tl" part="a_gen"/>
+                <clip pos="3" side="tl" part="a_nbr"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit v="de"/>
+                <lit-tag v="pr"/>
+              </lu>
+              <b pos="3"/>
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="tl" part="a_num"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
@@ -6852,7 +7039,7 @@
 <rule>
 <!--REGLA COPY: în 2008: l'any 2008 -->
       <pattern>
-        <pattern-item n="prepîn"/>
+        <pattern-item n="prep_în"/>
         <pattern-item n="nom"/>
         <pattern-item n="xifra"/>
       </pattern>
@@ -7595,7 +7782,7 @@
 <rule>
 <!--REGLA COPY: prep "în" + nptop = a + nptop: în România -> a Romania -->
       <pattern>
-        <pattern-item n="prepîn"/>
+        <pattern-item n="prep_în"/>
         <pattern-item n="nptop"/>
       </pattern>
       <action>

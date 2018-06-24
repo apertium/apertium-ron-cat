@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 22436
+	Entries: 22640
 	Sdefs: 78
 	Paradigms: 16
 
@@ -4405,6 +4405,27 @@
 <e r="LR" a="mioara"><p><l>zvăpăiat</l>                               <r>enjogassat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>zvelt</l>                                   <r>esvelt</r></p><par n="4-4__adj"/></e>
 
+<e r="RL">          <p><l>meu<s n="adj"/><s n="pos"/><s n="mn"/><s n="sg"/></l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>meu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>meu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>meu<s n="adj"/><s n="pos"/><s n="fn"/><s n="pl"/></l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>tău<s n="adj"/><s n="pos"/><s n="mn"/><s n="sg"/></l><r>el<b/>teu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>tău<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>el<b/>teu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>tău<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>el<b/>teu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>tău<s n="adj"/><s n="pos"/><s n="fn"/><s n="pl"/></l><r>el<b/>teu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>său<s n="adj"/><s n="pos"/><s n="mn"/><s n="sg"/></l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>său<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>său<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>său<s n="adj"/><s n="pos"/><s n="fn"/><s n="pl"/></l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>nostru<s n="adj"/><s n="pos"/><s n="mn"/><s n="sg"/></l><r>el<b/>nostre<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>nostru<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>el<b/>nostre<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>nostru<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>el<b/>nostre<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>nostru<s n="adj"/><s n="pos"/><s n="fn"/><s n="pl"/></l><r>el<b/>nostre<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>vostru<s n="adj"/><s n="pos"/><s n="mn"/><s n="sg"/></l><r>el<b/>vostre<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>vostru<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>el<b/>vostre<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL">          <p><l>vostru<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></l><r>el<b/>vostre<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>vostru<s n="adj"/><s n="pos"/><s n="fn"/><s n="pl"/></l><r>el<b/>vostre<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+
 <!-- Adverbis -->
 
 <e>                 <p><l>a<b/>doua<b/>zi<s n="adv"/></l>             <r>l'endemà<s n="adv"/></r></p></e>
@@ -7448,7 +7469,7 @@
 <e>                 <p><l>cheag<s n="n"/></l>                         <r>quall<s n="n"/></r></p></e>
 <e a="delia">       <p><l>cheag<s n="n"/><s n="nt"/></l>              <r>quallo<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>chebap<s n="n"/><s n="nt"/></l>             <r>kebab<s n="n"/><s n="m"/></r></p></e>
-<e a="mioara">      <p><l>chefir<s n="n"/><s n="f"/></l>              <r>quefir<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>chefir<s n="n"/><s n="nt"/></l>             <r>quefir<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>chef<s n="n"/><s n="nt"/></l>               <r>tabola<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>cheie<b/>de<b/>boltă<s n="n"/></l>          <r>pedra<b/>angular<s n="n"/></r></p></e>
 <e>                 <p><l>cheie<s n="n"/></l>                         <r>clau<s n="n"/></r></p></e>
@@ -16964,386 +16985,411 @@
 
 <!-- Topònims -->
 
-<e>                 <p><l>Africa<s n="np"/><s n="top"/></l>           <r>Àfrica<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Albania<s n="np"/><s n="top"/></l>          <r>Albània<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>America<s n="np"/><s n="top"/></l>          <r>Amèrica<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Anglia<s n="np"/><s n="top"/></l>           <r>Anglaterra<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Asia<s n="np"/><s n="top"/></l>             <r>Àsia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Australia<s n="np"/><s n="top"/></l>        <r>Austràlia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Austria<s n="np"/><s n="top"/></l>          <r>Àustria<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Belgia<s n="np"/><s n="top"/></l>           <r>Bèlgica<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Berlin<s n="np"/><s n="top"/></l>           <r>Berlín<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Bielarusia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bielorússia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Brazilia<s n="np"/><s n="top"/><s n="f"/></l><r>Brasil<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-<e>                 <p><l>București<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bucarest<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR">          <p><l>București<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Bucarest<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Bulgaria<s n="np"/><s n="top"/></l>         <r>Bulgària<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Cecenia<s n="np"/><s n="top"/></l>          <r>Txetxènia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Cehia<s n="np"/><s n="top"/></l>            <r>Txèquia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>China<s n="np"/><s n="top"/></l>            <r>Xina<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Coreea<s n="np"/><s n="top"/></l>           <r>Corea<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Croația<s n="np"/><s n="top"/></l>          <r>Croàcia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Dacia<s n="np"/><s n="top"/></l>            <r>Dàcia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Danemarca<s n="np"/><s n="top"/></l>        <r>Dinamarca<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Dunăre<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Danubi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Elveția<s n="np"/><s n="top"/></l>          <r>Suïssa<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Estonia<s n="np"/><s n="top"/></l>          <r>Estònia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Europa<s n="np"/><s n="top"/></l>           <r>Europa<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Finlanda<s n="np"/><s n="top"/></l>         <r>Finlàndia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Franța<s n="np"/><s n="top"/></l>           <r>França<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Germania<s n="np"/><s n="top"/></l>         <r>Alemanya<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Grecia<s n="np"/><s n="top"/></l>           <r>Grècia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Hollywood<s n="np"/><s n="top"/></l>        <r>Hollywood<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Ierusalim<s n="np"/><s n="top"/></l>        <r>Jerusalem<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Irak<s n="np"/><s n="top"/></l>             <r>Iraq<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Iran<s n="np"/><s n="top"/></l>             <r>Iran<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Irlanda<s n="np"/><s n="top"/></l>          <r>Irlanda<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Islanda<s n="np"/><s n="top"/></l>          <r>Islàndia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Israel<s n="np"/><s n="top"/></l>           <r>Israel<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Italia<s n="np"/><s n="top"/></l>           <r>Itàlia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Japonia<s n="np"/><s n="top"/><s n="f"/></l><r>Japó<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-<e>                 <p><l>Letonia<s n="np"/><s n="top"/></l>          <r>Letònia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Lituania<s n="np"/><s n="top"/></l>         <r>Lituània<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Londra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Londres<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Macedonia<s n="np"/><s n="top"/></l>        <r>Macedònia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Madrid<s n="np"/><s n="top"/></l>           <r>Madrid<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Marea<b/>Britanie<s n="np"/><s n="top"/></l><r>Gran<b/>Bretanya<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Moldova<s n="np"/><s n="top"/></l>          <r>Moldàvia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Moscova<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Moscou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>New<b/>York<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nova<b/>York<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Norvegia<s n="np"/><s n="top"/></l>         <r>Noruega<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Olanda<s n="np"/><s n="top"/></l>           <r>Holanda<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Paris<s n="np"/><s n="top"/></l>            <r>París<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Polonia<s n="np"/><s n="top"/></l>          <r>Polònia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Portugalia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Portugal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Roma<s n="np"/><s n="top"/></l>             <r>Roma<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>România<s n="np"/><s n="top"/></l>          <r>Romania<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Rusia<s n="np"/><s n="top"/></l>            <r>Rússia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>SUA<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/></l><r>EUA<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-<e>                 <p><l>Scandinavia<s n="np"/><s n="top"/></l>      <r>Escandinàvia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Schengen<s n="np"/><s n="top"/></l>         <r>Schengen<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Scoția<s n="np"/><s n="top"/></l>           <r>Escòcia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Seul<s n="np"/><s n="top"/></l>             <r>Seül<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Shanghai<s n="np"/><s n="top"/></l>         <r>Xangai<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Slovacia<s n="np"/><s n="top"/></l>         <r>Eslovàquia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Slovenia<s n="np"/><s n="top"/></l>         <r>Eslovènia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Spania<s n="np"/><s n="top"/></l>           <r>Espanya<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Suedia<s n="np"/><s n="top"/></l>           <r>Suècia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Taiwan<s n="np"/><s n="top"/></l>           <r>Taiwan<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Terra<s n="np"/><s n="top"/></l>            <r>Terra<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Turcia<s n="np"/><s n="top"/></l>           <r>Turquia<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Ucraina<s n="np"/><s n="top"/></l>          <r>Ucraïna<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Ungaria<s n="np"/><s n="top"/></l>          <r>Hongria<s n="np"/><s n="top"/></r></p></e>
-
-<e>                 <p><l>Cluj<b/>Napoca<s n="np"/><s n="top"/></l>   <r>Cluj<b/>Napoca<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Cluj<s n="np"/><s n="top"/></l>             <r>Cluj<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Transilvania<s n="np"/><s n="top"/></l>     <r>Transsilvània<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Viena<s n="np"/><s n="top"/></l>            <r>Viena<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Suceava<s n="np"/><s n="top"/></l>          <r>Suceava<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Sibiu<s n="np"/><s n="top"/></l>            <r>Sibiu<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Muntenia<s n="np"/><s n="top"/></l>         <r>Muntènia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Arad<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Arad<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Canada<s n="np"/><s n="top"/></l>           <r>Canadà<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Bavaria<s n="np"/><s n="top"/></l>          <r>Baviera<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Mexico<s n="np"/><s n="top"/></l>           <r>Mèxic<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Bucovina<s n="np"/><s n="top"/></l>         <r>Bucovina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Basarabia<s n="np"/><s n="top"/></l>        <r>Bessaràbia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Saxonia<s n="np"/><s n="top"/></l>          <r>Saxònia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Craiova<s n="np"/><s n="top"/></l>          <r>Craiova<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>California<s n="np"/><s n="top"/></l>       <r>Califòrnia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Renania<s n="np"/><s n="top"/></l>          <r>Renània<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Prahova<s n="np"/><s n="top"/></l>          <r>Prahova<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Kiev<s n="np"/><s n="top"/></l>             <r>Kíev<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Oltenia<s n="np"/><s n="top"/></l>          <r>Oltènia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Budapesta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Budapest<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Hunedoara<s n="np"/><s n="top"/></l>        <r>Hunedoara<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Serbia<s n="np"/><s n="top"/></l>           <r>Sèrbia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Sofia<s n="np"/><s n="top"/></l>            <r>Sofia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Washington<s n="np"/><s n="top"/></l>       <r>Washington<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Crimeea<s n="np"/><s n="top"/></l>          <r>Crimea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Oradea<s n="np"/><s n="top"/></l>           <r>Oradea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Alba<b/>Iulia<s n="np"/><s n="top"/></l>    <r>Alba<b/>Iulia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Algeria<s n="np"/><s n="top"/></l>          <r>Algèria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Odesa<s n="np"/><s n="top"/></l>            <r>Odessa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>München<s n="np"/><s n="top"/></l>          <r>Munic<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Los<b/>Angeles<s n="np"/><s n="top"/></l>   <r>Los<b/>Angeles<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Banat<s n="np"/><s n="top"/></l>            <r>Banat<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Bihor<s n="np"/><s n="top"/></l>            <r>Bihor<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Praga<s n="np"/><s n="top"/></l>            <r>Praga<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Egipt<s n="np"/><s n="top"/></l>            <r>Egipte<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Satu<b/>Mare<s n="np"/><s n="top"/></l>     <r>Satu<b/>Mare<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Baia<b/>Mare<s n="np"/><s n="top"/></l>     <r>Baia<b/>Mare<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Sydney<s n="np"/><s n="top"/></l>           <r>Sydney<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Constantinopol<s n="np"/><s n="top"/></l>   <r>Constantinoble<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Muntenegru<s n="np"/><s n="top"/></l>       <r>Montenegro<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Atena<s n="np"/><s n="top"/></l>            <r>Atenes<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Milano<s n="np"/><s n="top"/></l>           <r>Milà<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Palestina<s n="np"/><s n="top"/></l>        <r>Palestina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Texas<s n="np"/><s n="top"/></l>            <r>Texas<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Georgia<s n="np"/><s n="top"/></l>          <r>Geòrgia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Sicilia<s n="np"/><s n="top"/></l>          <r>Sicília<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Vrancea<s n="np"/><s n="top"/></l>          <r>Vrancea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Argentina<s n="np"/><s n="top"/></l>        <r>Argentina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Calais<s n="np"/><s n="top"/></l>           <r>Calais<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Prusia<s n="np"/><s n="top"/></l>           <r>Prússia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Chicago<s n="np"/><s n="top"/></l>          <r>Chicago<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Tulcea<s n="np"/><s n="top"/></l>           <r>Tulcea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Thailanda<s n="np"/><s n="top"/></l>        <r>Tailàndia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Cracovia<s n="np"/><s n="top"/></l>         <r>Cracòvia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Luxemburg<s n="np"/><s n="top"/></l>        <r>Luxemburg<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Pomerania<s n="np"/><s n="top"/></l>        <r>Pomerània<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Kosovo<s n="np"/><s n="top"/></l>           <r>Kosovo<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Cehoslovacia<s n="np"/><s n="top"/></l>     <r>Txecoslovàquia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Manchester<s n="np"/><s n="top"/></l>       <r>Manchester<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Torino<s n="np"/><s n="top"/></l>           <r>Torí<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Belgrad<s n="np"/><s n="top"/></l>          <r>Belgrad<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Amsterdam<s n="np"/><s n="top"/></l>        <r>Amsterdam<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Florida<s n="np"/><s n="top"/></l>          <r>Florida<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Istanbul<s n="np"/><s n="top"/></l>         <r>Istanbul<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Geneva<s n="np"/><s n="top"/></l>           <r>Ginebra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Alexandria<s n="np"/><s n="top"/></l>       <r>Alexandria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Boston<s n="np"/><s n="top"/></l>           <r>Boston<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Bosnia<s n="np"/><s n="top"/></l>           <r>Bòsnia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Frankfurt<s n="np"/><s n="top"/></l>        <r>Frankfurt<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Oxford<s n="np"/><s n="top"/></l>           <r>Oxford<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Cambridge<s n="np"/><s n="top"/></l>        <r>Cambridge<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Jersey<s n="np"/><s n="top"/></l>           <r>Jersey<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Arizona<s n="np"/><s n="top"/></l>          <r>Arizona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Massachusetts<s n="np"/><s n="top"/></l>    <r>Massachusetts<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Tokyo<s n="np"/><s n="top"/></l>            <r>Tòquio<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Japonia<s n="np"/><s n="top"/></l>          <r>Japó<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Hamburg<s n="np"/><s n="top"/></l>          <r>Hamburg<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Transnistria<s n="np"/><s n="top"/></l>     <r>Transnístria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Liverpool<s n="np"/><s n="top"/></l>        <r>Liverpool<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Stockholm<s n="np"/><s n="top"/></l>        <r>Estocolm<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Ohio<s n="np"/><s n="top"/></l>             <r>Ohio<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Leipzig<s n="np"/><s n="top"/></l>          <r>Leipzig<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Toscana<s n="np"/><s n="top"/></l>          <r>Toscana<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Peru<s n="np"/><s n="top"/></l>             <r>Perú<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Vietnam<s n="np"/><s n="top"/></l>          <r>Vietnam<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Siberia<s n="np"/><s n="top"/></l>          <r>Sibèria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Venezuela<s n="np"/><s n="top"/></l>        <r>Veneçuela<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Lisabona<s n="np"/><s n="top"/></l>         <r>Lisboa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Malta<s n="np"/><s n="top"/></l>            <r>Malta<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Cipru<s n="np"/><s n="top"/></l>            <r>Xipre<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Lyon<s n="np"/><s n="top"/></l>             <r>Lió<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Alaska<s n="np"/><s n="top"/></l>           <r>Alaska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Beijing<s n="np"/><s n="top"/></l>          <r>Pequín<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Cuba<s n="np"/><s n="top"/></l>             <r>Cuba<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Silezia<s n="np"/><s n="top"/></l>          <r>Silèsia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Missouri<s n="np"/><s n="top"/></l>         <r>Missouri<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Veneto<s n="np"/><s n="top"/></l>           <r>Vèneto<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Copenhaga<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Copenhaguen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Barcelona<s n="np"/><s n="top"/></l>        <r>Barcelona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Catalonia<s n="np"/><s n="top"/></l>        <r>Catalunya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Tarragona<s n="np"/><s n="top"/></l>        <r>Tarragona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Girona<s n="np"/><s n="top"/></l>           <r>Girona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Lleida<s n="np"/><s n="top"/></l>           <r>Lleida<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Ademús<s n="np"/><s n="top"/></l>           <r>Ademús<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Aiora<s n="np"/><s n="top"/></l>            <r>Aiora<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Alicante<s n="np"/><s n="top"/></l>         <r>Alacant<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Albocàsser<s n="np"/><s n="top"/></l>       <r>Albocàsser<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Alcoi<s n="np"/><s n="top"/></l>            <r>Alcoi<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>L'Alcora<s n="np"/><s n="top"/></l>         <r>l'Alcora<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Amposta<s n="np"/><s n="top"/></l>          <r>Amposta<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Les<b/>Angles<s n="np"/><s n="top"/></l>    <r>els<b/>Angles<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Balaguer<s n="np"/><s n="top"/></l>         <r>Balaguer<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Banyoles<s n="np"/><s n="top"/></l>         <r>Banyoles<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Benavarri<s n="np"/><s n="top"/></l>        <r>Benavarri<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Berga<s n="np"/><s n="top"/></l>            <r>Berga<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>La<b/>Bisbal<b/>d'Empordà<s n="np"/><s n="top"/></l><r>la<b/>Bisbal<b/>d'Empordà<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Les<b/>Borges<b/>Blanques<s n="np"/><s n="top"/></l><r>les<b/>Borges<b/>Blanques<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Borriana<s n="np"/><s n="top"/></l>         <r>Borriana<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Castellón<b/>de<b/>la<b/>Plana<s n="np"/><s n="top"/></l><r>Castelló<b/>de<b/>la<b/>Plana<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Ceret<s n="np"/><s n="top"/></l>            <r>Ceret<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Cervera<s n="np"/><s n="top"/></l>          <r>Cervera<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Cirat<s n="np"/><s n="top"/></l>            <r>Cirat<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Cocentaina<s n="np"/><s n="top"/></l>       <r>Cocentaina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Dénia<s n="np"/><s n="top"/></l>            <r>Dénia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Eivissa<s n="np"/><s n="top"/></l>          <r>Eivissa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Elda<s n="np"/><s n="top"/></l>             <r>Elda<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Elx<s n="np"/><s n="top"/></l>              <r>Elx<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Énguera<s n="np"/><s n="top"/></l>          <r>Énguera<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Falset<s n="np"/><s n="top"/></l>           <r>Falset<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Figueres<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Figueres<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>Font-romeu<s n="np"/><s n="top"/></l>       <r>Font-romeu<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Fraga<s n="np"/><s n="top"/></l>            <r>Fraga<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Gandesa<s n="np"/><s n="top"/></l>          <r>Gandesa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Gandia<s n="np"/><s n="top"/></l>           <r>Gandia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Granollers<s n="np"/><s n="top"/></l>       <r>Granollers<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Igualada<s n="np"/><s n="top"/></l>         <r>Igualada<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Llíria<s n="np"/><s n="top"/></l>           <r>Llíria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Manresa<s n="np"/><s n="top"/></l>          <r>Manresa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Maó<s n="np"/><s n="top"/></l>              <r>Maó<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Mataró<s n="np"/><s n="top"/></l>           <r>Mataró<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Mollerussa<s n="np"/><s n="top"/></l>       <r>Mollerussa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Montblanc<s n="np"/><s n="top"/></l>        <r>Montblanc<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Móra<b/>d'Ebre<s n="np"/><s n="top"/></l>   <r>Móra<b/>d'Ebre<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Morella<s n="np"/><s n="top"/></l>          <r>Morella<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Olot<s n="np"/><s n="top"/></l>             <r>Olot<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Ontinyent<s n="np"/><s n="top"/></l>        <r>Ontinyent<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Oriola<s n="np"/><s n="top"/></l>           <r>Oriola<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Palma<s n="np"/><s n="top"/></l>            <r>Palma<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Perpignan<s n="np"/><s n="top"/></l>        <r>Perpinyà<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>El<b/>Pont<b/>de<b/>Suert<s n="np"/><s n="top"/></l><r>el<b/>Pont<b/>de<b/>Suert<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Prada<s n="np"/><s n="top"/></l>            <r>Prada<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Puçol<s n="np"/><s n="top"/></l>            <r>Puçol<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Puigcerdà<s n="np"/><s n="top"/></l>        <r>Puigcerdà<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Requena<s n="np"/><s n="top"/></l>          <r>Requena<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Reus<s n="np"/><s n="top"/></l>             <r>Reus<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Ripoll<s n="np"/><s n="top"/></l>           <r>Ripoll<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Sabadell<s n="np"/><s n="top"/></l>         <r>Sabadell<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Sagunt<s n="np"/><s n="top"/></l>           <r>Sagunt<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Sant<b/>Feliu<b/>de<b/>Llobregat<s n="np"/><s n="top"/></l><r>Sant<b/>Feliu<b/>de<b/>Llobregat<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Sant<b/>Pau<b/>de<b/>Fenollet<s n="np"/><s n="top"/></l><r>Sant<b/>Pau<b/>de<b/>Fenollet<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Santa<b/>Coloma<b/>de<b/>Farners<s n="np"/><s n="top"/></l><r>Santa<b/>Coloma<b/>de<b/>Farners<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>La<b/>Seu<b/>d'Urgell<s n="np"/><s n="top"/></l><r>la<b/>Seu<b/>d'Urgell<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Silla<s n="np"/><s n="top"/></l>            <r>Silla<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Sogorb<s n="np"/><s n="top"/></l>           <r>Sogorb<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Solsona<s n="np"/><s n="top"/></l>          <r>Solsona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Sort<s n="np"/><s n="top"/><s n="f"/></l>   <r>Sort<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Tamarit<b/>de<b/>Llitera<s n="np"/><s n="top"/></l><r>Tamarit<b/>de<b/>Llitera<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Tàrrega<s n="np"/><s n="top"/></l>          <r>Tàrrega<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Terrassa<s n="np"/><s n="top"/></l>         <r>Terrassa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Torrent<s n="np"/><s n="top"/></l>          <r>Torrent<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Tortosa<s n="np"/><s n="top"/></l>          <r>Tortosa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Tremp<s n="np"/><s n="top"/></l>            <r>Tremp<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Valencia<s n="np"/><s n="top"/></l>         <r>València<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Vall-de-roures<s n="np"/><s n="top"/></l>   <r>Vall-de-roures<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Valls<s n="np"/><s n="top"/></l>            <r>Valls<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>El<b/>Vendrell<s n="np"/><s n="top"/></l>   <r>el<b/>Vendrell<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Vic<s n="np"/><s n="top"/></l>              <r>Vic<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Vielha<s n="np"/><s n="top"/></l>           <r>Vielha<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Vilafranca<b/>del<b/>Penedès<s n="np"/><s n="top"/></l><r>Vilafranca<b/>del<b/>Penedès<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>La<b/>Vila<b/>Joiosa<s n="np"/><s n="top"/></l><r>la<b/>Vila<b/>Joiosa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Vilanova<b/>i<b/>la<b/>Geltrú<s n="np"/><s n="top"/></l><r>Vilanova<b/>i<b/>la<b/>Geltrú<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Villena<s n="np"/><s n="top"/></l>          <r>Villena<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Vinaròs<s n="np"/><s n="top"/></l>          <r>Vinaròs<s n="np"/><s n="top"/></r></p></e>
-<e>                 <p><l>Xàtiva<s n="np"/><s n="top"/></l>           <r>Xàtiva<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Xelva<s n="np"/><s n="top"/></l>            <r>Xelva<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Xiva<b/>de<b/>Bunyol<s n="np"/><s n="top"/></l><r>Xiva<b/>de<b/>Bunyol<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e a="mioara">      <p><l>Abadan<s n="np"/><s n="top"/></l>           <r>Abadan<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Abhazia<s n="np"/><s n="top"/></l>          <r>Abkhàzia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Abidjan<s n="np"/><s n="top"/></l>          <r>Abidjan<s n="np"/><s n="top"/></r></p></e>
+<e a="mioara">      <p><l>Abadan<s n="np"/><s n="top"/><s n="nt"/></l><r>Abadan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Abhazia<s n="np"/><s n="top"/><s n="f"/></l><r>Abkhàzia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Abidjan<s n="np"/><s n="top"/><s n="nt"/></l><r>Abidjan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>Adelaide<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Adelaide<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Aden<s n="np"/><s n="top"/></l>             <r>Aden<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Adrianopol<s n="np"/><s n="top"/></l>       <r>Adrianòpolis<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Afganistan<s n="np"/><s n="top"/></l>       <r>Afganistan<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Ahaia<s n="np"/><s n="top"/></l>            <r>Acaia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Albion<s n="np"/><s n="top"/></l>           <r>Albió<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Alexandria<s n="np"/><s n="top"/></l>       <r>Alexandria<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Alger<s n="np"/><s n="top"/></l>            <r>Argel<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Algeria<s n="np"/><s n="top"/></l>          <r>Algèria<s n="np"/><s n="top"/></r></p></e>
-<e a="delnou">      <p><l>Amazon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Amazones<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Americi<s n="np"/><s n="top"/></l>          <r>Amèriques<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Amman<s n="np"/><s n="top"/></l>            <r>Amman<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Anatolia<s n="np"/><s n="top"/></l>         <r>Anatòlia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Andaluzia<s n="np"/><s n="top"/></l>        <r>Andalusia<s n="np"/><s n="top"/></r></p></e>
-<e r="LR" a="mioara"><p><l>Andora<s n="np"/><s n="top"/></l>          <r>Andorra<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Andorra<s n="np"/><s n="top"/></l>          <r>Andorra<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Angola<s n="np"/><s n="top"/></l>           <r>Angola<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Annapolis<s n="np"/><s n="top"/></l>        <r>Annapolis<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Antarctica<s n="np"/><s n="top"/></l>       <r>Antàrtida<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Antile<s n="np"/><s n="top"/></l>           <r>Antilles<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Antiohia<s n="np"/><s n="top"/></l>         <r>Antioquia<s n="np"/><s n="top"/></r></p></e>
-<e r="LR" a="mioara"><p><l>Antwerpen<s n="np"/><s n="top"/></l>       <r>Anvers<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Anvers<s n="np"/><s n="top"/></l>           <r>Anvers<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Apalași<s n="np"/><s n="top"/></l>          <r>Apalatxes<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Apenini<s n="np"/><s n="top"/></l>          <r>Apenins<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Aquitania<s n="np"/><s n="top"/></l>        <r>Aquitània<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Arabia<s n="np"/><s n="top"/></l>           <r>Aràbia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Aragon<s n="np"/><s n="top"/></l>           <r>Aragó<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Argentina<s n="np"/><s n="top"/></l>        <r>Argentina<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Armenia<s n="np"/><s n="top"/></l>          <r>Armènia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Astrahan<s n="np"/><s n="top"/></l>         <r>Àstrakhan<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Atena<s n="np"/><s n="top"/></l>            <r>Atenes<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Azerbaidjan<s n="np"/><s n="top"/></l>      <r>Azerbaidjan<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Așhabad<s n="np"/><s n="top"/></l>          <r>Aixkhabad<s n="np"/><s n="top"/></r></p></e>
-<e a="delnou">      <p><l>Bagdad<s n="np"/><s n="top"/></l>           <r>Bagdad<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Balaton<s n="np"/><s n="top"/></l>          <r>Balaton<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Baleare<s n="np"/><s n="top"/></l>          <r>Balears<s n="np"/><s n="top"/></r></p></e>
-<e a="delnou">      <p><l>Barcelona<s n="np"/><s n="top"/></l>        <r>Barcelona<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Bavaria<s n="np"/><s n="top"/></l>          <r>Baviera<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Beoția<s n="np"/><s n="top"/></l>           <r>Beòcia<s n="np"/><s n="top"/></r></p></e>
+<e>                 <p><l>Ademús<s n="np"/><s n="top"/><s n="nt"/></l><r>Ademús<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Aden<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Aden<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Adrianopol<s n="np"/><s n="top"/><s n="nt"/></l><r>Adrianòpolis<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Afganistan<s n="np"/><s n="top"/><s n="nt"/></l><r>Afganistan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Africa<s n="np"/><s n="top"/><s n="f"/></l> <r>Àfrica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Ahaia<s n="np"/><s n="top"/><s n="f"/></l>  <r>Acaia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Aiora<s n="np"/><s n="top"/><s n="f"/></l>  <r>Aiora<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Alaska<s n="np"/><s n="top"/><s n="f"/></l> <r>Alaska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Alba<b/>Iulia<s n="np"/><s n="top"/><s n="f"/></l><r>Alba<b/>Iulia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Albania<s n="np"/><s n="top"/><s n="f"/></l><r>Albània<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Albion<s n="np"/><s n="top"/><s n="nt"/></l><r>Albió<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Albocàsser<s n="np"/><s n="top"/><s n="nt"/></l><r>Albocàsser<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Alcoi<s n="np"/><s n="top"/><s n="nt"/></l> <r>Alcoi<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Alexandria<s n="np"/><s n="top"/><s n="f"/></l><r>Alexandria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Algeria<s n="np"/><s n="top"/><s n="f"/></l><r>Algèria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Alger<s n="np"/><s n="top"/><s n="nt"/></l> <r>Argel<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Alicante<s n="np"/><s n="top"/><s n="nt"/></l><r>Alacant<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>Amazon<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Amazones<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>America<s n="np"/><s n="top"/><s n="f"/></l><r>Amèrica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Americi<s n="np"/><s n="top"/><s n="f"/></l><r>Amèriques<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Amman<s n="np"/><s n="top"/><s n="nt"/></l> <r>Amman<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Amposta<s n="np"/><s n="top"/><s n="f"/></l><r>Amposta<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Amsterdam<s n="np"/><s n="top"/><s n="nt"/></l><r>Amsterdam<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Anatolia<s n="np"/><s n="top"/><s n="f"/></l><r>Anatòlia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Andaluzia<s n="np"/><s n="top"/><s n="f"/></l><r>Andalusia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>Andora<s n="np"/><s n="top"/><s n="f"/></l><r>Andorra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Andorra<s n="np"/><s n="top"/><s n="f"/></l><r>Andorra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Anglia<s n="np"/><s n="top"/><s n="f"/></l> <r>Anglaterra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Angola<s n="np"/><s n="top"/><s n="f"/></l> <r>Angola<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Annapolis<s n="np"/><s n="top"/><s n="nt"/></l><r>Annapolis<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Antarctica<s n="np"/><s n="top"/><s n="f"/></l><r>Antàrtida<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Antile<s n="np"/><s n="top"/><s n="f"/></l> <r>Antilles<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Antiohia<s n="np"/><s n="top"/><s n="f"/></l><r>Antioquia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>Antwerpen<s n="np"/><s n="top"/><s n="nt"/></l><r>Anvers<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Anvers<s n="np"/><s n="top"/><s n="nt"/></l><r>Anvers<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Apalași<s n="np"/><s n="top"/><s n="m"/></l><r>Apalatxes<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Apenini<s n="np"/><s n="top"/><s n="m"/></l><r>Apenins<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Aquitania<s n="np"/><s n="top"/><s n="f"/></l><r>Aquitània<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Arabia<s n="np"/><s n="top"/><s n="f"/></l> <r>Aràbia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Arad<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Arad<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Aragon<s n="np"/><s n="top"/><s n="nt"/></l><r>Aragó<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Argentina<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Arizona<s n="np"/><s n="top"/><s n="f"/></l><r>Arizona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Armenia<s n="np"/><s n="top"/><s n="f"/></l><r>Armènia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Așhabad<s n="np"/><s n="top"/><s n="nt"/></l><r>Aixkhabad<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Asia<s n="np"/><s n="top"/><s n="f"/></l>   <r>Àsia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Astrahan<s n="np"/><s n="top"/><s n="nt"/></l><r>Àstrakhan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Atena<s n="np"/><s n="top"/><s n="f"/></l>  <r>Atenes<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Australia<s n="np"/><s n="top"/><s n="f"/></l><r>Austràlia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Austria<s n="np"/><s n="top"/><s n="f"/></l><r>Àustria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Azerbaidjan<s n="np"/><s n="top"/><s n="nt"/></l><r>Azerbaidjan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>Bagdad<s n="np"/><s n="top"/><s n="nt"/></l><r>Bagdad<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Baia<b/>Mare<s n="np"/><s n="top"/><s n="f"/></l><r>Baia<b/>Mare<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Balaguer<s n="np"/><s n="top"/><s n="nt"/></l><r>Balaguer<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Balaton<s n="np"/><s n="top"/><s n="nt"/></l><r>Balaton<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Baleare<s n="np"/><s n="top"/><s n="f"/></l><r>Balears<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Banat<s n="np"/><s n="top"/><s n="nt"/></l> <r>Banat<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Banyoles<s n="np"/><s n="top"/><s n="nt"/></l><r>Banyoles<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Barcelona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcelona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Basarabia<s n="np"/><s n="top"/><s n="f"/></l><r>Bessaràbia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Bavaria<s n="np"/><s n="top"/><s n="f"/></l><r>Baviera<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Beijing<s n="np"/><s n="top"/><s n="nt"/></l><r>Pequín<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Belgia<s n="np"/><s n="top"/><s n="f"/></l> <r>Bèlgica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Belgrad<s n="np"/><s n="top"/><s n="nt"/></l><r>Belgrad<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Benavarri<s n="np"/><s n="top"/><s n="nt"/></l><r>Benavarri<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Beoția<s n="np"/><s n="top"/><s n="f"/></l> <r>Beòcia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>Berezina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Berézina<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Berna<s n="np"/><s n="top"/></l>            <r>Berna<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Bonn<s n="np"/><s n="top"/></l>             <r>Bonn<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Bosnia<s n="np"/><s n="top"/></l>           <r>Bòsnia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Bratislava<s n="np"/><s n="top"/></l>       <r>Bratislava<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Bruxelles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Brussel·les<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Butan<s n="np"/><s n="top"/></l>            <r>Bhutan<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Calcutta<s n="np"/><s n="top"/></l>         <r>Calcuta<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>California<s n="np"/><s n="top"/></l>       <r>Califòrnia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Cambodgia<s n="np"/><s n="top"/></l>        <r>Cambodja<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Camerun<s n="np"/><s n="top"/></l>          <r>Camerun<s n="np"/><s n="top"/></r></p></e>
-<e a="delnou">      <p><l>Canada<s n="np"/><s n="top"/><s n="f"/></l> <r>Canadà<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-<e a="mioara">      <p><l>Canare<s n="np"/><s n="top"/></l>           <r>Canàries<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Catalunia<s n="np"/><s n="top"/></l>        <r>Catalunya<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Caucaz<s n="np"/><s n="top"/></l>           <r>Caucas<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Chișinău<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Chisinau<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Cipru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Xipre<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Cracovia<s n="np"/><s n="top"/></l>         <r>Cracòvia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Dobrogea<s n="np"/><s n="top"/></l>         <r>Dobrudja<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Dubai<s n="np"/><s n="top"/></l>            <r>Dubai<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Erevan<s n="np"/><s n="top"/></l>           <r>Erevan<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Florența<s n="np"/><s n="top"/></l>         <r>Florència<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Florida<s n="np"/><s n="top"/></l>          <r>Florida<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Galicia<s n="np"/><s n="top"/></l>          <r>Galícia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Georgia<s n="np"/><s n="top"/></l>          <r>Geòrgia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Gibraltar<s n="np"/><s n="top"/></l>        <r>Gibraltar<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Helsinki<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Hèlsinki<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Herțegovina<s n="np"/><s n="top"/></l>      <r>Hercegovina<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Indonezia<s n="np"/><s n="top"/></l>        <r>Indonèsia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Iordan<s n="np"/><s n="top"/></l>           <r>Jordà<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Islamabad<s n="np"/><s n="top"/></l>        <r>Islamabad<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Jamaica<s n="np"/><s n="top"/></l>          <r>Jamaica<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Kremlin<s n="np"/><s n="top"/></l>          <r>Kremlin<s n="np"/><s n="top"/></r></p></e>
-<e a="delnou">      <p><l>Kyoto<s n="np"/><s n="top"/></l>            <r>Kyoto<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Laponia<s n="np"/><s n="top"/></l>          <r>Lapònia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Liban<s n="np"/><s n="top"/></l>            <r>Líban<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Liberia<s n="np"/><s n="top"/></l>          <r>Libèria<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Libia<s n="np"/><s n="top"/></l>            <r>Líbia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Lisabona<s n="np"/><s n="top"/></l>         <r>Lisboa<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Marburg<s n="np"/><s n="top"/></l>          <r>Marburg<s n="np"/><s n="top"/></r></p></e>
-<e a="delnou">      <p><l>Marrakesh<s n="np"/><s n="top"/></l>        <r>Marràqueix<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Meca<s n="np"/><s n="top"/></l>             <r>Meca<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Medina<s n="np"/><s n="top"/></l>           <r>Medina<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Mendoza<s n="np"/><s n="top"/></l>          <r>Mendoza<s n="np"/><s n="top"/></r></p></e>
-<e a="delnou">      <p><l>Mexic<s n="np"/><s n="top"/></l>            <r>Mèxic<s n="np"/><s n="top"/></r></p></e>
-<e a="delnou">      <p><l>Nairobi<s n="np"/><s n="top"/></l>          <r>Nairobi<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Nicosia<s n="np"/><s n="top"/></l>          <r>Nicòsia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Nigeria<s n="np"/><s n="top"/></l>          <r>Nigèria<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Nil<s n="np"/><s n="top"/></l>              <r>Nil<s n="np"/><s n="top"/></r></p></e>
-<e a="delnou">      <p><l>Oceania<s n="np"/><s n="top"/></l>          <r>Oceania<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Pakistan<s n="np"/><s n="top"/></l>         <r>Pakistan<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Palermo<s n="np"/><s n="top"/></l>          <r>Palerm<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Palestina<s n="np"/><s n="top"/></l>        <r>Palestina<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Persia<s n="np"/><s n="top"/></l>           <r>Pèrsia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Pirinei<s n="np"/><s n="top"/></l>          <r>Pirineus<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Prusia<s n="np"/><s n="top"/></l>           <r>Prússia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Ruanda<s n="np"/><s n="top"/></l>           <r>Ruanda<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Sankt<b/>Petersburg<s n="np"/><s n="top"/></l><r>Sant<b/>Petersburg<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Sarajevo<s n="np"/><s n="top"/></l>         <r>Sarajevo<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Siria<s n="np"/><s n="top"/></l>            <r>Síria<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Slobozia<s n="np"/><s n="top"/></l>         <r>Slobozia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Tbilisi<s n="np"/><s n="top"/></l>          <r>Tbilisi<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Teheran<s n="np"/><s n="top"/></l>          <r>Teheran<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Tibet<s n="np"/><s n="top"/></l>            <r>Tibet<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Tighina<s n="np"/><s n="top"/></l>          <r>Tighina<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Tiraspol<s n="np"/><s n="top"/></l>         <r>Tiraspol<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Tracia<s n="np"/><s n="top"/></l>           <r>Tràcia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Transnistria<s n="np"/><s n="top"/></l>     <r>Transnístria<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Tubingen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tübingen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Varșovia<s n="np"/><s n="top"/></l>         <r>Varsòvia<s n="np"/><s n="top"/></r></p></e>
-<e r="LR" a="mioara"><p><l>Vestfalia<s n="np"/><s n="top"/></l>       <r>Westfàlia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Viena<s n="np"/><s n="top"/></l>            <r>Viena<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Vilnius<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Vílnius<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Vistula<s n="np"/><s n="top"/></l>          <r>Vístula<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Volga<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Volga<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="mioara">      <p><l>Westfalia<s n="np"/><s n="top"/></l>        <r>Westfàlia<s n="np"/><s n="top"/></r></p></e>
-<e a="mioara">      <p><l>Zimbabwe<s n="np"/><s n="top"/></l>         <r>Zimbàbue<s n="np"/><s n="top"/></r></p></e>
+<e>                 <p><l>Berga<s n="np"/><s n="top"/><s n="f"/></l>  <r>Berga<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Berlin<s n="np"/><s n="top"/><s n="nt"/></l><r>Berlín<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Berna<s n="np"/><s n="top"/><s n="f"/></l>  <r>Berna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Bielarusia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bielorússia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Bihor<s n="np"/><s n="top"/><s n="nt"/></l> <r>Bihor<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Bonn<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Bonn<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Borriana<s n="np"/><s n="top"/><s n="f"/></l><r>Borriana<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Bosnia<s n="np"/><s n="top"/><s n="f"/></l> <r>Bòsnia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Boston<s n="np"/><s n="top"/><s n="nt"/></l><r>Boston<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Bratislava<s n="np"/><s n="top"/><s n="f"/></l><r>Bratislava<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Brazilia<s n="np"/><s n="top"/><s n="f"/></l><r>Brasil<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Bruxelles<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Brussel·les<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Bucovina<s n="np"/><s n="top"/><s n="f"/></l><r>Bucovina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>București<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Bucarest<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Budapesta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Budapest<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Bulgaria<s n="np"/><s n="top"/><s n="f"/></l><r>Bulgària<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Butan<s n="np"/><s n="top"/><s n="nt"/></l> <r>Bhutan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Calais<s n="np"/><s n="top"/><s n="nt"/></l><r>Calais<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Calcutta<s n="np"/><s n="top"/><s n="f"/></l><r>Calcuta<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>California<s n="np"/><s n="top"/><s n="f"/></l><r>Califòrnia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Cambodgia<s n="np"/><s n="top"/><s n="f"/></l><r>Cambodja<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Cambridge<s n="np"/><s n="top"/><s n="nt"/></l><r>Cambridge<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Camerun<s n="np"/><s n="top"/><s n="nt"/></l><r>Camerun<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Canada<s n="np"/><s n="top"/><s n="f"/></l> <r>Canadà<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Canare<s n="np"/><s n="top"/><s n="f"/></l> <r>Canàries<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Castellón<b/>de<b/>la<b/>Plana<s n="np"/><s n="top"/><s n="nt"/></l><r>Castelló<b/>de<b/>la<b/>Plana<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Catalonia<s n="np"/><s n="top"/><s n="f"/></l><r>Catalunya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Catalunia<s n="np"/><s n="top"/><s n="f"/></l><r>Catalunya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Caucaz<s n="np"/><s n="top"/><s n="nt"/></l><r>Caucas<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Cecenia<s n="np"/><s n="top"/><s n="f"/></l><r>Txetxènia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Cehia<s n="np"/><s n="top"/><s n="f"/></l>  <r>Txèquia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Cehoslovacia<s n="np"/><s n="top"/><s n="f"/></l><r>Txecoslovàquia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Ceret<s n="np"/><s n="top"/><s n="nt"/></l> <r>Ceret<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Cervera<s n="np"/><s n="top"/><s n="f"/></l><r>Cervera<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Chicago<s n="np"/><s n="top"/><s n="nt"/></l><r>Chicago<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>China<s n="np"/><s n="top"/><s n="f"/></l>  <r>Xina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Chișinău<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Chisinau<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Cipru<s n="np"/><s n="top"/><s n="nt"/></l> <r>Xipre<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Cipru<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Xipre<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Cirat<s n="np"/><s n="top"/><s n="nt"/></l> <r>Cirat<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Cluj<b/>Napoca<s n="np"/><s n="top"/><s n="f"/></l><r>Cluj<b/>Napoca<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Cluj<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Cluj<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Cocentaina<s n="np"/><s n="top"/><s n="f"/></l><r>Cocentaina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Constantinopol<s n="np"/><s n="top"/><s n="nt"/></l><r>Constantinoble<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Copenhaga<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Copenhaguen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Coreea<s n="np"/><s n="top"/><s n="f"/></l> <r>Corea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Cracovia<s n="np"/><s n="top"/><s n="f"/></l><r>Cracòvia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Craiova<s n="np"/><s n="top"/><s n="f"/></l><r>Craiova<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Crimeea<s n="np"/><s n="top"/><s n="f"/></l><r>Crimea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Croația<s n="np"/><s n="top"/><s n="f"/></l><r>Croàcia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Cuba<s n="np"/><s n="top"/><s n="f"/></l>   <r>Cuba<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Dacia<s n="np"/><s n="top"/><s n="f"/></l>  <r>Dàcia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Danemarca<s n="np"/><s n="top"/><s n="f"/></l><r>Dinamarca<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Dénia<s n="np"/><s n="top"/><s n="f"/></l>  <r>Dénia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Dobrogea<s n="np"/><s n="top"/><s n="f"/></l><r>Dobrudja<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Dubai<s n="np"/><s n="top"/><s n="nt"/></l> <r>Dubai<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Dunăre<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Danubi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Egipt<s n="np"/><s n="top"/><s n="nt"/></l> <r>Egipte<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Eivissa<s n="np"/><s n="top"/><s n="f"/></l><r>Eivissa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>El<b/>Pont<b/>de<b/>Suert<s n="np"/><s n="top"/><s n="nt"/></l><r>el<b/>Pont<b/>de<b/>Suert<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>El<b/>Vendrell<s n="np"/><s n="top"/><s n="nt"/></l><r>el<b/>Vendrell<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Elda<s n="np"/><s n="top"/><s n="f"/></l>   <r>Elda<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Elveția<s n="np"/><s n="top"/><s n="f"/></l><r>Suïssa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Elx<s n="np"/><s n="top"/><s n="nt"/></l>   <r>Elx<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Énguera<s n="np"/><s n="top"/><s n="f"/></l><r>Énguera<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Erevan<s n="np"/><s n="top"/><s n="nt"/></l><r>Erevan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Estonia<s n="np"/><s n="top"/><s n="f"/></l><r>Estònia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Europa<s n="np"/><s n="top"/><s n="f"/></l> <r>Europa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Falset<s n="np"/><s n="top"/><s n="nt"/></l><r>Falset<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Figueres<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Figueres<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Finlanda<s n="np"/><s n="top"/><s n="f"/></l><r>Finlàndia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Florența<s n="np"/><s n="top"/><s n="f"/></l><r>Florència<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Florida<s n="np"/><s n="top"/><s n="f"/></l><r>Florida<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Font-romeu<s n="np"/><s n="top"/><s n="nt"/></l><r>Font-romeu<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Fraga<s n="np"/><s n="top"/><s n="f"/></l>  <r>Fraga<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Frankfurt<s n="np"/><s n="top"/><s n="nt"/></l><r>Frankfurt<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Franța<s n="np"/><s n="top"/><s n="f"/></l> <r>França<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Galicia<s n="np"/><s n="top"/><s n="f"/></l><r>Galícia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Gandesa<s n="np"/><s n="top"/><s n="f"/></l><r>Gandesa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Gandia<s n="np"/><s n="top"/><s n="f"/></l> <r>Gandia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Geneva<s n="np"/><s n="top"/><s n="f"/></l> <r>Ginebra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Georgia<s n="np"/><s n="top"/><s n="f"/></l><r>Geòrgia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Germania<s n="np"/><s n="top"/><s n="f"/></l><r>Alemanya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Gibraltar<s n="np"/><s n="top"/><s n="nt"/></l><r>Gibraltar<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Girona<s n="np"/><s n="top"/><s n="f"/></l> <r>Girona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Granollers<s n="np"/><s n="top"/><s n="nt"/></l><r>Granollers<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Grecia<s n="np"/><s n="top"/><s n="f"/></l> <r>Grècia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Hamburg<s n="np"/><s n="top"/><s n="nt"/></l><r>Hamburg<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Helsinki<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Hèlsinki<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Herțegovina<s n="np"/><s n="top"/><s n="f"/></l><r>Hercegovina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Hollywood<s n="np"/><s n="top"/><s n="nt"/></l><r>Hollywood<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Hunedoara<s n="np"/><s n="top"/><s n="f"/></l><r>Hunedoara<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Ierusalim<s n="np"/><s n="top"/><s n="nt"/></l><r>Jerusalem<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Igualada<s n="np"/><s n="top"/><s n="f"/></l><r>Igualada<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Indonezia<s n="np"/><s n="top"/><s n="f"/></l><r>Indonèsia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Iordan<s n="np"/><s n="top"/><s n="nt"/></l><r>Jordà<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Irak<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Iraq<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Iran<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Iran<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Irlanda<s n="np"/><s n="top"/><s n="f"/></l><r>Irlanda<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Islamabad<s n="np"/><s n="top"/><s n="nt"/></l><r>Islamabad<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Islanda<s n="np"/><s n="top"/><s n="f"/></l><r>Islàndia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Israel<s n="np"/><s n="top"/><s n="nt"/></l><r>Israel<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Istanbul<s n="np"/><s n="top"/><s n="nt"/></l><r>Istanbul<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Italia<s n="np"/><s n="top"/><s n="f"/></l> <r>Itàlia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Jamaica<s n="np"/><s n="top"/><s n="f"/></l><r>Jamaica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Japonia<s n="np"/><s n="top"/><s n="f"/></l><r>Japó<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Jersey<s n="np"/><s n="top"/><s n="nt"/></l><r>Jersey<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Kiev<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Kíev<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Kosovo<s n="np"/><s n="top"/><s n="nt"/></l><r>Kosovo<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Kremlin<s n="np"/><s n="top"/><s n="nt"/></l><r>Kremlin<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>Kyoto<s n="np"/><s n="top"/><s n="nt"/></l> <r>Kyoto<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>La<b/>Bisbal<b/>d'Empordà<s n="np"/><s n="top"/><s n="f"/></l><r>la<b/>Bisbal<b/>d'Empordà<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>La<b/>Seu<b/>d'Urgell<s n="np"/><s n="top"/><s n="f"/></l><r>la<b/>Seu<b/>d'Urgell<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>La<b/>Vila<b/>Joiosa<s n="np"/><s n="top"/><s n="f"/></l><r>la<b/>Vila<b/>Joiosa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>L'Alcora<s n="np"/><s n="top"/><s n="f"/></l><r>l'Alcora<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Laponia<s n="np"/><s n="top"/><s n="f"/></l><r>Lapònia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Leipzig<s n="np"/><s n="top"/><s n="nt"/></l><r>Leipzig<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Les<b/>Angles<s n="np"/><s n="top"/><s n="nt"/></l><r>els<b/>Angles<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Les<b/>Borges<b/>Blanques<s n="np"/><s n="top"/><s n="nt"/></l><r>les<b/>Borges<b/>Blanques<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Letonia<s n="np"/><s n="top"/><s n="f"/></l><r>Letònia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Liban<s n="np"/><s n="top"/><s n="nt"/></l> <r>Líban<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Liberia<s n="np"/><s n="top"/><s n="f"/></l><r>Libèria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Libia<s n="np"/><s n="top"/><s n="f"/></l>  <r>Líbia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Lisabona<s n="np"/><s n="top"/><s n="f"/></l><r>Lisboa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Lituania<s n="np"/><s n="top"/><s n="f"/></l><r>Lituània<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Liverpool<s n="np"/><s n="top"/><s n="nt"/></l><r>Liverpool<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Lleida<s n="np"/><s n="top"/><s n="f"/></l> <r>Lleida<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Llíria<s n="np"/><s n="top"/><s n="f"/></l> <r>Llíria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Londra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Londres<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Los<b/>Angeles<s n="np"/><s n="top"/><s n="nt"/></l><r>Los<b/>Angeles<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Luxemburg<s n="np"/><s n="top"/><s n="nt"/></l><r>Luxemburg<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Lyon<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Lió<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Macedonia<s n="np"/><s n="top"/><s n="f"/></l><r>Macedònia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Madrid<s n="np"/><s n="top"/><s n="nt"/></l><r>Madrid<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Malta<s n="np"/><s n="top"/><s n="f"/></l>  <r>Malta<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Manchester<s n="np"/><s n="top"/><s n="nt"/></l><r>Manchester<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Manresa<s n="np"/><s n="top"/><s n="f"/></l><r>Manresa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Maó<s n="np"/><s n="top"/><s n="nt"/></l>   <r>Maó<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Marburg<s n="np"/><s n="top"/><s n="nt"/></l><r>Marburg<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Marea<b/>Britanie<s n="np"/><s n="top"/><s n="f"/></l><r>Gran<b/>Bretanya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="delnou">      <p><l>Marrakesh<s n="np"/><s n="top"/><s n="nt"/></l><r>Marràqueix<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Massachusetts<s n="np"/><s n="top"/><s n="nt"/></l><r>Massachusetts<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Mataró<s n="np"/><s n="top"/><s n="nt"/></l><r>Mataró<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Meca<s n="np"/><s n="top"/><s n="f"/></l>   <r>Meca<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Medina<s n="np"/><s n="top"/><s n="f"/></l> <r>Medina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Mendoza<s n="np"/><s n="top"/><s n="f"/></l><r>Mendoza<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Mexico<s n="np"/><s n="top"/><s n="nt"/></l><r>Mèxic<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>Mexic<s n="np"/><s n="top"/><s n="nt"/></l> <r>Mèxic<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Milano<s n="np"/><s n="top"/><s n="nt"/></l><r>Milà<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Missouri<s n="np"/><s n="top"/><s n="nt"/></l><r>Missouri<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Moldova<s n="np"/><s n="top"/><s n="f"/></l><r>Moldàvia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Mollerussa<s n="np"/><s n="top"/><s n="f"/></l><r>Mollerussa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Montblanc<s n="np"/><s n="top"/><s n="nt"/></l><r>Montblanc<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Móra<b/>d'Ebre<s n="np"/><s n="top"/><s n="f"/></l><r>Móra<b/>d'Ebre<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Morella<s n="np"/><s n="top"/><s n="f"/></l><r>Morella<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Moscova<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Moscou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>München<s n="np"/><s n="top"/><s n="nt"/></l><r>Munic<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Muntenegru<s n="np"/><s n="top"/><s n="nt"/></l><r>Montenegro<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Muntenia<s n="np"/><s n="top"/><s n="f"/></l><r>Muntènia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="delnou">      <p><l>Nairobi<s n="np"/><s n="top"/><s n="nt"/></l><r>Nairobi<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>New<b/>York<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Nova<b/>York<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Nicosia<s n="np"/><s n="top"/><s n="f"/></l><r>Nicòsia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Nigeria<s n="np"/><s n="top"/><s n="f"/></l><r>Nigèria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Nil<s n="np"/><s n="top"/><s n="nt"/></l>   <r>Nil<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Norvegia<s n="np"/><s n="top"/><s n="f"/></l><r>Noruega<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="delnou">      <p><l>Oceania<s n="np"/><s n="top"/><s n="f"/></l><r>Oceania<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Odesa<s n="np"/><s n="top"/><s n="f"/></l>  <r>Odessa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Ohio<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Ohio<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Olanda<s n="np"/><s n="top"/><s n="f"/></l> <r>Holanda<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Olot<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Olot<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Oltenia<s n="np"/><s n="top"/><s n="f"/></l><r>Oltènia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Ontinyent<s n="np"/><s n="top"/><s n="nt"/></l><r>Ontinyent<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Oradea<s n="np"/><s n="top"/><s n="f"/></l> <r>Oradea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Oriola<s n="np"/><s n="top"/><s n="f"/></l> <r>Oriola<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Oxford<s n="np"/><s n="top"/><s n="nt"/></l><r>Oxford<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Pakistan<s n="np"/><s n="top"/><s n="nt"/></l><r>Pakistan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Palermo<s n="np"/><s n="top"/><s n="nt"/></l><r>Palerm<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Palestina<s n="np"/><s n="top"/><s n="f"/></l><r>Palestina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Palma<s n="np"/><s n="top"/><s n="f"/></l>  <r>Palma<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Paris<s n="np"/><s n="top"/><s n="nt"/></l> <r>París<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Perpignan<s n="np"/><s n="top"/><s n="nt"/></l><r>Perpinyà<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Persia<s n="np"/><s n="top"/><s n="f"/></l> <r>Pèrsia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Peru<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Perú<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Pirinei<s n="np"/><s n="top"/><s n="m"/></l><r>Pirineus<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Polonia<s n="np"/><s n="top"/><s n="f"/></l><r>Polònia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Pomerania<s n="np"/><s n="top"/><s n="f"/></l><r>Pomerània<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Portugalia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Portugal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Prada<s n="np"/><s n="top"/><s n="f"/></l>  <r>Prada<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Praga<s n="np"/><s n="top"/><s n="f"/></l>  <r>Praga<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Prahova<s n="np"/><s n="top"/><s n="f"/></l><r>Prahova<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Prusia<s n="np"/><s n="top"/><s n="f"/></l> <r>Prússia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Puçol<s n="np"/><s n="top"/><s n="nt"/></l> <r>Puçol<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Puigcerdà<s n="np"/><s n="top"/><s n="nt"/></l><r>Puigcerdà<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Renania<s n="np"/><s n="top"/><s n="f"/></l><r>Renània<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Requena<s n="np"/><s n="top"/><s n="f"/></l><r>Requena<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Reus<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Reus<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Ripoll<s n="np"/><s n="top"/><s n="nt"/></l><r>Ripoll<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>România<s n="np"/><s n="top"/><s n="f"/></l><r>Romania<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Roma<s n="np"/><s n="top"/><s n="f"/></l>   <r>Roma<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Ruanda<s n="np"/><s n="top"/><s n="f"/></l> <r>Ruanda<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Rusia<s n="np"/><s n="top"/><s n="f"/></l>  <r>Rússia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Sabadell<s n="np"/><s n="top"/><s n="nt"/></l><r>Sabadell<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Sagunt<s n="np"/><s n="top"/><s n="nt"/></l><r>Sagunt<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Sankt<b/>Petersburg<s n="np"/><s n="top"/><s n="nt"/></l><r>Sant<b/>Petersburg<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Santa<b/>Coloma<b/>de<b/>Farners<s n="np"/><s n="top"/><s n="f"/></l><r>Santa<b/>Coloma<b/>de<b/>Farners<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Sant<b/>Feliu<b/>de<b/>Llobregat<s n="np"/><s n="top"/><s n="nt"/></l><r>Sant<b/>Feliu<b/>de<b/>Llobregat<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Sant<b/>Pau<b/>de<b/>Fenollet<s n="np"/><s n="top"/><s n="nt"/></l><r>Sant<b/>Pau<b/>de<b/>Fenollet<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Sarajevo<s n="np"/><s n="top"/><s n="nt"/></l><r>Sarajevo<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Satu<b/>Mare<s n="np"/><s n="top"/><s n="nt"/></l><r>Satu<b/>Mare<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Saxonia<s n="np"/><s n="top"/><s n="f"/></l><r>Saxònia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Scandinavia<s n="np"/><s n="top"/><s n="f"/></l><r>Escandinàvia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Schengen<s n="np"/><s n="top"/><s n="nt"/></l><r>Schengen<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Scoția<s n="np"/><s n="top"/><s n="f"/></l> <r>Escòcia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Serbia<s n="np"/><s n="top"/><s n="f"/></l> <r>Sèrbia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Seul<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Seül<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Shanghai<s n="np"/><s n="top"/><s n="nt"/></l><r>Xangai<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Siberia<s n="np"/><s n="top"/><s n="f"/></l><r>Sibèria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Sibiu<s n="np"/><s n="top"/><s n="nt"/></l> <r>Sibiu<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Sicilia<s n="np"/><s n="top"/><s n="f"/></l><r>Sicília<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Silezia<s n="np"/><s n="top"/><s n="f"/></l><r>Silèsia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Silla<s n="np"/><s n="top"/><s n="f"/></l>  <r>Silla<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Siria<s n="np"/><s n="top"/><s n="f"/></l>  <r>Síria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Slobozia<s n="np"/><s n="top"/><s n="f"/></l><r>Slobozia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Slovacia<s n="np"/><s n="top"/><s n="f"/></l><r>Eslovàquia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Slovenia<s n="np"/><s n="top"/><s n="f"/></l><r>Eslovènia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Sofia<s n="np"/><s n="top"/><s n="f"/></l>  <r>Sofia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Sogorb<s n="np"/><s n="top"/><s n="nt"/></l><r>Sogorb<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Solsona<s n="np"/><s n="top"/><s n="f"/></l><r>Solsona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Sort<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Sort<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Spania<s n="np"/><s n="top"/><s n="f"/></l> <r>Espanya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Stockholm<s n="np"/><s n="top"/><s n="nt"/></l><r>Estocolm<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>SUA<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/></l><r>EUA<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e>                 <p><l>Suceava<s n="np"/><s n="top"/><s n="f"/></l><r>Suceava<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Suedia<s n="np"/><s n="top"/><s n="f"/></l> <r>Suècia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Sydney<s n="np"/><s n="top"/><s n="nt"/></l><r>Sydney<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Taiwan<s n="np"/><s n="top"/><s n="nt"/></l><r>Taiwan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Tamarit<b/>de<b/>Llitera<s n="np"/><s n="top"/><s n="nt"/></l><r>Tamarit<b/>de<b/>Llitera<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>Țări<b/>de<b/>Jos<s n="np"/><s n="top"/><s n="f"/></l><r>Països<b/>Baixos<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-
+<e>                 <p><l>Tarragona<s n="np"/><s n="top"/><s n="f"/></l><r>Tarragona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Tàrrega<s n="np"/><s n="top"/><s n="f"/></l><r>Tàrrega<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Tbilisi<s n="np"/><s n="top"/><s n="nt"/></l><r>Tbilisi<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Teheran<s n="np"/><s n="top"/><s n="nt"/></l><r>Teheran<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Terra<s n="np"/><s n="top"/><s n="f"/></l>  <r>Terra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Terrassa<s n="np"/><s n="top"/><s n="f"/></l><r>Terrassa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Texas<s n="np"/><s n="top"/><s n="nt"/></l> <r>Texas<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Thailanda<s n="np"/><s n="top"/><s n="f"/></l><r>Tailàndia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Tibet<s n="np"/><s n="top"/><s n="nt"/></l> <r>Tibet<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Tighina<s n="np"/><s n="top"/><s n="f"/></l><r>Tighina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Tiraspol<s n="np"/><s n="top"/><s n="nt"/></l><r>Tiraspol<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Tokyo<s n="np"/><s n="top"/><s n="nt"/></l> <r>Tòquio<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Torino<s n="np"/><s n="top"/><s n="nt"/></l><r>Torí<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Torrent<s n="np"/><s n="top"/><s n="nt"/></l><r>Torrent<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Tortosa<s n="np"/><s n="top"/><s n="f"/></l><r>Tortosa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Toscana<s n="np"/><s n="top"/><s n="f"/></l><r>Toscana<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Tracia<s n="np"/><s n="top"/><s n="f"/></l> <r>Tràcia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Transilvania<s n="np"/><s n="top"/><s n="f"/></l><r>Transsilvània<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Transnistria<s n="np"/><s n="top"/><s n="f"/></l><r>Transnístria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Tremp<s n="np"/><s n="top"/><s n="nt"/></l> <r>Tremp<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Tubingen<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Tübingen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Tulcea<s n="np"/><s n="top"/><s n="f"/></l> <r>Tulcea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Turcia<s n="np"/><s n="top"/><s n="f"/></l> <r>Turquia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Ucraina<s n="np"/><s n="top"/><s n="f"/></l><r>Ucraïna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Ungaria<s n="np"/><s n="top"/><s n="f"/></l><r>Hongria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Valencia<s n="np"/><s n="top"/><s n="f"/></l><r>València<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Vall-de-roures<s n="np"/><s n="top"/><s n="nt"/></l><r>Vall-de-roures<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Valls<s n="np"/><s n="top"/><s n="nt"/></l> <r>Valls<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Varșovia<s n="np"/><s n="top"/><s n="f"/></l><r>Varsòvia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Veneto<s n="np"/><s n="top"/><s n="nt"/></l><r>Vèneto<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Venezuela<s n="np"/><s n="top"/><s n="f"/></l><r>Veneçuela<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e r="LR" a="mioara"><p><l>Vestfalia<s n="np"/><s n="top"/><s n="f"/></l><r>Westfàlia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Vic<s n="np"/><s n="top"/><s n="nt"/></l>   <r>Vic<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Vielha<s n="np"/><s n="top"/><s n="f"/></l> <r>Vielha<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Viena<s n="np"/><s n="top"/><s n="f"/></l>  <r>Viena<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Vietnam<s n="np"/><s n="top"/><s n="nt"/></l><r>Vietnam<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Vilafranca<b/>del<b/>Penedès<s n="np"/><s n="top"/><s n="f"/></l><r>Vilafranca<b/>del<b/>Penedès<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Vilanova<b/>i<b/>la<b/>Geltrú<s n="np"/><s n="top"/><s n="f"/></l><r>Vilanova<b/>i<b/>la<b/>Geltrú<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Villena<s n="np"/><s n="top"/><s n="f"/></l><r>Villena<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Vilnius<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>Vílnius<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Vinaròs<s n="np"/><s n="top"/><s n="nt"/></l><r>Vinaròs<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Vistula<s n="np"/><s n="top"/><s n="f"/></l><r>Vístula<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Volga<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Volga<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>Vrancea<s n="np"/><s n="top"/><s n="f"/></l><r>Vrancea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Washington<s n="np"/><s n="top"/><s n="nt"/></l><r>Washington<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>Westfalia<s n="np"/><s n="top"/><s n="f"/></l><r>Westfàlia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Xàtiva<s n="np"/><s n="top"/><s n="f"/></l> <r>Xàtiva<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Xelva<s n="np"/><s n="top"/><s n="f"/></l>  <r>Xelva<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>                 <p><l>Xiva<b/>de<b/>Bunyol<s n="np"/><s n="top"/><s n="f"/></l><r>Xiva<b/>de<b/>Bunyol<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>Zimbabwe<s n="np"/><s n="top"/><s n="nt"/></l><r>Zimbàbue<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>﻿Iași<s n="np"/><s n="top"/><s n="nt"/></l> <r>﻿Iași<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Brașov<s n="np"/><s n="top"/><s n="nt"/></l><r>Brașov<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Mureș<s n="np"/><s n="top"/><s n="nt"/></l> <r>Mureș<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Argeș<s n="np"/><s n="top"/><s n="nt"/></l> <r>Argeș<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Galați<s n="np"/><s n="top"/><s n="nt"/></l><r>Galați<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Neamț<s n="np"/><s n="top"/><s n="nt"/></l> <r>Neamț<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Cernăuți<s n="np"/><s n="top"/><s n="nt"/></l><r>Cernăuți<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Vaslui<s n="np"/><s n="top"/><s n="nt"/></l><r>Vaslui<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Liov<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Lviv<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Ploiești<s n="np"/><s n="top"/><s n="nt"/></l><r>Ploiești<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Olt<s n="np"/><s n="top"/><s n="nt"/></l>   <r>Olt<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Botoșani<s n="np"/><s n="top"/><s n="nt"/></l><r>Botoșani<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Jîtomîr<s n="np"/><s n="top"/><s n="nt"/></l><r>Jitòmir<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Timiș<s n="np"/><s n="top"/><s n="nt"/></l> <r>Timiș<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Maramureș<s n="np"/><s n="top"/><s n="nt"/></l><r>Maramureș<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Cernihiv<s n="np"/><s n="top"/><s n="nt"/></l><r>Txerníhiv<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Sumî<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Sumi<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Hmelnîțkîi<s n="np"/><s n="top"/><s n="nt"/></l><r>Khmelnitski<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Dnipropetrovsk<s n="np"/><s n="top"/><s n="nt"/></l><r>Dnipropetrovsk<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Dolj<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Dolj<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Sălaj<s n="np"/><s n="top"/><s n="nt"/></l> <r>Sălaj<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Mehedinți<s n="np"/><s n="top"/><s n="nt"/></l><r>Mehedinți<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Kirovohrad<s n="np"/><s n="top"/><s n="nt"/></l><r>Kirovohrad<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Prut<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Prut<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Câmpulung<s n="np"/><s n="top"/><s n="nt"/></l><r>Câmpulung<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Târgoviște<s n="np"/><s n="top"/><s n="nt"/></l><r>Târgoviște<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Schleswig-Holstein<s n="np"/><s n="top"/><s n="nt"/></l><r>Schleswig-Holstein<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Bacău<s n="np"/><s n="top"/><s n="nt"/></l> <r>Bacău<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Buzău<s n="np"/><s n="top"/><s n="nt"/></l> <r>Buzău<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Nistru<s n="np"/><s n="top"/><s n="nt"/></l><r>Dnièster<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Timișoara<s n="np"/><s n="top"/><s n="nt"/></l><r>Timișoara<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Poltava<s n="np"/><s n="top"/><s n="nt"/></l><r>Poltava<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Brăila<s n="np"/><s n="top"/><s n="nt"/></l><r>Brăila<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Dâmbovița<s n="np"/><s n="top"/><s n="nt"/></l><r>Dâmbovița<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Bistrița<s n="np"/><s n="top"/><s n="nt"/></l><r>Bistrița<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Vinnița<s n="np"/><s n="top"/><s n="nt"/></l><r>Vínnitsia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Ialomița<s n="np"/><s n="top"/><s n="nt"/></l><r>Ialomița<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Harghita<s n="np"/><s n="top"/><s n="nt"/></l><r>Harghita<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>India<s n="np"/><s n="top"/><s n="nt"/></l> <r>Índia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Renania<s n="np"/><s n="top"/><s n="nt"/></l><r>Renània<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Veneția<s n="np"/><s n="top"/><s n="nt"/></l><r>Venècia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Iugoslavia<s n="np"/><s n="top"/><s n="nt"/></l><r>Iugoslàvia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Volînia<s n="np"/><s n="top"/><s n="nt"/></l><r>Volínia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Turingia<s n="np"/><s n="top"/><s n="nt"/></l><r>Turíngia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Vâlcea<s n="np"/><s n="top"/><s n="nt"/></l><r>Vâlcea<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Zaporijjea<s n="np"/><s n="top"/><s n="nt"/></l><r>Zaporíjia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 
 <!-- Antropònims -->
 
@@ -20116,7 +20162,7 @@
 <e r="LR">          <p><l>de<b/>la<s n="pr"/></l>                     <r>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>de<b/>pe<s n="pr"/></l>                     <r>de<s n="pr"/></r></p></e>
 <e>                 <p><l>de<b/>peste<s n="pr"/></l>                  <r>de<b/>més<b/>de<s n="pr"/></r></p></e>
-<e r="RL">          <p><l>despre<s n="pr"/></l>                       <r>sobre<s n="pr"/></r></p></e>
+<e r="LR">          <p><l>despre<s n="pr"/></l>                       <r>sobre<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>din<s n="pr"/></l>                          <r>de<s n="pr"/></r></p></e>
 <e a="delia">       <p><l>din<b/>cauza<s n="pr"/></l>                 <r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>dintre<s n="pr"/></l>                       <r>de<s n="pr"/></r></p></e>
@@ -20263,6 +20309,10 @@
 <e>                 <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e>                 <p><l>îmi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/></l><r>em<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/></r></p></e>
 <e>                 <p><l>îți<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/></l><r>et<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/></r></p></e>
+<e r="RL" c="traducció buida"><p><l></l>                              <r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+<e r="RL" c="traducció buida"><p><l></l>                              <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+<e r="RL" c="traducció buida"><p><l></l>                              <r>hi<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+<e r="RL" c="traducció buida"><p><l></l>                              <r>hi<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
 
     <!-- Relatius -->
 
@@ -21552,7 +21602,7 @@
 <e>                 <p><l>plânge<s n="vblex"/></l>                    <r>plorar<s n="vblex"/></r></p></e>
 <e>                 <p><l>plăcea<s n="vblex"/></l>                    <r>agradar<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>plămădi<s n="vblex"/></l>                   <r>plasmar<s n="vblex"/></r></p></e>
-<e r="LR" a="del">  <p><l>plănui<s n="vblex"/></l>                    <r>planejar<s n="vblex"/></r></p></e>
+<e a="del">         <p><l>plănui<s n="vblex"/></l>                    <r>planejar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>plăsmui<s n="vblex"/></l>                   <r>plasmar<s n="vblex"/></r></p></e>
 <e>                 <p><l>plăti<s n="vblex"/></l>                     <r>pagar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>poetiza<s n="vblex"/></l>                   <r>poetitzar<s n="vblex"/></r></p></e>
@@ -22720,6 +22770,159 @@
 <e a="delnou">      <p><l>înlătura<s n="vblex"/></l>                  <r>apartar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>învia<s n="vblex"/></l>                     <r>ressuscitar<s n="vblex"/></r></p></e>
 <e r="LR" a="mioara"><p><l>șicana<s n="vblex"/></l>                   <r>fotre<s n="vblex"/></r></p></e>
+<e>                 <p><l>﻿întoarce<s n="vblex"/></l>                 <r>﻿tornar<s n="vblex"/></r></p></e>
+<e>                 <p><l>accepta<s n="vblex"/></l>                   <r>acceptar<s n="vblex"/></r></p></e>
+<e>                 <p><l>denumi<s n="vblex"/></l>                    <r>anomenar<s n="vblex"/></r></p></e>
+<e>                 <p><l>presupune<s n="vblex"/></l>                 <r>suposar<s n="vblex"/></r></p></e>
+<e>                 <p><l>conta<s n="vblex"/></l>                     <r>comptar<s n="vblex"/></r></p></e>
+<e>                 <p><l>interna<s n="vblex"/></l>                   <r>ingressar<s n="vblex"/></r></p></e>
+<e>                 <p><l>revolta<s n="vblex"/></l>                   <r>revoltar<s n="vblex"/></r></p></e>
+<e>                 <p><l>opri<s n="vblex"/></l>                      <r>aturar<s n="vblex"/></r></p></e>
+<e>                 <p><l>menţiona<s n="vblex"/></l>                  <r>esmentar<s n="vblex"/></r></p></e>
+<e>                 <p><l>grada<s n="vblex"/></l>                     <r>graduar<s n="vblex"/></r></p></e>
+<e>                 <p><l>conveni<s n="vblex"/></l>                   <r>acordar<s n="vblex"/></r></p></e>
+<e>                 <p><l>recruta<s n="vblex"/></l>                   <r>fitxar<s n="vblex"/></r></p></e>
+<e>                 <p><l>respinge<s n="vblex"/></l>                  <r>refusar<s n="vblex"/></r></p></e>
+<e>                 <p><l>debarca<s n="vblex"/></l>                   <r>desembarcar<s n="vblex"/></r></p></e>
+<e>                 <p><l>prăda<s n="vblex"/></l>                     <r>saquejar<s n="vblex"/></r></p></e>
+<e>                 <p><l>verifica<s n="vblex"/></l>                  <r>comprovar<s n="vblex"/></r></p></e>
+<e>                 <p><l>aduce<s n="vblex"/></l>                     <r>aportar<s n="vblex"/></r></p></e>
+<e>                 <p><l>căuta<s n="vblex"/></l>                     <r>cercar<s n="vblex"/></r></p></e>
+<e>                 <p><l>fuziona<s n="vblex"/></l>                   <r>fusionar<s n="vblex"/></r></p></e>
+<e>                 <p><l>promova<s n="vblex"/></l>                   <r>fomentar<s n="vblex"/></r></p></e>
+<e>                 <p><l>dărâma<s n="vblex"/></l>                    <r>enderrocar<s n="vblex"/></r></p></e>
+<e>                 <p><l>conduce<s n="vblex"/></l>                   <r>liderar<s n="vblex"/></r></p></e>
+<e>                 <p><l>breveta<s n="vblex"/></l>                   <r>llicenciar<s n="vblex"/></r></p></e>
+<e>                 <p><l>studia<s n="vblex"/></l>                    <r>cursar<s n="vblex"/></r></p></e>
+<e>                 <p><l>realiza<s n="vblex"/></l>                   <r>adonar<s n="vblex"/></r></p></e>
+<e>                 <p><l>înregistra<s n="vblex"/></l>                <r>enregistrar<s n="vblex"/></r></p></e>
+<e>                 <p><l>remarca<s n="vblex"/></l>                   <r>remarcar<s n="vblex"/></r></p></e>
+<e>                 <p><l>umbla<s n="vblex"/></l>                     <r>caminar<s n="vblex"/></r></p></e>
+<e>                 <p><l>arunca<s n="vblex"/></l>                    <r>llençar<s n="vblex"/></r></p></e>
+<e>                 <p><l>colecta<s n="vblex"/></l>                   <r>recaptar<s n="vblex"/></r></p></e>
+<e>                 <p><l>conduce<s n="vblex"/></l>                   <r>encapçalar<s n="vblex"/></r></p></e>
+<e>                 <p><l>aloca<s n="vblex"/></l>                     <r>assignar<s n="vblex"/></r></p></e>
+<e>                 <p><l>promova<s n="vblex"/></l>                   <r>promocionar<s n="vblex"/></r></p></e>
+<e>                 <p><l>escalada<s n="vblex"/></l>                  <r>escalar<s n="vblex"/></r></p></e>
+<e>                 <p><l>destitui<s n="vblex"/></l>                  <r>deposar<s n="vblex"/></r></p></e>
+<e>                 <p><l>evalua<s n="vblex"/></l>                    <r>avaluar<s n="vblex"/></r></p></e>
+<e>                 <p><l>eșalona<s n="vblex"/></l>                   <r>graduar<s n="vblex"/></r></p></e>
+<e>                 <p><l>ștanța<s n="vblex"/></l>                    <r>encunyar<s n="vblex"/></r></p></e>
+<e>                 <p><l>așeza<s n="vblex"/></l>                     <r>assentar<s n="vblex"/></r></p></e>
+<e>                 <p><l>semna<s n="vblex"/></l>                     <r>firmar<s n="vblex"/></r></p></e>
+<e>                 <p><l>găzdui<s n="vblex"/></l>                    <r>albergar<s n="vblex"/></r></p></e>
+<e>                 <p><l>apropia<s n="vblex"/></l>                   <r>acostar<s n="vblex"/></r></p></e>
+<e>                 <p><l>cultiva<s n="vblex"/></l>                   <r>conrear<s n="vblex"/></r></p></e>
+<e>                 <p><l>decora<s n="vblex"/></l>                    <r>decorar<s n="vblex"/></r></p></e>
+<e>                 <p><l>instrumenta<s n="vblex"/></l>               <r>implementar<s n="vblex"/></r></p></e>
+<e>                 <p><l>evacua<s n="vblex"/></l>                    <r>evacuar<s n="vblex"/></r></p></e>
+<e>                 <p><l>lua<s n="vblex"/></l>                       <r>tardar<s n="vblex"/></r></p></e>
+<e>                 <p><l>decreta<s n="vblex"/></l>                   <r>decretar<s n="vblex"/></r></p></e>
+<e>                 <p><l>promulga<s n="vblex"/></l>                  <r>promulgar<s n="vblex"/></r></p></e>
+<e>                 <p><l>desfășura<s n="vblex"/></l>                 <r>desplegar<s n="vblex"/></r></p></e>
+<e>                 <p><l>vărsa<s n="vblex"/></l>                     <r>desembocar<s n="vblex"/></r></p></e>
+<e>                 <p><l>anexa<s n="vblex"/></l>                     <r>annexionar<s n="vblex"/></r></p></e>
+<e>                 <p><l>declinar<s n="vblex"/></l>                  <r>declinar<s n="vblex"/></r></p></e>
+<e>                 <p><l>băga<b/>în<b/>închisoare<s n="vblex"/></l>  <r>empresonar<s n="vblex"/></r></p></e>
+<e>                 <p><l>instaura<s n="vblex"/></l>                  <r>instaurar<s n="vblex"/></r></p></e>
+<e>                 <p><l>apăsa<s n="vblex"/></l>                     <r>pressionar<s n="vblex"/></r></p></e>
+<e>                 <p><l>afla<s n="vblex"/></l>                      <r>assabentar<s n="vblex"/></r></p></e>
+<e>                 <p><l>fortifica<s n="vblex"/></l>                 <r>fortificar<s n="vblex"/></r></p></e>
+<e>                 <p><l>comanda<s n="vblex"/></l>                   <r>comandar<s n="vblex"/></r></p></e>
+<e>                 <p><l>revolta<s n="vblex"/></l>                   <r>rebel·lar<s n="vblex"/></r></p></e>
+<e>                 <p><l>duce<s n="vblex"/></l>                      <r>emportar<s n="vblex"/></r></p></e>
+<e>                 <p><l>bate<s n="vblex"/></l>                      <r>colpejar<s n="vblex"/></r></p></e>
+<e>                 <p><l>egala<s n="vblex"/></l>                     <r>empatar<s n="vblex"/></r></p></e>
+<e>                 <p><l>îmbunătăți<s n="vblex"/></l>                <r>perfeccionar<s n="vblex"/></r></p></e>
+<e>                 <p><l>dispersa<s n="vblex"/></l>                  <r>dispersar<s n="vblex"/></r></p></e>
+<e>                 <p><l>aborda<s n="vblex"/></l>                    <r>abordar<s n="vblex"/></r></p></e>
+<e>                 <p><l>sintetiza<s n="vblex"/></l>                 <r>sintetitzar<s n="vblex"/></r></p></e>
+<e>                 <p><l>întălni<s n="vblex"/></l>                   <r>afrontar<s n="vblex"/></r></p></e>
+<e>                 <p><l>confisca<s n="vblex"/></l>                  <r>confiscar<s n="vblex"/></r></p></e>
+<e>                 <p><l>minimaliza<s n="vblex"/></l>                <r>minimitzar<s n="vblex"/></r></p></e>
+<e>                 <p><l>anula<s n="vblex"/></l>                     <r>cancel·lar<s n="vblex"/></r></p></e>
+<e>                 <p><l>pleca<s n="vblex"/></l>                     <r>salpar<s n="vblex"/></r></p></e>
+<e>                 <p><l>bordura<s n="vblex"/></l>                   <r>envoltar<s n="vblex"/></r></p></e>
+<e>                 <p><l>revalida<s n="vblex"/></l>                  <r>revalidar<s n="vblex"/></r></p></e>
+<e>                 <p><l>campa<s n="vblex"/></l>                     <r>acampar<s n="vblex"/></r></p></e>
+<e>                 <p><l>conspira<s n="vblex"/></l>                  <r>conspirar<s n="vblex"/></r></p></e>
+<e>                 <p><l>modula<s n="vblex"/></l>                    <r>modular<s n="vblex"/></r></p></e>
+<e>                 <p><l>prelungi<s n="vblex"/></l>                  <r>perllongar<s n="vblex"/></r></p></e>
+<e>                 <p><l>dezerta<s n="vblex"/></l>                   <r>desertar<s n="vblex"/></r></p></e>
+<e>                 <p><l>configura<s n="vblex"/></l>                 <r>configurar<s n="vblex"/></r></p></e>
+<e>                 <p><l>implica<s n="vblex"/></l>                   <r>involucrar<s n="vblex"/></r></p></e>
+<e>                 <p><l>prinde<s n="vblex"/></l>                    <r>atrapar<s n="vblex"/></r></p></e>
+<e>                 <p><l>împreuna<s n="vblex"/></l>                  <r>aplegar<s n="vblex"/></r></p></e>
+<e>                 <p><l>aresta<s n="vblex"/></l>                    <r>arrestar<s n="vblex"/></r></p></e>
+<e>                 <p><l>descoperi<s n="vblex"/></l>                 <r>esbrinar<s n="vblex"/></r></p></e>
+<e>                 <p><l>coopera<s n="vblex"/></l>                   <r>cooperar<s n="vblex"/></r></p></e>
+<e>                 <p><l>face<b/>comerț<s n="vblex"/></l>            <r>comerciar<s n="vblex"/></r></p></e>
+<e>                 <p><l>găti<s n="vblex"/></l>                      <r>cuinar<s n="vblex"/></r></p></e>
+<e>                 <p><l>înșuruba<s n="vblex"/></l>                  <r>collar<s n="vblex"/></r></p></e>
+<e>                 <p><l>decanta<s n="vblex"/></l>                   <r>decantar<s n="vblex"/></r></p></e>
+<e>                 <p><l>avea<b/>grijă<s n="vblex"/></l>             <r>cuidar<s n="vblex"/></r></p></e>
+<e>                 <p><l>deveni<b/>independent<s n="vblex"/></l>     <r>independitzar<s n="vblex"/></r></p></e>
+<e>                 <p><l>influența<s n="vblex"/></l>                 <r>influenciar<s n="vblex"/></r></p></e>
+<e>                 <p><l>îngloba<s n="vblex"/></l>                   <r>abastar<s n="vblex"/></r></p></e>
+<e>                 <p><l>localiza<s n="vblex"/></l>                  <r>ubicar<s n="vblex"/></r></p></e>
+<e>                 <p><l>exporta<s n="vblex"/></l>                   <r>exportar<s n="vblex"/></r></p></e>
+<e>                 <p><l>completa<s n="vblex"/></l>                  <r>complementar<s n="vblex"/></r></p></e>
+<e>                 <p><l>aprinde<s n="vblex"/></l>                   <r>engegar<s n="vblex"/></r></p></e>
+<e>                 <p><l>descrește<s n="vblex"/></l>                 <r>minvar<s n="vblex"/></r></p></e>
+<e>                 <p><l>raporta<s n="vblex"/></l>                   <r>reportar<s n="vblex"/></r></p></e>
+<e>                 <p><l>interacționa<s n="vblex"/></l>              <r>interaccionar<s n="vblex"/></r></p></e>
+<e>                 <p><l>ordona<s n="vblex"/></l>                    <r>arranjar<s n="vblex"/></r></p></e>
+<e>                 <p><l>colecta<s n="vblex"/></l>                   <r>recopilar<s n="vblex"/></r></p></e>
+<e>                 <p><l>răspândi<s n="vblex"/></l>                  <r>divulgar<s n="vblex"/></r></p></e>
+<e>                 <p><l>îmbina<s n="vblex"/></l>                    <r>compaginar<s n="vblex"/></r></p></e>
+<e>                 <p><l>contraataca<s n="vblex"/></l>               <r>contraatacar<s n="vblex"/></r></p></e>
+<e>                 <p><l>recruta<s n="vblex"/></l>                   <r>allistar<s n="vblex"/></r></p></e>
+<e>                 <p><l>lăsa<b/>moștenire<s n="vblex"/></l>         <r>llegar<s n="vblex"/></r></p></e>
+<e>                 <p><l>postula<s n="vblex"/></l>                   <r>postular<s n="vblex"/></r></p></e>
+<e>                 <p><l>patenta<s n="vblex"/></l>                   <r>patentar<s n="vblex"/></r></p></e>
+<e>                 <p><l>lovi<s n="vblex"/></l>                      <r>impactar<s n="vblex"/></r></p></e>
+<e>                 <p><l>formaliza<s n="vblex"/></l>                 <r>formalitzar<s n="vblex"/></r></p></e>
+<e>                 <p><l>puncta<s n="vblex"/></l>                    <r>puntuar<s n="vblex"/></r></p></e>
+<e>                 <p><l>devasta<s n="vblex"/></l>                   <r>arrasar<s n="vblex"/></r></p></e>
+<e>                 <p><l>înaripa<s n="vblex"/></l>                   <r>alar<s n="vblex"/></r></p></e>
+<e>                 <p><l>fi<b/>martor<s n="vblex"/></l>              <r>presenciar<s n="vblex"/></r></p></e>
+<e>                 <p><l>insista<s n="vblex"/></l>                   <r>instar<s n="vblex"/></r></p></e>
+<e>                 <p><l>împrăștia<s n="vblex"/></l>                 <r>escampar<s n="vblex"/></r></p></e>
+<e>                 <p><l>renumi<s n="vblex"/></l>                    <r>rebatejar<s n="vblex"/></r></p></e>
+<e>                 <p><l>iriga<s n="vblex"/></l>                     <r>regar<s n="vblex"/></r></p></e>
+<e>                 <p><l>actualiza<s n="vblex"/></l>                 <r>actualitzar<s n="vblex"/></r></p></e>
+<e>                 <p><l>reafirma<s n="vblex"/></l>                  <r>reafirmar<s n="vblex"/></r></p></e>
+<e>                 <p><l>poziționa<s n="vblex"/></l>                 <r>posicionar<s n="vblex"/></r></p></e>
+<e>                 <p><l>reedita<s n="vblex"/></l>                   <r>reeditar<s n="vblex"/></r></p></e>
+<e r="RL">          <p><l>începe<s n="vblex"/></l>                    <r>entaular<s n="vblex"/></r></p></e>
+<e>                 <p><l>neutraliza<s n="vblex"/></l>                <r>neutralitzar<s n="vblex"/></r></p></e>
+<e>                 <p><l>înlesni<s n="vblex"/></l>                   <r>possibilitar<s n="vblex"/></r></p></e>
+<e>                 <p><l>îmbina<s n="vblex"/></l>                    <r>conciliar<s n="vblex"/></r></p></e>
+<e>                 <p><l>îneca<s n="vblex"/></l>                     <r>ofegar<s n="vblex"/></r></p></e>
+<e>                 <p><l>regrupa<s n="vblex"/></l>                   <r>reagrupar<s n="vblex"/></r></p></e>
+<e>                 <p><l>impregna<s n="vblex"/></l>                  <r>calar<s n="vblex"/></r></p></e>
+<e>                 <p><l>matura<s n="vblex"/></l>                    <r>madurar<s n="vblex"/></r></p></e>
+<e>                 <p><l>demantela<s n="vblex"/></l>                 <r>desmantellar<s n="vblex"/></r></p></e>
+<e>                 <p><l>focaliza<s n="vblex"/></l>                  <r>enfocar<s n="vblex"/></r></p></e>
+<e>                 <p><l>da<b/>înapoi<s n="vblex"/></l>              <r>recular<s n="vblex"/></r></p></e>
+<e>                 <p><l>maximiza<s n="vblex"/></l>                  <r>maximitzar<s n="vblex"/></r></p></e>
+<e>                 <p><l>pretinde<s n="vblex"/></l>                  <r>demandar<s n="vblex"/></r></p></e>
+<e>                 <p><l>demola<s n="vblex"/></l>                    <r>ensorrar<s n="vblex"/></r></p></e>
+<e>                 <p><l>anexa<s n="vblex"/></l>                     <r>annexar<s n="vblex"/></r></p></e>
+<e>                 <p><l>reunifica<s n="vblex"/></l>                 <r>reunificar<s n="vblex"/></r></p></e>
+<e>                 <p><l>amâna<s n="vblex"/></l>                     <r>posposar<s n="vblex"/></r></p></e>
+<e>                 <p><l>prinde<s n="vblex"/></l>                    <r>copsar<s n="vblex"/></r></p></e>
+<e>                 <p><l>prinde<b/>rădăcini<s n="vblex"/></l>        <r>arrelar<s n="vblex"/></r></p></e>
+<e>                 <p><l>începe<s n="vblex"/></l>                    <r>encetar<s n="vblex"/></r></p></e>
+<e>                 <p><l>reporni<s n="vblex"/></l>                   <r>reiniciar<s n="vblex"/></r></p></e>
+<e>                 <p><l>face<b/>manevre<s n="vblex"/></l>           <r>maniobrar<s n="vblex"/></r></p></e>
+<e>                 <p><l>legitima<s n="vblex"/></l>                  <r>legitimar<s n="vblex"/></r></p></e>
+<e>                 <p><l>ara<s n="vblex"/></l>                       <r>llaurar<s n="vblex"/></r></p></e>
+<e>                 <p><l>optimiza<s n="vblex"/></l>                  <r>optimitzar<s n="vblex"/></r></p></e>
+<e>                 <p><l>achita<s n="vblex"/></l>                    <r>sufragar<s n="vblex"/></r></p></e>
+<e>                 <p><l>respinge<s n="vblex"/></l>                  <r>desestimar<s n="vblex"/></r></p></e>
+<e>                 <p><l>plia<s n="vblex"/></l>                      <r>replegar<s n="vblex"/></r></p></e>
+<e>                 <p><l>perfora<s n="vblex"/></l>                   <r>perforar<s n="vblex"/></r></p></e>
 
 <e>                 <p><l>putea<s n="vbmod"/></l>                     <r>poder<s n="vbmod"/></r></p></e>
 <e>                 <p><l>trebui<s n="vbmod"/></l>                    <r>haver<g><b/>de</g><s n="vbmod"/></r></p></e>

@@ -4,11 +4,14 @@
     <def-cat n="SN">
       <cat-item tags="SN.*"/>
     </def-cat>
-    <def-cat n="SA">
-      <cat-item tags="SA.*"/>
+    <def-cat n="SAdj">
+      <cat-item tags="SAdj.*"/>
     </def-cat>
     <def-cat n="SV">
       <cat-item tags="SV.*"/>
+    </def-cat>
+    <def-cat n="SV_cop_pred">
+      <cat-item tags="SV.vbser.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -121,6 +124,17 @@
       </choose>
     </def-macro>
 
+    <def-macro n="f_concord2" npar="2" comment="Realitza la concordança entre dos elements">       
+      <let>
+        <clip pos="2" part="a_gen"/>
+        <clip pos="1" part="a_gen"/>
+      </let>
+      <let>
+        <clip pos="2" part="a_nbr"/>
+        <clip pos="1" part="a_nbr"/>
+      </let>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -141,9 +155,9 @@
       </action>
     </rule>
 
-    <rule comment="SA">
+    <rule comment="SAdj">
       <pattern>
-        <pattern-item n="SA"/>
+        <pattern-item n="SAdj"/>
       </pattern>
       <action>
         <call-macro n="elimina_GDND">
@@ -181,6 +195,41 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="SN + SV + SAdj">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV_cop_pred"/>
+        <pattern-item n="SAdj"/>
+      </pattern>
+      <action>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord_SN_SV">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
   </section-rules>
 </interchunk>

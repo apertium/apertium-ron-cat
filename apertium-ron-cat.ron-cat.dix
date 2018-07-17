@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 22617
+	Entries: 22616
 	Sdefs: 78
 	Paradigms: 17
 
@@ -1138,8 +1138,8 @@
 <e r="LR" a="mioara"><p><l>de<b/>mâna<b/>a<b/>doua</l>                <r>de<b/>segona<b/>mà</r></p><par n="2-1__adj"/></e>
 <e a="mioara">      <p><l>de<b/>nuiele</l>                            <r>de<b/>vímet</r></p><par n="2-1__adj"/></e>
 <e a="delia">       <p><l>debordant</l>                               <r>desbordant</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>de<b/>sine<b/>stătător</l>                  <r>autosuficient</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>de<b/>sine<b/>stătător</l>                  <r>independent</r></p><par n="4-2__adj"/></e>
+<e r="LR">          <p><l>de<b/>sine<b/>stătător</l>                  <r>autosuficient</r></p><par n="4-2__adj"/></e>
+<e r="LR">          <p><l>de<b/>sine<b/>stătător</l>                  <r>independent</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>decadent</l>                                <r>decadent</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>decăzut</l>                                 <r>decaigut</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>decedat</l>                                 <r>finat</r></p><par n="4-4__adj"/></e>
@@ -1245,7 +1245,6 @@
 <e a="delia">       <p><l>destins</l>                                 <r>distès</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>destoinic</l>                               <r>avesat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>destructiv</l>                              <r>destructiu</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>destul</l>                                  <r>bastant</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>destul</l>                                  <r>bastant</r></p><par n="destul__adj"/></e>
 <e>                 <p><l>destul</l>                                  <r>força</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>destupat</l>                                <r>destapat</r></p><par n="4-4__adj"/></e>
@@ -1423,7 +1422,7 @@
 <e>                 <p><l>ecumenist</l>                               <r>ecumenista</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>ecumenic</l>                                <r>ecumènic</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="mioara"><p><l>ecumenist</l>                              <r>ecumènic</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>edificant</l>                               <r>edificant</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="delia"><p><l>edificant</l>                               <r>edificant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>edificativ</l>                              <r>edificant</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>edificator</l>                              <r>edificant</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>edilitar</l>                                <r>edilici</r></p><par n="4-4__adj"/></e>
@@ -1673,7 +1672,7 @@
 <e>                 <p><l>filantrop</l>                               <r>filantrop</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>filarmonic</l>                              <r>filharmònic</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>filistin</l>                                <r>filisteu</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>filosofic</l>                               <r>filosòfic</r></p><par n="4-4__adj"/></e>
+<e r="LR">          <p><l>filosofic</l>                               <r>filosòfic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>filozofic</l>                               <r>filosòfic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>final</l>                                   <r>final</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>financiar</l>                               <r>financer</r></p><par n="4-4__adj"/></e>
@@ -3311,7 +3310,7 @@
 <e a="mioara">      <p><l>perfecționist</l>                           <r>perfeccionista</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>perfect</l>                                 <r>perfecte</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>perfid</l>                                  <r>pèrfid</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>performant</l>                              <r>extraordinari</r></p><par n="4-4__adj"/></e>
+<e r="LR">          <p><l>performant</l>                              <r>extraordinari</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>periapical</l>                              <r>periapical</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>periculos</l>                               <r>perillós</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>peridental</l>                              <r>peridental</r></p><par n="4-2__adj"/></e>
@@ -3382,7 +3381,7 @@
 <e a="mioara">      <p><l>pocit</l>                                   <r>deforme</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>poetic</l>                                  <r>poètic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>pofticios</l>                               <r>llaminer</r></p><par n="4-4__adj"/></e>
-<e a="delnou">      <p><l>pohetic</l>                                 <r>poètic</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="delnou"><p><l>pohetic</l>                                <r>poètic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>polar</l>                                   <r>polar</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>polemic</l>                                 <r>polèmic</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>policrom</l>                                <r>policrom</r></p><par n="4-4__adj"/></e>
@@ -3523,7 +3522,7 @@
 <e>                 <p><l>prostesc</l>                                <r>idiotesc</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>prost</l>                                   <r>ximplet</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>protecționist</l>                           <r>proteccionista</r></p><par n="4-2__adj"/></e>
-<e a="mioara">      <p><l>protectiv</l>                               <r>protector</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="mioara"><p><l>protectiv</l>                              <r>protector</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>protector</l>                               <r>protector</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>protestatar</l>                             <r>protestatari</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>protocolar</l>                              <r>protocol·lari</r></p><par n="4-4__adj"/></e>

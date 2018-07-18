@@ -1601,7 +1601,7 @@
 <e>                 <p><l>ezitant</l>                                 <r>vacil·lant</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>ezoteric</l>                                <r>esotèric</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>fabulos</l>                                 <r>fabulós</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>făcător<b/>de<b/>minuni</l>                 <r>miraculós</r></p><par n="4-4__adj"/></e>
+<e r="LR">          <p><l>făcător<b/>de<b/>minuni</l>                 <r>miraculós</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>facial</l>                                  <r>facial</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>facil</l>                                   <r>fàcil</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>facultativ</l>                              <r>facultatiu</r></p><par n="4-4__adj"/></e>
@@ -2134,7 +2134,7 @@
 <e a="delia">       <p><l>indivizibil</l>                             <r>indivisible</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>îndobitocit</l>                             <r>embrutit</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>indo-european</l>                           <r>indoeuropeu</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>indoeuropean</l>                            <r>indoeuropeu</r></p><par n="4-4__adj"/></e>
+<e r="LR">          <p><l>indoeuropean</l>                            <r>indoeuropeu</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>indogermanic</l>                            <r>indogermànic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>îndoielnic</l>                              <r>dubtable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>indolent</l>                                <r>indolent</r></p><par n="4-2__adj"/></e>
@@ -2266,7 +2266,7 @@
 <e a="delia">       <p><l>însorit</l>                                 <r>assolellat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înspăimântat</l>                            <r>espaordit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înspăimântător</l>                          <r>espantós</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>inspirant</l>                               <r>inspirador</r></p><par n="4-4__adj"/></e>
+<e r="LR">          <p><l>inspirant</l>                               <r>inspirador</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>inspirator</l>                              <r>inspirador</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>înspumat</l>                                <r>escumejant</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>instabil</l>                                <r>inestable</r></p><par n="4-2__adj"/></e>
@@ -2314,12 +2314,12 @@
 <e a="delia">       <p><l>înțepenit</l>                               <r>engarrotat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>interactiv</l>                              <r>interactiu</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>interbelic</l>                              <r>d'entreguerres</r></p><par n="4-1__adj"/></e>
-<e>                 <p><l>inter<b/>instituțional</l>                  <r>interinstitucional</r></p><par n="4-2__adj"/></e>
+<e r="LR">          <p><l>inter<b/>instituțional</l>                  <r>interinstitucional</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>interesant</l>                              <r>interessant</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>interetnic</l>                              <r>interètnic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>interguvernamental</l>                      <r>intergovernamental</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>interimar</l>                               <r>interí</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>inter-instituțional</l>                     <r>interinstitucional</r></p><par n="4-2__adj"/></e>
+<e r="LR">          <p><l>inter-instituțional</l>                     <r>interinstitucional</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>interinstituțional</l>                      <r>interinstitucional</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>interiorizat</l>                            <r>interioritzat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>interior</l>                                <r>interior</r></p><par n="4-2__adj"/></e>
@@ -2540,7 +2540,7 @@
 <e a="delia">       <p><l>lemnos</l>                                  <r>llenyós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>leneș</l>                                   <r>mandrós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>leneș</l>                                   <r>peresós</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>lenevos</l>                                 <r>indolent</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="mioara"><p><l>lenevos</l>                                <r>indolent</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>leninist</l>                                <r>leninista</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>lent</l>                                    <r>lent</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>leonin</l>                                  <r>lleoní</r></p><par n="4-4__adj"/></e>
@@ -2878,7 +2878,7 @@
 <e a="delia">       <p><l>neaccesibil</l>                             <r>inaccessible</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>neachitat</l>                               <r>no<b/>remunerat</r></p><par n="4-4__adj"/></e>
 <e r="LR" a="delia"><p><l>neacoperit</l>                              <r>descobert</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>neadaptabil</l>                             <r>inadaptable</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="mioara"><p><l>neadaptabil</l>                            <r>inadaptable</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>neadaptat</l>                               <r>inadaptat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>neadecvat</l>                               <r>inadequat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>neadevărat</l>                              <r>fals</r></p><par n="4-4__adj"/></e>
@@ -2940,7 +2940,7 @@
 <e a="delia">       <p><l>nefericit</l>                               <r>desgraciat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>nefericit</l>                               <r>infeliç</r></p><par n="4-3sg__adj"/></e>
 <e a="mioara">      <p><l>neferos</l>                                 <r>no<b/>ferrós</r></p><par n="4-4__adj"/></e>
-<e a="delnou">      <p><l>nefinisat</l>                               <r>inconclús</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="delnou"><p><l>nefinisat</l>                              <r>inconclús</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>nefiresc</l>                                <r>antinatural</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>nefolositor</l>                             <r>inservible</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>nefondat</l>                                <r>infundat</r></p><par n="4-4__adj"/></e>
@@ -3023,7 +3023,7 @@
 <e>                 <p><l>neplăcut</l>                                <r>desagradable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>nepoliticos</l>                             <r>descortès</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>neponderat</l>                              <r>imponderat</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>nepopular</l>                               <r>impopular</r></p><par n="4-2__adj"/></e>
+<e r="LR" a="delia"><p><l>nepopular</l>                               <r>impopular</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>nepotrivit</l>                              <r>inadequat</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>nepregătit</l>                              <r>no<b/>preparat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>neprețuit</l>                               <r>inapreciable</r></p><par n="4-2__adj"/></e>
@@ -4377,12 +4377,12 @@
 <e a="mioara">      <p><l>vizigot</l>                                 <r>visigot</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>vizionar</l>                                <r>visionari</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>vizual</l>                                  <r>visual</r></p><par n="4-2__adj"/></e>
-<e>                 <p><l>vlah</l>                                    <r>valac</r></p><par n="4-4__adj"/></e>
+<e r="LR">          <p><l>vlah</l>                                    <r>valac</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>voalat</l>                                  <r>vetllat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>volubil</l>                                 <r>voluble</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>voluminos</l>                               <r>voluminós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>voluntar</l>                                <r>voluntari</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>voluptos</l>                                <r>voluptuós</r></p><par n="4-4__adj"/></e>
+<e r="LR" a="delia"><p><l>voluptos</l>                                <r>voluptuós</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>voluptuos</l>                               <r>voluptuós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>vopsit</l>                                  <r>tenyit</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>vorbăreț</l>                                <r>xerraire</r></p><par n="4-2__adj"/></e>
@@ -5285,13 +5285,13 @@
 <e r="LR">          <p><l>TVA<s n="n"/><s n="acr"/><s n="nt"/><s n="pl"/></l><r>IVA<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>UE<s n="n"/><s n="acr"/></l>                <r>UE<s n="n"/><s n="acr"/></r></p></e>
 
-<e>                 <p><l>abac<s n="n"/></l>                          <r>àbac<s n="n"/></r></p></e>
+<e>                 <p><l>abac<s n="n"/><s n="nt"/></l>               <r>àbac<s n="n"/><s n="m"/></r></p></e>
 <e r="LR">          <p><l>abandonare<s n="n"/><s n="f"/></l>          <r>abandó<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="mioara"><p><l>abandonare<s n="n"/><s n="f"/></l>         <r>abandonament<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>abandon<s n="n"/></l>                       <r>abandonament<s n="n"/><s n="m"/></r></p></e>
+<e>                 <p><l>abandon<s n="n"/><s n="nt"/></l>            <r>abandonament<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>abandon<s n="n"/><s n="nt"/></l>            <r>abandó<s n="n"/><s n="m"/></r></p></e>
-<e a="delia">       <p><l>abanos<s n="n"/></l>                        <r>banús<s n="n"/></r></p></e>
-<e r="RL">          <p><l>abanos<s n="n"/></l>                        <r>eben<s n="n"/></r></p></e>
+<e a="delia">       <p><l>abanos<s n="n"/><s n="m"/></l>              <r>banús<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">          <p><l>abanos<s n="n"/><s n="m"/></l>              <r>eben<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>abatere<s n="n"/><s n="f"/></l>             <r>transgressió<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>abație<s n="n"/><s n="f"/></l>              <r>abadia<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>abator<s n="n"/><s n="nt"/></l>             <r>escorxador<s n="n"/><s n="m"/></r></p></e>
@@ -5306,7 +5306,7 @@
 <e>                 <p><l>abis<s n="n"/><s n="nt"/></l>               <r>abisme<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>abnegație<s n="n"/><s n="f"/></l>           <r>abnegació<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>abolire<s n="n"/><s n="f"/></l>             <r>abolició<s n="n"/><s n="f"/></r></p></e>
-<e>                 <p><l>abonament<s n="n"/></l>                     <r>bo<s n="n"/></r></p></e>
+<e>                 <p><l>abonament<s n="n"/><s n="nt"/></l>          <r>bo<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>abonament<s n="n"/><s n="nt"/></l>          <r>abonament<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>abonat<s n="n"/></l>                        <r>abonat<s n="n"/></r></p></e>
 <e a="delia">       <p><l>abordare<s n="n"/><s n="f"/></l>            <r>plantejament<s n="n"/><s n="m"/></r></p></e>
@@ -22804,7 +22804,7 @@
 <e>                 <p><l>desfășura<s n="vblex"/></l>                 <r>desplegar<s n="vblex"/></r></p></e>
 <e>                 <p><l>vărsa<s n="vblex"/></l>                     <r>desembocar<s n="vblex"/></r></p></e>
 <e>                 <p><l>anexa<s n="vblex"/></l>                     <r>annexionar<s n="vblex"/></r></p></e>
-<e>                 <p><l>declinar<s n="vblex"/></l>                  <r>declinar<s n="vblex"/></r></p></e>
+<e>                 <p><l>declina<s n="vblex"/></l>                   <r>declinar<s n="vblex"/></r></p></e>
 <e>                 <p><l>băga<b/>în<b/>închisoare<s n="vblex"/></l>  <r>empresonar<s n="vblex"/></r></p></e>
 <e>                 <p><l>instaura<s n="vblex"/></l>                  <r>instaurar<s n="vblex"/></r></p></e>
 <e>                 <p><l>apăsa<s n="vblex"/></l>                     <r>pressionar<s n="vblex"/></r></p></e>

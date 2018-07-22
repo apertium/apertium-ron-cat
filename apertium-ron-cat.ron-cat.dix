@@ -4455,6 +4455,9 @@
 <e a="delia">       <p><l>ad<b/>litteram<s n="adv"/></l>              <r>ad<b/>litteram<s n="adv"/></r></p></e>
 <e>                 <p><l>adesea<s n="adv"/></l>                      <r>sovint<s n="adv"/></r></p></e>
 <e r="LR" a="delia"><p><l>adeseori<s n="adv"/></l>                    <r>sovint<s n="adv"/></r></p></e>
+<e r="LR" a="delia"><p><l>adineaori<s n="adv"/></l>                   <r>fa<b/>poc<s n="adv"/></r></p></e>
+<e r="LR" a="delia"><p><l>adineaori<s n="adv"/></l>                   <r>fa<b/>un<b/>moment<s n="adv"/></r></p></e>
+<e a="del">         <p><l>adineauri<s n="adv"/></l>                   <r>fa<b/>poc<s n="adv"/></r></p></e>
 <e a="del">         <p><l>adineauri<s n="adv"/></l>                   <r>fa<b/>un<b/>moment<s n="adv"/></r></p></e>
 <e>                 <p><l>afară<s n="adv"/></l>                       <r>fora<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>agale<s n="adv"/></l>                       <r>lentament<s n="adv"/></r></p></e>
@@ -4473,7 +4476,7 @@
 <e a="del">         <p><l>angro<s n="adv"/></l>                       <r>a<b/>l'engròs<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>ani<b/>de<b/>zile<s n="adv"/></l>           <r>anys<b/>i<b/>anys<s n="adv"/></r></p></e>
 <e>                 <p><l>anti<s n="adv"/></l>                        <r>anti<s n="adv"/></r></p></e>
-<e>                 <p><l>anul<b/>viitor<s n="adv"/></l>              <r>el<b/>pròximo<b/>any<s n="adv"/></r></p></e>
+<e>                 <p><l>anul<b/>viitor<s n="adv"/></l>              <r>l'any<b/>vinent<s n="adv"/></r></p></e>
 <e>                 <p><l>anume<s n="adv"/></l>                       <r>expressament<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>aparte<s n="adv"/></l>                      <r>a<b/>part<s n="adv"/></r></p></e>
 <e>                 <p><l>apoi<s n="adv"/></l>                        <r>després<s n="adv"/></r></p></e>
@@ -4507,7 +4510,7 @@
 <e a="delia">       <p><l>buluc<s n="adv"/></l>                       <r>a<b/>patolls<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>bărbătește<s n="adv"/></l>                  <r>amb<b/>homenia<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>bătrânește<s n="adv"/></l>                  <r>com<b/>els<b/>vells<s n="adv"/></r></p></e>
-<e r="LR">          <p><l>ca<s n="adv"/></l>                          <r>que<s n="adv"/></r></p></e>
+<e r="LR">          <p><l>ca<s n="adv"/></l>                          <r>com<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>ca<b/>de<b/>obicei<s n="adv"/></l>          <r>com<b/>de<b/>costum<s n="adv"/></r></p></e>
 <e>                 <p><l>ca<b/>mărime<s n="adv"/></l>                <r>com<b/>grandària<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>ca<b/>nimeni<b/>altul<s n="adv"/></l>       <r>com<b/>ningú<s n="adv"/></r></p></e>
@@ -4519,7 +4522,6 @@
 <e a="delia">       <p><l>ca<b/>și<b/>cum<s n="adv"/></l>             <r>com<b/>si<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>calicește<s n="adv"/></l>                   <r>pobrament<s n="adv"/></r></p></e>
 <e>                 <p><l>cam<b/>așa<s n="adv"/></l>                  <r>més<b/>o<b/>menys<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>cap.<s n="adv"/></l>                        <r>cap.<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>cel<b/>mult<s n="adv"/></l>                 <r>com<b/>a<b/>màxim<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>cel<b/>puțin<s n="adv"/></l>                <r>almenys<s n="adv"/></r></p></e>
 <e>                 <p><l>chiar<s n="adv"/></l>                       <r>justament<s n="adv"/></r></p></e>
@@ -4527,8 +4529,7 @@
 <e a="delnou">      <p><l>chiar<b/>mai<b/>mult<s n="adv"/></l>        <r>inclús<b/>més<s n="adv"/></r></p></e>
 <e>                 <p><l>chiar<b/>și<s n="adv"/></l>                 <r>incloent-hi<s n="adv"/></r></p></e>
 <e>                 <p><l>circa<s n="adv"/></l>                       <r>prop<b/>de<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>cm<s n="adv"/></l>                          <r>cm<s n="adv"/></r></p></e>
-<e a="delia">       <p><l>color<s n="adv"/></l>                       <r>color<s n="adv"/></r></p></e>
+<e a="delia">       <p><l>color<s n="adj"/></l>                       <r>en<b/>color<s n="adj"/></r></p></e>
 <e>                 <p><l>cu<b/>adevărat<s n="adv"/></l>              <r>de<b/>veritat<s n="adv"/></r></p></e>
 <e>                 <p><l>cu<b/>alte<b/>cuvinte<s n="adv"/></l>       <r>això<b/>vol<b/>dir<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>cu<b/>binișorul<s n="adv"/></l>             <r>de<b/>bé<b/>a<b/>bé<s n="adv"/></r></p></e>
@@ -4537,7 +4538,7 @@
 <e a="delia">       <p><l>cu<b/>chiu<b/>și<b/>vai<s n="adv"/></l>     <r>a<b/>empentes<b/>i<b/>rodolons<s n="adv"/></r></p></e>
 <e r="LR" a="delnou"><p><l>cu<b/>deosebire<s n="adv"/></l>            <r>especialment<s n="adv"/></r></p></e>
 <e r="LR" a="delia"><p><l>cu<b/>greu<s n="adv"/></l>                  <r>a<b/>penes<s n="adv"/></r></p></e>
-<e a="delia">       <p><l>cu<b/>grijă<s n="adv"/></l>                 <r>con<b/>cuidado<s n="adv"/></r></p></e>
+<e a="delia">       <p><l>cu<b/>grijă<s n="adv"/></l>                 <r>amb<b/>compte<s n="adv"/></r></p></e>
 <e a="del">         <p><l>cu<b/>hotărâre<s n="adv"/></l>              <r>amb<b/>fermesa<s n="adv"/></r></p></e>
 <e r="LR" a="del">  <p><l>cu<b/>luare-aminte<s n="adv"/></l>          <r>amb<b/>atenció<s n="adv"/></r></p></e>
 <e a="del">         <p><l>cu<b/>luare<b/>aminte<s n="adv"/></l>       <r>amb<b/>atenció<s n="adv"/></r></p></e>
@@ -4585,12 +4586,12 @@
 <e a="delnou">      <p><l>de<b/>ani<b/>de<b/>zile<s n="adv"/></l>     <r>des<b/>de<b/>fa<b/>anys<s n="adv"/></r></p></e>
 <e>                 <p><l>de<b/>asemenea<s n="adv"/></l>              <r>així<b/>mateix<s n="adv"/></r></p></e>
 <e a="del">         <p><l>de<b/>astă<b/>dată<s n="adv"/></l>          <r>aquest<b/>cop<s n="adv"/></r></p></e>
-<e a="delia">       <p><l>de<b/>atunci<s n="adv"/></l>                <r>desde<b/>entonces<s n="adv"/></r></p></e>
+<e a="delia">       <p><l>de<b/>atunci<s n="adv"/></l>                <r>des<b/>de<b/>llavors<s n="adv"/></r></p></e>
 <e a="del">         <p><l>de<b/>bunăvoie<s n="adv"/></l>              <r>de<b/>bon<b/>grau<s n="adv"/></r></p></e>
 <e>                 <p><l>de<b/>ce<s n="adv"/></l>                    <r>perquè<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>de<b/>cele<b/>mai<b/>multe<b/>ori<s n="adv"/></l><r>la<b/>majoria<b/>de<b/>les<b/>vegades<s n="adv"/></r></p></e>
 <e r="LR" a="delia"><p><l>de<b/>curând<s n="adv"/></l>                <r>des<b/>de<b/>fa<b/>poc<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>de<b/>căpătâi<s n="adv"/></l>               <r>de<b/>capçalera<s n="adv"/></r></p></e>
+<e a="delnou">      <p><l>de<b/>căpătâi<s n="adj"/></l>               <r>de<b/>capçalera<s n="adj"/></r></p></e>
 <e>                 <p><l>de<b/>data<b/>aceasta<s n="adv"/></l>       <r>aquesta<b/>vegada<s n="adv"/></r></p></e>
 <e r="LR">          <p><l>de<b/>data<b/>asta<s n="adv"/></l>          <r>aquesta<b/>vegada<s n="adv"/></r></p></e>
 <e>                 <p><l>de<b/>exemplu<s n="adv"/></l>               <r>per<b/>exemple<s n="adv"/></r></p></e>
@@ -4640,7 +4641,7 @@
 <e a="delia">       <p><l>din<b/>auzite<s n="adv"/></l>               <r>d'escoltades<s n="adv"/></r></p></e>
 <e r="LR" a="del">  <p><l>din<b/>capul<b/>locului<s n="adv"/></l>     <r>des<b/>del<b/>principi<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>din<b/>ce<b/>în<b/>ce<b/>mai<s n="adv"/></l><r>cada<b/>vegada<b/>més<s n="adv"/></r></p></e>
-<e>                 <p><l>din<b/>când<b/>în<b/>când<s n="adv"/></l>   <r>de<b/>quan<b/>en<b/>quan<s n="adv"/></r></p></e>
+<e>                 <p><l>din<b/>când<b/>în<b/>când<s n="adv"/></l>   <r>de<b/>tant<b/>en<b/>tant<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>din<b/>fericire<s n="adv"/></l>             <r>per<b/>sort<s n="adv"/></r></p></e>
 <e a="del">         <p><l>din<b/>greșeală<s n="adv"/></l>             <r>per<b/>error<s n="adv"/></r></p></e>
 <e a="del">         <p><l>din<b/>jur<s n="adv"/></l>                  <r>dels<b/>voltants<s n="adv"/></r></p></e>
@@ -4658,9 +4659,9 @@
 <e a="delia">       <p><l>dis<b/>de<b/>dimineață<s n="adv"/></l>      <r>de<b/>bon<b/>matí<s n="adv"/></r></p></e>
 <e>                 <p><l>doar<s n="adv"/></l>                        <r>tan<b/>sols<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>drept<b/>rezultat<s n="adv"/></l>           <r>com<b/>a<b/>resultat<s n="adv"/></r></p></e>
-<e a="del">         <p><l>duminică<b/>dimineață<s n="adv"/></l>       <r>el<b/>diumenge<b/>al<b/>matí<s n="adv"/></r></p></e>
-<e a="del">         <p><l>duminică<b/>noapte<s n="adv"/></l>          <r>el<b/>diumenge<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
-<e a="del">         <p><l>duminică<b/>seară<s n="adv"/></l>           <r>el<b/>diumenge<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
+<e a="del">         <p><l>duminică<b/>dimineață<s n="adv"/></l>       <r>diumenge<b/>al<b/>matí<s n="adv"/></r></p></e>
+<e a="del">         <p><l>duminică<b/>noapte<s n="adv"/></l>          <r>diumenge<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
+<e a="del">         <p><l>duminică<b/>seară<s n="adv"/></l>           <r>diumenge<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
 <e>                 <p><l>după<b/>aceea<s n="adv"/></l>               <r>després<s n="adv"/></r></p></e>
 <e r="LR" a="delnou"><p><l>după<b/>părerea<b/>ei<s n="adv"/></l>      <r>en<b/>la<b/>seva<b/>opinió<s n="adv"/></r></p></e>
 <e r="LR" a="delnou"><p><l>după<b/>părerea<b/>lor<s n="adv"/></l>     <r>en<b/>la<b/>seva<b/>opinió<s n="adv"/></r></p></e>
@@ -4690,12 +4691,10 @@
 <e a="del">         <p><l>fără<b/>urmări<s n="adv"/></l>              <r>sense<b/>conseqüències<s n="adv"/></r></p></e>
 <e a="del">         <p><l>fără<b/>înflorituri<s n="adv"/></l>         <r>a<b/>les<b/>seques<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>get-beget<s n="adv"/></l>                   <r>de<b/>soca-rel<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>gif<s n="adv"/></l>                         <r>gif<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>gr<s n="adv"/></l>                          <r>gr<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>grabnic<s n="adv"/></l>                     <r>urgentment<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>gratis<s n="adv"/></l>                      <r>gratis<s n="adv"/></r></p></e>
-<e a="delia">       <p><l>greu<b/>de<b/>crezut<s n="adv"/></l>        <r>difícil<b/>de<b/>creure<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>greu<b/>de<b/>imaginat<s n="adv"/></l>      <r>difícil<b/>de<b/>concebre<s n="adv"/></r></p></e>
+<e a="delia">       <p><l>greu<b/>de<b/>crezut<s n="adj"/></l>        <r>difícil<b/>de<b/>creure<s n="adj"/></r></p></e>
+<e a="delnou">      <p><l>greu<b/>de<b/>imaginat<s n="adj"/></l>      <r>difícil<b/>de<b/>concebre<s n="adj"/></r></p></e>
 <e a="delia">       <p><l>groaznic<s n="adv"/></l>                    <r>tremendament<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>harcea-parcea<s n="adv"/></l>               <r>miques<s n="adv"/></r></p></e>
 <e>                 <p><l>iar<s n="adv"/></l>                         <r>de<b/>nou<s n="adv"/></r></p></e>
@@ -4705,13 +4704,10 @@
 <e a="delia">       <p><l>instant<s n="adv"/></l>                     <r>instantàniament<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>intenționat<s n="adv"/></l>                 <r>a<b/>posta<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>italienește<s n="adv"/></l>                 <r>a<b/>la<b/>italiana<s n="adv"/></r></p></e>
-<e a="del">         <p><l>joi<b/>dimineață<s n="adv"/></l>            <r>el<b/>dijous<b/>al<b/>matí<s n="adv"/></r></p></e>
-<e a="del">         <p><l>joi<b/>noapte<s n="adv"/></l>               <r>el<b/>dijous<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
-<e a="del">         <p><l>joi<b/>seară<s n="adv"/></l>                <r>el<b/>dijous<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
+<e a="del">         <p><l>joi<b/>dimineață<s n="adv"/></l>            <r>dijous<b/>al<b/>matí<s n="adv"/></r></p></e>
+<e a="del">         <p><l>joi<b/>noapte<s n="adv"/></l>               <r>dijous<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
+<e a="del">         <p><l>joi<b/>seară<s n="adv"/></l>                <r>dijous<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
 <e>                 <p><l>jos<s n="adv"/></l>                         <r>a<b/>baix<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>jpg<s n="adv"/></l>                         <r>jpg<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>kg<s n="adv"/></l>                          <r>kg<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>km<s n="adv"/></l>                          <r>km<s n="adv"/></r></p></e>
 <e a="del">         <p><l>la<b/>activ<s n="adv"/></l>                 <r>en<b/>l'haver<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>la<b/>bătrânețe<s n="adv"/></l>             <r>a<b/>la<b/>vellesa<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>la<b/>culcare<s n="adv"/></l>               <r>a<b/>l'hora<b/>de<b/>dormir<s n="adv"/></r></p></e>
@@ -4749,9 +4745,9 @@
 <e a="delia">       <p><l>literă<b/>cu<b/>literă<s n="adv"/></l>      <r>lletra<b/>per<b/>lletra<s n="adv"/></r></p></e>
 <e>                 <p><l>luna<b/>viitoare<s n="adv"/></l>            <r>el<b/>pròxim<b/>mes<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>lunar<s n="adv"/></l>                       <r>mensualment<s n="adv"/></r></p></e>
-<e a="del">         <p><l>luni<b/>dimineață<s n="adv"/></l>           <r>el<b/>dilluns<b/>al<b/>matí<s n="adv"/></r></p></e>
-<e a="del">         <p><l>luni<b/>noapte<s n="adv"/></l>              <r>el<b/>dilluns<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
-<e a="del">         <p><l>luni<b/>seară<s n="adv"/></l>               <r>el<b/>dilluns<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
+<e a="del">         <p><l>luni<b/>dimineață<s n="adv"/></l>           <r>dilluns<b/>al<b/>matí<s n="adv"/></r></p></e>
+<e a="del">         <p><l>luni<b/>noapte<s n="adv"/></l>              <r>dilluns<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
+<e a="del">         <p><l>luni<b/>seară<s n="adv"/></l>               <r>dilluns<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
 <e>                 <p><l>mai<s n="adv"/></l>                         <r>més<s n="adv"/></r></p></e>
 <e>                 <p><l>mai<b/>ales<s n="adv"/></l>                 <r>sobretot<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>mai<b/>bine<s n="adv"/></l>                 <r>millor<s n="adv"/></r></p></e>
@@ -4765,20 +4761,19 @@
 <e>                 <p><l>mai<b/>mult<b/>ca<b/>sigur<s n="adv"/></l>  <r>amb<b/>tota<b/>certesa<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>mai<b/>mult<b/>încă<s n="adv"/></l>         <r>més<b/>encara<s n="adv"/></r></p></e>
 <e r="LR" a="delia"><p><l>mai<b/>multe<s n="adv"/></l>                <r>més<s n="adv"/></r></p></e>
-<e a="delia">       <p><l>mai<b/>multe<b/>luni<s n="adv"/></l>        <r>diversos<b/>meses<s n="adv"/></r></p></e>
+<e a="delia">       <p><l>mai<b/>multe<b/>luni<s n="adv"/></l>        <r>diversos<b/>mesos<s n="adv"/></r></p></e>
 <e r="LR" a="delia"><p><l>mai<b/>multă<s n="adv"/></l>                <r>més<s n="adv"/></r></p></e>
 <e r="LR" a="delia"><p><l>mai<b/>mulți<s n="adv"/></l>                <r>més<s n="adv"/></r></p></e>
 <e a="del">         <p><l>mai<b/>presus<b/>de<b/>orice<s n="adv"/></l><r>sobre<b/>totes<b/>les<b/>coses<s n="adv"/></r></p></e>
 <e>                 <p><l>mai<b/>puțin<s n="adv"/></l>                <r>menys<s n="adv"/></r></p></e>
-<e a="del">         <p><l>marți<b/>dimineață<s n="adv"/></l>          <r>el<b/>dimarts<b/>al<b/>matí<s n="adv"/></r></p></e>
-<e a="del">         <p><l>marți<b/>noapte<s n="adv"/></l>             <r>el<b/>dimarts<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
-<e a="del">         <p><l>marți<b/>seară<s n="adv"/></l>              <r>el<b/>dimarts<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
+<e a="del">         <p><l>marți<b/>dimineață<s n="adv"/></l>          <r>dimarts<b/>al<b/>matí<s n="adv"/></r></p></e>
+<e a="del">         <p><l>marți<b/>noapte<s n="adv"/></l>             <r>dimarts<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
+<e a="del">         <p><l>marți<b/>seară<s n="adv"/></l>              <r>dimarts<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
 <e>                 <p><l>mereu<s n="adv"/></l>                       <r>sempre<s n="adv"/></r></p></e>
 <e>                 <p><l>meteo<s n="adv"/></l>                       <r>meteo<s n="adv"/></r></p></e>
-<e a="del">         <p><l>miercuri<b/>dimineață<s n="adv"/></l>       <r>el<b/>dimecres<b/>al<b/>matí<s n="adv"/></r></p></e>
-<e a="del">         <p><l>miercuri<b/>noapte<s n="adv"/></l>          <r>el<b/>dimecres<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
-<e a="del">         <p><l>miercuri<b/>seară<s n="adv"/></l>           <r>el<b/>dimecres<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>mm<s n="adv"/></l>                          <r>mm<s n="adv"/></r></p></e>
+<e a="del">         <p><l>miercuri<b/>dimineață<s n="adv"/></l>       <r>dimecres<b/>al<b/>matí<s n="adv"/></r></p></e>
+<e a="del">         <p><l>miercuri<b/>noapte<s n="adv"/></l>          <r>dimecres<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
+<e a="del">         <p><l>miercuri<b/>seară<s n="adv"/></l>           <r>dimecres<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
 <e>                 <p><l>momentan<s n="adv"/></l>                    <r>de<b/>moment<s n="adv"/></r></p></e>
 <e>                 <p><l>mult<b/>mai<b/>bine<s n="adv"/></l>         <r>molt<b/>millor<s n="adv"/></r></p></e>
 <e>                 <p><l>mult<b/>mai<b/>mult<s n="adv"/></l>         <r>molt<b/>més<s n="adv"/></r></p></e>
@@ -4806,7 +4801,6 @@
 <e r="LR">          <p><l>niciunde<s n="adv"/></l>                    <r>enlloc<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>nicăieri<s n="adv"/></l>                    <r>enlloc<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>noaptea<s n="adv"/></l>                     <r>a<b/>la<b/>nit<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>nr<s n="adv"/></l>                          <r>núm<s n="adv"/></r></p></e>
 <e>                 <p><l>nu<s n="adv"/></l>                          <r>no<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>nu-i<b/>de<b/>mirare<s n="adv"/></l>        <r>no<b/>és<b/>per<b/>a<b/>sorprendre's<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>nu<b/>de<b/>puține<b/>ori<s n="adv"/></l>   <r>no<b/>poques<b/>vegades<s n="adv"/></r></p></e>
@@ -4826,7 +4820,6 @@
 <e>                 <p><l>oricum<s n="adv"/></l>                      <r>de<b/>totes<b/>maneres<s n="adv"/></r></p></e>
 <e>                 <p><l>oricând<s n="adv"/></l>                     <r>quan<b/>vulgui<s n="adv"/></r></p></e>
 <e>                 <p><l>oriunde<s n="adv"/></l>                     <r>en<b/>tot<b/>lloc<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>p.<s n="adv"/></l>                          <r>pàg.<s n="adv"/></r></p></e>
 <e>                 <p><l>pe<b/>acolo<s n="adv"/></l>                 <r>per<b/>allà<s n="adv"/></r></p></e>
 <e>                 <p><l>pe<b/>aici<s n="adv"/></l>                  <r>per<b/>aquí<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>pe<b/>an<s n="adv"/></l>                    <r>a<b/>l'any<s n="adv"/></r></p></e>
@@ -4846,21 +4839,9 @@
 <e a="delia">       <p><l>pe<b/>dinafară<s n="adv"/></l>              <r>de<b/>memòria<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>pe<b/>domenii<s n="adv"/></l>               <r>per<b/>àrees<s n="adv"/></r></p></e>
 <e>                 <p><l>pe<b/>furiș<s n="adv"/></l>                 <r>a<b/>la<b/>callada<s n="adv"/></r></p></e>
-	<!--<e a="delia">
-      <p>
-        <l>sens<b/>dubte<s n="adv"/></l>
-        <r>de<b/>bună<b/>seamă<s n="adv"/></r>
-      </p>
-    </e>-->
 <e r="LR" a="delia"><p><l>pe<b/>gratis<s n="adv"/></l>                <r>gratuïtament<s n="adv"/></r></p></e>
-<e>                 <p><l>pe<b/>internet<s n="adv"/></l>              <r>en<b/>internet<s n="adv"/></r></p></e>
-  <!--  <e a="delia">
-      <p>
-        <l>en<b/>el<b/>sitio<b/>mismo<s n="adv"/></l>
-        <r>la<b/>fața<b/>locului<s n="adv"/></r>
-      </p>
-    </e> -->
-<e a="del">         <p><l>pe<b/>loc<s n="adv"/></l>                   <r>en<b/>l'acte<s n="adv"/></r></p></e>
+<e>                 <p><l>pe<b/>internet<s n="adv"/></l>              <r>a<b/>internet<s n="adv"/></r></p></e>
+<e a="del">         <p><l>pe<b/>loc<s n="adv"/></l>                   <r>a<b/>l'acte<s n="adv"/></r></p></e>
 <e r="LR">          <p><l>pe<b/>locul<b/>al<b/>doilea<s n="adv"/></l> <r>en<b/>segon<b/>lloc<s n="adv"/></r></p></e>
 <e r="LR">          <p><l>pe<b/>locul<b/>al<b/>patrulea<s n="adv"/></l><r>en<b/>quart<b/>lloc<s n="adv"/></r></p></e>
 <e r="LR">          <p><l>pe<b/>locul<b/>al<b/>treilea<s n="adv"/></l><r>en<b/>tercer<b/>lloc<s n="adv"/></r></p></e>
@@ -4870,16 +4851,10 @@
 <e r="LR" a="delia"><p><l>pe<b/>neașteptate<s n="adv"/></l>           <r>de<b/>sobte<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>pe<b/>nedrept<s n="adv"/></l>               <r>injustament<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>pe<b/>nemâncate<s n="adv"/></l>             <r>en<b/>dejú<s n="adv"/></r></p></e>
-    <!--<e a="???">
-      <p>
-        <l>en<b/>abandó<s n="adv"/></l>
-        <r>în<b/>paragină<s n="adv"/></r>
-      </p>
-    </e>-->
 <e a="delia">       <p><l>pe<b/>nepregătite<s n="adv"/></l>           <r>d'improvís<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>pe<b/>noapte<s n="adv"/></l>                <r>per<b/>nit<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>pe<b/>oră<s n="adv"/></l>                   <r>per<b/>hora<s n="adv"/></r></p></e>
-<e>                 <p><l>pe<b/>piață<s n="adv"/></l>                 <r>en<b/>el<b/>mercat<s n="adv"/></r></p></e>
+<e>                 <p><l>pe<b/>piață<s n="adv"/></l>                 <r>al<b/>el<b/>mercat<s n="adv"/></r></p></e>
 <e r="LR">          <p><l>pe<b/>primul<b/>loc<s n="adv"/></l>         <r>en<b/>primer<b/>lloc<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>pe<b/>primul<b/>plan<s n="adv"/></l>        <r>en<b/>el<b/>primer<b/>plànol<s n="adv"/></r></p></e>
 <e>                 <p><l>pe<b/>scara<b/>evoluției<s n="adv"/></l>    <r>en<b/>l'escala<b/>de<b/>l'evolució<s n="adv"/></r></p></e>
@@ -4894,13 +4869,13 @@
 <e r="LR" a="delia"><p><l>pe<b/>timpul<b/>toamnei<s n="adv"/></l>     <r>durant<b/>la<b/>tardor<s n="adv"/></r></p></e>
 <e r="LR" a="delia"><p><l>pe<b/>timpul<b/>verii<s n="adv"/></l>       <r>durant<b/>l'estiu<s n="adv"/></r></p></e>
 <e>                 <p><l>pe<b/>ultima<b/>sută<b/>de<b/>metri<s n="adv"/></l><r>en<b/>la<b/>recta<b/>final<s n="adv"/></r></p></e>
-<e r="LR">          <p><l>pe<b/>ultimul<b/>loc<s n="adv"/></l>        <r>en<b/>último<b/>lloc<s n="adv"/></r></p></e>
+<e r="LR">          <p><l>pe<b/>ultimul<b/>loc<s n="adv"/></l>        <r>en<b/>darrer<b/>lloc<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>pe<b/>uscat<s n="adv"/></l>                 <r>sobre<b/>terra<b/>ferma<s n="adv"/></r></p></e>
 <e a="del">         <p><l>pe<b/>viață<s n="adv"/></l>                 <r>de<b/>per<b/>vida<s n="adv"/></r></p></e>
 <e>                 <p><l>pe<b/>viață<b/>și<b/>pe<b/>moarte<s n="adv"/></l><r>a<b/>mort<s n="adv"/></r></p></e>
 <e a="del">         <p><l>pe<b/>vremea<b/>aceea<s n="adv"/></l>       <r>en<b/>aquells<b/>dies<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>pe<b/>vrute,<b/>pe<b/>nevrute<s n="adv"/></l><r>de<b/>grat<b/>o<b/>per<b/>força<s n="adv"/></r></p></e>
-<e>                 <p><l>pe<b/>zi<s n="adv"/></l>                    <r>al<b/>día<s n="adv"/></r></p></e>
+<e>                 <p><l>pe<b/>zi<s n="adv"/></l>                    <r>al<b/>dia<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>pe<b/>îndelete<s n="adv"/></l>              <r>detingudament<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>pe<b/>șleau<s n="adv"/></l>                 <r>sense<b/>embuts<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>pentru<b/>a<b/>câta<b/>oară<s n="adv"/></l> <r>per<b/>quanta<b/>vegada<s n="adv"/></r></p></e>
@@ -4955,9 +4930,9 @@
 <e r="LR" a="del">  <p><l>strop<b/>cu<b/>strop<s n="adv"/></l>        <r>gota<b/>a<b/>gota<s n="adv"/></r></p></e>
 <e>                 <p><l>sub<b/>semnul<b/>întrebării<s n="adv"/></l> <r>en<b/>dubte<s n="adv"/></r></p></e>
 <e>                 <p><l>sus<s n="adv"/></l>                         <r>amunt<s n="adv"/></r></p></e>
-<e a="del">         <p><l>sâmbătă<b/>dimineață<s n="adv"/></l>        <r>el<b/>dissabte<b/>al<b/>matí<s n="adv"/></r></p></e>
-<e a="del">         <p><l>sâmbătă<b/>noapte<s n="adv"/></l>           <r>el<b/>dissabte<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
-<e a="del">         <p><l>sâmbătă<b/>seară<s n="adv"/></l>            <r>el<b/>dissabte<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
+<e a="del">         <p><l>sâmbătă<b/>dimineață<s n="adv"/></l>        <r>dissabte<b/>al<b/>matí<s n="adv"/></r></p></e>
+<e a="del">         <p><l>sâmbătă<b/>noapte<s n="adv"/></l>           <r>dissabte<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
+<e a="del">         <p><l>sâmbătă<b/>seară<s n="adv"/></l>            <r>dissabte<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
 <e>                 <p><l>săptămâna<b/>viitoare<s n="adv"/></l>       <r>la<b/>pròxima<b/>setmana<s n="adv"/></r></p></e>
 <e>                 <p><l>tocmai<s n="adv"/></l>                      <r>precisament<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>tot<b/>atâtea<b/>exemple<s n="adv"/></l>    <r>altres<b/>tants<b/>exemples<s n="adv"/></r></p></e>
@@ -4973,12 +4948,11 @@
 <e>                 <p><l>unde<s n="adv"/></l>                        <r>on<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>undeva<s n="adv"/></l>                      <r>en<b/>algun<b/>lloc<s n="adv"/></r></p></e>
 <e>                 <p><l>uneori<s n="adv"/></l>                      <r>de<b/>vegades<s n="adv"/></r></p></e>
-<e r="LR" a="del">  <p><l>ușor-ușor<s n="adv"/></l>                   <r>paulatinament<s n="adv"/></r></p></e>
+<e r="LR" a="del">  <p><l>ușor-ușor<s n="adv"/></l>                   <r>de<b/>mica<b/>en<b/>mica<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>viceversa<s n="adv"/></l>                   <r>viceversa<s n="adv"/></r></p></e>
-<e a="del">         <p><l>vineri<b/>dimineață<s n="adv"/></l>         <r>el<b/>divendres<b/>al<b/>matí<s n="adv"/></r></p></e>
-<e a="del">         <p><l>vineri<b/>noapte<s n="adv"/></l>            <r>el<b/>divendres<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
-<e a="del">         <p><l>vineri<b/>seară<s n="adv"/></l>             <r>el<b/>divendres<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>vol.<s n="adv"/></l>                        <r>vol.<s n="adv"/></r></p></e>
+<e a="del">         <p><l>vineri<b/>dimineață<s n="adv"/></l>         <r>divendres<b/>al<b/>matí<s n="adv"/></r></p></e>
+<e a="del">         <p><l>vineri<b/>noapte<s n="adv"/></l>            <r>divendres<b/>a<b/>la<b/>nit<s n="adv"/></r></p></e>
+<e a="del">         <p><l>vineri<b/>seară<s n="adv"/></l>             <r>divendres<b/>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
 <e>                 <p><l>vreodată<s n="adv"/></l>                    <r>alguna<b/>vegada<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>vrând-nevrând<s n="adv"/></l>               <r>voluntàriament<b/>o<b/>no<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>vrând<b/>nevrând<s n="adv"/></l>            <r>volent<b/>o<b/>no<s n="adv"/></r></p></e>
@@ -5024,7 +4998,7 @@
 <e a="del">         <p><l>în<b/>genere<s n="adv"/></l>                <r>generalment<s n="adv"/></r></p></e>
 <e>                 <p><l>în<b/>glumă<s n="adv"/></l>                 <r>de<b/>broma<s n="adv"/></r></p></e>
 <e>                 <p><l>în<b/>grabă<s n="adv"/></l>                 <r>de<b/>pressa<s n="adv"/></r></p></e>
-<e r="LR">          <p><l>în<b/>internet<s n="adv"/></l>              <r>en<b/>internet<s n="adv"/></r></p></e>
+<e r="LR">          <p><l>în<b/>internet<s n="adv"/></l>              <r>a<b/>internet<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>în<b/>jur<s n="adv"/></l>                   <r>al<b/>voltant<s n="adv"/></r></p></e>
 <e>                 <p><l>în<b/>mare<b/>grabă<s n="adv"/></l>         <r>amb<b/>molta<b/>pressa<s n="adv"/></r></p></e>
 <e a="del">         <p><l>în<b/>mare<b/>măsură<s n="adv"/></l>        <r>en<b/>gran<b/>mesura<s n="adv"/></r></p></e>
@@ -5081,9 +5055,9 @@
 <e a="del">         <p><l>înainte<b/>de<b/>masă<s n="adv"/></l>       <r>abans<b/>de<b/>menjar<s n="adv"/></r></p></e>
 <e r="LR" a="del">  <p><l>înapoi<s n="adv"/></l>                      <r>enrere<s n="adv"/></r></p></e>
 <e>                 <p><l>încet<s n="adv"/></l>                       <r>lentament<s n="adv"/></r></p></e>
-<e r="LR" a="del">  <p><l>încet-încet<s n="adv"/></l>                 <r>paulatinament<s n="adv"/></r></p></e>
+<e r="LR" a="del">  <p><l>încet-încet<s n="adv"/></l>                 <r>de<b/>mica<b/>en<b/>mica<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>încetișor<s n="adv"/></l>                   <r>a<b/>poc<b/>a<b/>poquet<s n="adv"/></r></p></e>
-<e a="del">         <p><l>încetul<b/>cu<b/>încetul<s n="adv"/></l>    <r>paulatinament<s n="adv"/></r></p></e>
+<e a="del">         <p><l>încetul<b/>cu<b/>încetul<s n="adv"/></l>    <r>de<b/>mica<b/>en<b/>mica<s n="adv"/></r></p></e>
 <e>                 <p><l>încoace<s n="adv"/></l>                     <r>acà<s n="adv"/></r></p></e>
 <e>                 <p><l>încolo<s n="adv"/></l>                      <r>allí<s n="adv"/></r></p></e>
 <e>                 <p><l>încotro<s n="adv"/></l>                     <r>on<s n="adv"/></r></p></e>
@@ -5100,13 +5074,7 @@
 <e>                 <p><l>într-o<b/>clipă<s n="adv"/></l>             <r>de<b/>seguida<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>într-o<b/>oarecare<b/>măsură<s n="adv"/></l><r>en<b/>certa<b/>mesura<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>într-un<b/>fel<b/>sau<b/>altul<s n="adv"/></l><r>d'alguna<b/>manera<s n="adv"/></r></p></e>
-<e>                 <p><l>între<b/>ciocan<b/>și<b/>nicovală<s n="adv"/></l><r>entre<b/>l'espesa<b/>i<b/>la<b/>paret<s n="adv"/></r></p></e>
-    <!--  <e a="delia">
-        <p>
-          <l>fa<b/>poco<s n="adv"/></l>
-       ???   <r>adineaori<s n="adv"/></r>
-        </p>
-     </e> -->
+<e>                 <p><l>între<b/>ciocan<b/>și<b/>nicovală<s n="adv"/></l><r>entre<b/>l'espasa<b/>i<b/>la<b/>paret<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>între<b/>timp<s n="adv"/></l>               <r>mentrestant<s n="adv"/></r></p></e>
 <e>                 <p><l>și<s n="adv"/></l>                          <r>també<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>și<b/>așa<s n="adv"/></l>                   <r>i<b/>així<s n="adv"/></r></p></e>
@@ -20700,7 +20668,7 @@
 <e>                 <p><l>beneficia<s n="vblex"/></l>                 <r>beneficiar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>bifurca<s n="vblex"/></l>                   <r>bifurcar<s n="vblex"/></r></p></e>
 <e>                 <p><l>binecuvânta<s n="vblex"/></l>               <r>beneir<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>binevoi<s n="vblex"/></l>                   <r>condescendir<g><b/>a</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>binevoi<s n="vblex"/></l>                   <r>condescendir<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>birocratiza<s n="vblex"/></l>               <r>burocratitzar<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>birui<s n="vblex"/></l>                     <r>vèncer<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>blasfema<s n="vblex"/></l>                  <r>blasfemar<s n="vblex"/></r></p></e>
@@ -21114,7 +21082,8 @@
 <e>                 <p><l>dilua<s n="vblex"/></l>                     <r>diluir<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>dimensiona<s n="vblex"/></l>                <r>dimensionar<s n="vblex"/></r></p></e>
 <e>                 <p><l>diminua<s n="vblex"/></l>                   <r>disminuir<s n="vblex"/></r></p></e>
-<e a="del">         <p><l>direcționa<s n="vblex"/></l>                <r>direccionar<s n="vblex"/></r></p></e>
+<e a="del">         <p><l>direcționa<s n="vblex"/></l>                <r>dirigir<s n="vblex"/></r></p></e>
+<e a="del">         <p><l>direcționa<s n="vblex"/></l>                <r>orientar<s n="vblex"/></r></p></e>
 <e>                 <p><l>dirija<s n="vblex"/></l>                    <r>dirigir<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>discredita<s n="vblex"/></l>                <r>desacreditar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>discrimina<s n="vblex"/></l>                <r>discriminar<s n="vblex"/></r></p></e>
@@ -21251,14 +21220,14 @@
 <e a="del">         <p><l>face<g><b/>planuri</g><s n="vblex"/></l>    <r>fer<g>plans</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>face<g><b/>probe</g><s n="vblex"/></l>      <r>assajar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>face<g><b/>ravagii</g><s n="vblex"/></l>    <r>fer<g><b/>estralls</g><s n="vblex"/></r></p></e>
-<e>                 <p><l>face<g><b/>rău</g><s n="vblex"/></l>        <r>fer<g><b/>dany</g><s n="vblex"/></r></p></e>
+<e>                 <p><l>face<g><b/>rău</g><s n="vblex"/></l>        <r>fer<g><b/>mal</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>facilita<s n="vblex"/></l>                  <r>facilitar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>familiariza<s n="vblex"/></l>               <r>familiaritzar<s n="vblex"/></r></p></e>
 <e>                 <p><l>fascina<s n="vblex"/></l>                   <r>fascinar<s n="vblex"/></r></p></e>
 <e>                 <p><l>favoriza<s n="vblex"/></l>                  <r>afavorir<s n="vblex"/></r></p></e>
 <e r="RL">          <p><l>favoriza<s n="vblex"/></l>                  <r>propiciar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>fecunda<s n="vblex"/></l>                   <r>fecundar<s n="vblex"/></r></p></e>
-<e a="del">         <p><l>federaliza<s n="vblex"/></l>                <r>federalitzar<s n="vblex"/></r></p></e>
+<e a="del">         <p><l>federaliza<s n="vblex"/></l>                <r>federar<s n="vblex"/></r></p></e>
 <e>                 <p><l>felicita<s n="vblex"/></l>                  <r>felicitar<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>feri<s n="vblex"/></l>                      <r>apartar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>fermenta<s n="vblex"/></l>                  <r>fermentar<s n="vblex"/></r></p></e>
@@ -21412,7 +21381,7 @@
 <e>                 <p><l>integra<s n="vblex"/></l>                   <r>integrar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>intensifica<s n="vblex"/></l>               <r>intensificar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>intenta<s n="vblex"/></l>                   <r>incoar<s n="vblex"/></r></p></e>
-<e>                 <p><l>intenționa<s n="vblex"/></l>                <r>tenir<g><b/>la<b/>intenció<b/>de</g><s n="vblex"/></r></p></e>
+<e>                 <p><l>intenționa<s n="vblex"/></l>                <r>tenir<g><b/>la<b/>intenció</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>intercepta<s n="vblex"/></l>                <r>interceptar<s n="vblex"/></r></p></e>
 <e>                 <p><l>interesa<s n="vblex"/></l>                  <r>interessar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>interfera<s n="vblex"/></l>                 <r>interferir<s n="vblex"/></r></p></e>
@@ -21489,7 +21458,7 @@
 <e>                 <p><l>liniști<s n="vblex"/></l>                   <r>tranquil·litzar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>linșa<s n="vblex"/></l>                     <r>linxar<s n="vblex"/></r></p></e>
 <e>                 <p><l>lipi<s n="vblex"/></l>                      <r>pegar<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>lipi<g><b/>o<b/>palmă</g><s n="vblex"/></l> <r>pegar<g><b/>una<b/>bufetada</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>lipi<g><b/>o<b/>palmă</g><s n="vblex"/></l> <r>donar<g><b/>una<b/>bufetada</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>lipsi<s n="vblex"/></l>                     <r>faltar<s n="vblex"/></r></p></e>
 <e r="RL">          <p><l>lipsi<s n="vblex"/></l>                     <r>prescindir<s n="vblex"/></r></p></e>
 <e>                 <p><l>localiza<s n="vblex"/></l>                  <r>localitzar<s n="vblex"/></r></p></e>
@@ -21558,7 +21527,7 @@
 <e>                 <p><l>modera<s n="vblex"/></l>                    <r>moderar<s n="vblex"/></r></p></e>
 <e>                 <p><l>modifica<s n="vblex"/></l>                  <r>modificar<s n="vblex"/></r></p></e>
 <e r="LR" a="delia"><p><l>molipsi<s n="vblex"/></l>                   <r>contagiar<s n="vblex"/></r></p></e>
-<e a="del">         <p><l>monitoriza<s n="vblex"/></l>                <r>monitoritzar<s n="vblex"/></r></p></e>
+<e a="del">         <p><l>monitoriza<s n="vblex"/></l>                <r>monitorar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>monopoliza<s n="vblex"/></l>                <r>monopolitzar<s n="vblex"/></r></p></e>
 <e>                 <p><l>monta<s n="vblex"/></l>                     <r>muntar<s n="vblex"/></r></p></e>
 <e>                 <p><l>motiva<s n="vblex"/></l>                    <r>motivar<s n="vblex"/></r></p></e>
@@ -21719,11 +21688,11 @@
 <e a="delia">       <p><l>porecli<s n="vblex"/></l>                   <r>sobrenomenar<s n="vblex"/></r></p></e>
 <e>                 <p><l>porunci<s n="vblex"/></l>                   <r>manar<s n="vblex"/></r></p></e>
 <e>                 <p><l>poseda<s n="vblex"/></l>                    <r>posseir<s n="vblex"/></r></p></e>
-<e>                 <p><l>posta<g><b/>pe<b/>internet</g><s n="vblex"/></l><r>pujar<g><b/>en<b/>internet</g><s n="vblex"/></r></p></e>
+<e>                 <p><l>posta<g><b/>pe<b/>internet</g><s n="vblex"/></l><r>publicar<g><b/>a<b/>internet</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>potența<s n="vblex"/></l>                   <r>potenciar<s n="vblex"/></r></p></e>
 <e>                 <p><l>poticni<s n="vblex"/></l>                   <r>ensopegar<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>potoli<s n="vblex"/></l>                    <r>apaivagar<s n="vblex"/></r></p></e>
-<e a="del">         <p><l>potoli<g><b/>foamea</g><s n="vblex"/></l>   <r>calmar<g><b/>la<b/>fam</g><s n="vblex"/></r></p></e>
+<e a="del">         <p><l>potoli<g><b/>foamea</g><s n="vblex"/></l>   <r>calmar<g><b/>la<b/>gana</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>potoli<g><b/>setea</g><s n="vblex"/></l>    <r>calmar<g><b/>la<b/>set</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>potrivi<s n="vblex"/></l>                   <r>encaixar<s n="vblex"/></r></p></e>
 <e>                 <p><l>povesti<s n="vblex"/></l>                   <r>contar<s n="vblex"/></r></p></e>
@@ -22073,7 +22042,7 @@
 <e r="RL">          <p><l>scoate<s n="vblex"/></l>                    <r>llevar<s n="vblex"/></r></p></e>
 <e>                 <p><l>scoate<s n="vblex"/></l>                    <r>treure<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>scoate<g><b/>din<b/>luptă</g><s n="vblex"/></l><r>deixar<g><b/>fora<b/>de<b/>combat</g><s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>scoate<g><b/>la<b/>iveală</g><s n="vblex"/></l><r>treure<g><b/>a<b/>llum</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>scoate<g><b/>la<b/>iveală</g><s n="vblex"/></l><r>treure<g><b/>a<b/>la<b/>llum</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>scormoni<s n="vblex"/></l>                  <r>regirar<s n="vblex"/></r></p></e>
 <e>                 <p><l>scotoci<s n="vblex"/></l>                   <r>furgar<s n="vblex"/></r></p></e>
 <e>                 <p><l>scrie<s n="vblex"/></l>                     <r>escriure<s n="vblex"/></r></p></e>
@@ -22147,7 +22116,7 @@
 <e a="delia">       <p><l>smiorcăi<s n="vblex"/></l>                  <r>ploriquejar<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>smoli<s n="vblex"/></l>                     <r>enquitranar<s n="vblex"/></r></p></e>
 <e>                 <p><l>smulge<s n="vblex"/></l>                    <r>arrencar<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>sociabiliza<s n="vblex"/></l>               <r>sociabilitzar<s n="vblex"/></r></p></e>
+<e r="LR" a="delia">       <p><l>sociabiliza<s n="vblex"/></l>               <r>socialitzar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>socializa<s n="vblex"/></l>                 <r>socialitzar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>socoti<s n="vblex"/></l>                    <r>computar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>sodomiza<s n="vblex"/></l>                  <r>sodomitzar<s n="vblex"/></r></p></e>
@@ -22343,13 +22312,14 @@
 <e a="delia">       <p><l>tezauriza<s n="vblex"/></l>                 <r>atresorar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>ticsi<s n="vblex"/></l>                     <r>abarrotar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>timbra<s n="vblex"/></l>                    <r>timbrar<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>tinctura<s n="vblex"/></l>                  <r>tinturar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>tinctura<s n="vblex"/></l>                  <r>tintar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>tinctura<s n="vblex"/></l>                  <r>tenyir<s n="vblex"/></r></p></e>
 <e>                 <p><l>tinde<s n="vblex"/></l>                     <r>tendir<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>tipiza<s n="vblex"/></l>                    <r>tipificar<s n="vblex"/></r></p></e>
 <e r="LR" a="delia"><p><l>tipări<s n="vblex"/></l>                    <r>imprimir<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>tiraniza<s n="vblex"/></l>                  <r>tiranitzar<s n="vblex"/></r></p></e>
 <e r="LR" a="delia"><p><l>titra<s n="vblex"/></l>                     <r>titular<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>titulariza<s n="vblex"/></l>                <r>titularitzar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>titulariza<s n="vblex"/></l>                <r>titular<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>toasta<s n="vblex"/></l>                    <r>brindar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>tocmi<s n="vblex"/></l>                     <r>regatejar<s n="vblex"/></r></p></e>
 <e>                 <p><l>tolera<s n="vblex"/></l>                    <r>tolerar<s n="vblex"/></r></p></e>
@@ -22357,7 +22327,7 @@
 <e r="LR">          <p><l>tonifia<s n="vblex"/></l>                   <r>tonificar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>tonifica<s n="vblex"/></l>                  <r>tonificar<s n="vblex"/></r></p></e>
 <e>                 <p><l>topi<s n="vblex"/></l>                      <r>fondre<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>torefia<s n="vblex"/></l>                   <r>torrefactar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>torefia<s n="vblex"/></l>                   <r>rostir<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>torpila<s n="vblex"/></l>                   <r>torpedinar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>tortura<s n="vblex"/></l>                   <r>torturar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>totaliza<s n="vblex"/></l>                  <r>totalitzar<s n="vblex"/></r></p></e>
@@ -22365,9 +22335,10 @@
 <e>                 <p><l>traduce<s n="vblex"/></l>                   <r>traduir<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>trafica<s n="vblex"/></l>                   <r>traficar<s n="vblex"/></r></p></e>
 <e>                 <p><l>trage<s n="vblex"/></l>                     <r>disparar<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>trage<g><b/>beții</g><s n="vblex"/></l>     <r>agafar<g><b/>borratxeres</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>trage<g><b/>beții</g><s n="vblex"/></l>     <r>donar<g><b/>a<b/>la<b/>beguda</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>trage<g><b/>concluzii</g><s n="vblex"/></l> <r>treure<g><b/>conclusions</g><s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>trage<g><b/>o<b/>beție</g><s n="vblex"/></l><r>agafar<g><b/>una<b/>borratxera</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>trage<g><b/>o<b/>beție</g><s n="vblex"/></l><r>agafar<g><b/>un<b/>pet</g><s n="vblex"/></r></p></e>
+<e r="RL" a="delnou"><p><l>trage<g><b/>o<b/>beție</g><s n="vblex"/></l><r>agafar<g><b/>una<b/>turca</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>trage<g><b/>o<b/>chelfăneală</g><s n="vblex"/></l><r>donar<g><b/>un<b/>fart<b/>de<b/>llenya</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>trage<g><b/>un<b/>futai</g><s n="vblex"/></l><r>fotre<g><b/>un<b/>clau</g><s n="vblex"/></r></p></e>
 <e r="LR" a="delia"><p><l>tranchiliza<s n="vblex"/></l>               <r>tranquil·litzar<s n="vblex"/></r></p></e>
@@ -22849,7 +22820,7 @@
 <e a="mioara">      <p><l>reintra<s n="vblex"/></l>                   <r>tornar<g><b/>a<b/>entrar</g><s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>releva<s n="vblex"/></l>                    <r>realçar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>retrăi<s n="vblex"/></l>                    <r>reviure<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>revanșa<s n="vblex"/></l>                   <r>prendre<g><b/>la<b/>revenja</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>revanșa<s n="vblex"/></l>                   <r>revenjar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>revedea<s n="vblex"/></l>                   <r>tornar<g><b/>a<b/>veure</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>reînvia<s n="vblex"/></l>                   <r>reavivar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>robi<s n="vblex"/></l>                      <r>esclavitzar<s n="vblex"/></r></p></e>
@@ -22859,9 +22830,9 @@
 <e r="LR" a="mioara"><p><l>scârțâi<s n="vblex"/></l>                  <r>grinyolar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>sfârâi<s n="vblex"/></l>                    <r>grinyolar<s n="vblex"/></r></p></e>
 <e r="LR" a="mioara"><p><l>sluți<s n="vblex"/></l>                    <r>enlletgir<s n="vblex"/></r></p></e>
-<e a="mioara">      <p><l>sta<g><b/>ca<b/>pe<b/>jar</g><s n="vblex"/></l><r>estar<g><b/>en<b/>ascuas</g><s n="vblex"/></r></p></e>
-<e r="LR" a="mioara"><p><l>sta<g><b/>ca<b/>pe<b/>jeratic</g><s n="vblex"/></l><r>estar<g><b/>en<b/>ascuas</g><s n="vblex"/></r></p></e>
-<e r="LR" a="mioara"><p><l>sta<g><b/>ca<b/>pe<b/>jăratic</g><s n="vblex"/></l><r>estar<g><b/>en<b/>ascuas</g><s n="vblex"/></r></p></e>
+<e a="mioara">      <p><l>sta<g><b/>ca<b/>pe<b/>jar</g><s n="vblex"/></l><r>passar<g><b/>ànsia</g><s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>sta<g><b/>ca<b/>pe<b/>jeratic</g><s n="vblex"/></l><r>passar<g><b/>ànsia</g><s n="vblex"/></r></p></e>
+<e r="LR" a="mioara"><p><l>sta<g><b/>ca<b/>pe<b/>jăratic</g><s n="vblex"/></l><r>passar<g><b/>ànsia</g><s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>subintitula<s n="vblex"/></l>              <r>subtitular<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>suna<g>la<b/>ușă</g><s n="vblex"/></l>      <r>trucar<g><b/>al<b/>timbre</g><s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>săpa<s n="vblex"/></l>                      <r>excavar<s n="vblex"/></r></p></e>

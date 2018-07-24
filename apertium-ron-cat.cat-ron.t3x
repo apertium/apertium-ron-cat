@@ -1,23 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <postchunk>
   <section-def-cats>
+
     <def-cat n="sent">
       <cat-item name="punt"/>
     </def-cat>
+    <def-cat n="ajust_genere">
+      <cat-item name="adj"/>
+      <cat-item name="det"/>
+      <cat-item name="predet"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
-    <def-attr n="nbr">
-      <attr-item tags="sg"/>
+
+    <def-attr n="a_def">
+      <attr-item tags="def"/>
+      <attr-item tags="ind"/>
     </def-attr>
+    <def-attr n="a_cas">
+      <attr-item tags="nom"/>
+      <attr-item tags="dg"/>
+    </def-attr>
+    <def-attr n="a_gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="mn"/>
+      <attr-item tags="fn"/>
+      <attr-item tags="mfn"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+
   </section-def-attrs>
 
   <section-def-vars>
+
     <def-var n="paraula"/>
+
   </section-def-vars>
 
   <section-rules>
-    <rule comment="CHUNK:">
+
+    <rule comment="CHUNK: adj (ajusta el gènere a mn i fn)">
+      <pattern>
+        <pattern-item n="ajust_genere"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <or>
+                  <equal>
+                    <clip pos="1" part="a_gen"/>
+                    <lit-tag v="m"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" part="a_gen"/>
+                    <lit-tag v="nt"/>
+                  </equal>
+                </or>
+                <equal>
+                  <clip pos="1" part="a_nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" part="a_gen"/>
+              <lit-tag v="mn"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <or>
+                  <equal>
+                    <clip pos="1" part="a_gen"/>
+                    <lit-tag v="f"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" part="a_gen"/>
+                    <lit-tag v="nt"/>
+                  </equal>
+                </or>
+                <equal>
+                  <clip pos="1" part="a_nbr"/>
+                  <lit-tag v="pl"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" part="a_gen"/>
+              <lit-tag v="fn"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="CHUNK: sent">
       <pattern>
         <pattern-item n="sent"/>
       </pattern>
@@ -29,6 +125,7 @@
         </out>
       </action>
     </rule>
+
   </section-rules>
 </postchunk>
 

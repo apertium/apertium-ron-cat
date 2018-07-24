@@ -366,7 +366,7 @@
   </section-def-cats>
 
   <section-def-attrs>
-     <def-attr n="a_nom">
+    <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
     </def-attr>
@@ -797,7 +797,7 @@
             </test>
             <modify-case>
               <var n="auxiliar_lema"/>
-              <lit v="AA"/>
+              <lit v="Aa"/>
             </modify-case>
           </when>
         </choose>
@@ -1002,7 +1002,7 @@
             </test>
             <modify-case>
               <var n="auxiliar_lema"/>
-              <lit v="AA"/>
+              <lit v="Aa"/>
             </modify-case>
           </when>
         </choose>
@@ -1299,7 +1299,7 @@
             </test>
             <modify-case>
               <var n="auxiliar_lema"/>
-              <lit v="AA"/>
+              <lit v="Aa"/>
             </modify-case>
           </when>
         </choose>
@@ -1372,6 +1372,18 @@
             <lit-tag v="f"/>
           </let>
         </when>
+        <when>
+          <test>
+            <equal>
+              <var n="genere"/>
+              <lit-tag v="GD"/>
+            </equal>
+          </test>
+          <let>
+            <var n="genere"/>
+            <lit-tag v="GD"/>
+          </let>
+        </when>
         <otherwise>
           <let>
             <var n="genere"/>
@@ -1386,12 +1398,20 @@
       <choose>
         <when>
           <test>
-            <not>
-              <equal>
-                <clip pos="1" side="tl" part="a_gen"/>
-                <lit-tag v="mf"/>
-              </equal>
-            </not>
+            <and>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+              </not>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_gen"/>
+                  <lit-tag v="GD"/>
+                </equal>
+              </not>
+            </and>
           </test>
           <let>
             <var n="genere"/>
@@ -1418,12 +1438,20 @@
               <choose>
                 <when>
                   <test>
-                    <not>
-                      <equal>
-                        <clip pos="2" side="tl" part="a_gen"/>
-                        <lit-tag v="mf"/>
-                      </equal>
-                    </not>
+                    <and>
+                      <not>
+                        <equal>
+                          <clip pos="2" side="tl" part="a_gen"/>
+                          <lit-tag v="mf"/>
+                        </equal>
+                      </not>
+                      <not>
+                        <equal>
+                          <clip pos="1" side="tl" part="a_gen"/>
+                          <lit-tag v="GD"/>
+                        </equal>
+                      </not>
+                    </and>
                   </test>
                   <let>
                     <var n="genere"/>
@@ -1558,12 +1586,20 @@
       <choose>
         <when>
           <test>
-            <not>
-              <equal>
-                <clip pos="1" side="tl" part="a_gen"/>
-                <lit-tag v="mf"/>
-              </equal>
-            </not>
+            <and>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+              </not>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_gen"/>
+                  <lit-tag v="GD"/>
+                </equal>
+              </not>
+            </and>
           </test>
           <let>
             <var n="genere"/>
@@ -1590,12 +1626,20 @@
               <choose>
                 <when>
                   <test>
-                    <not>
-                      <equal>
-                        <clip pos="2" side="tl" part="a_gen"/>
-                        <lit-tag v="mf"/>
-                      </equal>
-                    </not>
+                    <and>
+                      <not>
+                        <equal>
+                          <clip pos="2" side="tl" part="a_gen"/>
+                          <lit-tag v="mf"/>
+                        </equal>
+                      </not>
+                      <not>
+                        <equal>
+                          <clip pos="1" side="tl" part="a_gen"/>
+                          <lit-tag v="GD"/>
+                        </equal>
+                      </not>
+                    </and>
                   </test>
                   <let>
                     <var n="genere"/>
@@ -1606,12 +1650,20 @@
                   <choose>
                     <when>
                       <test>
-                        <not>
-                          <equal>
-                            <clip pos="3" side="tl" part="a_gen"/>
-                            <lit-tag v="mf"/>
-                          </equal>
-                        </not>
+                        <and>
+                          <not>
+                            <equal>
+                              <clip pos="3" side="tl" part="a_gen"/>
+                              <lit-tag v="mf"/>
+                            </equal>
+                          </not>
+                          <not>
+                            <equal>
+                              <clip pos="1" side="tl" part="a_gen"/>
+                              <lit-tag v="GD"/>
+                            </equal>
+                          </not>
+                        </and>
                       </test>
                       <let>
                         <var n="genere"/>
@@ -1774,12 +1826,20 @@
       <choose>
         <when>
           <test>
-            <not>
-              <equal>
-                <clip pos="1" side="tl" part="a_gen"/>
-                <lit-tag v="mf"/>
-              </equal>
-            </not>
+            <and>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+              </not>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_gen"/>
+                  <lit-tag v="GD"/>
+                </equal>
+              </not>
+            </and>
           </test>
           <let>
             <var n="genere"/>
@@ -1806,12 +1866,20 @@
               <choose>
                 <when>
                   <test>
-                    <not>
-                      <equal>
-                        <clip pos="2" side="tl" part="a_gen"/>
-                        <lit-tag v="mf"/>
-                      </equal>
-                    </not>
+                    <and>
+                      <not>
+                        <equal>
+                          <clip pos="2" side="tl" part="a_gen"/>
+                          <lit-tag v="mf"/>
+                        </equal>
+                      </not>
+                      <not>
+                        <equal>
+                          <clip pos="1" side="tl" part="a_gen"/>
+                          <lit-tag v="GD"/>
+                        </equal>
+                      </not>
+                    </and>
                   </test>
                   <let>
                     <var n="genere"/>
@@ -1822,12 +1890,20 @@
                   <choose>
                     <when>
                       <test>
-                        <not>
-                          <equal>
-                            <clip pos="3" side="tl" part="a_gen"/>
-                            <lit-tag v="mf"/>
-                          </equal>
-                        </not>
+                        <and>
+                          <not>
+                            <equal>
+                              <clip pos="3" side="tl" part="a_gen"/>
+                              <lit-tag v="mf"/>
+                            </equal>
+                          </not>
+                          <not>
+                            <equal>
+                              <clip pos="1" side="tl" part="a_gen"/>
+                              <lit-tag v="GD"/>
+                            </equal>
+                          </not>
+                        </and>
                       </test>
                       <let>
                         <var n="genere"/>
@@ -1838,12 +1914,20 @@
                      <choose>
                         <when>
                           <test>
-                            <not>
-                              <equal>
-                                <clip pos="4" side="tl" part="a_gen"/>
-                                <lit-tag v="mf"/>
-                              </equal>
-                            </not>
+                            <and>
+                              <not>
+                                <equal>
+                                  <clip pos="4" side="tl" part="a_gen"/>
+                                  <lit-tag v="mf"/>
+                                </equal>
+                              </not>
+                              <not>
+                                <equal>
+                                  <clip pos="1" side="tl" part="a_gen"/>
+                                  <lit-tag v="GD"/>
+                                </equal>
+                              </not>
+                            </and>
                           </test>
                           <let>
                             <var n="genere"/>
@@ -2034,12 +2118,20 @@
       <choose>
         <when>
           <test>
-            <not>
-              <equal>
-                <clip pos="1" side="tl" part="a_gen"/>
-                <lit-tag v="mf"/>
-              </equal>
-            </not>
+            <and>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+              </not>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_gen"/>
+                  <lit-tag v="GD"/>
+                </equal>
+              </not>
+            </and>
           </test>
           <let>
             <var n="genere"/>
@@ -2066,12 +2158,20 @@
               <choose>
                 <when>
                   <test>
-                    <not>
-                      <equal>
-                        <clip pos="2" side="tl" part="a_gen"/>
-                        <lit-tag v="mf"/>
-                      </equal>
-                    </not>
+                    <and>
+                      <not>
+                        <equal>
+                          <clip pos="2" side="tl" part="a_gen"/>
+                          <lit-tag v="mf"/>
+                        </equal>
+                      </not>
+                      <not>
+                        <equal>
+                          <clip pos="1" side="tl" part="a_gen"/>
+                          <lit-tag v="GD"/>
+                        </equal>
+                      </not>
+                    </and>
                   </test>
                   <let>
                     <var n="genere"/>
@@ -2082,12 +2182,20 @@
                   <choose>
                     <when>
                       <test>
-                        <not>
-                          <equal>
-                            <clip pos="3" side="tl" part="a_gen"/>
-                            <lit-tag v="mf"/>
-                          </equal>
-                        </not>
+                        <and>
+                          <not>
+                            <equal>
+                              <clip pos="3" side="tl" part="a_gen"/>
+                              <lit-tag v="mf"/>
+                            </equal>
+                          </not>
+                          <not>
+                            <equal>
+                              <clip pos="1" side="tl" part="a_gen"/>
+                              <lit-tag v="GD"/>
+                            </equal>
+                          </not>
+                        </and>
                       </test>
                       <let>
                         <var n="genere"/>
@@ -2098,12 +2206,20 @@
                      <choose>
                         <when>
                           <test>
-                            <not>
-                              <equal>
-                                <clip pos="4" side="tl" part="a_gen"/>
-                                <lit-tag v="mf"/>
-                              </equal>
-                            </not>
+                            <and>
+                              <not>
+                                <equal>
+                                  <clip pos="4" side="tl" part="a_gen"/>
+                                  <lit-tag v="mf"/>
+                                </equal>
+                              </not>
+                              <not>
+                                <equal>
+                                  <clip pos="1" side="tl" part="a_gen"/>
+                                  <lit-tag v="GD"/>
+                                </equal>
+                              </not>
+                            </and>
                           </test>
                           <let>
                             <var n="genere"/>
@@ -2114,12 +2230,20 @@
                          <choose>
                             <when>
                               <test>
-                                <not>
-                                  <equal>
-                                    <clip pos="5" side="tl" part="a_gen"/>
-                                    <lit-tag v="mf"/>
-                                  </equal>
-                                </not>
+                                <and>
+                                  <not>
+                                    <equal>
+                                      <clip pos="5" side="tl" part="a_gen"/>
+                                      <lit-tag v="mf"/>
+                                    </equal>
+                                  </not>
+                                  <not>
+                                    <equal>
+                                      <clip pos="1" side="tl" part="a_gen"/>
+                                      <lit-tag v="GD"/>
+                                    </equal>
+                                  </not>
+                                </and>
                               </test>
                               <let>
                                 <var n="genere"/>

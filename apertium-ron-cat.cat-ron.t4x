@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<transfer>
+  <section-def-cats>
+
+    <def-cat n="ajust_genere">
+      <cat-item tags="adj.*"/>
+      <cat-item tags="det.*"/>
+      <cat-item tags="predet.*"/>
+    </def-cat>
+
+  </section-def-cats>
+
+  <section-def-attrs>
+
+    <def-attr n="a_gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="mn"/>
+      <attr-item tags="fn"/>
+      <attr-item tags="mfn"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+    <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+      <attr-item tags="adj.ord"/>
+      <attr-item tags="adj.pos"/>
+      <attr-item tags="det"/>
+      <attr-item tags="predet"/>
+    </def-attr>
+
+  </section-def-attrs>
+
+  <section-rules>
+
+    <rule comment="REGLA: ADJ/DET/PREDET (ajusta el gènere perquè es generin correctament)">
+      <pattern>
+        <pattern-item n="ajust_genere"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <or>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_gen"/>
+                    <lit-tag v="m"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_gen"/>
+                    <lit-tag v="nt"/>
+                  </equal>
+                </or>
+                <equal>
+                  <clip pos="1" side="tl" part="a_nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_gen"/>
+              <lit-tag v="mn"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <and>
+                <or>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_gen"/>
+                    <lit-tag v="f"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_gen"/>
+                    <lit-tag v="nt"/>
+                  </equal>
+                </or>
+                <equal>
+                  <clip pos="1" side="tl" part="a_nbr"/>
+                  <lit-tag v="pl"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_gen"/>
+              <lit-tag v="fn"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+  </section-rules>
+</transfer>
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/Chunking:_A_full_example
+    http://wiki.apertium.org/wiki/Chunking
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Transfer_rules
+    http://wiki.apertium.org/wiki/A_long_introduction_to_transfer_rules
+    http://wiki.apertium.org/wiki/Transfer#Adding_structural_transfer_.28grammar.29_rules
+-->
+

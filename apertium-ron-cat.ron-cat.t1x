@@ -46,17 +46,17 @@
 
     <def-cat n="vbcnj">
       <cat-item tags="vblex.pri.*"/>
-      <cat-item tags="vbser.pri.*"/>
+      <cat-item tags="vbmod.pri.*"/>
       <cat-item tags="vblex.pii.*"/>
-      <cat-item tags="vbser.pii.*"/>
+      <cat-item tags="vbmod.pii.*"/>
       <cat-item tags="vblex.prs.*"/>
-      <cat-item tags="vbser.prs.*"/>
+      <cat-item tags="vbmod.prs.*"/>
       <cat-item tags="vblex.imp.*"/>
-      <cat-item tags="vbser.imp.*"/>
+      <cat-item tags="vbmod.imp.*"/>
       <cat-item tags="vblex.pper.*"/>
-      <cat-item tags="vbser.pper.*"/>
+      <cat-item tags="vbmod.pper.*"/>
       <cat-item tags="vblex.ifi.*"/>
-      <cat-item tags="vbser.ifi.*"/>
+      <cat-item tags="vbmod.ifi.*"/>
     </def-cat>
     <def-cat n="vbcnj_doble1">
       <cat-item tags="vbavea.pri.*"/>
@@ -278,16 +278,6 @@
         <cat-item lemma="avea" tags="vblex.pri.*"/>
 <!-- el tagger no tria vbavea pri, afegim  vblex prs mentre el millorem-->
     </def-cat>
-    <def-cat n="verbind">
-      <cat-item tags="vblex.pri.*"/>
-      <cat-item tags="vblex.pii.*"/>
-      <cat-item tags="vblex.pper.*"/>
-      <cat-item tags="vblex.imp.*"/>
-      <cat-item tags="vbmod.pri.*"/>
-      <cat-item tags="vbmod.pii.*"/>
-      <cat-item tags="vbmod.pper.*"/>
-      <cat-item tags="vbmod.imp.*"/>
-    </def-cat>
     <def-cat n="verbprs">
       <cat-item tags="vblex.prs.*"/>
       <cat-item tags="vbmod.prs.*"/>
@@ -401,6 +391,8 @@
       <attr-item tags="adj.itg"/>
       <attr-item tags="adj.pos"/>
       <attr-item tags="adj"/>
+      <attr-item tags="det.ind"/>
+      <attr-item tags="num"/>
     </def-attr>
     <def-attr n="a_adjpos">
       <attr-item tags="adj.pos"/>

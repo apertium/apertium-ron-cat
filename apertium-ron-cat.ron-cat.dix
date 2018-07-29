@@ -4483,6 +4483,7 @@
 <e>                 <p><l>octogonal</l>                               <r>octogonal</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>diagonal</l>                                <r>diagonal</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>stins</l>                                   <r>extint</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>meschin</l>                                 <r>mesquí</r></p><par n="4-4__adj"/></e>
 
 <e r="RL">          <p><l>meu<s n="adj"/><s n="pos"/><s n="mn"/><s n="sg"/></l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL">          <p><l>meu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
@@ -5154,6 +5155,7 @@
 <e>                 <p><l>și<s n="adv"/></l>                          <r>també<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>și<b/>așa<s n="adv"/></l>                   <r>i<b/>així<s n="adv"/></r></p></e>
 <e>                 <p><l>și<b/>chiar<s n="adv"/></l>                 <r>i<b/>fins<b/>i<b/>tot<s n="adv"/></r></p></e>
+<e>                 <p><l>moralicește<s n="adv"/></l>                 <r>moralment<s n="adv"/></r></p></e>
 
     <!-- Conjuncions -->
 
@@ -17112,6 +17114,7 @@
 <e>                 <p><l>croat<s n="n"/><s n="f"/></l>               <r>croat<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>sulfat<s n="n"/><s n="m"/></l>              <r>sulfat<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>prizonierat<s n="n"/><s n="nt"/></l>        <r>empresonament<s n="n"/><s n="m"/></r></p></e>
+<e>                 <p><l>magistrală<s n="n"/><s n="f"/></l>          <r>línia<s n="n"/><s n="f"/></r></p></e>
 
 <!-- Topònims -->
 

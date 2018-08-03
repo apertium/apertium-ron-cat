@@ -7,11 +7,17 @@
     <def-cat n="SAdj">
       <cat-item tags="SAdj.*"/>
     </def-cat>
+    <def-cat n="SP">
+      <cat-item tags="SP.*"/>
+    </def-cat>
     <def-cat n="SV">
       <cat-item tags="SV.*"/>
     </def-cat>
-    <def-cat n="SV_cop_pred">
+    <def-cat n="SV_cop">
       <cat-item tags="SV.vbser.*"/>
+    </def-cat>
+    <def-cat n="cnjcoo">
+      <cat-item lemma="cnjșisau" tags="cnjcoo"/>
     </def-cat>
   </section-def-cats>
 
@@ -87,7 +93,7 @@
             <and>
               <equal caseless="yes">
                 <clip pos="1" part="lem"/>
-                <lit v="prnsubj"/>
+                <lit v="prntn"/>
               </equal>
               <or>
                 <equal>
@@ -110,7 +116,6 @@
             <clip pos="1" part="a_nbr"/>
           </let>
         </when>
-
         <otherwise>
           <let>
             <clip pos="2" part="a_pers"/>
@@ -119,6 +124,89 @@
           <let>
             <clip pos="2" part="a_nbr"/>
             <clip pos="1" part="a_nbr"/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_concord_SN_SN_SV" npar="3" comment="Realitza la concordança de dos SN i un SV">
+      <choose>
+        <when>
+          <test>
+            <or>
+              <and>
+                <equal caseless="yes">
+                  <clip pos="1" part="lem"/>
+                  <lit v="prntn"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="a_pers"/>
+                  <lit-tag v="p1"/>
+                </equal>
+              </and>
+              <and>
+                <equal caseless="yes">
+                  <clip pos="2" part="lem"/>
+                  <lit v="prntn"/>
+                </equal>
+                <equal>
+                  <clip pos="2" part="a_pers"/>
+                  <lit-tag v="p1"/>
+                </equal>
+              </and>
+            </or>
+          </test>         
+          <let>
+            <clip pos="3" part="a_pers"/>
+            <lit-tag v="p1"/>
+          </let>
+          <let>
+            <clip pos="3" part="a_nbr"/>
+            <lit-tag v="pl"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <or>
+              <and>
+                <equal caseless="yes">
+                  <clip pos="1" part="lem"/>
+                  <lit v="prntn"/>
+                </equal>
+                <equal>
+                  <clip pos="1" part="a_pers"/>
+                  <lit-tag v="p2"/>
+                </equal>
+              </and>
+              <and>
+                <equal caseless="yes">
+                  <clip pos="2" part="lem"/>
+                  <lit v="prntn"/>
+                </equal>
+                <equal>
+                  <clip pos="2" part="a_pers"/>
+                  <lit-tag v="p2"/>
+                </equal>
+              </and>
+            </or>
+          </test>         
+          <let>
+            <clip pos="3" part="a_pers"/>
+            <lit-tag v="p2"/>
+          </let>
+          <let>
+            <clip pos="3" part="a_nbr"/>
+            <lit-tag v="pl"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <clip pos="3" part="a_pers"/>
+            <lit-tag v="p3"/>
+          </let>
+          <let>
+            <clip pos="3" part="a_nbr"/>
+            <lit-tag v="pl"/>
           </let>
         </otherwise>
       </choose>
@@ -196,10 +284,49 @@
       </action>
     </rule>
 
+    <rule comment="SN + cnjcoo + SN + SV">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="cnjcoo"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="elimina_GDND">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_concord_SN_SN_SV">
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="SN + SV + SAdj">
       <pattern>
         <pattern-item n="SN"/>
-        <pattern-item n="SV_cop_pred"/>
+        <pattern-item n="SV_cop"/>
         <pattern-item n="SAdj"/>
       </pattern>
       <action>
@@ -225,6 +352,22 @@
           <b pos="2"/>
           <chunk>
             <clip pos="3" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="SP">
+      <pattern>
+        <pattern-item n="SP"/>
+      </pattern>
+      <action>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
           </chunk>
         </out>
       </action>

@@ -321,17 +321,40 @@
               <var n="auxiliar"/>
               <lit v=""/>
             </let>
-            <let>
-              <var n="verb"/>
-              <concat>
-                <clip pos="1" side="tl" part="lemh"/>
-                <clip pos="1" side="tl" part="a_verb"/>
-                <clip pos="1" side="tl" part="a_temps"/>
-                <clip pos="1" side="tl" part="a_pers" link-to="4"/>
-                <clip pos="1" side="tl" part="a_nbr" link-to="5"/>
-                <clip pos="1" side="tl" part="lemq"/>
-              </concat>
-            </let>
+            <choose>
+              <when> 
+                <test>
+                  <equal caseless="yes">
+                    <clip pos="1" side="tl" part="lem"/>
+                    <lit v="trebui"/>
+                  </equal>
+                </test>
+                <let>
+                  <var n="verb"/>
+                  <concat>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="a_temps"/>
+                    <lit-tag v="p3"/>
+                    <lit-tag v="sg"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </concat>
+                </let>
+              </when>
+              <otherwise>
+                <let>
+                  <var n="verb"/>
+                  <concat>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="a_temps"/>
+                    <clip pos="1" side="tl" part="a_pers" link-to="4"/>
+                    <clip pos="1" side="tl" part="a_nbr" link-to="5"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </concat>
+                </let>
+              </otherwise>
+            </choose>
           </when>
           <when> 
             <test>
@@ -444,17 +467,40 @@
               <var n="auxiliar"/>
               <lit v=""/>
             </let>
-            <let>
-              <var n="verb"/>
-              <concat>
-                <clip pos="1" side="tl" part="lemh"/>
-                <clip pos="1" side="tl" part="a_verb"/>
-                <clip pos="1" side="tl" part="a_temps"/>
-                <clip pos="1" side="tl" part="a_pers" link-to="4"/>
-                <clip pos="1" side="tl" part="a_nbr" link-to="5"/>
-                <clip pos="1" side="tl" part="lemq"/>
-              </concat>
-            </let>
+            <choose>
+              <when> 
+                <test>
+                   <equal caseless="yes">
+                    <clip pos="1" side="tl" part="lem"/>
+                    <lit v="trebui"/>
+                  </equal>
+                </test>
+                <let>
+                  <var n="verb"/>
+                  <concat>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="a_temps"/>
+                    <lit-tag v="p3"/>
+                    <lit-tag v="sg"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </concat>
+                </let>
+              </when>
+              <otherwise>
+                <let>
+                  <var n="verb"/>
+                  <concat>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <clip pos="1" side="tl" part="a_temps"/>
+                    <clip pos="1" side="tl" part="a_pers" link-to="4"/>
+                    <clip pos="1" side="tl" part="a_nbr" link-to="5"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </concat>
+                </let>
+              </otherwise>
+            </choose>
           </otherwise>
         </choose>
 
@@ -499,7 +545,7 @@
 
     </def-macro>
 
-    <def-macro n="conj_verb2" npar="2" comment="Conjuga un verb simple">
+    <def-macro n="conj_verb2" npar="2" comment="Conjuga un verb compost doble">
         <choose>
           <when> 
             <test>

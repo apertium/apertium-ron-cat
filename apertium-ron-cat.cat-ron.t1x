@@ -20,11 +20,22 @@
     <def-cat n="adjord">
       <cat-item tags="adj.ord.*"/>
     </def-cat>
+    <def-cat n="adj_det">
+      <cat-item tags="adj.m.*"/>
+      <cat-item tags="adj.f.*"/>
+      <cat-item tags="adj.mf.*"/>
+      <cat-item tags="adj.ind.*"/>
+      <cat-item tags="det.ind.*"/>
+      <cat-item tags="det.dem.*"/>
+    </def-cat>
     <def-cat n="detpos">
       <cat-item tags="det.pos.*"/>
     </def-cat>
     <def-cat n="artdef">
       <cat-item tags="det.def.*"/>
+    </def-cat>
+    <def-cat n="artdef_m_sg">
+      <cat-item tags="det.def.m.sg"/>
     </def-cat>
     <def-cat n="det_predet">
       <cat-item tags="det.def.*"/>
@@ -33,7 +44,11 @@
       <cat-item tags="predet.*"/>
     </def-cat>
     <def-cat n="num">
+      <cat-item tags="num"/>
       <cat-item tags="num.*"/>
+    </def-cat>
+    <def-cat n="num_xifra">
+      <cat-item tags="num"/>
     </def-cat>
     <def-cat n="prn">
       <cat-item tags="prn.tn.pos.*"/>
@@ -196,6 +211,8 @@
       <attr-item tags="adj.ord"/>
       <attr-item tags="adj.ind"/>
       <attr-item tags="adj.pos"/>
+      <attr-item tags="det.ind"/>
+      <attr-item tags="det.dem"/>
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det.ind"/>
@@ -241,6 +258,53 @@
     <def-var n="auxiliar_lema"/>
     <def-var n="determinant_np"/>
   </section-def-vars>
+
+  <section-def-lists>
+
+    <def-list n="nombres_19">
+      <list-item v="0"/>
+      <list-item v="1"/>
+      <list-item v="2"/>
+      <list-item v="3"/>
+      <list-item v="4"/>
+      <list-item v="5"/>
+      <list-item v="6"/>
+      <list-item v="7"/>
+      <list-item v="8"/>
+      <list-item v="9"/>
+      <list-item v="10"/>
+      <list-item v="11"/>
+      <list-item v="12"/>
+      <list-item v="13"/>
+      <list-item v="14"/>
+      <list-item v="15"/>
+      <list-item v="16"/>
+      <list-item v="17"/>
+      <list-item v="18"/>
+      <list-item v="19"/>
+      <list-item v="zero"/>
+      <list-item v="u"/>
+      <list-item v="dos"/>
+      <list-item v="tres"/>
+      <list-item v="quatre"/>
+      <list-item v="cinc"/>
+      <list-item v="sis"/>
+      <list-item v="set"/>
+      <list-item v="vuit"/>
+      <list-item v="nou"/>
+      <list-item v="deu"/>
+      <list-item v="onze"/>
+      <list-item v="dotze"/>
+      <list-item v="tretze"/>
+      <list-item v="catorze"/>
+      <list-item v="quinze"/>
+      <list-item v="setze"/>
+      <list-item v="disset"/>
+      <list-item v="divuit"/>
+      <list-item v="dinou"/>
+    </def-list>
+
+  </section-def-lists>
 
   <section-def-macros>
 
@@ -740,6 +804,18 @@
             <lit-tag v="nt"/>
           </let>
         </when>
+        <when>
+          <test>
+            <equal>
+              <var n="genere"/>
+              <lit-tag v="GD"/>
+            </equal>
+          </test>
+          <let>
+            <var n="genere"/>
+            <lit-tag v="GD"/>
+          </let>
+        </when>
         <otherwise>
           <let>
             <var n="genere"/>
@@ -1040,7 +1116,7 @@
 
 <!-- Regles de SN -->
 
-    <rule comment="NOM: casa > casă">
+    <rule comment="NOM: casa → casă">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -1073,7 +1149,7 @@
       </action>
     </rule>
 
-    <rule comment="DET + NOM: la casa > casa">
+    <rule comment="DET + NOM: la casa → casa">
       <pattern>
         <pattern-item n="artdef"/>
         <pattern-item n="nom"/>
@@ -1112,7 +1188,7 @@
       </action>
     </rule>
 
-    <rule comment="DETPOS + NOM: la meva casa > casa mea">
+    <rule comment="DETPOS + NOM: la meva casa → casa mea">
       <pattern>
         <pattern-item n="detpos"/>
         <pattern-item n="nom"/>
@@ -1138,8 +1214,10 @@
             <lu>   
               <clip pos="2" side="tl" part="lemh"/> 
               <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-              <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="a_gen_mf"/>
+              <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="a_nbr_sp"/>
               <lit-tag v="4"/>
               <lit-tag v="5"/>
               <clip pos="2" side="tl" part="lemq"/>
@@ -1148,8 +1226,10 @@
             <lu>   
               <clip pos="1" side="tl" part="lemh"/> 
               <clip pos="1" side="tl" part="a_adj"/>
-              <clip pos="1" side="tl" part="a_gen" link-to="2"/>
-              <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+              <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="a_gen_mf"/>
+              <clip pos="1" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="a_nbr_sp"/>
               <lit-tag v="nom"/>
               <lit-tag v="ind"/>
               <clip pos="1" side="tl" part="lemq"/>
@@ -1159,7 +1239,7 @@
       </action>
     </rule>
 
-    <rule comment="NOM + ADJPOS: casa meva > casa mea">
+    <rule comment="NOM + ADJPOS: casa meva → casa mea">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="adjpos"/>
@@ -1181,8 +1261,10 @@
             <lu>   
               <clip pos="1" side="tl" part="lemh"/> 
               <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="tl" part="a_gen" link-to="2"/>
-              <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+              <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="a_gen_mf"/>
+              <clip pos="1" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="a_nbr_sp"/>
               <lit-tag v="4"/>
               <lit-tag v="5"/>
               <clip pos="1" side="tl" part="lemq"/>
@@ -1191,8 +1273,10 @@
             <lu>   
               <clip pos="2" side="tl" part="lemh"/> 
               <clip pos="2" side="tl" part="a_adj"/>
-              <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-              <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+              <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="a_gen_mf"/>
+              <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="a_nbr_sp"/>
               <lit-tag v="nom"/>
               <lit-tag v="ind"/>
               <clip pos="2" side="tl" part="lemq"/>
@@ -1202,7 +1286,7 @@
       </action>
     </rule>
 
-    <rule comment="DET + NOM + de + NOM PROPI: la casa de Maria > casa Mariei / la casa de Mihai > casa lui Mihai">
+    <rule comment="DET + NOM + de + NOM PROPI: la casa de Maria → casa Mariei / la casa de Mihai → casa lui Mihai">
       <pattern>
         <pattern-item n="artdef"/>
         <pattern-item n="nom"/>
@@ -1244,8 +1328,10 @@
                 <lu>   
                   <clip pos="2" side="tl" part="lemh"/> 
                   <clip pos="2" side="tl" part="a_nom"/>
-                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="4"/>
                   <lit-tag v="5"/>
                   <clip pos="2" side="tl" part="lemq"/>
@@ -1277,8 +1363,10 @@
                 <lu>   
                   <clip pos="2" side="tl" part="lemh"/> 
                   <clip pos="2" side="tl" part="a_nom"/>
-                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="4"/>
                   <lit-tag v="5"/>
                   <clip pos="2" side="tl" part="lemq"/>
@@ -1306,7 +1394,7 @@
     </rule>
 
 
-    <rule comment="ADJORD + NOM: tercera posició > poziția a treia">
+    <rule comment="ADJORD + NOM: tercera posició → poziția a treia">
       <pattern>
         <pattern-item n="adjord"/>
         <pattern-item n="nom"/>
@@ -1337,8 +1425,10 @@
                 <lu>   
                   <clip pos="1" side="tl" part="lemh"/> 
                   <clip pos="1" side="tl" part="a_adj"/>
-                  <clip pos="1" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="1" side="tl" part="a_gen_mf"/>
+                  <clip pos="1" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="1" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="nom"/>
                   <lit-tag v="5"/>
                   <clip pos="1" side="tl" part="lemq"/>
@@ -1347,8 +1437,10 @@
                 <lu>   
                   <clip pos="2" side="tl" part="lemh"/> 
                   <clip pos="2" side="tl" part="a_nom"/>
-                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="4"/>
                   <lit-tag v="ind"/>
                   <clip pos="2" side="tl" part="lemq"/>
@@ -1380,8 +1472,10 @@
                 <lu>   
                   <clip pos="2" side="tl" part="lemh"/> 
                   <clip pos="2" side="tl" part="a_nom"/>
-                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="4"/>
                   <lit-tag v="5"/>
                   <clip pos="2" side="tl" part="lemq"/>
@@ -1390,8 +1484,10 @@
                 <lu>   
                   <clip pos="1" side="tl" part="lemh"/> 
                   <clip pos="1" side="tl" part="a_adj"/>
-                  <clip pos="1" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="1" side="tl" part="a_gen_mf"/>
+                  <clip pos="1" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="1" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="nom"/>
                   <lit-tag v="ind"/>
                   <clip pos="1" side="tl" part="lemq"/>
@@ -1417,8 +1513,10 @@
                 <lu>   
                   <clip pos="2" side="tl" part="lemh"/> 
                   <clip pos="2" side="tl" part="a_nom"/>
-                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="4"/>
                   <lit-tag v="5"/>
                   <clip pos="2" side="tl" part="lemq"/>
@@ -1434,8 +1532,10 @@
                 <lu>   
                   <clip pos="1" side="tl" part="lemh"/> 
                   <clip pos="1" side="tl" part="a_adj"/>
-                  <clip pos="1" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="1" side="tl" part="a_gen_mf"/>
+                  <clip pos="1" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="1" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="nom"/>
                   <lit-tag v="ind"/>
                   <clip pos="1" side="tl" part="lemq"/>
@@ -1447,7 +1547,7 @@
       </action>
     </rule>
 
-    <rule comment="DET + ADJORD + NOM: la tercera posició > poziția a treia">
+    <rule comment="DET + ADJORD + NOM: la tercera posició → poziția a treia">
       <pattern>
         <pattern-item n="artdef"/>
         <pattern-item n="adjord"/>
@@ -1483,8 +1583,10 @@
                 <lu>   
                   <clip pos="2" side="tl" part="lemh"/> 
                   <clip pos="2" side="tl" part="a_adj"/>
-                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="nom"/>
                   <lit-tag v="5"/>
                   <clip pos="2" side="tl" part="lemq"/>
@@ -1493,8 +1595,10 @@
                 <lu>   
                   <clip pos="3" side="tl" part="lemh"/> 
                   <clip pos="3" side="tl" part="a_nom"/>
-                  <clip pos="3" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="3" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="3" side="tl" part="a_gen_mf"/>
+                  <clip pos="3" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="4"/>
                   <lit-tag v="ind"/>
                   <clip pos="3" side="tl" part="lemq"/>
@@ -1526,8 +1630,10 @@
                 <lu>   
                   <clip pos="3" side="tl" part="lemh"/> 
                   <clip pos="3" side="tl" part="a_nom"/>
-                  <clip pos="3" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="3" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="3" side="tl" part="a_gen_mf"/>
+                  <clip pos="3" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="4"/>
                   <lit-tag v="5"/>
                   <clip pos="3" side="tl" part="lemq"/>
@@ -1536,8 +1642,10 @@
                 <lu>   
                   <clip pos="2" side="tl" part="lemh"/> 
                   <clip pos="2" side="tl" part="a_adj"/>
-                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="nom"/>
                   <lit-tag v="ind"/>
                   <clip pos="2" side="tl" part="lemq"/>
@@ -1563,8 +1671,10 @@
                 <lu>   
                   <clip pos="3" side="tl" part="lemh"/> 
                   <clip pos="3" side="tl" part="a_nom"/>
-                  <clip pos="3" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="3" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="3" side="tl" part="a_gen_mf"/>
+                  <clip pos="3" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="4"/>
                   <lit-tag v="5"/>
                   <clip pos="3" side="tl" part="lemq"/>
@@ -1580,8 +1690,10 @@
                 <lu>   
                   <clip pos="2" side="tl" part="lemh"/> 
                   <clip pos="2" side="tl" part="a_adj"/>
-                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
-                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
                   <lit-tag v="nom"/>
                   <lit-tag v="ind"/>
                   <clip pos="2" side="tl" part="lemq"/>
@@ -1592,6 +1704,192 @@
         </choose>
       </action>
     </rule>
+
+
+    <rule comment="ADJECTIU + NOM: moltes cases → multe case">
+      <pattern>
+        <pattern-item n="adj_det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <!-- Els determinants no tenen l'etiqueta d'article -->
+          <when>
+            <test>
+              <or>
+                <equal>
+                  <clip pos="1" side="tl" part="a_adj"/>
+                  <lit-tag v="det.dem"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="a_adj"/>
+                  <lit-tag v="det.ind"/>
+                </equal>
+              </or>
+            </test>
+            <out>
+              <chunk name="adj_nom">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genere"/></tag>
+                  <tag><var n="nombre"/></tag>
+                  <tag><lit-tag v="nom"/></tag>
+                  <tag><lit-tag v="ind"/></tag>
+                </tags>
+                <lu>   
+                  <clip pos="1" side="tl" part="lemh"/> 
+                  <clip pos="1" side="tl" part="a_adj"/>
+                  <clip pos="1" side="tl" part="a_gen" link-to="2"/>
+                  <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+                  <lit-tag v="nom"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+                <b pos="1"/>
+                <lu>   
+                  <clip pos="2" side="tl" part="lemh"/> 
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <lit-tag v="nom"/>
+                  <lit-tag v="ind"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="adj_nom">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genere"/></tag>
+                  <tag><var n="nombre"/></tag>
+                  <tag><lit-tag v="nom"/></tag>
+                  <tag><lit-tag v="ind"/></tag>
+                </tags>
+                <lu>   
+                  <clip pos="1" side="tl" part="lemh"/> 
+                  <clip pos="1" side="tl" part="a_adj"/>
+                  <clip pos="1" side="tl" part="a_gen" link-to="2"/>
+                  <clip pos="1" side="tl" part="a_nbr" link-to="3"/>
+                  <lit-tag v="nom"/>
+                  <lit-tag v="ind"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+                <b pos="1"/>
+                <lu>   
+                  <clip pos="2" side="tl" part="lemh"/> 
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_nbr" link-to="3"/>
+                  <lit-tag v="nom"/>
+                  <lit-tag v="ind"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+    <rule comment="NUMERAL + NOM: cinc cases → cinci case / trenta cases → treizeci de case">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <!-- Si el numeral és menor de 20, no duu la preposició "de" -->
+          <when>
+            <test>
+               <in caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <list n="nombres_19"/>
+              </in>
+            </test>
+            <out>
+              <chunk name="num_nom">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genere"/></tag>
+                  <tag><var n="nombre"/></tag>
+                  <tag><lit-tag v="nom"/></tag>
+                  <tag><lit-tag v="ind"/></tag>
+                </tags>
+                <lu>   
+                  <clip pos="1" side="tl" part="lemh"/> 
+                  <clip pos="1" side="tl" part="a_num"/>
+                  <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="1" side="tl" part="a_gen_mf"/>
+                  <clip pos="1" side="tl" part="a_nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+                <b pos="1"/>
+                <lu>   
+                  <clip pos="2" side="tl" part="lemh"/> 
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <lit-tag v="nom"/>
+                  <lit-tag v="ind"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="num_prep_nom">
+                <tags>
+                  <tag><lit-tag v="SN"/></tag>
+                  <tag><var n="genere"/></tag>
+                  <tag><var n="nombre"/></tag>
+                  <tag><lit-tag v="nom"/></tag>
+                  <tag><lit-tag v="ind"/></tag>
+                </tags>
+                <lu>   
+                  <clip pos="1" side="tl" part="lemh"/> 
+                  <clip pos="1" side="tl" part="a_num"/>
+                  <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="1" side="tl" part="a_gen_mf"/>
+                  <clip pos="1" side="tl" part="a_nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+                <b/>
+                <lu>   
+                  <lit v="de"/>
+                  <lit-tag v="pr"/>
+                </lu>
+                <b pos="1"/>
+                <lu>   
+                  <clip pos="2" side="tl" part="lemh"/> 
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <lit-tag v="nom"/>
+                  <lit-tag v="ind"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
 
 
     <rule comment="NOM PROPI">
@@ -1795,7 +2093,7 @@
 
 <!-- Regles de SA -->
 
-    <rule comment="ADJECTIU: bonic > frumos">
+    <rule comment="ADJECTIU: bonic → frumos">
       <pattern>
         <pattern-item n="adj"/>
       </pattern>
@@ -2056,6 +2354,38 @@
               <clip pos="1" side="tl" part="a_verb"/>
               <lit-tag v="3"/>
               <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+<!-- Regles de SAdv -->
+
+    <rule comment="DETERMINANT + NUMERAL">
+      <pattern>
+        <pattern-item n="artdef_m_sg"/>
+        <pattern-item n="num_xifra"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prep_num">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+              <lit v="în"/>
+              </get-case-from>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_num"/>
+              <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>

@@ -6,12 +6,17 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="det.*"/>
       <cat-item tags="predet.*"/>
+      <cat-item tags="num.*"/>
     </def-cat>
 
   </section-def-cats>
 
   <section-def-attrs>
 
+    <def-attr n="a_def">
+      <attr-item tags="def"/>
+      <attr-item tags="ind"/>
+    </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
@@ -26,6 +31,10 @@
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
     </def-attr>
+    <def-attr n="a_cas">
+      <attr-item tags="nom"/>
+      <attr-item tags="dg"/>
+    </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.ord"/>
@@ -38,7 +47,7 @@
 
   <section-rules>
 
-    <rule comment="REGLA: ADJ/DET/PREDET (ajusta el gènere perquè es generin correctament)">
+    <rule comment="REGLA: ADJ/DET/PREDET (ajusta el gènere perquè es generin correctament i elimina el cas per als determinants)">
       <pattern>
         <pattern-item n="ajust_genere"/>
       </pattern>

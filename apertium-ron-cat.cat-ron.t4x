@@ -35,19 +35,12 @@
       <attr-item tags="nom"/>
       <attr-item tags="dg"/>
     </def-attr>
-    <def-attr n="a_adj">
-      <attr-item tags="adj"/>
-      <attr-item tags="adj.ord"/>
-      <attr-item tags="adj.pos"/>
-      <attr-item tags="det"/>
-      <attr-item tags="predet"/>
-    </def-attr>
 
   </section-def-attrs>
 
   <section-rules>
 
-    <rule comment="REGLA: ADJ/DET/PREDET (ajusta el gènere perquè es generin correctament i elimina el cas per als determinants)">
+    <rule comment="REGLA: ADJ/DET/PREDET/ (ajusta el gènere perquè es generin correctament i elimina el cas per als determinants)">
       <pattern>
         <pattern-item n="ajust_genere"/>
       </pattern>

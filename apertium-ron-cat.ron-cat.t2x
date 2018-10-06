@@ -348,7 +348,7 @@
       </action>
     </rule>
 
-    <rule comment="SN + SV + SAdj">
+    <rule comment="SN + SV (copulatiu) + SAdj">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SV_cop"/>

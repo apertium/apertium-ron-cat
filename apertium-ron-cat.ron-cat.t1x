@@ -292,7 +292,7 @@
     </def-cat>
     <def-cat n="catverb">
       <cat-item tags="vblex.*"/>
-<!-- eliminat vb SER-->
+      <cat-item tags="vbser.*"/>
       <cat-item tags="vbavea.*"/>
       <cat-item tags="vbmod.*"/>
     </def-cat>
@@ -7401,6 +7401,34 @@
     <rule comment="REGLA: PP">
       <pattern>
         <pattern-item n="pp"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="pp">
+            <tags>
+              <tag><lit-tag v="SAdj"/></tag>
+              <tag><lit-tag v="GD"/></tag>
+              <tag><lit-tag v="ND"/></tag>
+              <tag><lit-tag v="nom"/></tag>
+              <tag><lit-tag v="ind"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_temps"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PP + ENC (per si no ho reconeix cap altra regla)">
+      <pattern>
+        <pattern-item n="pp"/>
+        <pattern-item n="prnenc"/>
       </pattern>
       <action>
         <out>

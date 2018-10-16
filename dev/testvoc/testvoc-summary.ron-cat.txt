@@ -1,18 +1,18 @@
-dl. d’oct.  8 23:00:05 CEST 2018
+dt. d’oct. 16 10:49:53 CEST 2018
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
 vblex	107482	107482	0	0	100
-n	89282	89282	0	0	100
-adj	68344	68344	0	0	100
+n	89350	89350	0	0	100
+adj	68480	68480	0	0	100
 np	4426	4426	0	0	100
-adv	593	593	0	0	100
+adv	601	601	0	0	100
 num	220	220	0	0	100
 prn	218	218	0	0	100
 vbser	83	83	0	0	100
-pr	72	72	0	0	100
+pr	73	73	0	0	100
 det	72	72	0	0	100
 vbmod	49	49	0	0	100
-cnjadv	42	42	0	0	100
+cnjadv	43	43	0	0	100
 vaux	38	38	0	0	100
 ij	26	26	0	0	100
 rel	24	24	0	0	100
@@ -20,7 +20,7 @@ cnjcoo	16	16	0	0	100
 vbhaver	13	13	0	0	100
 vbavea	13	13	0	0	100
 predet	8	8	0	0	100
-cnjsub	5	5	0	0	100
+cnjsub	6	6	0	0	100
 preadv	4	4	0	0	100
 ===============================================
-Entries missing from monodix: 243
+Entries missing from monodix: 195

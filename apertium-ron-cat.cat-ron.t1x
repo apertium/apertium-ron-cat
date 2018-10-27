@@ -2271,31 +2271,64 @@
         <pattern-item n="prnenc"/>
       </pattern>
       <action>
-        <out>
-          <chunk name="ger_prnenc">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-            </tags>
-            <mlu> 
-            <lu>   
-              <clip pos="1" side="tl" part="lemh"/> 
-              <clip pos="1" side="tl" part="a_verb"/>
-              <lit-tag v="3"/>
-            </lu>
-            <lu>   
-              <clip pos="2" side="tl" part="lem"/> 
-              <clip pos="2" side="tl" part="a_prn"/>
-              <clip pos="2" side="tl" part="a_pers"/>
-              <clip pos="2" side="tl" part="a_gen"/>
-              <clip pos="2" side="tl" part="a_nbr"/>
-              <lit-tag v="nom"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-            </mlu> 
-          </chunk>
-        </out>
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal>
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="en"/>
+              </equal>
+              <equal>
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="hi"/>
+              </equal>
+            </or>
+          </test>
+          <out>
+            <chunk name="ger">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+              </tags>
+              <lu>   
+                <clip pos="1" side="tl" part="lemh"/> 
+                <clip pos="1" side="tl" part="a_verb"/>
+                <lit-tag v="3"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
+          <out>
+            <chunk name="ger_prnenc">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+              </tags>
+              <mlu> 
+              <lu>   
+                <clip pos="1" side="tl" part="lemh"/> 
+                <clip pos="1" side="tl" part="a_verb"/>
+                <lit-tag v="3"/>
+              </lu>
+              <lu>   
+                <clip pos="2" side="tl" part="lem"/> 
+                <clip pos="2" side="tl" part="a_prn"/>
+                <clip pos="2" side="tl" part="a_pers"/>
+                <clip pos="2" side="tl" part="a_gen"/>
+                <clip pos="2" side="tl" part="a_nbr"/>
+                <lit-tag v="nom"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              </mlu> 
+            </chunk>
+          </out>
+        </otherwise>
+      </choose>
       </action>
     </rule>
 
@@ -2306,6 +2339,102 @@
         <pattern-item n="prnenc"/>
       </pattern>
       <action>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <or>
+                <equal>
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="en"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="hi"/>
+                </equal>
+              </or>
+              <or>
+                <equal>
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="en"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="hi"/>
+                </equal>
+              </or>
+            </and>
+          </test>
+          <out>
+            <chunk name="ger">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+              </tags>
+              <lu>   
+                <clip pos="1" side="tl" part="lemh"/> 
+                <clip pos="1" side="tl" part="a_verb"/>
+                <lit-tag v="3"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+          </out>
+        </when>
+        <when>
+          <test>
+            <and>
+              <not>
+                <equal>
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="en"/>
+                </equal>
+              </not>
+              <not>
+                <equal>
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="hi"/>
+                </equal>
+              </not>
+              <or>
+                <equal>
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="en"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="hi"/>
+                </equal>
+              </or>
+            </and>
+          </test>
+          <out>
+            <chunk name="ger_prnenc">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+              </tags>
+              <mlu>
+              <lu>   
+                <clip pos="1" side="tl" part="lemh"/> 
+                <clip pos="1" side="tl" part="a_verb"/>
+                <lit-tag v="3"/>
+              </lu>
+              <lu>   
+                <clip pos="2" side="tl" part="lem"/> 
+                <clip pos="2" side="tl" part="a_prn"/>
+                <clip pos="2" side="tl" part="a_pers"/>
+                <clip pos="2" side="tl" part="a_gen"/>
+                <clip pos="2" side="tl" part="a_nbr"/>
+                <lit-tag v="dg"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              </mlu>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
         <out>
           <chunk name="ger_prnenc_prnenc">
             <tags>
@@ -2339,6 +2468,8 @@
             </mlu> 
           </chunk>
         </out>
+        </otherwise>
+      </choose>
       </action>
     </rule>
 

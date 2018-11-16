@@ -13677,7 +13677,7 @@
                  <lu>
                     <lit v="el"/>
                     <lit-tag v="det.def"/>
-                    <clip pos="3" side="sl" part="gen"/>
+                    <clip pos="3" side="tl" part="gen"/>
                     <clip pos="3" side="tl" part="a_nbr"/>
                   </lu>
                   <b/>
@@ -13768,7 +13768,7 @@
                   <lu>
                     <clip pos="2" side="tl" part="lem"/>
                         <lit-tag v="det.ind"/>
-                    <clip pos="3" side="sl" part="gen"/>
+                    <clip pos="3" side="tl" part="gen"/>
                     <clip pos="3" side="tl" part="a_nbr"/>
                   </lu>
                   <b/>

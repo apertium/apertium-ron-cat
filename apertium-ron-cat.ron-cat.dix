@@ -5784,9 +5784,7 @@
 <e r="LR">          <p><l>amigdalită<s n="n"/><s n="f"/><s n="pl"/></l><r>amigdalitis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR">          <p><l>amigdalită<s n="n"/><s n="f"/><s n="sg"/></l><r>amigdalitis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e>                 <p><l>amintire<s n="n"/><s n="f"/></l>            <r>record<s n="n"/><s n="m"/></r></p></e>
-<e r="LR" a="delia"><p><l>amiral<s n="n"/><s n="f"/></l>              <r>almirall<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL" a="delia"><p><l>amiral<s n="n"/><s n="GD"/></l>             <r>almirall<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>amiral<s n="n"/><s n="m"/></l>              <r>almirall<s n="n"/><s n="mf"/></r></p></e>
+<e a="delia">       <p><l>amiral<s n="n"/><s n="m"/></l>              <r>almirall<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>amnezie<s n="n"/><s n="f"/></l>             <r>amnèsia<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="mioara"><p><l>amnistiere<s n="n"/><s n="f"/></l>         <r>amnistia<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>amnistie<s n="n"/><s n="f"/></l>            <r>amnistia<s n="n"/><s n="f"/></r></p></e>
@@ -6581,9 +6579,7 @@
 <e a="mioara">      <p><l>basorelief<s n="n"/><s n="nt"/></l>         <r>baix<b/>relleu<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>bas<s n="n"/></l>                           <r>baix<s n="n"/></r></p></e>
 <e a="delia">       <p><l>bastard<s n="n"/></l>                       <r>bastard<s n="n"/></r></p></e>
-<e r="LR" a="mioara"><p><l>bastarn<s n="n"/><s n="f"/></l>            <r>bastarna<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL" a="mioara"><p><l>bastarn<s n="n"/><s n="GD"/></l>           <r>bastarna<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="mioara"><p><l>bastarn<s n="n"/><s n="m"/></l>            <r>bastarna<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara"><p><l>bastarn<s n="n"/><s n="m"/></l>            <r>bastarna<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>băștinaș<s n="n"/><s n="f"/></l>           <r>indígena<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL" a="mioara"><p><l>băștinaș<s n="n"/><s n="GD"/></l>          <r>indígena<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>băștinaș<s n="n"/><s n="m"/></l>           <r>indígena<s n="n"/><s n="mf"/></r></p></e>
@@ -8358,10 +8354,7 @@
 <e r="LR">          <p><l>croitor<s n="n"/><s n="f"/></l>             <r>modista<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL">          <p><l>croitor<s n="n"/><s n="GD"/></l>            <r>modista<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR">          <p><l>croitor<s n="n"/><s n="m"/></l>             <r>modista<s n="n"/><s n="mf"/></r></p></e>
-<e a="mioara">      <p><l>crom<s n="n"/><s n="nt"/><s n="sg"/></l>    <r>crom<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR">          <p><l>cronicar<s n="n"/><s n="f"/></l>            <r>cronista<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL">          <p><l>cronicar<s n="n"/><s n="GD"/></l>           <r>cronista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>cronicar<s n="n"/><s n="m"/></l>            <r>cronista<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>cronicar<s n="n"/><s n="m"/></l>            <r>cronista<s n="n"/><s n="mf"/></r></p></e>
 <e a="delia">       <p><l>cronică<s n="n"/><s n="f"/></l>             <r>crònica<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>cronologie<s n="n"/><s n="f"/></l>          <r>cronologia<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>cronometraj<s n="n"/><s n="nt"/></l>        <r>cronometratge<s n="n"/><s n="m"/></r></p></e>
@@ -8531,9 +8524,7 @@
 <e a="mioara">      <p><l>datornic<s n="n"/></l>                      <r>deutor<s n="n"/></r></p></e>
 <e>                 <p><l>daună<s n="n"/><s n="f"/></l>               <r>dany<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>daună<s n="n"/><s n="f"/></l>               <r>mal<s n="n"/><s n="m"/></r></p></e>
-<e r="LR">          <p><l>dealer<s n="n"/><s n="f"/></l>              <r>dealer<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL">          <p><l>dealer<s n="n"/><s n="GD"/></l>             <r>dealer<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>dealer<s n="n"/><s n="m"/></l>              <r>dealer<s n="n"/><s n="mf"/></r></p></e>
+<e>          <p><l>dealer<s n="n"/><s n="m"/></l>              <r>dealer<s n="n"/><s n="mf"/></r></p></e>
 <e>                 <p><l>deal<s n="n"/><s n="nt"/></l>               <r>puig<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>deal<s n="n"/><s n="nt"/></l>               <r>turó<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>debandadă<s n="n"/><s n="f"/></l>           <r>desbandada<s n="n"/><s n="f"/></r></p></e>
@@ -9557,9 +9548,7 @@
 <e a="mioara">      <p><l>fabulă<s n="n"/><s n="f"/></l>              <r>faula<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>fabulă<s n="n"/><s n="f"/></l>              <r>rondalla<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>fabulist<s n="n"/></l>                      <r>fabulador<s n="n"/></r></p></e>
-<e r="LR" a="delnou"><p><l>fachir<s n="n"/><s n="f"/></l>             <r>faquir<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL" a="delnou"><p><l>fachir<s n="n"/><s n="GD"/></l>            <r>faquir<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delnou"><p><l>fachir<s n="n"/><s n="m"/></l>             <r>faquir<s n="n"/><s n="mf"/></r></p></e>
+<e a="delnou"><p><l>fachir<s n="n"/><s n="m"/></l>             <r>faquir<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>facilitare<s n="n"/><s n="f"/></l>         <r>facilitat<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>facilitate<s n="n"/><s n="f"/></l>          <r>facilitat<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>făclie<s n="n"/><s n="f"/></l>              <r>torxa<s n="n"/><s n="f"/></r></p></e>
@@ -9595,9 +9584,7 @@
 <e r="LR">          <p><l>fanariot<s n="n"/><s n="m"/></l>            <r>fanariota<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>fanatism<s n="n"/><s n="nt"/></l>           <r>fanatisme<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>fâneață<s n="n"/><s n="f"/></l>             <r>fener<s n="n"/><s n="m"/></r></p></e>
-<e r="LR">          <p><l>fan<s n="n"/><s n="f"/></l>                 <r>fan<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL">          <p><l>fan<s n="n"/><s n="GD"/></l>                <r>fan<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>fan<s n="n"/><s n="m"/></l>                 <r>fan<s n="n"/><s n="mf"/></r></p></e>
+<e>          <p><l>fan<s n="n"/><s n="m"/></l>                 <r>fan<s n="n"/><s n="mf"/></r></p></e>
 <e>                 <p><l>fân<s n="n"/><s n="nt"/></l>                <r>fenc<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>fântână<s n="n"/><s n="f"/></l>             <r>font<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>fantasmă<s n="n"/><s n="f"/></l>            <r>fantasma<s n="n"/><s n="m"/></r></p></e>
@@ -9998,9 +9985,7 @@
 <e>                 <p><l>fundament<s n="n"/><s n="nt"/></l>          <r>fonament<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="mioara"><p><l>fundare<s n="n"/><s n="f"/></l>            <r>fundació<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>fundă<s n="n"/><s n="f"/></l>               <r>llaç<s n="n"/><s n="m"/></r></p></e>
-<e r="LR">          <p><l>fundaș<s n="n"/><s n="f"/></l>              <r>defensa<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL">          <p><l>fundaș<s n="n"/><s n="GD"/></l>             <r>defensa<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>fundaș<s n="n"/><s n="m"/></l>              <r>defensa<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>fundaș<s n="n"/><s n="m"/></l>              <r>defensa<s n="n"/><s n="mf"/></r></p></e>
 <e>                 <p><l>fundație<s n="n"/><s n="f"/></l>            <r>fundació<s n="n"/><s n="f"/></r></p></e>
 <e r="RL">          <p><l>fund<b/>al<b/>mării<s n="n"/><s n="nt"/><s n="ND"/></l><r>fons<g><b/>del<b/>mar</g><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR">          <p><l>fund<b/>al<b/>mării<s n="n"/><s n="nt"/><s n="pl"/></l><r>fons<g><b/>del<b/>mar</g><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -10614,9 +10599,7 @@
 <e a="delia">       <p><l>iepure<s n="n"/><s n="m"/></l>              <r>conill<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>iepure<s n="n"/><s n="m"/></l>              <r>conill<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>ierarhie<s n="n"/><s n="f"/></l>            <r>jerarquia<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" a="mioara"><p><l>ierarh<s n="n"/><s n="f"/></l>             <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL" a="mioara"><p><l>ierarh<s n="n"/><s n="GD"/></l>            <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="mioara"><p><l>ierarh<s n="n"/><s n="m"/></l>             <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara"><p><l>ierarh<s n="n"/><s n="m"/></l>             <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>ieromonah<s n="n"/></l>                     <r>hieromonjo<s n="n"/></r></p></e>
 <e>                 <p><l>iertare<s n="n"/><s n="f"/></l>             <r>perdó<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">          <p><l>ieșire<s n="n"/></l>                        <r>eixida<s n="n"/></r></p></e>
@@ -11657,12 +11640,8 @@
 <e>                 <p><l>licoare<s n="n"/><s n="f"/></l>             <r>licor<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>licurici<s n="n"/><s n="m"/></l>            <r>cuca<g><b/>de<b/>llum</g><s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>licurici<s n="n"/><s n="m"/></l>            <r>lluerna<s n="n"/><s n="f"/></r></p></e>
-<e r="LR">          <p><l>lider<s n="n"/><s n="f"/></l>               <r>dirigent<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>lider<s n="n"/><s n="f"/></l>               <r>líder<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL">          <p><l>lider<s n="n"/><s n="GD"/></l>              <r>dirigent<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL">          <p><l>lider<s n="n"/><s n="GD"/></l>              <r>líder<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>lider<s n="n"/><s n="m"/></l>               <r>dirigent<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>lider<s n="n"/><s n="m"/></l>               <r>líder<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>lider<s n="n"/><s n="m"/></l>               <r>dirigent<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>lider<s n="n"/><s n="m"/></l>               <r>líder<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>liftier<s n="n"/><s n="f"/></l>            <r>ascensorista<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL" a="mioara"><p><l>liftier<s n="n"/><s n="GD"/></l>           <r>ascensorista<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>liftier<s n="n"/><s n="m"/></l>            <r>ascensorista<s n="n"/><s n="mf"/></r></p></e>
@@ -11694,9 +11673,7 @@
 <e>                 <p><l>limită<s n="n"/><s n="f"/></l>              <r>límit<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>limonadă<s n="n"/><s n="f"/></l>            <r>llimonada<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>limuzină<s n="n"/><s n="f"/></l>            <r>limusina<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" a="delia"><p><l>lingău<s n="n"/><s n="f"/><s n="pl"/></l>   <r>llepaculs<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
-<e r="LR" a="delia"><p><l>lingău<s n="n"/><s n="f"/><s n="sg"/></l>   <r>llepaculs<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
-<e r="RL" a="delia"><p><l>lingău<s n="n"/><s n="GD"/><s n="ND"/></l>  <r>llepaculs<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="RL" a="delia"><p><l>lingău<s n="n"/><s n="m"/><s n="ND"/></l>   <r>llepaculs<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR" a="delia"><p><l>lingău<s n="n"/><s n="m"/><s n="pl"/></l>   <r>llepaculs<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR" a="delia"><p><l>lingău<s n="n"/><s n="m"/><s n="sg"/></l>   <r>llepaculs<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e a="mioara">      <p><l>lingou<s n="n"/><s n="nt"/></l>             <r>lingot<s n="n"/><s n="m"/></r></p></e>
@@ -12482,9 +12459,7 @@
 <e>                 <p><l>moment<s n="n"/><s n="nt"/></l>             <r>moment<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>monah<s n="n"/><s n="m"/></l>               <r>monjo<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>monarhie<s n="n"/><s n="f"/></l>            <r>monarquia<s n="n"/><s n="f"/></r></p></e>
-<e r="LR">          <p><l>monarh<s n="n"/><s n="f"/></l>              <r>monarca<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL">          <p><l>monarh<s n="n"/><s n="GD"/></l>             <r>monarca<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>monarh<s n="n"/><s n="m"/></l>              <r>monarca<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>monarh<s n="n"/><s n="m"/></l>              <r>monarca<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>mondializare<s n="n"/><s n="f"/></l>       <r>globalització<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>monedă<s n="n"/><s n="f"/></l>              <r>moneda<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>monetărie<s n="n"/></l>                     <r>casa<g><b/>de<b/>la<b/>moneda</g><s n="n"/></r></p></e>
@@ -14662,7 +14637,7 @@
 <e r="LR" a="mioara"><p><l>redempțiune<s n="n"/><s n="f"/></l>        <r>redempció<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>redeschidere<s n="n"/><s n="f"/></l>        <r>reobertura<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>redescoperire<s n="n"/><s n="f"/></l>       <r>redescobriment<s n="n"/><s n="m"/></r></p></e>
-<e a="delia">       <p><l>redingotă<s n="n"/><s n="f"/></l>           <r>levita<s n="n"/><s n="f"/></r></p></e>
+<e a="delia">       <p><l>redingotă<s n="n"/><s n="f"/></l>           <r>levita<s n="n"/><s n="mf"/></r></p></e>
 <e a="delnou">      <p><l>redistribuire<s n="n"/><s n="f"/></l>       <r>redistribució<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>reducere<s n="n"/></l>                      <r>rebaixa<s n="n"/></r></p></e>
 <e>                 <p><l>reducere<s n="n"/><s n="f"/></l>            <r>reducció<s n="n"/><s n="f"/></r></p></e>
@@ -15205,9 +15180,7 @@
 <e a="delia">       <p><l>savoare<s n="n"/><s n="f"/></l>             <r>sabor<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="delia"><p><l>scadență<s n="n"/><s n="f"/></l>            <r>termini<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>scădere<s n="n"/><s n="f"/></l>             <r>disminució<s n="n"/><s n="f"/></r></p></e>
-<e r="LR">          <p><l>scafandru<s n="n"/><s n="f"/></l>           <r>bus<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL">          <p><l>scafandru<s n="n"/><s n="GD"/></l>          <r>bus<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR">          <p><l>scafandru<s n="n"/><s n="m"/></l>           <r>bus<s n="n"/><s n="mf"/></r></p></e>
+<e>          <p><l>scafandru<s n="n"/><s n="m"/></l>           <r>bus<s n="n"/><s n="mf"/></r></p></e>
 <e>                 <p><l>scăldat<s n="n"/><s n="nt"/></l>            <r>bany<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>scâncet<s n="n"/><s n="nt"/></l>            <r>ploriqueig<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>scandal<s n="n"/><s n="nt"/></l>            <r>escàndol<s n="n"/><s n="m"/></r></p></e>
@@ -20590,10 +20563,8 @@
 <e>                 <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></l><r>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e>                 <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/><s n="nom"/></l><r>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e>                 <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="fn"/><s n="pl"/><s n="nom"/></l><r>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-<e>                 <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="dg"/></l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR">          <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dg"/></l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-<e>                 <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dg"/></l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR">          <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="fn"/><s n="pl"/><s n="dg"/></l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+<e>                 <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="dg"/></l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+<e>                 <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="dg"/></l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 <e>                 <p><l>îl<s n="prn"/><s n="enc"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="nom"/></l><r>ho<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
 <e>                 <p><l>ne<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>ens<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 <e>                 <p><l>ne<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="dg"/></l><r>ens<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -20612,10 +20583,8 @@
 <e>                 <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e>                 <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e>                 <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="fn"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-<e>                 <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="dg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR">          <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-<e>                 <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR">          <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="fn"/><s n="pl"/><s n="dg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+<e>                 <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="dg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+<e>                 <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="dg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 <e>                 <p><l>îl<s n="prn"/><s n="pro"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="nom"/></l><r>ho<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
 <e>                 <p><l>ne<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 <e>                 <p><l>ne<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="dg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>

@@ -59,6 +59,7 @@
     </def-cat>
     <def-cat n="prnenc">
       <cat-item tags="prn.enc.*"/>
+      <cat-item tags="prn.enc.ref.*"/>
     </def-cat>
     <def-cat n="vbcnj">
       <cat-item tags="vblex.pri.*"/>
@@ -96,6 +97,7 @@
       <cat-item tags="vblex.inf"/>
       <cat-item tags="vbser.inf"/>
       <cat-item tags="vbmod.inf"/>
+      <cat-item tags="vbhaver.inf"/>
     </def-cat>
     <def-cat n="ger">
       <cat-item tags="vblex.ger"/>
@@ -106,6 +108,13 @@
       <cat-item tags="vblex.pp.*"/>
       <cat-item tags="vbser.pp.*"/>
       <cat-item tags="vbmod.pp.*"/>
+    </def-cat>
+    <def-cat n="inf_sol">
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vbser.inf"/>
+      <cat-item tags="vbmod.inf"/>
+      <cat-item tags="vbhaver.inf"/>
+      <cat-item tags="vbhaver.ger"/>
     </def-cat>
     <def-cat n="vbhaver">
       <cat-item tags="vbhaver.*"/>
@@ -265,8 +274,13 @@
     <def-var n="temps"/>
     <def-var n="persona"/>
     <def-var n="verb"/>
+    <def-var n="verb_cua"/>
     <def-var n="auxiliar"/>
     <def-var n="auxiliar_lema"/>
+    <def-var n="clitic1"/>
+    <def-var n="clitic2"/>
+    <def-var n="conv_clitic" v="false"/>
+    <def-var n="cat_clitic"/>
     <def-var n="determinant_np"/>
   </section-def-vars>
 
@@ -362,6 +376,7 @@
           </when>
       </choose>
     </def-macro>
+
 
     <def-macro n="conj_verb1" npar="1" comment="Conjuga un verb simple">
         <choose>
@@ -805,6 +820,212 @@
         </choose>
 
     </def-macro>
+
+
+    <def-macro n="gen_clitic1" npar="2" comment="Genera un clític per a un verb">
+      <let>
+        <var n="clitic1"/>
+        <lit v=""/>
+      </let>
+      <let>
+        <var n="clitic2"/>
+        <lit v=""/>
+      </let>
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <var n="conv_clitic"/>
+              <lit v="true"/>
+            </equal>
+          </test>
+          <let>
+            <var n="cat_clitic"/>
+            <lit-tag v="prn.pro"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="cat_clitic"/>
+            <lit-tag v="prn.enc"/>
+          </let>
+        </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal>
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="en"/>
+              </equal>
+              <equal>
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="hi"/>
+              </equal>
+            </or>
+          </test>
+          <let>
+            <var n="clitic1"/>
+            <lit v=""/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="clitic1"/>
+            <concat>
+              <clip pos="2" side="tl" part="lem"/>
+              <var n="cat_clitic"/>
+              <clip pos="2" side="tl" part="a_prnref"/>
+              <clip pos="2" side="tl" part="a_pers"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="2" side="tl" part="a_cas"/>
+            </concat>
+          </let>
+        </otherwise>
+      </choose>
+      <let>
+        <var n="conv_clitic"/>
+        <lit v="false"/>
+      </let>
+    </def-macro>
+
+    <def-macro n="gen_clitic2" npar="3" comment="Genera dos clítics per a un verb">
+      <let>
+        <var n="clitic1"/>
+        <lit v=""/>
+      </let>
+      <let>
+        <var n="clitic2"/>
+        <lit v=""/>
+      </let>
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <var n="conv_clitic"/>
+              <lit v="true"/>
+            </equal>
+          </test>
+          <let>
+            <var n="cat_clitic"/>
+            <lit-tag v="prn.pro"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="cat_clitic"/>
+            <lit-tag v="prn.enc"/>
+          </let>
+        </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <or>
+                <equal>
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="en"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="hi"/>
+                </equal>
+              </or>
+              <or>
+                <equal>
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="en"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="hi"/>
+                </equal>
+              </or>
+            </and>
+          </test>
+          <let>
+            <var n="clitic1"/>
+            <lit v=""/>
+          </let>
+          <let>
+            <var n="clitic2"/>
+            <lit v=""/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <or>
+              <equal>
+                <clip pos="3" side="sl" part="lem"/>
+                <lit v="en"/>
+              </equal>
+              <equal>
+                <clip pos="3" side="sl" part="lem"/>
+                <lit v="hi"/>
+              </equal>
+              <equal>
+                <clip pos="3" side="sl" part="lem"/>
+                <lit v="li"/>
+              </equal>
+              <equal>
+                <clip pos="3" side="sl" part="lem"/>
+                <lit v="em"/>
+              </equal>
+              <equal>
+                <clip pos="3" side="sl" part="lem"/>
+                <lit v="ens"/>
+              </equal>
+            </or>
+          </test>
+          <let>
+            <var n="clitic1"/>
+            <concat>
+              <clip pos="2" side="tl" part="lem"/>
+              <var n="cat_clitic"/>
+              <clip pos="2" side="tl" part="a_prnref"/>
+              <clip pos="2" side="tl" part="a_pers"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="2" side="tl" part="a_cas"/>
+            </concat>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="clitic1"/>
+            <concat>
+              <clip pos="2" side="tl" part="lem"/>
+              <var n="cat_clitic"/>
+              <clip pos="2" side="tl" part="a_prnref"/>
+              <clip pos="2" side="tl" part="a_pers"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <lit-tag v="dg"/>
+            </concat>
+          </let>
+          <let>
+            <var n="clitic2"/>
+            <concat>
+              <clip pos="3" side="tl" part="lem"/>
+              <var n="cat_clitic"/>
+              <clip pos="3" side="tl" part="a_prnref"/>
+              <clip pos="3" side="tl" part="a_pers"/>
+              <clip pos="3" side="tl" part="a_gen"/>
+              <clip pos="3" side="tl" part="a_nbr"/>
+              <lit-tag v="nom"/>
+            </concat>
+          </let>
+        </otherwise>
+      </choose>
+      <let>
+        <var n="conv_clitic"/>
+        <lit v="false"/>
+      </let>
+    </def-macro>
+
 
     <def-macro n="f_concord1" npar="1" comment="Realitza la concordança d'un element i desa els valors a les variables">
       <choose>
@@ -2374,6 +2595,7 @@
               <var n="auxiliar_lema"/>
               <var n="auxiliar"/>
               <var n="verb"/>
+              <var n="verb_cua"/>
             </lu>
           </chunk>
         </out>
@@ -2449,6 +2671,7 @@
               <var n="auxiliar_lema"/>
               <var n="auxiliar"/>
               <var n="verb"/>
+              <var n="verb_cua"/>
             </lu>
           </chunk>
         </out>
@@ -2465,19 +2688,17 @@
         <call-macro n="conj_verb1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="gen_clitic1">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
       <choose>
         <when>
           <test>
-            <or>
-              <equal>
-                <clip pos="2" side="sl" part="lem"/>
-                <lit v="en"/>
-              </equal>
-              <equal>
-                <clip pos="2" side="sl" part="lem"/>
-                <lit v="hi"/>
-              </equal>
-            </or>
+            <equal>
+              <var n="clitic1"/>
+              <lit v=""/>
+            </equal>
           </test>
           <out>
             <chunk name="vbcnj">
@@ -2513,12 +2734,7 @@
                 <var n="verb"/>
               </lu>
               <lu>   
-                <clip pos="2" side="tl" part="lem"/> 
-                <clip pos="2" side="tl" part="a_prn"/>
-                <clip pos="2" side="tl" part="a_pers"/>
-                <clip pos="2" side="tl" part="a_gen"/>
-                <clip pos="2" side="tl" part="a_nbr"/>
-                <clip pos="2" side="tl" part="a_cas"/>
+                <var n="clitic1"/>
               </lu>
               </mlu> 
             </chunk>
@@ -2538,30 +2754,23 @@
         <call-macro n="conj_verb1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="gen_clitic2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
       <choose>
         <when>
           <test>
             <and>
-              <or>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </or>
-              <or>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </or>
+              <equal>
+                <var n="clitic1"/>
+                <lit v=""/>
+              </equal>
+              <equal>
+                <var n="clitic2"/>
+                <lit v=""/>
+              </equal>
             </and>
           </test>
           <out>
@@ -2583,63 +2792,9 @@
         </when>
         <when>
           <test>
-            <and>
-              <not>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-              </not>
-              <not>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </not>
-              <or>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </or>
-            </and>
-          </test>
-          <out>
-            <chunk name="vbcnj_prnenc">
-              <tags>
-                <tag><lit-tag v="SV"/></tag>
-                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-                <tag><var n="temps"/></tag>
-                <tag><var n="persona"/></tag>
-                <tag><var n="nombre"/></tag>
-              </tags>
-              <mlu>
-              <lu>   
-                <var n="auxiliar_lema"/>
-                <var n="auxiliar"/>
-                <var n="verb"/>
-              </lu>
-              <lu>   
-                <clip pos="2" side="tl" part="lem"/> 
-                <clip pos="2" side="tl" part="a_prn"/>
-                <clip pos="2" side="tl" part="a_pers"/>
-                <clip pos="2" side="tl" part="a_gen"/>
-                <clip pos="2" side="tl" part="a_nbr"/>
-                <clip pos="2" side="tl" part="a_cas"/>
-              </lu>
-              </mlu>
-            </chunk>
-          </out>
-        </when>
-        <when>
-          <test>
             <equal>
-              <clip pos="2" side="sl" part="lem"/>
-              <lit v="es"/>
+              <var n="clitic2"/>
+              <lit v=""/>
             </equal>
           </test>
           <out>
@@ -2651,59 +2806,44 @@
                 <tag><var n="persona"/></tag>
                 <tag><var n="nombre"/></tag>
               </tags>
-              <mlu>
+              <mlu> 
               <lu>   
                 <var n="auxiliar_lema"/>
                 <var n="auxiliar"/>
                 <var n="verb"/>
               </lu>
               <lu>   
-                <clip pos="3" side="tl" part="lem"/> 
-                <clip pos="3" side="tl" part="a_prn"/>
-                <clip pos="3" side="tl" part="a_pers"/>
-                <clip pos="3" side="tl" part="a_gen"/>
-                <clip pos="3" side="tl" part="a_nbr"/>
-                <clip pos="3" side="tl" part="a_cas"/>
+                <var n="clitic1"/>
               </lu>
-              </mlu>
+              </mlu> 
             </chunk>
           </out>
         </when>
         <otherwise>
-        <out>
-          <chunk name="vbcnj_prnenc_prnenc">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><var n="temps"/></tag>
-              <tag><var n="persona"/></tag>
-              <tag><var n="nombre"/></tag>
-            </tags>
-            <mlu> 
-            <lu>   
+          <out>
+            <chunk name="vbcnj_prnenc_prnenc">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                <tag><var n="temps"/></tag>
+                <tag><var n="persona"/></tag>
+                <tag><var n="nombre"/></tag>
+              </tags>
+              <mlu> 
+              <lu>   
                 <var n="auxiliar_lema"/>
                 <var n="auxiliar"/>
                 <var n="verb"/>
-            </lu>
-            <lu>   
-              <clip pos="2" side="tl" part="lem"/> 
-              <clip pos="2" side="tl" part="a_prn"/>
-              <clip pos="2" side="tl" part="a_pers"/>
-              <clip pos="2" side="tl" part="a_gen"/>
-              <clip pos="2" side="tl" part="a_nbr"/>
-              <lit-tag v="dg"/>
-            </lu>
-            <lu>   
-              <clip pos="3" side="tl" part="lem"/> 
-              <clip pos="3" side="tl" part="a_prn"/>
-              <clip pos="3" side="tl" part="a_pers"/>
-              <clip pos="3" side="tl" part="a_gen"/>
-              <clip pos="3" side="tl" part="a_nbr"/>
-              <lit-tag v="nom"/>
-            </lu>
-            </mlu> 
-          </chunk>
-        </out>
+              </lu>
+              <lu>   
+                <var n="clitic1"/>
+              </lu>
+              <lu>   
+                <var n="clitic2"/>
+              </lu>
+              </mlu> 
+            </chunk>
+          </out>
         </otherwise>
       </choose>
       </action>
@@ -2716,19 +2856,17 @@
         <pattern-item n="prnenc"/>
       </pattern>
       <action>
+        <call-macro n="gen_clitic1">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
       <choose>
         <when>
           <test>
-            <or>
-              <equal>
-                <clip pos="2" side="sl" part="lem"/>
-                <lit v="en"/>
-              </equal>
-              <equal>
-                <clip pos="2" side="sl" part="lem"/>
-                <lit v="hi"/>
-              </equal>
-            </or>
+            <equal>
+              <var n="clitic1"/>
+              <lit v=""/>
+            </equal>
           </test>
           <out>
             <chunk name="ger">
@@ -2761,12 +2899,7 @@
                 <lit-tag v="3"/>
               </lu>
               <lu>   
-                <clip pos="2" side="tl" part="lem"/> 
-                <clip pos="2" side="tl" part="a_prn"/>
-                <clip pos="2" side="tl" part="a_pers"/>
-                <clip pos="2" side="tl" part="a_gen"/>
-                <clip pos="2" side="tl" part="a_nbr"/>
-                <clip pos="2" side="tl" part="a_cas"/>
+                <var n="clitic1"/>
                 <clip pos="1" side="tl" part="lemq"/>
               </lu>
               </mlu> 
@@ -2784,30 +2917,23 @@
         <pattern-item n="prnenc"/>
       </pattern>
       <action>
+        <call-macro n="gen_clitic2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
       <choose>
         <when>
           <test>
             <and>
-              <or>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </or>
-              <or>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </or>
+              <equal>
+                <var n="clitic1"/>
+                <lit v=""/>
+              </equal>
+              <equal>
+                <var n="clitic2"/>
+                <lit v=""/>
+              </equal>
             </and>
           </test>
           <out>
@@ -2828,62 +2954,9 @@
         </when>
         <when>
           <test>
-            <and>
-              <not>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-              </not>
-              <not>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </not>
-              <or>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </or>
-            </and>
-          </test>
-          <out>
-            <chunk name="ger_prnenc">
-              <tags>
-                <tag><lit-tag v="SV"/></tag>
-                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-              </tags>
-              <mlu>
-              <lu>   
-                <clip pos="1" side="tl" part="lemh"/> 
-                <clip pos="1" side="tl" part="a_verb"/>
-                <lit-tag v="3"/>
-              </lu>
-              <lu>   
-                <clip pos="2" side="tl" part="lem"/> 
-                <clip pos="2" side="tl" part="a_prn"/>
-                <clip pos="2" side="tl" part="a_pers"/>
-                <clip pos="2" side="tl" part="a_gen"/>
-                <clip pos="2" side="tl" part="a_nbr"/>
-                <clip pos="2" side="tl" part="a_cas"/>
-                <clip pos="1" side="tl" part="lemq"/>
-              </lu>
-              </mlu>
-            </chunk>
-          </out>
-        </when>
-        <when>
-          <test>
             <equal>
-              <clip pos="2" side="sl" part="lem"/>
-              <lit v="es"/>
+              <var n="clitic2"/>
+              <lit v=""/>
             </equal>
           </test>
           <out>
@@ -2893,59 +2966,44 @@
                 <tag><clip pos="1" side="tl" part="a_verb"/></tag>
                 <tag><clip pos="1" side="tl" part="a_temps"/></tag>
               </tags>
-              <mlu>
+              <mlu> 
               <lu>   
                 <clip pos="1" side="tl" part="lemh"/> 
                 <clip pos="1" side="tl" part="a_verb"/>
                 <lit-tag v="3"/>
               </lu>
               <lu>   
-                <clip pos="3" side="tl" part="lem"/> 
-                <clip pos="3" side="tl" part="a_prn"/>
-                <clip pos="3" side="tl" part="a_pers"/>
-                <clip pos="3" side="tl" part="a_gen"/>
-                <clip pos="3" side="tl" part="a_nbr"/>
-                <clip pos="3" side="tl" part="a_cas"/>
+                <var n="clitic1"/>
                 <clip pos="1" side="tl" part="lemq"/>
               </lu>
-              </mlu>
+              </mlu> 
             </chunk>
           </out>
         </when>
         <otherwise>
-        <out>
-          <chunk name="ger_prnenc_prnenc">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-            </tags>
-            <mlu> 
-            <lu>   
-              <clip pos="1" side="tl" part="lemh"/> 
-              <clip pos="1" side="tl" part="a_verb"/>
-              <lit-tag v="3"/>
-            </lu>
-            <lu>   
-              <clip pos="2" side="tl" part="lem"/> 
-              <clip pos="2" side="tl" part="a_prn"/>
-              <clip pos="2" side="tl" part="a_pers"/>
-              <clip pos="2" side="tl" part="a_gen"/>
-              <clip pos="2" side="tl" part="a_nbr"/>
-              <lit-tag v="dg"/>
-            </lu>
-            <lu>   
-              <clip pos="3" side="tl" part="lem"/> 
-              <clip pos="3" side="tl" part="a_prn"/>
-              <clip pos="3" side="tl" part="a_pers"/>
-              <clip pos="3" side="tl" part="a_gen"/>
-              <clip pos="3" side="tl" part="a_nbr"/>
-              <lit-tag v="nom"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-            </mlu> 
-          </chunk>
-        </out>
+          <out>
+            <chunk name="ger_prnenc_prnenc">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+              </tags>
+              <mlu> 
+              <lu>   
+                <clip pos="1" side="tl" part="lemh"/> 
+                <clip pos="1" side="tl" part="a_verb"/>
+                <lit-tag v="3"/>
+              </lu>
+              <lu>   
+                <var n="clitic1"/>
+              </lu>
+              <lu>   
+                <var n="clitic2"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              </mlu> 
+            </chunk>
+          </out>
         </otherwise>
       </choose>
       </action>
@@ -2953,30 +3011,32 @@
 
     <rule comment="REGLA: INF ENC">
       <pattern>
-        <pattern-item n="inf"/>
+        <pattern-item n="inf_sol"/>
         <pattern-item n="prnenc"/>
       </pattern>
       <action>
+        <let>
+          <var n="conv_clitic"/>
+          <lit v="true"/>
+        </let>
+        <call-macro n="gen_clitic1">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
       <choose>
         <when>
           <test>
-            <or>
-              <equal>
-                <clip pos="2" side="sl" part="lem"/>
-                <lit v="en"/>
-              </equal>
-              <equal>
-                <clip pos="2" side="sl" part="lem"/>
-                <lit v="hi"/>
-              </equal>
-            </or>
+            <equal>
+              <var n="clitic1"/>
+              <lit v=""/>
+            </equal>
           </test>
           <out>
             <chunk name="inf">
               <tags>
                 <tag><lit-tag v="SV"/></tag>
                 <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+                <tag><lit-tag v="inf"/></tag>
               </tags>
               <lu>   
                 <clip pos="1" side="tl" part="lemh"/> 
@@ -2993,16 +3053,10 @@
               <tags>
                 <tag><lit-tag v="SV"/></tag>
                 <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+                <tag><lit-tag v="inf"/></tag>
               </tags>
               <lu>   
-                <clip pos="2" side="tl" part="lem"/>
-                <lit-tag v="prn.pro"/> 
-                <clip pos="2" side="tl" part="a_prnref"/>
-                <clip pos="2" side="tl" part="a_pers"/>
-                <clip pos="2" side="tl" part="a_gen"/>
-                <clip pos="2" side="tl" part="a_nbr"/>
-                <clip pos="2" side="tl" part="a_cas"/>
+                <var n="clitic1"/>
               </lu>
               <b/>
               <lu>   
@@ -3020,35 +3074,32 @@
 
     <rule comment="REGLA: INF ENC ENC">
       <pattern>
-        <pattern-item n="inf"/>
+        <pattern-item n="inf_sol"/>
         <pattern-item n="prnenc"/>
         <pattern-item n="prnenc"/>
       </pattern>
       <action>
+        <let>
+          <var n="conv_clitic"/>
+          <lit v="true"/>
+        </let>
+        <call-macro n="gen_clitic2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
       <choose>
         <when>
           <test>
             <and>
-              <or>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </or>
-              <or>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </or>
+              <equal>
+                <var n="clitic1"/>
+                <lit v=""/>
+              </equal>
+              <equal>
+                <var n="clitic2"/>
+                <lit v=""/>
+              </equal>
             </and>
           </test>
           <out>
@@ -3056,61 +3107,8 @@
               <tags>
                 <tag><lit-tag v="SV"/></tag>
                 <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+                <tag><lit-tag v="inf"/></tag>
               </tags>
-              <lu>   
-                <clip pos="1" side="tl" part="lemh"/> 
-                <clip pos="1" side="tl" part="a_verb"/>
-                <lit-tag v="3"/>
-                <clip pos="1" side="tl" part="lemq"/>
-              </lu>
-            </chunk>
-          </out>
-        </when>
-        <when>
-          <test>
-            <and>
-              <not>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-              </not>
-              <not>
-                <equal>
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </not>
-              <or>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="en"/>
-                </equal>
-                <equal>
-                  <clip pos="3" side="sl" part="lem"/>
-                  <lit v="hi"/>
-                </equal>
-              </or>
-            </and>
-          </test>
-          <out>
-            <chunk name="prnpro_inf">
-              <tags>
-                <tag><lit-tag v="SV"/></tag>
-                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-              </tags>
-              <lu>   
-                <clip pos="2" side="tl" part="lem"/>
-                <lit-tag v="prn.pro"/> 
-                <clip pos="2" side="tl" part="a_prnref"/>
-                <clip pos="2" side="tl" part="a_pers"/>
-                <clip pos="2" side="tl" part="a_gen"/>
-                <clip pos="2" side="tl" part="a_nbr"/>
-                <clip pos="2" side="tl" part="a_cas"/>
-              </lu>
-              <b/>
               <lu>   
                 <clip pos="1" side="tl" part="lemh"/> 
                 <clip pos="1" side="tl" part="a_verb"/>
@@ -3123,8 +3121,8 @@
         <when>
           <test>
             <equal>
-              <clip pos="2" side="sl" part="lem"/>
-              <lit v="es"/>
+              <var n="clitic2"/>
+              <lit v=""/>
             </equal>
           </test>
           <out>
@@ -3132,16 +3130,10 @@
               <tags>
                 <tag><lit-tag v="SV"/></tag>
                 <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-                <tag><clip pos="1" side="tl" part="a_temps"/></tag>
+                <tag><lit-tag v="inf"/></tag>
               </tags>
               <lu>   
-                <clip pos="3" side="tl" part="lem"/>
-                <lit-tag v="prn.pro"/> 
-                <clip pos="3" side="tl" part="a_prnref"/>
-                <clip pos="3" side="tl" part="a_pers"/>
-                <clip pos="3" side="tl" part="a_gen"/>
-                <clip pos="3" side="tl" part="a_nbr"/>
-                <clip pos="3" side="tl" part="a_cas"/>
+                <var n="clitic1"/>
               </lu>
               <b/>
               <lu>   
@@ -3154,41 +3146,29 @@
           </out>
         </when>
         <otherwise>
-        <out>
-          <chunk name="prnpro_prnpro_inf">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-              <tag><clip pos="1" side="tl" part="a_temps"/></tag>
-            </tags>
-            <lu>   
-              <clip pos="2" side="tl" part="lem"/>
-              <lit-tag v="prn.pro"/> 
-              <clip pos="2" side="tl" part="a_prnref"/>
-              <clip pos="2" side="tl" part="a_pers"/>
-              <clip pos="2" side="tl" part="a_gen"/>
-              <clip pos="2" side="tl" part="a_nbr"/>
-              <clip pos="2" side="tl" part="a_cas"/>
-            </lu>
-            <b/>
-            <lu>   
-              <clip pos="3" side="tl" part="lem"/>
-              <lit-tag v="prn.pro"/> 
-              <clip pos="3" side="tl" part="a_prnref"/>
-              <clip pos="3" side="tl" part="a_pers"/>
-              <clip pos="3" side="tl" part="a_gen"/>
-              <clip pos="3" side="tl" part="a_nbr"/>
-              <clip pos="3" side="tl" part="a_cas"/>
-            </lu>
-            <b/>
-            <lu>   
-              <clip pos="1" side="tl" part="lemh"/> 
-              <clip pos="1" side="tl" part="a_verb"/>
-              <lit-tag v="3"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+          <out>
+            <chunk name="prnpro_prnpro_inf">
+              <tags>
+                <tag><lit-tag v="SV"/></tag>
+                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                <tag><lit-tag v="inf"/></tag>
+              </tags>
+              <lu>   
+                <var n="clitic1"/>
+              </lu>
+              <b/>
+              <lu>   
+                <var n="clitic2"/>
+              </lu>
+              <b/>
+              <lu>   
+                <clip pos="1" side="tl" part="lemh"/> 
+                <clip pos="1" side="tl" part="a_verb"/>
+                <lit-tag v="3"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+          </out>
         </otherwise>
       </choose>
       </action>

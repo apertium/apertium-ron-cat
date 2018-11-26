@@ -427,7 +427,6 @@
                     <clip pos="1" side="tl" part="a_temps"/>
                     <lit-tag v="p3"/>
                     <lit-tag v="sg"/>
-                    <clip pos="1" side="tl" part="lemq"/>
                   </concat>
                 </let>
               </when>
@@ -440,7 +439,6 @@
                     <clip pos="1" side="tl" part="a_temps"/>
                     <clip pos="1" side="tl" part="a_pers" link-to="4"/>
                     <clip pos="1" side="tl" part="a_nbr" link-to="5"/>
-                    <clip pos="1" side="tl" part="lemq"/>
                   </concat>
                 </let>
               </otherwise>
@@ -489,7 +487,6 @@
                 <clip pos="1" side="tl" part="lemh"/>
                 <clip pos="1" side="tl" part="a_verb"/>
                 <lit-tag v="inf"/>
-                <clip pos="1" side="tl" part="lemq"/>
               </concat>
             </let>
           </when>
@@ -532,7 +529,6 @@
                 <clip pos="1" side="tl" part="lemh"/>
                 <clip pos="1" side="tl" part="a_verb"/>
                 <lit-tag v="inf"/>
-                <clip pos="1" side="tl" part="lemq"/>
               </concat>
             </let>
           </when>
@@ -593,7 +589,6 @@
                     <clip pos="1" side="tl" part="a_temps"/>
                     <lit-tag v="p3"/>
                     <lit-tag v="sg"/>
-                    <clip pos="1" side="tl" part="lemq"/>
                   </concat>
                 </let>
               </when>
@@ -606,7 +601,6 @@
                     <clip pos="1" side="tl" part="a_temps"/>
                     <clip pos="1" side="tl" part="a_pers" link-to="4"/>
                     <clip pos="1" side="tl" part="a_nbr" link-to="5"/>
-                    <clip pos="1" side="tl" part="lemq"/>
                   </concat>
                 </let>
               </otherwise>
@@ -649,7 +643,6 @@
                     <clip pos="1" side="tl" part="a_temps"/>
                     <lit-tag v="p3"/>
                     <lit-tag v="sg"/>
-                    <clip pos="1" side="tl" part="lemq"/>
                   </concat>
                 </let>
               </when>
@@ -662,14 +655,16 @@
                     <clip pos="1" side="tl" part="a_temps"/>
                     <clip pos="1" side="tl" part="a_pers" link-to="4"/>
                     <clip pos="1" side="tl" part="a_nbr" link-to="5"/>
-                    <clip pos="1" side="tl" part="lemq"/>
                   </concat>
                 </let>
               </otherwise>
             </choose>
           </otherwise>
         </choose>
-
+        <let>
+          <var n="verb_cua"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </let>
         <choose>
           <when>
             <test>
@@ -774,12 +769,14 @@
                 <clip pos="2" side="tl" part="lemh"/>
                 <clip pos="2" side="tl" part="a_verb"/>
                 <lit-tag v="pp.mn.sg"/>
-                <clip pos="2" side="tl" part="lemq"/>
               </concat>
+            </let>
+            <let>
+              <var n="verb_cua"/>
+              <clip pos="2" side="tl" part="lemq"/>
             </let>
           </when>
         </choose>
-
         <choose>
           <when>
             <test>
@@ -831,6 +828,7 @@
         <var n="clitic2"/>
         <lit v=""/>
       </let>
+      <!-- Conversió de les etiquetes quan la regla ho demani -->
       <choose>
         <when>
           <test>
@@ -851,6 +849,60 @@
           </let>
         </otherwise>
       </choose>
+      <!-- Conversió del pronom reflexiu per als verbs en imperatiu (tercera persona que es converteix en segona) -->
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="es"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="sl" part="a_temps"/>
+                <lit-tag v="imp"/>
+              </equal>
+            </and>
+          </test>
+          <let>
+            <clip pos="2" side="tl" part="a_prnref"/>
+            <lit v=""/>
+          </let>
+          <let>
+            <clip pos="2" side="tl" part="a_pers"/>
+            <lit-tag v="p2"/>
+          </let>
+          <let>
+            <clip pos="2" side="tl" part="a_gen"/>
+            <lit-tag v="mf"/>
+          </let>
+          <let>
+            <clip pos="2" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+          </let>
+          <choose>
+            <when>
+              <test>
+                <equal>
+                  <clip pos="2" side="tl" part="a_nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </test>
+              <let>
+                <clip pos="2" side="tl" part="lem"/>
+                <lit v="te"/>
+              </let>
+            </when>
+            <otherwise>
+              <let>
+                <clip pos="2" side="tl" part="lem"/>
+                <lit v="vă"/>
+              </let>
+            </otherwise>
+          </choose>
+        </when>
+      </choose>
+      <!-- Operacions sobre els cítics -->
       <choose>
         <when>
           <test>
@@ -900,6 +952,7 @@
         <var n="clitic2"/>
         <lit v=""/>
       </let>
+      <!-- Conversió de les etiquetes quan la regla ho demani -->
       <choose>
         <when>
           <test>
@@ -920,6 +973,60 @@
           </let>
         </otherwise>
       </choose>
+      <!-- Conversió del pronom reflexiu per als verbs en imperatiu (tercera persona que es converteix en segona) -->
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="es"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="sl" part="a_temps"/>
+                <lit-tag v="imp"/>
+              </equal>
+            </and>
+          </test>
+          <let>
+            <clip pos="2" side="tl" part="a_prnref"/>
+            <lit v=""/>
+          </let>
+          <let>
+            <clip pos="2" side="tl" part="a_pers"/>
+            <lit-tag v="p2"/>
+          </let>
+          <let>
+            <clip pos="2" side="tl" part="a_gen"/>
+            <lit-tag v="mf"/>
+          </let>
+          <let>
+            <clip pos="2" side="tl" part="a_nbr"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
+          </let>
+          <choose>
+            <when>
+              <test>
+                <equal>
+                  <clip pos="2" side="tl" part="a_nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </test>
+              <let>
+                <clip pos="2" side="tl" part="lem"/>
+                <lit v="te"/>
+              </let>
+            </when>
+            <otherwise>
+              <let>
+                <clip pos="2" side="tl" part="lem"/>
+                <lit v="vă"/>
+              </let>
+            </otherwise>
+          </choose>
+        </when>
+      </choose>
+      <!-- Operacions sobre els cítics -->
       <choose>
         <when>
           <test>
@@ -979,6 +1086,52 @@
                 <lit v="ens"/>
               </equal>
             </or>
+          </test>
+          <let>
+            <var n="clitic1"/>
+            <concat>
+              <clip pos="2" side="tl" part="lem"/>
+              <var n="cat_clitic"/>
+              <clip pos="2" side="tl" part="a_prnref"/>
+              <clip pos="2" side="tl" part="a_pers"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="2" side="tl" part="a_cas"/>
+            </concat>
+          </let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="es"/>
+              </equal>
+              <equal>
+                <clip pos="2" side="tl" part="lem"/>
+                <lit v="se"/>
+              </equal>
+            </and>
+          </test>
+          <let>
+            <var n="clitic1"/>
+            <concat>
+              <clip pos="3" side="tl" part="lem"/>
+              <var n="cat_clitic"/>
+              <clip pos="3" side="tl" part="a_prnref"/>
+              <clip pos="3" side="tl" part="a_pers"/>
+              <clip pos="3" side="tl" part="a_gen"/>
+              <clip pos="3" side="tl" part="a_nbr"/>
+              <clip pos="3" side="tl" part="a_cas"/>
+            </concat>
+          </let>
+        </when>
+        <when>
+          <test>
+            <equal>
+              <clip pos="2" side="sl" part="lem"/>
+              <lit v="es"/>
+            </equal>
           </test>
           <let>
             <var n="clitic1"/>
@@ -2713,6 +2866,7 @@
                 <var n="auxiliar_lema"/>
                 <var n="auxiliar"/>
                 <var n="verb"/>
+                <var n="verb_cua"/>
               </lu>
             </chunk>
           </out>
@@ -2735,6 +2889,7 @@
               </lu>
               <lu>   
                 <var n="clitic1"/>
+                <var n="verb_cua"/>
               </lu>
               </mlu> 
             </chunk>
@@ -2786,6 +2941,7 @@
                 <var n="auxiliar_lema"/>
                 <var n="auxiliar"/>
                 <var n="verb"/>
+                <var n="verb_cua"/>
               </lu>
             </chunk>
           </out>
@@ -2814,6 +2970,7 @@
               </lu>
               <lu>   
                 <var n="clitic1"/>
+                <var n="verb_cua"/>
               </lu>
               </mlu> 
             </chunk>
@@ -2840,6 +2997,7 @@
               </lu>
               <lu>   
                 <var n="clitic2"/>
+                <var n="verb_cua"/>
               </lu>
               </mlu> 
             </chunk>

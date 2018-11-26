@@ -4,7 +4,7 @@
 
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Romanian-Catalan], [0.2.0], [marc.riera.irigoyen@gmail.com], [apertium-ron-cat], [http://wiki.apertium.org/wiki/Apertium-ron-cat])
+AC_INIT([Apertium Romanian-Catalan], [1.0.0], [marc.riera.irigoyen@gmail.com], [apertium-ron-cat], [http://wiki.apertium.org/wiki/Apertium-ron-cat])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
@@ -12,7 +12,7 @@ AC_PROG_AWK
 
 AC_CONFIG_HEADER([config])
 
-m4_define([required_apertium_version], [3.2.0])
+m4_define([required_apertium_version], [3.4.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
 
 AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])

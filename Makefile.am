@@ -2,7 +2,7 @@
 ## Makefile for Romanian--Catalan
 ###############################################################################
 
-VERSION=0.7.0
+VERSION=1.0.0
 LANG1=ron
 LANG2=cat
 PREFIX1=$(LANG1)-$(LANG2)
@@ -212,11 +212,11 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . ron-cat | tee .test-mt
-	@echo "house" > .test-ref
+	echo "casă" | apertium -d . ron-cat | tee .test-mt
+	@echo "casa" > .test-ref
 	@diff .test-ref .test-mt
-	echo "house" | apertium -d . cat-ron | tee .test-mt
-	@echo "house" > .test-ref
+	echo "casa" | apertium -d . cat-ron | tee .test-mt
+	@echo "casă" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 

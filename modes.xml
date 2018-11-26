@@ -74,7 +74,6 @@
         <file name="apertium-ron-cat.cat-ron.t4x"/>
         <file name="cat-ron.t4x.bin"/>
       </program>
-      <program nam
       <program name="lt-proc $1">
         <file name="cat-ron.autogen.bin"/>
       </program>

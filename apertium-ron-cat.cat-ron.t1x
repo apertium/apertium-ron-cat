@@ -61,6 +61,12 @@
       <cat-item tags="prn.enc.*"/>
       <cat-item tags="prn.enc.ref.*"/>
     </def-cat>
+    <def-cat n="prnproenc">
+      <cat-item tags="prn.pro.*"/>
+      <cat-item tags="prn.pro.ref.*"/>
+      <cat-item tags="prn.enc.*"/>
+      <cat-item tags="prn.enc.ref.*"/>
+    </def-cat>
     <def-cat n="vbcnj">
       <cat-item tags="vblex.pri.*"/>
       <cat-item tags="vbser.pri.*"/>
@@ -854,7 +860,7 @@
         <when>
           <test>
             <and>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="2" side="sl" part="lem"/>
                 <lit v="es"/>
               </equal>
@@ -907,11 +913,11 @@
         <when>
           <test>
             <or>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="2" side="sl" part="lem"/>
                 <lit v="en"/>
               </equal>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="2" side="sl" part="lem"/>
                 <lit v="hi"/>
               </equal>
@@ -978,7 +984,7 @@
         <when>
           <test>
             <and>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="2" side="sl" part="lem"/>
                 <lit v="es"/>
               </equal>
@@ -1032,21 +1038,21 @@
           <test>
             <and>
               <or>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="2" side="sl" part="lem"/>
                   <lit v="en"/>
                 </equal>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="2" side="sl" part="lem"/>
                   <lit v="hi"/>
                 </equal>
               </or>
               <or>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="3" side="sl" part="lem"/>
                   <lit v="en"/>
                 </equal>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="3" side="sl" part="lem"/>
                   <lit v="hi"/>
                 </equal>
@@ -1065,23 +1071,23 @@
         <when>
           <test>
             <or>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="en"/>
               </equal>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="hi"/>
               </equal>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="li"/>
               </equal>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="em"/>
               </equal>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="ens"/>
               </equal>
@@ -1103,11 +1109,11 @@
         <when>
           <test>
             <and>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="2" side="sl" part="lem"/>
                 <lit v="es"/>
               </equal>
-              <equal>
+              <equal caseless="yes">
                 <clip pos="2" side="tl" part="lem"/>
                 <lit v="se"/>
               </equal>
@@ -1128,7 +1134,7 @@
         </when>
         <when>
           <test>
-            <equal>
+            <equal caseless="yes">
               <clip pos="2" side="sl" part="lem"/>
               <lit v="es"/>
             </equal>
@@ -2831,6 +2837,191 @@
       </action>
     </rule>
 
+    <rule comment="VERB CONJUGAT DOBLE + ENC">
+      <pattern>
+        <pattern-item n="vbcnj_doble1"/>
+        <pattern-item n="vbcnj_doble2"/>
+        <pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+        <let>
+          <var n="conv_clitic"/>
+          <lit v="true"/>
+        </let>
+        <call-macro n="conj_verb2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="gen_clitic1">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <var n="clitic1"/>
+                <lit v=""/>
+              </equal>
+            </test>
+            <out>
+              <chunk name="vbcnj">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><var n="temps"/></tag>
+                  <tag><var n="persona"/></tag>
+                  <tag><var n="nombre"/></tag>
+                </tags>
+                <lu>   
+                  <var n="auxiliar_lema"/>
+                  <var n="auxiliar"/>
+                  <var n="verb"/>
+                  <var n="verb_cua"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="prnpro_vbcnj">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><var n="temps"/></tag>
+                  <tag><var n="persona"/></tag>
+                  <tag><var n="nombre"/></tag>
+                </tags>
+                <lu>   
+                  <var n="clitic1"/>
+                </lu>
+                <b/>
+                <lu>   
+                  <var n="auxiliar_lema"/>
+                  <var n="auxiliar"/>
+                  <var n="verb"/>
+                  <var n="verb_cua"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+    <rule comment="VERB CONJUGAT DOBLE + ENC + ENC">
+      <pattern>
+        <pattern-item n="vbcnj_doble1"/>
+        <pattern-item n="vbcnj_doble2"/>
+        <pattern-item n="prnenc"/>
+        <pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+        <let>
+          <var n="conv_clitic"/>
+          <lit v="true"/>
+        </let>
+        <call-macro n="conj_verb2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="gen_clitic2">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <var n="clitic1"/>
+                  <lit v=""/>
+                </equal>
+                <equal>
+                  <var n="clitic2"/>
+                  <lit v=""/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <chunk name="vbcnj">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><var n="temps"/></tag>
+                  <tag><var n="persona"/></tag>
+                  <tag><var n="nombre"/></tag>
+                </tags>
+                <lu>   
+                  <var n="auxiliar_lema"/>
+                  <var n="auxiliar"/>
+                  <var n="verb"/>
+                  <var n="verb_cua"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <var n="clitic2"/>
+                <lit v=""/>
+              </equal>
+            </test>
+            <out>
+              <chunk name="prnpro_vbcnj">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><var n="temps"/></tag>
+                  <tag><var n="persona"/></tag>
+                  <tag><var n="nombre"/></tag>
+                </tags>
+                <lu>   
+                  <var n="clitic1"/>
+                </lu>
+                <b/>
+                <lu>   
+                  <var n="auxiliar_lema"/>
+                  <var n="auxiliar"/>
+                  <var n="verb"/>
+                  <var n="verb_cua"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="prnpro_prnpro_vbcnj">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                  <tag><var n="temps"/></tag>
+                  <tag><var n="persona"/></tag>
+                  <tag><var n="nombre"/></tag>
+                </tags>
+                <lu>   
+                  <var n="clitic1"/>
+                </lu>
+                <b/>
+                <lu>   
+                  <var n="clitic2"/>
+                </lu>
+                <b/>
+                <lu>   
+                  <var n="auxiliar_lema"/>
+                  <var n="auxiliar"/>
+                  <var n="verb"/>
+                  <var n="verb_cua"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: IMPERATIU ENC">
       <pattern>
@@ -3357,34 +3548,55 @@
 
     <rule comment="PRONOM CLÍTIC (per si apareix sol)">
       <pattern>
-        <pattern-item n="prnpro"/>
+        <pattern-item n="prnproenc"/>
       </pattern>
       <action>
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
-        <out>
-          <chunk name="prnpro">
-            <tags>
-              <tag><lit-tag v="prnpro"/></tag>
-              <tag><var n="genere"/></tag>
-              <tag><var n="nombre"/></tag>
-              <tag><clip pos="1" side="tl" part="a_cas"/></tag>
-              <tag><lit-tag v="ind"/></tag>
-            </tags>
-            <lu>   
-              <clip pos="1" side="tl" part="lemh"/> 
-              <clip pos="1" side="tl" part="a_prn"/>
-              <clip pos="1" side="tl" part="a_pers"/>
-              <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
-              <clip pos="1" side="tl" part="a_gen_mf"/>
-              <clip pos="1" side="tl" part="a_nbr_sense_sp" link-to="3"/>
-              <clip pos="1" side="tl" part="a_nbr_sp"/>
-              <lit-tag v="4"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <not>
+                  <equal caseless="yes">
+                    <clip pos="1" side="sl" part="lem"/>
+                    <lit v="en"/>
+                  </equal>
+                </not>
+                <not>
+                  <equal caseless="yes">
+                    <clip pos="1" side="sl" part="lem"/>
+                    <lit v="hi"/>
+                  </equal>
+                </not>
+              </and>
+            </test>
+            <out>
+              <chunk name="prnpro">
+                <tags>
+                  <tag><lit-tag v="prnpro"/></tag>
+                  <tag><var n="genere"/></tag>
+                  <tag><var n="nombre"/></tag>
+                  <tag><clip pos="1" side="tl" part="a_cas"/></tag>
+                  <tag><lit-tag v="ind"/></tag>
+                </tags>
+                <lu>   
+                  <clip pos="1" side="tl" part="lemh"/> 
+                  <lit-tag v="prn.pro"/>
+                  <clip pos="1" side="tl" part="a_prnref"/>
+                  <clip pos="1" side="tl" part="a_pers"/>
+                  <clip pos="1" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="1" side="tl" part="a_gen_mf"/>
+                  <clip pos="1" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="1" side="tl" part="a_nbr_sp"/>
+                  <lit-tag v="4"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+        </choose>
       </action>
     </rule>
 
@@ -3392,7 +3604,7 @@
 
 <!-- Regles de SAdv -->
 
-    <rule comment="DETERMINANT + NUMERAL">
+    <rule comment="DETERMINANT + NUMERAL: el 1992 → în 1992">
       <pattern>
         <pattern-item n="artdef_m_sg"/>
         <pattern-item n="num_xifra"/>

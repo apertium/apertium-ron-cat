@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 23020
+	Entries: 22989
 	Sdefs: 79
 	Paradigms: 21
 
@@ -6579,7 +6579,7 @@
 <e a="mioara">      <p><l>basorelief<s n="n"/><s n="nt"/></l>         <r>baix<b/>relleu<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>bas<s n="n"/></l>                           <r>baix<s n="n"/></r></p></e>
 <e a="delia">       <p><l>bastard<s n="n"/></l>                       <r>bastard<s n="n"/></r></p></e>
-<e a="mioara"><p><l>bastarn<s n="n"/><s n="m"/></l>            <r>bastarna<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>bastarn<s n="n"/><s n="m"/></l>             <r>bastarna<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>băștinaș<s n="n"/><s n="f"/></l>           <r>indígena<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL" a="mioara"><p><l>băștinaș<s n="n"/><s n="GD"/></l>          <r>indígena<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>băștinaș<s n="n"/><s n="m"/></l>           <r>indígena<s n="n"/><s n="mf"/></r></p></e>
@@ -8524,7 +8524,7 @@
 <e a="mioara">      <p><l>datornic<s n="n"/></l>                      <r>deutor<s n="n"/></r></p></e>
 <e>                 <p><l>daună<s n="n"/><s n="f"/></l>               <r>dany<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>daună<s n="n"/><s n="f"/></l>               <r>mal<s n="n"/><s n="m"/></r></p></e>
-<e>          <p><l>dealer<s n="n"/><s n="m"/></l>              <r>dealer<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>dealer<s n="n"/><s n="m"/></l>              <r>dealer<s n="n"/><s n="mf"/></r></p></e>
 <e>                 <p><l>deal<s n="n"/><s n="nt"/></l>               <r>puig<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>deal<s n="n"/><s n="nt"/></l>               <r>turó<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>debandadă<s n="n"/><s n="f"/></l>           <r>desbandada<s n="n"/><s n="f"/></r></p></e>
@@ -9548,7 +9548,7 @@
 <e a="mioara">      <p><l>fabulă<s n="n"/><s n="f"/></l>              <r>faula<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>fabulă<s n="n"/><s n="f"/></l>              <r>rondalla<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>fabulist<s n="n"/></l>                      <r>fabulador<s n="n"/></r></p></e>
-<e a="delnou"><p><l>fachir<s n="n"/><s n="m"/></l>             <r>faquir<s n="n"/><s n="mf"/></r></p></e>
+<e a="delnou">      <p><l>fachir<s n="n"/><s n="m"/></l>              <r>faquir<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>facilitare<s n="n"/><s n="f"/></l>         <r>facilitat<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>facilitate<s n="n"/><s n="f"/></l>          <r>facilitat<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>făclie<s n="n"/><s n="f"/></l>              <r>torxa<s n="n"/><s n="f"/></r></p></e>
@@ -9584,7 +9584,7 @@
 <e r="LR">          <p><l>fanariot<s n="n"/><s n="m"/></l>            <r>fanariota<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>fanatism<s n="n"/><s n="nt"/></l>           <r>fanatisme<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>fâneață<s n="n"/><s n="f"/></l>             <r>fener<s n="n"/><s n="m"/></r></p></e>
-<e>          <p><l>fan<s n="n"/><s n="m"/></l>                 <r>fan<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>fan<s n="n"/><s n="m"/></l>                 <r>fan<s n="n"/><s n="mf"/></r></p></e>
 <e>                 <p><l>fân<s n="n"/><s n="nt"/></l>                <r>fenc<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>fântână<s n="n"/><s n="f"/></l>             <r>font<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>fantasmă<s n="n"/><s n="f"/></l>            <r>fantasma<s n="n"/><s n="m"/></r></p></e>
@@ -10599,7 +10599,7 @@
 <e a="delia">       <p><l>iepure<s n="n"/><s n="m"/></l>              <r>conill<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>iepure<s n="n"/><s n="m"/></l>              <r>conill<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>ierarhie<s n="n"/><s n="f"/></l>            <r>jerarquia<s n="n"/><s n="f"/></r></p></e>
-<e a="mioara"><p><l>ierarh<s n="n"/><s n="m"/></l>             <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
+<e a="mioara">      <p><l>ierarh<s n="n"/><s n="m"/></l>              <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>ieromonah<s n="n"/></l>                     <r>hieromonjo<s n="n"/></r></p></e>
 <e>                 <p><l>iertare<s n="n"/><s n="f"/></l>             <r>perdó<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">          <p><l>ieșire<s n="n"/></l>                        <r>eixida<s n="n"/></r></p></e>
@@ -15180,7 +15180,7 @@
 <e a="delia">       <p><l>savoare<s n="n"/><s n="f"/></l>             <r>sabor<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="delia"><p><l>scadență<s n="n"/><s n="f"/></l>            <r>termini<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>scădere<s n="n"/><s n="f"/></l>             <r>disminució<s n="n"/><s n="f"/></r></p></e>
-<e>          <p><l>scafandru<s n="n"/><s n="m"/></l>           <r>bus<s n="n"/><s n="mf"/></r></p></e>
+<e>                 <p><l>scafandru<s n="n"/><s n="m"/></l>           <r>bus<s n="n"/><s n="mf"/></r></p></e>
 <e>                 <p><l>scăldat<s n="n"/><s n="nt"/></l>            <r>bany<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>scâncet<s n="n"/><s n="nt"/></l>            <r>ploriqueig<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>scandal<s n="n"/><s n="nt"/></l>            <r>escàndol<s n="n"/><s n="m"/></r></p></e>
@@ -21587,7 +21587,7 @@
 <e a="delnou">      <p><l>fi<g><b/>în<b/>legătură</g><s n="vblex"/></l><r>tenir<g><b/>relació</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>la<b/>putere</g><s n="vblex"/></l> <r>estar<g><b/>al<b/>poder</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>martor</g><s n="vblex"/></l>       <r>presenciar<s n="vblex"/></r></p></e>
-<e>                 <p><l>fi<g><b/>nevoie</g><s n="vblex"/></l>       <r>ser<g><b/>necessari</g><s n="vblex"/></r></p></e>
+<e>                 <p><l>fi<g><b/>nevoie</g><s n="vblex"/></l>       <r>caldre<s n="vbmod"/></r></p></e>
 <e>                 <p><l>fi<g><b/>rușine</g><s n="vblex"/></l>       <r>fer<g><b/>vergonya</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>fi<g><b/>stăpân<b/>pe<b/>situație</g><s n="vblex"/></l><r>dominar<g><b/>la<b/>situació</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>teamă</g><s n="vblex"/></l>        <r>tenir<g><b/>por</g><s n="vblex"/></r></p></e>

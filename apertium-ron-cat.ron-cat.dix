@@ -14750,7 +14750,7 @@
 <e a="delnou">      <p><l>renovare<s n="n"/><s n="f"/></l>            <r>renovació<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>ren<s n="n"/></l>                           <r>ren<s n="n"/></r></p></e>
 <e>                 <p><l>rentabilitate<s n="n"/><s n="f"/></l>       <r>rendibilitat<s n="n"/><s n="f"/></r></p></e>
-<e a="delnou">      <p><l>rentabilitate<s n="n"/><s n="f"/></l>       <r>rentabilitat<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="delnou"><p><l>rentabilitate<s n="n"/><s n="f"/></l>      <r>rentabilitat<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>rentă<s n="n"/><s n="f"/></l>               <r>renda<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="delia"><p><l>rentier<s n="n"/><s n="f"/></l>             <r>rendista<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL" a="delia"><p><l>rentier<s n="n"/><s n="GD"/></l>            <r>rendista<s n="n"/><s n="mf"/></r></p></e>

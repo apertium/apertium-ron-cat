@@ -21591,7 +21591,7 @@
 <e a="delnou">      <p><l>fi<g><b/>stăpân<b/>pe<b/>situație</g><s n="vblex"/></l><r>dominar<g><b/>la<b/>situació</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>teamă</g><s n="vblex"/></l>        <r>tenir<g><b/>por</g><s n="vblex"/></r></p></e>
 <e r="LR">          <p><l>fi<g><b/>vorba</g><s n="vblex"/></l>        <r>tractar<s n="vblex"/></r></p></e>
-<e r="RL">          <p><l>fi<s n="vblex"/></l>                        <r>estar<s n="vblex"/></r></p></e>
+<e r="RL">          <p><l>fi<s n="vbser"/></l>                        <r>estar<s n="vblex"/></r></p></e>
 <e>                 <p><l>fi</l>                                      <r>haver</r></p><par n="haver-hi__vblex"/></e>
 <e a="mioara">      <p><l>figura<s n="vblex"/></l>                    <r>figurar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>filma<s n="vblex"/></l>                     <r>filmar<s n="vblex"/></r></p></e>

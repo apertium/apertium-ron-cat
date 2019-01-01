@@ -1526,7 +1526,6 @@
 <e>                 <p><l>electromagnetic</l>                         <r>electromagnètic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>electronic</l>                              <r>electrònic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>electrostatic</l>                           <r>electroestàtic</r></p><par n="4-4__adj"/></e>
-<e a="mioara">      <p><l>electrostatic</l>                           <r>electrostàtic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>electrotehnic</l>                           <r>electrotècnic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>elegant</l>                                 <r>elegant</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>elementar</l>                               <r>elemental</r></p><par n="4-2__adj"/></e>
@@ -1996,7 +1995,6 @@
 <e a="delnou">      <p><l>hidrografic</l>                             <r>hidrogràfic</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>hidrologic</l>                              <r>hidrològic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>hidrostatic</l>                             <r>hidroestàtic</r></p><par n="4-4__adj"/></e>
-<e>                 <p><l>hidrostatic</l>                             <r>hidrostàtic</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>hidrotehnic</l>                             <r>hidrotècnic</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>hidrotermal</l>                             <r>hidrotermal</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>hieratic</l>                                <r>hieràtic</r></p><par n="4-4__adj"/></e>
@@ -3317,7 +3315,7 @@
 <e a="delia">       <p><l>oval</l>                                    <r>oval</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>ovarian</l>                                 <r>ovàric</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>ovin</l>                                    <r>oví</r></p><par n="4-4__adj"/></e>
-<e a="delia">       <p><l>ovoidal</l>                                 <r>ovoïdal</r></p><par n="4-2__adj"/></e>
+<e a="delia">       <p><l>ovoidal</l>                                 <r>ovoidal</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>oxidabil</l>                                <r>oxidable</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>oxidat</l>                                  <r>oxidat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>oxidat</l>                                  <r>rovellat</r></p><par n="4-4__adj"/></e>
@@ -9218,7 +9216,7 @@
 <e a="delia">       <p><l>electrocardiogramă<s n="n"/><s n="f"/></l>  <r>electrocardiograma<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>electroliză<s n="n"/><s n="f"/></l>         <r>electròlisi<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>electron<s n="n"/></l>                      <r>electró<s n="n"/></r></p></e>
-<e a="mioara">      <p><l>electrostatică<s n="n"/><s n="f"/></l>      <r>electrostàtica<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>electrostatică<s n="n"/><s n="f"/></l>      <r>electroestàtica<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>electrotehnică<s n="n"/><s n="f"/></l>      <r>electrotècnia<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>electrotehnician<s n="n"/></l>              <r>tècnic<b/>electrònic<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>electroterapie<s n="n"/><s n="f"/></l>      <r>electroteràpia<s n="n"/><s n="f"/></r></p></e>
@@ -9329,7 +9327,7 @@
 <e a="delia">       <p><l>epopee<s n="n"/></l>                        <r>epopeia<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>epuizare<s n="n"/><s n="f"/></l>            <r>esgotament<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>epurare<s n="n"/><s n="f"/></l>             <r>depuració<s n="n"/><s n="f"/></r></p></e>
-<e>                 <p><l>eradicare<s n="n"/><s n="f"/></l>           <r>eradicació<s n="n"/><s n="f"/></r></p></e>
+<e>                 <p><l>eradicare<s n="n"/><s n="f"/></l>           <r>erradicació<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>erecție<s n="n"/><s n="f"/></l>             <r>erecció<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>ereditate<s n="n"/><s n="f"/></l>           <r>herència<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="mioara"><p><l>eretic<s n="n"/><s n="f"/></l>             <r>heretge<s n="n"/><s n="mf"/></r></p></e>
@@ -10368,7 +10366,7 @@
 <e a="delia">       <p><l>hămeseală<s n="n"/><s n="f"/></l>           <r>gana<s n="n"/><s n="f"/></r></p></e>
 <e r="RL">          <p><l>hamsie<s n="n"/><s n="f"/></l>              <r>aladroc<s n="n"/><s n="m"/></r></p></e>
 <e a="delnou">      <p><l>hamsie<s n="n"/><s n="f"/></l>              <r>seitó<s n="n"/><s n="m"/></r></p></e>
-<e a="delia">       <p><l>handicap<s n="n"/><s n="nt"/></l>           <r>handicap<s n="n"/><s n="m"/></r></p></e>
+<e a="delia">       <p><l>handicap<s n="n"/><s n="nt"/></l>           <r>hàndicap<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>hangar<s n="n"/><s n="nt"/></l>             <r>hangar<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>hanorac<s n="n"/><s n="nt"/></l>            <r>anorac<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>han<s n="n"/><s n="nt"/></l>                <r>fonda<s n="n"/><s n="f"/></r></p></e>
@@ -13160,7 +13158,7 @@
 <e>                 <p><l>orizont<s n="n"/><s n="nt"/></l>            <r>horitzó<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>ornamentare<s n="n"/><s n="f"/></l>         <r>ornamentació<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>ornament<s n="n"/><s n="nt"/></l>           <r>ornament<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>ornitorinc<s n="n"/><s n="m"/></l>          <r>ornitorinc<s n="n"/><s n="m"/></r></p></e>
+<e>                 <p><l>ornitorinc<s n="n"/><s n="m"/></l>          <r>ornitorrinc<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>oroare<s n="n"/><s n="f"/></l>              <r>horror<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>oronimie<s n="n"/><s n="f"/></l>            <r>oronímia<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>oronim<s n="n"/><s n="nt"/></l>             <r>orònim<s n="n"/><s n="m"/></r></p></e>
@@ -21487,7 +21485,7 @@
 <e>                 <p><l>enunța<s n="vblex"/></l>                    <r>enunciar<s n="vblex"/></r></p></e>
 <e>                 <p><l>epuiza<s n="vblex"/></l>                    <r>esgotar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>epura<s n="vblex"/></l>                     <r>depurar<s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>eradica<s n="vblex"/></l>                   <r>eradicar<s n="vblex"/></r></p></e>
+<e a="delia">       <p><l>eradica<s n="vblex"/></l>                   <r>erradicar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>eroda<s n="vblex"/></l>                     <r>erosionar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>eructa<s n="vblex"/></l>                    <r>eructar<s n="vblex"/></r></p></e>
 <e>                 <p><l>eșalona<s n="vblex"/></l>                   <r>graduar<s n="vblex"/></r></p></e>

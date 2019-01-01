@@ -18,6 +18,8 @@ TARGETS_COMMON =		\
 	$(PREFIX1).autolex.bin	\
 	$(PREFIX1).autogen.bin	\
 	$(PREFIX1).autopgen.bin	\
+	$(PREFIX1).autopgen-diacritics-vells.bin 	\
+	$(PREFIX1).autopgen-diacritics-nous.bin	\
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin	\
@@ -155,6 +157,12 @@ $(PREFIX2).t4x.bin: $(BASENAME).$(PREFIX2).t4x
 ###############################################################################
 
 $(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
+	cp $< $@
+
+$(PREFIX1).autopgen-diacritics-vells.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritics-vells.bin
+	cp $< $@
+
+$(PREFIX1).autopgen-diacritics-nous.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritics-nous.bin
 	cp $< $@
 
 $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin

@@ -5244,13 +5244,13 @@
 <e>                 <p><l>acel<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></l><r>aquell<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 <e>                 <p><l>acel<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></l><r>aquell<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
 <e>                 <p><l>acel<s n="det"/><s n="dem"/><s n="fn"/><s n="pl"/></l><r>aquell<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="LR">          <p><l>același<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>mateix<s n="det"/><s n="ind"/><s n="GD"/><s n="pl"/></r></p></e>
-<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="mn"/><s n="sg"/></l><r>mateix<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>mateix<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="fn"/><s n="pl"/></l><r>mateix<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
-<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>mateix<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>același<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>mateix<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>același<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>mateix<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR">          <p><l>același<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
+<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="mn"/><s n="sg"/></l><r>mateix<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>mateix<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="fn"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>același<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>același<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 <e>                 <p><l>acest<s n="det"/><s n="dem"/><s n="mn"/><s n="sg"/></l><r>aquest<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>acest<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></l><r>aquest<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 <e>                 <p><l>acest<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></l><r>aquest<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
@@ -8693,7 +8693,6 @@
 <e>                 <p><l>deplasare<s n="n"/><s n="f"/></l>           <r>desplaçament<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>deportare<s n="n"/><s n="f"/></l>           <r>deportació<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>depoziție<s n="n"/><s n="f"/></l>           <r>deposició<s n="n"/><s n="f"/></r></p></e>
-<e r="RL">          <p><l>depozit<s n="n"/><s n="nt"/></l>            <r>depòsit<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>depozit<s n="n"/><s n="nt"/></l>            <r>dipòsit<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>depreciere<s n="n"/><s n="f"/></l>          <r>depreciació<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>depresie<s n="n"/><s n="f"/></l>            <r>depressió<s n="n"/><s n="f"/></r></p></e>
@@ -14142,7 +14141,6 @@
 <e>                 <p><l>prilej<s n="n"/><s n="nt"/></l>             <r>ocasió<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>primărie<s n="n"/><s n="f"/></l>            <r>ajuntament<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>primar<s n="n"/></l>                        <r>alcalde<s n="n"/></r></p></e>
-<e r="RL">          <p><l>primar<s n="n"/></l>                        <r>batle<s n="n"/></r></p></e>
 <e>                 <p><l>primar<s n="n"/></l>                        <r>batlle<s n="n"/></r></p></e>
 <e a="delia">       <p><l>primă<s n="n"/><s n="f"/></l>               <r>prima<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>primat<s n="n"/><s n="nt"/></l>             <r>primat<s n="n"/><s n="m"/></r></p></e>
@@ -14402,7 +14400,6 @@
 <e>                 <p><l>răbdare<s n="n"/><s n="f"/></l>             <r>paciència<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>rabin<s n="n"/></l>                         <r>rabí<s n="n"/></r></p></e>
 <e>                 <p><l>răceală<s n="n"/><s n="f"/></l>             <r>refredat<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" a="delia"><p><l>răceală<s n="n"/><s n="f"/></l>             <r>resfredat<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>rachetă<s n="n"/><s n="f"/></l>             <r>coet<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>răchită<s n="n"/><s n="f"/></l>             <r>vímet<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="mioara"><p><l>rachiu<s n="n"/><s n="nt"/></l>            <r>orujo<s n="n"/><s n="m"/></r></p></e>
@@ -14883,7 +14880,6 @@
 <e r="LR" a="mioara"><p><l>rezervare<s n="n"/><s n="f"/></l>          <r>reserva<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>rezervă<s n="n"/><s n="f"/></l>             <r>reserva<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>rezervație<s n="n"/><s n="f"/></l>          <r>reservació<s n="n"/><s n="f"/></r></p></e>
-<e r="RL">          <p><l>rezervor<s n="n"/><s n="nt"/></l>           <r>depòsit<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>rezervor<s n="n"/><s n="nt"/></l>           <r>dipòsit<s n="n"/><s n="m"/></r></p></e>
 <e r="LR">          <p><l>rezidență<s n="n"/><s n="f"/></l>           <r>residència<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="delnou"><p><l>rezident<s n="n"/><s n="f"/></l>           <r>resident<s n="n"/><s n="mf"/></r></p></e>
@@ -20856,7 +20852,6 @@
 <e a="delia">       <p><l>atesta<s n="vblex"/></l>                    <r>atestar<s n="vblex"/></r></p></e>
 <e>                 <p><l>atinge<s n="vblex"/></l>                    <r>tocar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>atomiza<s n="vblex"/></l>                   <r>atomitzar<s n="vblex"/></r></p></e>
-<e r="RL">          <p><l>atrage<s n="vblex"/></l>                    <r>atraure<s n="vblex"/></r></p></e>
 <e>                 <p><l>atrage<s n="vblex"/></l>                    <r>atreure<s n="vblex"/></r></p></e>
 <e>                 <p><l>atribui<s n="vblex"/></l>                   <r>atribuir<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>atrofia<s n="vblex"/></l>                   <r>atrofiar<s n="vblex"/></r></p></e>

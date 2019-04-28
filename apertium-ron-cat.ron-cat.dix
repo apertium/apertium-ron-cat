@@ -5244,13 +5244,6 @@
 <e>                 <p><l>acel<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></l><r>aquell<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 <e>                 <p><l>acel<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></l><r>aquell<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
 <e>                 <p><l>acel<s n="det"/><s n="dem"/><s n="fn"/><s n="pl"/></l><r>aquell<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="LR">          <p><l>același<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
-<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="mn"/><s n="sg"/></l><r>mateix<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>mateix<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="fn"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-<e>                 <p><l>același<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>același<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>același<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/></l><r>mateix<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 <e>                 <p><l>acest<s n="det"/><s n="dem"/><s n="mn"/><s n="sg"/></l><r>aquest<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>acest<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></l><r>aquest<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 <e>                 <p><l>acest<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></l><r>aquest<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
@@ -8464,7 +8457,11 @@
 <e a="mioara">      <p><l>curtezană<s n="n"/><s n="f"/></l>           <r>cortesà<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="mioara"><p><l>curtoazie<s n="n"/><s n="f"/></l>          <r>cortesia<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>cușcă<s n="n"/><s n="f"/></l>               <r>gàbia<s n="n"/><s n="f"/></r></p></e>
-<e a="delia">       <p><l>cuscru<s n="n"/></l>                        <r>consogre<s n="n"/></r></p></e>
+<e a="delia">       <p><l>cuscru<s n="n"/><s n="f"/><s n="sg"/></l>   <r>consogre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="delia">       <p><l>cuscru<s n="n"/><s n="m"/><s n="sg"/></l>   <r>consogre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" a="delia"><p><l>cuscru<s n="n"/><s n="f"/><s n="pl"/></l>   <r>consogre<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR" a="delia"><p><l>cuscru<s n="n"/><s n="m"/><s n="pl"/></l>   <r>consogre<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL" a="delia"><p><l>cuscru<s n="n"/><s n="GD"/><s n="pl"/></l>  <r>consogre<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e a="delia">       <p><l>custodie<s n="n"/><s n="f"/></l>            <r>custòdia<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>cusur<s n="n"/><s n="nt"/></l>              <r>xacra<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>cută<s n="n"/><s n="f"/></l>                <r>arruga<s n="n"/><s n="f"/></r></p></e>
@@ -20427,7 +20424,7 @@
 <e>                 <p><l>față<b/>de<s n="pr"/></l>                   <r>enfront<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>fără<s n="pr"/></l>                         <r>sense<s n="pr"/></r></p></e>
 <e>                 <p><l>la<s n="pr"/></l>                           <r>a<s n="pr"/></r></p></e>
-<e>                 <p><l>la<b/>jumătatea<s n="pr"/></l>              <r>a<b/>mitjan<b/>de<s n="pr"/></r></p></e>
+<e>                 <p><l>la<b/>jumătatea<s n="pr"/></l>              <r>a<b/>mitjans<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>la<b/>mijlocul<s n="pr"/></l>               <r>a<b/>la<b/>meitat<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>la<b/>sfârșitul<s n="pr"/></l>              <r>a<b/>la<b/>fi<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>la<b/>începutul<s n="pr"/></l>              <r>a<b/>principis<b/>de<s n="pr"/></r></p></e>

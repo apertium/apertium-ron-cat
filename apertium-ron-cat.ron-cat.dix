@@ -20401,15 +20401,15 @@
 <e r="LR">          <p><l>a<s n="pr"/></l>                            <r>a<s n="pr"/></r></p></e>
 <e>                 <p><l>abia<b/>după<s n="pr"/></l>                 <r>només<b/>després<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>alături<b/>de<s n="pr"/></l>                <r>al<b/>costat<b/>de<s n="pr"/></r></p></e>
-<e r="LR">          <p><l>asupra<s n="pr"/></l>                       <r>sobre<s n="pr"/></r></p></e>
-<e>                 <p><l>conform<s n="pr"/></l>                      <r>conformement<b/>a<s n="pr"/></r></p></e>
-<e a="delia">       <p><l>contra<s n="pr"/></l>                       <r>contra<s n="pr"/></r></p></e>
+<e r="LR">          <p><l>asupra<s n="pr"/><s n="gen"/></l>           <r>sobre<s n="pr"/></r></p></e>
+<e>                 <p><l>conform<s n="pr"/><s n="gen"/></l>          <r>conformement<b/>a<s n="pr"/></r></p></e>
+<e a="delia">       <p><l>contra<s n="pr"/><s n="gen"/></l>           <r>contra<s n="pr"/></r></p></e>
 <e>                 <p><l>cu<s n="pr"/></l>                           <r>amb<s n="pr"/></r></p></e>
 <e>                 <p><l>cu<b/>privire<b/>la<s n="pr"/></l>          <r>amb<b/>relació<b/>a<s n="pr"/></r></p></e>
 <e>                 <p><l>cât<b/>despre<s n="pr"/></l>                <r>quant<b/>a<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>către<s n="pr"/></l>                        <r>cap<b/>a<s n="pr"/></r></p></e>
-<e a="delia">       <p><l>datorită<s n="pr"/></l>                     <r>per<b/>causa<b/>de<s n="pr"/></r></p></e>
-<e>                 <i>de<s n="pr"/></i></e>
+<e r="LR" a="delia"><p><l>datorită<s n="pr"/><s n="gen"/></l>         <r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
+<e>                 <p><l>de<s n="pr"/></l>                           <r>de<s n="pr"/></r></p></e>
 <e a="del">         <p><l>de<b/>circa<s n="pr"/></l>                  <r>d'al<b/>voltant<b/>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>de<b/>către<s n="pr"/></l>                  <r>per<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>de<b/>la<s n="pr"/></l>                     <r>de<s n="pr"/></r></p></e>
@@ -20417,7 +20417,7 @@
 <e>                 <p><l>de<b/>peste<s n="pr"/></l>                  <r>de<b/>més<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>despre<s n="pr"/></l>                       <r>sobre<s n="pr"/></r></p></e>
 <e>                 <p><l>din<s n="pr"/></l>                          <r>de<s n="pr"/></r></p></e>
-<e a="delia">       <p><l>din<b/>cauza<s n="pr"/></l>                 <r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
+<e a="delia">       <p><l>din<b/>cauza<s n="pr"/><s n="gen"/></l>     <r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>dintre<s n="pr"/></l>                       <r>de<s n="pr"/></r></p></e>
 <e>                 <p><l>după<s n="pr"/></l>                         <r>després<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>după<b/>cum<s n="pr"/></l>                  <r>segons<s n="pr"/></r></p></e>
@@ -20429,7 +20429,7 @@
 <e>                 <p><l>la<b/>sfârșitul<s n="pr"/></l>              <r>a<b/>la<b/>fi<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>la<b/>începutul<s n="pr"/></l>              <r>a<b/>principis<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>lângă<s n="pr"/></l>                        <r>al<b/>costat<b/>de<s n="pr"/></r></p></e>
-<e a="delia">       <p><l>mulțumită<s n="pr"/></l>                    <r>gràcies<b/>a<s n="pr"/></r></p></e>
+<e a="delia">       <p><l>mulțumită<s n="pr"/><s n="gen"/></l>        <r>gràcies<b/>a<s n="pr"/></r></p></e>
 <e>                 <p><l>pe<s n="pr"/></l>                           <r>sobre<s n="pr"/></r></p></e>
 <e>                 <p><l>pe<b/>deasupra<s n="pr"/></l>               <r>per<b/>damunt<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>pe<b/>gustul<s n="pr"/></l>                 <r>al<b/>gust<b/>de<s n="pr"/></r></p></e>
@@ -20438,7 +20438,7 @@
 <e>                 <p><l>pe<b/>seama<s n="pr"/></l>                  <r>a<b/>costa<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>pentru<s n="pr"/></l>                       <r>per<s n="pr"/></r></p></e>
 <e>                 <p><l>peste<s n="pr"/></l>                        <r>damunt<b/>de<s n="pr"/></r></p></e>
-<e r="LR">          <p><l>potrivit<s n="pr"/></l>                     <r>conformement<b/>a<s n="pr"/></r></p></e>
+<e r="LR">          <p><l>potrivit<s n="pr"/><s n="gen"/></l>         <r>conformement<b/>a<s n="pr"/></r></p></e>
 <e>                 <p><l>prin<s n="pr"/></l>                         <r>a<b/>través<b/>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>printr-<s n="pr"/></l>                      <r>per<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>printre<s n="pr"/></l>                      <r>entre<s n="pr"/></r></p></e>
@@ -20448,16 +20448,16 @@
 <e>                 <p><l>relativ<b/>la<s n="pr"/></l>                <r>respecte<b/>a<s n="pr"/></r></p></e>
 <e>                 <p><l>spre<s n="pr"/></l>                         <r>cap<b/>a<s n="pr"/></r></p></e>
 <e>                 <p><l>sub<s n="pr"/></l>                          <r>sota<s n="pr"/></r></p></e>
-<e r="LR" a="delia"><p><l>împotriva<s n="pr"/></l>                    <r>contra<s n="pr"/></r></p></e>
+<e r="LR" a="delia"><p><l>împotriva<s n="pr"/><s n="gen"/></l>        <r>contra<s n="pr"/></r></p></e>
 <e>                 <p><l>împreună<b/>cu<s n="pr"/></l>               <r>juntament<b/>amb<s n="pr"/></r></p></e>
 <e>                 <p><l>în<s n="pr"/></l>                           <r>en<s n="pr"/></r></p></e>
 <e>                 <p><l>în<b/>afară<b/>de<s n="pr"/></l>            <r>a<b/>part<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>în<b/>ceea<b/>ce<b/>privește<s n="pr"/></l> <r>pel<b/>que<b/>concerneix<s n="pr"/></r></p></e>
-<e>                 <p><l>în<b/>fața<s n="pr"/></l>                   <r>davant<s n="pr"/></r></p></e>
+<e>                 <p><l>în<b/>fața<s n="pr"/><s n="gen"/></l>       <r>davant<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>în<b/>legătură<b/>cu<s n="pr"/></l>         <r>en<b/>relació<b/>amb<s n="pr"/></r></p></e>
 <e a="delia">       <p><l>în<b/>privința<s n="pr"/></l>               <r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
 <e>                 <p><l>în<b/>termen<b/>de<s n="pr"/></l>           <r>en<b/>un<b/>termini<b/>de<s n="pr"/></r></p></e>
-<e>                 <p><l>în<b/>timpul<s n="pr"/></l>                 <r>durant<s n="pr"/></r></p></e>
+<e>                 <p><l>în<b/>timpul<s n="pr"/><s n="gen"/></l>     <r>durant<s n="pr"/></r></p></e>
 <e a="delnou">      <p><l>în<b/>toiul<s n="pr"/></l>                  <r>al<b/>cor<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>începând<b/>cu<s n="pr"/></l>               <r>a<b/>partir<b/>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>înspre<s n="pr"/></l>                       <r>cap<b/>a<s n="pr"/></r></p></e>

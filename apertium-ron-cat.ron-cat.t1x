@@ -59,6 +59,10 @@
       <cat-item lemma="al" tags="det.def.*"/>
     </def-cat>
 
+    <def-cat n="prep_gen">
+      <cat-item tags="pr.gen"/>
+    </def-cat>
+
     <def-cat n="vbcnj">
       <cat-item tags="vblex.pri.*"/>
       <cat-item tags="vbmod.pri.*"/>
@@ -9396,6 +9400,334 @@
                   <lit v="de"/>
                   </get-case-from>
                   <lit-tag v="pr"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <lit v="el"/>
+                  <lit-tag v="det.def"/>
+                  <lit-tag v="2"/>
+                  <lit-tag v="3"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+                <b pos="2"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_adj"/>
+                  <clip pos="3" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="3" side="tl" part="a_gen_mf"/>
+                  <clip pos="3" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_nbr_sp"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+                <b pos="3"/>
+                <lu>
+                  <clip pos="4" side="tl" part="lemh"/>
+                  <clip pos="4" side="tl" part="a_adj"/>
+                  <clip pos="4" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="4" side="tl" part="a_gen_mf"/>
+                  <clip pos="4" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="4" side="tl" part="a_nbr_sp"/>
+                  <clip pos="4" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+        <call-macro n="n_gen_nbr"/>
+      </action>
+    </rule>
+
+
+    <rule comment="PR GENITIU + NOM GENITIU">
+      <pattern>
+        <pattern-item n="prep_gen"/>
+        <pattern-item n="nom_dg"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <choose>
+        <!-- Datiu indefinit -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="sl" part="a_def"/>
+                <lit-tag v="ind"/>
+              </equal>
+            </test>
+              <out>
+                <chunk name="prep_nom">
+                <tags>
+                  <tag><lit-tag v="SP"/></tag>
+                  <tag><var n="genere_chunk"/></tag>
+                  <tag><var n="nombre_chunk"/></tag>
+                  <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+                 <tag><clip pos="2" side="sl" part="a_def"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_prep"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+        <!-- Datiu definit -->
+          <otherwise>
+              <call-macro n="mod_maj">
+                <with-param pos="2"/>
+              </call-macro>
+              <out>
+                <chunk name="prep_det_nom">
+                <tags>
+                  <tag><lit-tag v="SP"/></tag>
+                  <tag><var n="genere_chunk"/></tag>
+                  <tag><var n="nombre_chunk"/></tag>
+                  <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+                 <tag><clip pos="2" side="sl" part="a_def"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_prep"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <lit v="el"/>
+                  <lit-tag v="det.def"/>
+                  <lit-tag v="2"/>
+                  <lit-tag v="3"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+        <call-macro n="n_gen_nbr"/>
+      </action>
+    </rule>
+
+    <rule comment="PR GENITIU + NOM GENITIU + ADJECTIU">
+      <pattern>
+        <pattern-item n="prep_gen"/>
+        <pattern-item n="nom_dg"/>
+        <pattern-item n="adjnorm"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <choose>
+        <!-- Datiu indefinit -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="sl" part="a_def"/>
+                <lit-tag v="ind"/>
+              </equal>
+            </test>
+              <out>
+                <chunk name="prep_nom">
+                <tags>
+                  <tag><lit-tag v="SP"/></tag>
+                  <tag><var n="genere_chunk"/></tag>
+                  <tag><var n="nombre_chunk"/></tag>
+                  <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+                 <tag><clip pos="2" side="sl" part="a_def"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_prep"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+                <b pos="2"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_adj"/>
+                  <clip pos="3" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="3" side="tl" part="a_gen_mf"/>
+                  <clip pos="3" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_nbr_sp"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+        <!-- Datiu definit -->
+          <otherwise>
+              <call-macro n="mod_maj">
+                <with-param pos="2"/>
+              </call-macro>
+              <out>
+                <chunk name="prep_det_nom">
+                <tags>
+                  <tag><lit-tag v="SP"/></tag>
+                  <tag><var n="genere_chunk"/></tag>
+                  <tag><var n="nombre_chunk"/></tag>
+                  <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+                 <tag><clip pos="2" side="sl" part="a_def"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_prep"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <lit v="el"/>
+                  <lit-tag v="det.def"/>
+                  <lit-tag v="2"/>
+                  <lit-tag v="3"/>
+                </lu>
+                <b/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+                <b pos="2"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_adj"/>
+                  <clip pos="3" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="3" side="tl" part="a_gen_mf"/>
+                  <clip pos="3" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_nbr_sp"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+        <call-macro n="n_gen_nbr"/>
+      </action>
+    </rule>
+
+    <rule comment="PR GENITIU + NOM GENITIU + ADJECTIU + ADJECTIU">
+      <pattern>
+        <pattern-item n="prep_gen"/>
+        <pattern-item n="nom_dg"/>
+        <pattern-item n="adjnorm"/>
+        <pattern-item n="adjnorm"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord3">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
+        <choose>
+        <!-- Datiu indefinit -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="sl" part="a_def"/>
+                <lit-tag v="ind"/>
+              </equal>
+            </test>
+              <out>
+                <chunk name="prep_nom">
+                <tags>
+                  <tag><lit-tag v="SP"/></tag>
+                  <tag><var n="genere_chunk"/></tag>
+                  <tag><var n="nombre_chunk"/></tag>
+                  <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+                 <tag><clip pos="2" side="sl" part="a_def"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_prep"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_nom"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+                <b pos="2"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_adj"/>
+                  <clip pos="3" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="3" side="tl" part="a_gen_mf"/>
+                  <clip pos="3" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="3" side="tl" part="a_nbr_sp"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+                <b pos="3"/>
+                <lu>
+                  <clip pos="4" side="tl" part="lemh"/>
+                  <clip pos="4" side="tl" part="a_adj"/>
+                  <clip pos="4" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="4" side="tl" part="a_gen_mf"/>
+                  <clip pos="4" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="4" side="tl" part="a_nbr_sp"/>
+                  <clip pos="4" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+        <!-- Datiu definit -->
+          <otherwise>
+              <call-macro n="mod_maj">
+                <with-param pos="2"/>
+              </call-macro>
+              <out>
+                <chunk name="prep_det_nom">
+                <tags>
+                  <tag><lit-tag v="SP"/></tag>
+                  <tag><var n="genere_chunk"/></tag>
+                  <tag><var n="nombre_chunk"/></tag>
+                  <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+                 <tag><clip pos="2" side="sl" part="a_def"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_prep"/>
                 </lu>
                 <b pos="1"/>
                 <lu>

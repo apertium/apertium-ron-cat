@@ -20899,7 +20899,7 @@
 <e a="del">         <p><l>bătători<s n="vblex"/></l>                  <r>piconar<s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>bate<g><b/>în<b/>lemn</g><s n="vblex"/></l> <r>tocar<g><b/>fusta</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>bate<g><b/>joc</g><s n="vblex"/></l>        <r>burlar<s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>bate<g><b/>la<b/>cap</g><s n="vblex"/></l>  <r>donar<g><b/>la<b/>llanda</g><s n="vblex"/></r></p></e>
+<e a="delnou">      <p><l>bate<g><b/>la<b/>cap</g><s n="vblex"/></l>  <r>fer<g><b/>la<b/>guitza</g><s n="vblex"/></r></p></e>
 <e a="mioara">      <p><l>bate<g><b/>la<b/>ochi</g><s n="vblex"/></l> <r>cridar<g><b/>l'atenció</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>bate<g><b/>la<b/>ușă</g><s n="vblex"/></l>  <r>trucar<g><b/>a<b/>la<b/>porta</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>bate<g><b/>palma</g><s n="vblex"/></l>      <r>cloure<g><b/>el<b/>tracte</g><s n="vblex"/></r></p></e>
@@ -21571,7 +21571,6 @@
 <e a="delnou">      <p><l>fi<g><b/>de<b/>neînțeles</g><s n="vblex"/></l><r>ser<g><b/>incomprensible</g><s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>fi<g><b/>de<b/>părere</g><s n="vblex"/></l><r>opinar<s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>dor</g><s n="vblex"/></l>          <r>trobar<g><b/>a<b/>faltar</g><s n="vblex"/></r></p></e>
-<e a="delia">       <p><l>fi<g><b/>gata<b/>să</g><s n="vblex"/></l>   <r>estar<g><b/>a<b/>punt<b/>de</g><s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>fi<g><b/>gata</g><s n="vblex"/></l>         <r>estar<g><b/>llest</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>fi<g><b/>în<b/>legătură</g><s n="vblex"/></l><r>tenir<g><b/>relació</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>la<b/>putere</g><s n="vblex"/></l> <r>estar<g><b/>al<b/>poder</g><s n="vblex"/></r></p></e>
@@ -22186,8 +22185,6 @@
 <e>                 <p><l>nu<b/>avea<g><b/>încredere</g><s n="vblex"/></l><r>desconfiar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>nu<b/>avea<g><b/>nici<b/>o<b/>legătură</g><s n="vblex"/></l><r>no<b/>tenir<g><b/>res<b/>a<b/>veure</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>nu<b/>cunoaște<s n="vblex"/></l>            <r>desconèixer<s n="vblex"/></r></p></e>
-<e a="del">         <p><l>nu<b/>face<g><b/>nici<b/>două<b/>parale</g><s n="vblex"/></l><r>no<b/>valer<g><b/>un<b/>clau</g><s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>nu<b/>lua<g><b/>în<b/>seamă</g><s n="vblex"/></l><r>no<b/>fer<g><b/>cas<b/>a</g><s n="vblex"/></r></p></e>
 <e r="LR">          <p><l>număra<s n="vblex"/></l>                    <r>contar<s n="vblex"/></r></p></e>
 <e>                 <p><l>numi<s n="vblex"/></l>                      <r>nomenar<s n="vblex"/></r></p></e>
 <e>                 <p><l>nutri<s n="vblex"/></l>                     <r>nodrir<s n="vblex"/></r></p></e>
@@ -22439,7 +22436,7 @@
 <e>                 <p><l>pune<g><b/>capăt<b/>la</g><s n="vblex"/></l><r>posar<g><b/>fi</g><s n="vblex"/></r></p></e>
 <e r="LR" a="delia"><p><l>pune<g><b/>foc</g><s n="vblex"/></l>        <r>calar<g><b/>foc</g><s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>pune<g><b/>în<b/>lumină</g><s n="vblex"/></l><r>posar<g><b/>en<b/>relleu</g><s n="vblex"/></r></p></e>
-<e a="delnou">      <p><l>pune<g><b/>în<b/>mișcare</g><s n="vblex"/></l><r>donar<g><b/>d'alta</g><s n="vblex"/></r></p></e>
+<e r="LR" a="delnou"><p><l>pune<g><b/>în<b/>mișcare</g><s n="vblex"/></l><r>moure<s n="vblex"/></r></p></e>
 <e r="LR" a="del">  <p><l>pune<g><b/>la<b/>cale</g><s n="vblex"/></l> <r>planejar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>pune<g><b/>la<b/>treabă</g><s n="vblex"/></l><r>posar<g><b/>a<b/>treballar</g><s n="vblex"/></r></p></e>
 <e a="del">         <p><l>pune<g><b/>masa</g><s n="vblex"/></l>       <r>parar<g><b/>taula</g><s n="vblex"/></r></p></e>

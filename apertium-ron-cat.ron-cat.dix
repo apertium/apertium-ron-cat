@@ -14265,6 +14265,8 @@
 <e>                 <p><l>propunere<s n="n"/></l>                     <r>proposta<s n="n"/></r></p></e>
 <e>                 <p><l>propunere<s n="n"/><s n="f"/></l>           <r>proposició<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>prorector<s n="n"/></l>                     <r>vicerector<s n="n"/></r></p></e>
+<e r="LR" a="marcriera"><p><l>proroc<s n="n"/><s n="f"/></l>          <r>profeta<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="marcriera"><p><l>proroc<s n="n"/><s n="m"/></l>          <r>profeta<s n="n"/><s n="mf"/></r></p></e>
 <e a="delia">       <p><l>prosop<s n="n"/><s n="nt"/></l>             <r>tovallola<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>prospectare<s n="n"/><s n="f"/></l>         <r>prospecció<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>prosperitate<s n="n"/><s n="f"/></l>        <r>prosperitat<s n="n"/><s n="f"/></r></p></e>
@@ -20440,6 +20442,7 @@
 <e>                 <p><l>pe<b/>lângă<s n="pr"/></l>                  <r>a<b/>més<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>pe<b/>parcursul<s n="pr"/></l>              <r>al<b/>llarg<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>pe<b/>seama<s n="pr"/></l>                  <r>a<b/>costa<b/>de<s n="pr"/></r></p></e>
+<e>                 <p><l>pentru<s n="pr"/></l>                       <r>per<b/>a<s n="pr"/></r></p></e>
 <e>                 <p><l>pentru<s n="pr"/></l>                       <r>per<s n="pr"/></r></p></e>
 <e>                 <p><l>peste<s n="pr"/></l>                        <r>damunt<b/>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>potrivit<s n="pr"/><s n="gen"/></l>         <r>conformement<b/>a<s n="pr"/></r></p></e>

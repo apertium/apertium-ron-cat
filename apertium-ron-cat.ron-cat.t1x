@@ -225,6 +225,7 @@
     </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
+      <cat-item tags="pr.gen"/>
     </def-cat>
     <def-cat n="prepnum">
       <cat-item lemma="în" tags="pr"/>
@@ -9447,7 +9448,10 @@
     </rule>
 
 
-    <rule comment="PR GENITIU + NOM GENITIU">
+
+<!-- Regles de SPrep -->
+
+    <rule comment="PREP GENITIU + NOM GENITIU">
       <pattern>
         <pattern-item n="prep_gen"/>
         <pattern-item n="nom_dg"/>
@@ -9468,7 +9472,7 @@
               <out>
                 <chunk name="prep_nom">
                 <tags>
-                  <tag><lit-tag v="SP"/></tag>
+                  <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
                   <tag><var n="nombre_chunk"/></tag>
                   <tag><clip pos="2" side="sl" part="a_cas"/></tag>
@@ -9499,7 +9503,7 @@
               <out>
                 <chunk name="prep_det_nom">
                 <tags>
-                  <tag><lit-tag v="SP"/></tag>
+                  <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
                   <tag><var n="nombre_chunk"/></tag>
                   <tag><clip pos="2" side="sl" part="a_cas"/></tag>
@@ -9534,7 +9538,7 @@
       </action>
     </rule>
 
-    <rule comment="PR GENITIU + NOM GENITIU + ADJECTIU">
+    <rule comment="PREP GENITIU + NOM GENITIU + ADJECTIU">
       <pattern>
         <pattern-item n="prep_gen"/>
         <pattern-item n="nom_dg"/>
@@ -9557,7 +9561,7 @@
               <out>
                 <chunk name="prep_nom">
                 <tags>
-                  <tag><lit-tag v="SP"/></tag>
+                  <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
                   <tag><var n="nombre_chunk"/></tag>
                   <tag><clip pos="2" side="sl" part="a_cas"/></tag>
@@ -9598,7 +9602,7 @@
               <out>
                 <chunk name="prep_det_nom">
                 <tags>
-                  <tag><lit-tag v="SP"/></tag>
+                  <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
                   <tag><var n="nombre_chunk"/></tag>
                   <tag><clip pos="2" side="sl" part="a_cas"/></tag>
@@ -9643,7 +9647,7 @@
       </action>
     </rule>
 
-    <rule comment="PR GENITIU + NOM GENITIU + ADJECTIU + ADJECTIU">
+    <rule comment="PREP GENITIU + NOM GENITIU + ADJECTIU + ADJECTIU">
       <pattern>
         <pattern-item n="prep_gen"/>
         <pattern-item n="nom_dg"/>
@@ -9668,7 +9672,7 @@
               <out>
                 <chunk name="prep_nom">
                 <tags>
-                  <tag><lit-tag v="SP"/></tag>
+                  <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
                   <tag><var n="nombre_chunk"/></tag>
                   <tag><clip pos="2" side="sl" part="a_cas"/></tag>
@@ -9719,7 +9723,7 @@
               <out>
                 <chunk name="prep_det_nom">
                 <tags>
-                  <tag><lit-tag v="SP"/></tag>
+                  <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
                   <tag><var n="nombre_chunk"/></tag>
                   <tag><clip pos="2" side="sl" part="a_cas"/></tag>
@@ -9765,6 +9769,86 @@
                   <clip pos="4" side="tl" part="a_nbr_sense_sp" link-to="3"/>
                   <clip pos="4" side="tl" part="a_nbr_sp"/>
                   <clip pos="4" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+        <call-macro n="n_gen_nbr"/>
+      </action>
+    </rule>
+
+
+    <rule comment="PREP + PRONOM">
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="prntn"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <choose>
+          <!-- Si el pronom no té persona, no posem l'etiqueta de persona -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="tl" part="a_pers"/>
+                <lit v=""/>
+              </equal>
+            </test>
+            <out>
+              <chunk name="prep_prntn">
+                <tags>
+                  <tag><lit-tag v="SPrep"/></tag>
+                  <tag><var n="genere_chunk"/></tag>
+                  <tag><var n="nombre_chunk"/></tag>
+                  <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+                  <tag><lit-tag v="def"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_prep"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_prn"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <!-- Si el pronom té persona, posem l'etiqueta corresponent al chunk -->
+          <otherwise>
+            <out>
+              <chunk name="prep_prntn">
+                <tags>
+                  <tag><lit-tag v="SPrep"/></tag>
+                  <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+                  <tag><var n="genere_chunk"/></tag>
+                  <tag><var n="nombre_chunk"/></tag>
+                  <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+                  <tag><lit-tag v="def"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_prep"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_prn"/>
+                  <clip pos="2" side="tl" part="a_pers" link-to="2"/>
+                  <clip pos="2" side="tl" part="a_gen_sense_mf" link-to="3"/>
+                  <clip pos="2" side="tl" part="a_gen_mf"/>
+                  <clip pos="2" side="tl" part="a_nbr_sense_sp" link-to="4"/>
+                  <clip pos="2" side="tl" part="a_nbr_sp"/>
+                  <clip pos="2" side="tl" part="lemq"/>
                 </lu>
               </chunk>
             </out>
@@ -10018,7 +10102,7 @@
 
 <!-- Regles de SAdv -->
 
-    <rule comment="prep + NUMERAL (any)">
+    <rule comment="PREP + NUMERAL (any)">
       <pattern>
         <pattern-item n="prepnum"/>
         <pattern-item n="num_xifra"/>
@@ -10078,7 +10162,7 @@
       </action>
     </rule>
 
-    <rule comment="prep + NOM (any) + NUMERAL (any)">
+    <rule comment="PREP + NOM (any) + NUMERAL (any)">
       <pattern>
         <pattern-item n="prepnum"/>
         <pattern-item n="nom_any"/>
@@ -10163,7 +10247,7 @@
       </action>
     </rule>
 
-    <rule comment="prep + NUMERAL (dia) + NOM (mes) + NUMERAL (any)">
+    <rule comment="PREP + NUMERAL (dia) + NOM (mes) + NUMERAL (any)">
       <pattern>
         <pattern-item n="prep"/>
         <pattern-item n="num_xifra"/>

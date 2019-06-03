@@ -683,6 +683,7 @@
 <e a="mioara">      <p><l>beat<b/>turtă</l>                           <r>borratxo<g><b/>com<b/>una<b/>sopa</g></r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>beatific</l>                                <r>beatífic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>beat</l>                                    <r>borratxo</r></p><par n="4-4__adj"/></e>
+<e>                 <p><l>bej</l>                                     <r>beix</r></p><par n="2-1__adj"/></e>
 <e a="mioara">      <p><l>belgian</l>                                 <r>belga</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>belic</l>                                   <r>bèl·lic</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>belicos</l>                                 <r>bel·licós</r></p><par n="4-4__adj"/></e>
@@ -1796,6 +1797,7 @@
 <e a="delia">       <p><l>fosforescent</l>                            <r>fosforescent</r></p><par n="4-2__adj"/></e>
 <e a="delnou">      <p><l>fosil</l>                                   <r>fòssil</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>fotbalistic</l>                             <r>futbolístic</r></p><par n="4-4__adj"/></e>
+<e a="marcriera">   <p><l>fotoelectric</l>                            <r>fotoelèctric</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>fotogenic</l>                               <r>fotogènic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>fotografic</l>                              <r>fotogràfic</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>fotoreceptor</l>                            <r>fotoreceptor</r></p><par n="4-4__adj"/></e>
@@ -4639,7 +4641,7 @@
 <e>                 <p><l>chiar<b/>și<s n="adv"/></l>                 <r>incloent-hi<s n="adv"/></r></p></e>
 <e>                 <p><l>chiar<s n="adv"/></l>                       <r>justament<s n="adv"/></r></p></e>
 <e>                 <p><l>chiar<s n="adv"/></l>                       <r>fins<b/>i<b/>tot<s n="adv"/></r></p></e>
-<e>                 <p><l>circa<s n="adv"/></l>                       <r>prop<b/>de<s n="pr"/></r></p></e>
+<e>                 <p><l>circa<s n="adv"/></l>                       <r>aproximadament<s n="adv"/></r></p></e>
 <e>                 <p><l>cu<b/>adevărat<s n="adv"/></l>              <r>de<b/>veritat<s n="adv"/></r></p></e>
 <e>                 <p><l>cu<b/>alte<b/>cuvinte<s n="adv"/></l>       <r>això<b/>vol<b/>dir<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>cu<b/>binișorul<s n="adv"/></l>             <r>de<b/>grat<s n="adv"/></r></p></e>
@@ -14166,7 +14168,7 @@
 <e a="delia">       <p><l>privighetoare<s n="n"/><s n="f"/></l>       <r>rossinyol<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>privilegiu<s n="n"/><s n="nt"/></l>         <r>privilegi<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>privință<s n="n"/><s n="f"/></l>            <r>aspecte<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>privire<s n="n"/><s n="f"/></l>             <r>esguard<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">          <p><l>privire<s n="n"/><s n="f"/></l>             <r>esguard<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>privire<s n="n"/><s n="f"/></l>             <r>mirada<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>privitor<s n="n"/></l>                      <r>espectador<s n="n"/></r></p></e>
 <e a="delia">       <p><l>privitor<s n="n"/></l>                      <r>tafaner<s n="n"/></r></p></e>
@@ -14488,6 +14490,7 @@
 <e a="delia">       <p><l>răpire<s n="n"/><s n="f"/></l>              <r>rapte<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>răpitor<s n="n"/></l>                       <r>raptor<s n="n"/></r></p></e>
 <e>                 <p><l>raport<s n="n"/><s n="nt"/></l>             <r>informe<s n="n"/><s n="m"/></r></p></e>
+<e>                 <p><l>raport<s n="n"/><s n="nt"/></l>             <r>relació<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>rapsodie<s n="n"/><s n="f"/></l>            <r>rapsòdia<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>răriș<s n="n"/><s n="nt"/></l>              <r>clariana<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>răsărit<s n="n"/><s n="nt"/></l>            <r>llevant<s n="n"/><s n="m"/></r></p></e>
@@ -20409,8 +20412,9 @@
 <e>                 <p><l>cât<b/>despre<s n="pr"/></l>                <r>quant<b/>a<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>către<s n="pr"/></l>                        <r>cap<b/>a<s n="pr"/></r></p></e>
 <e r="LR" a="delia"><p><l>datorită<s n="pr"/><s n="gen"/></l>         <r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
+<e r="RL" a="delia"><p><l>datorită<s n="pr"/><s n="gen"/></l>         <r>per<b/>causa<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>de<s n="pr"/></l>                           <r>de<s n="pr"/></r></p></e>
-<e a="del">         <p><l>de<b/>circa<s n="pr"/></l>                  <r>d'al<b/>voltant<b/>de<s n="pr"/></r></p></e>
+<e a="del">         <p><l>de<b/>circa<s n="pr"/></l>                  <r>del<b/>voltant<b/>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>de<b/>către<s n="pr"/></l>                  <r>per<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>de<b/>la<s n="pr"/></l>                     <r>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>de<b/>pe<s n="pr"/></l>                     <r>de<s n="pr"/></r></p></e>
@@ -20418,7 +20422,7 @@
 <e>                 <p><l>despre<s n="pr"/></l>                       <r>sobre<s n="pr"/></r></p></e>
 <e>                 <p><l>din<s n="pr"/></l>                          <r>de<s n="pr"/></r></p></e>
 <e a="delia">       <p><l>din<b/>cauza<s n="pr"/><s n="gen"/></l>     <r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
-<e r="LR">          <p><l>dintre<s n="pr"/></l>                       <r>de<s n="pr"/></r></p></e>
+<e r="LR">          <p><l>dintre<s n="pr"/></l>                       <r>entre<s n="pr"/></r></p></e>
 <e>                 <p><l>după<s n="pr"/></l>                         <r>després<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>după<b/>cum<s n="pr"/></l>                  <r>segons<s n="pr"/></r></p></e>
 <e>                 <p><l>față<b/>de<s n="pr"/></l>                   <r>enfront<b/>de<s n="pr"/></r></p></e>

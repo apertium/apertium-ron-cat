@@ -7,6 +7,9 @@
     <def-cat n="SA">
       <cat-item tags="SA.*"/>
     </def-cat>
+    <def-cat n="SPrep">
+      <cat-item tags="SPrep.*"/>
+    </def-cat>
     <def-cat n="SV">
       <cat-item tags="SV.*"/>
     </def-cat>
@@ -230,7 +233,7 @@
       </action>
     </rule>
 
-    <rule comment="SN + SV">
+    <rule comment="REGLA: SN + SV">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SV"/>
@@ -255,6 +258,22 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: SPrep">
+      <pattern>
+        <pattern-item n="SPrep"/>
+      </pattern>
+      <action>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: DET">
       <pattern>

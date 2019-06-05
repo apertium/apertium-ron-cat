@@ -9469,8 +9469,8 @@
                 <lit-tag v="ind"/>
               </equal>
             </test>
-              <out>
-                <chunk name="prep_nom">
+            <out>
+              <chunk name="prep_nom">
                 <tags>
                   <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
@@ -9497,10 +9497,10 @@
           </when>
         <!-- Datiu definit -->
           <otherwise>
-              <call-macro n="mod_maj">
-                <with-param pos="2"/>
-              </call-macro>
-              <out>
+            <call-macro n="mod_maj">
+              <with-param pos="2"/>
+            </call-macro>
+            <out>
                 <chunk name="prep_det_nom">
                 <tags>
                   <tag><lit-tag v="SPrep"/></tag>
@@ -9558,8 +9558,8 @@
                 <lit-tag v="ind"/>
               </equal>
             </test>
-              <out>
-                <chunk name="prep_nom">
+            <out>
+              <chunk name="prep_nom">
                 <tags>
                   <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
@@ -9596,11 +9596,11 @@
           </when>
         <!-- Datiu definit -->
           <otherwise>
-              <call-macro n="mod_maj">
-                <with-param pos="2"/>
-              </call-macro>
-              <out>
-                <chunk name="prep_det_nom">
+            <call-macro n="mod_maj">
+              <with-param pos="2"/>
+            </call-macro>
+            <out>
+              <chunk name="prep_det_nom">
                 <tags>
                   <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
@@ -9669,8 +9669,8 @@
                 <lit-tag v="ind"/>
               </equal>
             </test>
-              <out>
-                <chunk name="prep_nom">
+            <out>
+              <chunk name="prep_nom">
                 <tags>
                   <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>
@@ -9717,11 +9717,11 @@
           </when>
         <!-- Datiu definit -->
           <otherwise>
-              <call-macro n="mod_maj">
-                <with-param pos="2"/>
-              </call-macro>
-              <out>
-                <chunk name="prep_det_nom">
+            <call-macro n="mod_maj">
+              <with-param pos="2"/>
+            </call-macro>
+            <out>
+              <chunk name="prep_det_nom">
                 <tags>
                   <tag><lit-tag v="SPrep"/></tag>
                   <tag><var n="genere_chunk"/></tag>

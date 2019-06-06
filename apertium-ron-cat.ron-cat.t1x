@@ -240,17 +240,8 @@
     <def-cat n="prep_în">
       <cat-item lemma="în" tags="pr"/>
     </def-cat>
-    <def-cat n="prepdintr-">
-      <cat-item lemma="dintr-" tags="pr"/>
-    </def-cat>
-     <def-cat n="prepîntr-">
-      <cat-item lemma="într-" tags="pr"/>
-    </def-cat>
     <def-cat n="preppe">
       <cat-item lemma="pe" tags="pr"/>
-    </def-cat>
-    <def-cat n="prepprintr-">
-      <cat-item lemma="printr-" tags="pr"/>
     </def-cat>
     <def-cat n="conjsub">
       <cat-item lemma="să" tags="cnjsub"/>
@@ -17619,38 +17610,6 @@
             </choose>
         <call-macro n="n_gen_nbr"/>
        </action>
-    </rule>
-
-<rule>
- <!-- REGLA 110: PREP DINTR- (de) + un, o (art ind)  per a traduir "de un, de una" -->
-      <pattern>
-        <pattern-item n="prepdintr-"/>
-        <pattern-item n="detind"/>
-      </pattern>
-      <action>
-      <choose>
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="sl" part="lem"/>
-                <lit v="dintr-"/>
-              </equal>
-            </test>
-        <out><chunk name="x"><tags><tag><lit-tag v="SX"/></tag></tags>
-          <lu>
-            <lit v="de"/>
-            <lit-tag v="pr"/>
-          </lu>
-          <b/>
-          <lu>
-            <lit-tag v="det.ind"/>
-                 <clip pos="2" side="tl" part="gen"/>
-                 <clip pos="2" side="tl" part="a_nbr"/>
-          </lu>
-        </chunk></out>
-       </when>
-      </choose>
-      </action>
     </rule>
 
 

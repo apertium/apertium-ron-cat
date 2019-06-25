@@ -11733,9 +11733,8 @@
 <e a="mioara">      <p><l>loc<b/>geometric<s n="n"/><s n="nt"/></l>   <r>lloc<b/>geomètric<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>locomoție<s n="n"/><s n="f"/></l>           <r>locomoció<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>locomotivă<s n="n"/><s n="f"/></l>          <r>locomotora<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" a="delia"><p><l>locotenent<s n="n"/><s n="f"/></l>          <r>tinent<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL" a="delia"><p><l>locotenent<s n="n"/><s n="GD"/></l>         <r>tinent<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="delia"><p><l>locotenent<s n="n"/><s n="m"/></l>          <r>tinent<s n="n"/><s n="mf"/></r></p></e>
+<e a="delia">       <p><l>locotenent<s n="n"/><s n="f"/></l>          <r>tinent<s n="n"/><s n="f"/></r></p></e>
+<e a="delia">       <p><l>locotenent<s n="n"/><s n="m"/></l>          <r>tinent<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>loc<s n="n"/></l>                           <r>indret<s n="n"/></r></p></e>
 <e>                 <p><l>loc<s n="n"/><s n="nt"/></l>                <r>lloc<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="mioara"><p><l>locțiitor<s n="n"/></l>                    <r>substitut<s n="n"/></r></p></e>

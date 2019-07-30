@@ -16931,9 +16931,9 @@
 <e a="delia">       <p><l>violator<s n="n"/></l>                      <r>violador<s n="n"/></r></p></e>
 <e a="delia">       <p><l>violență<s n="n"/><s n="f"/></l>            <r>violència<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>violetă<s n="n"/><s n="f"/></l>             <r>violeta<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" a="mioara"><p><l>violoncelist<s n="n"/><s n="f"/></l>       <r>violoncelista<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL" a="mioara"><p><l>violoncelist<s n="n"/><s n="GD"/></l>      <r>violoncelista<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR" a="mioara"><p><l>violoncelist<s n="n"/><s n="m"/></l>       <r>violoncelista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>violoncelist<s n="n"/><s n="f"/></l>       <r>violoncel·lista<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL" a="mioara"><p><l>violoncelist<s n="n"/><s n="GD"/></l>      <r>violoncel·lista<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" a="mioara"><p><l>violoncelist<s n="n"/><s n="m"/></l>       <r>violoncel·lista<s n="n"/><s n="mf"/></r></p></e>
 <e a="mioara">      <p><l>violoncel<s n="n"/><s n="nt"/></l>          <r>violoncel<s n="n"/><s n="m"/></r></p></e>
 <e r="LR">          <p><l>violonist<s n="n"/><s n="f"/></l>           <r>violinista<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL">          <p><l>violonist<s n="n"/><s n="GD"/></l>          <r>violinista<s n="n"/><s n="mf"/></r></p></e>

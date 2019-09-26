@@ -2,9 +2,9 @@
 ## Makefile for Romanian--Catalan
 ###############################################################################
 
-VERSION=1.0.0
 LANG1=ron
 LANG2=cat
+
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
@@ -91,11 +91,11 @@ $(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 ## Disambiguation rules
 ###############################################################################
 
-$(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
-	cg-comp $< $@
+$(PREFIX1).rlx.bin: $(AP_SRC1)/$(LANG1).rlx.bin
+	cp $< $@
 
-$(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
-	cg-comp $< $@
+$(PREFIX2).rlx.bin: $(AP_SRC2)/$(LANG2).rlx.bin
+	cp $< $@
 
 ###############################################################################
 ## Bilingual dictionaries

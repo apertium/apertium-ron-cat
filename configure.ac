@@ -3,6 +3,9 @@ AC_PREREQ(2.52)
 AC_INIT([Apertium Romanian-Catalan], [1.0.0], [marc.riera.irigoyen@gmail.com], [apertium-ron-cat], [http://wiki.apertium.org/wiki/Apertium-ron-cat])
 AM_INIT_AUTOMAKE
 
+AC_PROG_LN_S
+AC_PROG_AWK
+
 PKG_CHECK_MODULES(APERTIUM, apertium >= 3.6.0)
 PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.5.0)
 PKG_CHECK_MODULES(CG3, cg3 >= 1.3.0)

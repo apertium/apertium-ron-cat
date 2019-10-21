@@ -19,6 +19,9 @@
       <program name="lrx-proc">
         <file name="ron-cat.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora" debug-suff="anaph">
+        <file name="apertium-ron-cat.ron-cat.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-ron-cat.ron-cat.t1x"/>
         <file name="ron-cat.t1x.bin"/>
@@ -61,6 +64,9 @@
       <program name="lrx-proc">
         <file name="ron-cat.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora" debug-suff="anaph">
+        <file name="apertium-ron-cat.ron-cat.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-ron-cat.ron-cat.t1x"/>
         <file name="ron-cat.t1x.bin"/>
@@ -102,6 +108,9 @@
       </program>
       <program name="lrx-proc">
         <file name="cat-ron.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora" debug-suff="anaph">
+        <file name="apertium-ron-cat.cat-ron.arx"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-ron-cat.cat-ron.t1x"/>

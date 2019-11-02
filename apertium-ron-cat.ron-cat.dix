@@ -1348,6 +1348,7 @@
 <e a="delia">       <p><l>dezghețat</l>                               <r>desgelat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>dezgustat</l>                               <r>disgustat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>dezgustător</l>                             <r>nauseabund</r></p><par n="4-4__adj"/></e>
+<e a="delnou">      <p><l>de<b/>zi<b/>cu<b/>zi</l>                    <r>del<b/>dia<b/>a<b/>dia</r></p><par n="2-1__adj"/></e>
 <e a="delia">       <p><l>deziluzionat</l>                            <r>desil·lusionat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>dezintegrat</l>                             <r>desintegrat</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>dezinteresat</l>                            <r>desinteressat</r></p><par n="4-4__adj"/></e>
@@ -4709,7 +4710,6 @@
 <e a="delia">       <p><l>de<b/>pretutindeni<s n="adv"/></l>          <r>de<b/>tot<b/>arreu<s n="adv"/></r></p></e>
 <e r="LR" a="delia"><p><l>de<b/>regulă<s n="adv"/></l>                <r>habitualment<s n="adv"/></r></p></e>
 <e a="delnou">      <p><l>de<b/>vânzare<s n="adv"/></l>               <r>en<b/>venda<s n="adv"/></r></p></e>
-<e a="delnou">      <p><l>de<b/>zi<b/>cu<b/>zi<s n="adj"/></l>        <r>del<b/>dia<b/>a<b/>dia<s n="adj"/></r></p></e>
 <e a="delia">       <p><l>definitiv<s n="adv"/></l>                   <r>definitivament<s n="adv"/></r></p></e>
 <e>                 <p><l>deja<s n="adv"/></l>                        <r>ja<s n="adv"/></r></p></e>
 <e>                 <p><l>deloc<s n="adv"/></l>                       <r>gens<s n="adv"/></r></p></e>
@@ -4767,7 +4767,7 @@
 <e a="delnou">      <p><l>etc<s n="adv"/></l>                         <r>etc<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>expres<s n="adv"/></l>                      <r>expressament<s n="adv"/></r></p></e>
 <e a="marcriera">   <p><l>față<b/>în<b/>față<s n="adv"/></l>          <r>cara<b/>a<b/>cara<s n="adv"/></r></p></e>
-<e a="delia">       <p><l>fără<b/>drept<b/>de<b/>apel<s n="adj"/></l> <r>sense<b/>dret<b/>d'apel·lació<s n="adj"/></r></p></e>
+<e a="delia">       <p><l>fără<b/>drept<b/>de<b/>apel<s n="adv"/></l> <r>sense<b/>dret<b/>d'apel·lació<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>fără<b/>grabă<s n="adv"/></l>               <r>sense<b/>pressa<s n="adv"/></r></p></e>
 <e a="del">         <p><l>fără<b/>înflorituri<s n="adv"/></l>         <r>sense<b/>embuts<s n="adv"/></r></p></e>
 <e a="del">         <p><l>fără<b/>menajamente<s n="adv"/></l>         <r>sense<b/>miraments<s n="adv"/></r></p></e>
@@ -5099,7 +5099,7 @@
 <e>                 <p><l>poimâine<s n="adv"/></l>                    <r>demà<b/>passat<s n="adv"/></r></p></e>
 <e>                 <p><l>posibil<s n="adv"/></l>                     <r>possiblement<s n="adv"/></r></p></e>
 <e a="del">         <p><l>post<b/>mortem<s n="adv"/></l>              <r>post<b/>mortem<s n="adv"/></r></p></e>
-<e a="del">         <p><l>post-mortem<s n="adv"/></l>                 <r>post-mortem<s n="adv"/></r></p></e>
+<e r="LR" a="del">  <p><l>post-mortem<s n="adv"/></l>                 <r>post<b/>mortem<s n="adv"/></r></p></e>
 <e>                 <p><l>prea<s n="adv"/></l>                        <r>massa<s n="adv"/></r></p></e>
 <e>                 <p><l>precum<s n="adv"/></l>                      <r>com<s n="adv"/></r></p></e>
 <e a="delia">       <p><l>pretutindeni<s n="adv"/></l>                <r>per<b/>tot<b/>arreu<s n="adv"/></r></p></e>
@@ -5263,7 +5263,9 @@
 <e r="LR">          <p><l>fiecare<s n="det"/><s n="ind"/><s n="mn"/><s n="sg"/></l><r>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR">          <p><l>fiecare<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL">          <p><l>fiecare<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></l><r>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
-<e>                 <p><l>mai<b/>mulți<s n="det"/><s n="ind"/></l>    <r>diversos<s n="det"/><s n="ind"/></r></p></e>
+<e>                 <p><l>mai<b/>mulți<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>divers<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+<e>                 <p><l>mai<b/>mulți<s n="det"/><s n="ind"/><s n="fn"/><s n="pl"/></l><r>divers<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>mai<b/>mulți<s n="det"/><s n="ind"/><s n="GD"/><s n="pl"/></l><r>més<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR">          <p><l>niciun<s n="det"/><s n="ind"/><s n="mn"/><s n="sg"/></l><r>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR">          <p><l>niciun<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL">          <p><l>niciun<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></l><r>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -6050,7 +6052,6 @@
 <e a="mioara">      <p><l>arhiduce<s n="n"/></l>                      <r>arxiduc<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>arhiepiscopie<s n="n"/><s n="f"/></l>       <r>arquebisbat<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>arhiepiscop<s n="n"/></l>                   <r>arquebisbe<s n="n"/></r></p></e>
-<e r="LR" a="mioara"><p><l>arhiereu<s n="n"/><s n="f"/></l>           <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR" a="mioara"><p><l>arhiereu<s n="n"/><s n="m"/></l>           <r>jerarca<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL">          <p><l>arhipelag<s n="n"/><s n="nt"/></l>          <r>arxipèleg<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>arhipelag<s n="n"/><s n="nt"/></l>          <r>arxipèlag<s n="n"/><s n="m"/></r></p></e>
@@ -7126,7 +7127,7 @@
 <e>                 <p><l>cameră<s n="n"/><s n="f"/></l>              <r>habitació<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>camfor<s n="n"/><s n="nt"/><s n="sg"/></l>  <r>càmfora<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="delia">       <p><l>cămilă<s n="n"/><s n="f"/></l>              <r>camell<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>cămin<b/>studențesc<s n="n"/><s n="nt"/></l><r>residència<b/>estudiantil<s n="n"/><s n="f"/></r></p></e>
+<e>                 <p><l>cămin<b/>studențesc<s n="n"/><s n="nt"/></l><r>residència<g><b/>d'estudiants</g><s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>cămin<s n="n"/><s n="nt"/></l>              <r>llar<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>camionetă<s n="n"/><s n="f"/></l>           <r>camioneta<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>camion<s n="n"/><s n="nt"/></l>             <r>camió<s n="n"/><s n="m"/></r></p></e>
@@ -9386,7 +9387,6 @@
 <e a="delia">       <p><l>eufemism<s n="n"/><s n="nt"/></l>           <r>eufemisme<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>euforie<s n="n"/><s n="f"/></l>             <r>eufòria<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>euharistie<s n="n"/><s n="f"/></l>          <r>eucaristia<s n="n"/><s n="f"/></r></p></e>
-<e a="delia">       <p><l>Eurobarometru<s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></l><r>Eurobaròmetre<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="mioara">      <p><l>europarlamentar<s n="n"/></l>               <r>europarlamentari<s n="n"/></r></p></e>
 <e>                 <p><l>european<s n="n"/></l>                      <r>europeu<s n="n"/></r></p></e>
 <e a="delia">       <p><l>euro<s n="n"/></l>                          <r>euro<s n="n"/></r></p></e>
@@ -9757,10 +9757,10 @@
 <e a="delia">       <p><l>fior<s n="n"/><s n="m"/></l>                <r>calfred<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>fior<s n="n"/><s n="m"/></l>                <r>esgarrifança<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>fir<b/>călăuzitor<s n="n"/><s n="nt"/></l>  <r>fil<b/>conductor<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>fir<b/>de<b/>păr<s n="n"/></l>              <r>cabell<s n="n"/></r></p></e>
+<e>                 <p><l>fir<g><b/>de<b/>păr</g><s n="n"/><s n="nt"/><s n="sg"/></l><r>cabell<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR">          <p><l>fir<g><b/>de<b/>păr</g><s n="n"/><s n="nt"/><s n="pl"/></l><r>cabell<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>                 <p><l>fire<s n="n"/><s n="f"/></l>                <r>naturalesa<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>fire<s n="n"/><s n="f"/></l>                <r>tarannà<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>fir<g><b/>de<b/>păr</g><s n="n"/><s n="nt"/></l><r>cabell<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>firmă<s n="n"/><s n="f"/></l>               <r>empresa<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>fir<s n="n"/><s n="nt"/></l>                <r>fil<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>fișare<s n="n"/><s n="f"/></l>              <r>fitxatge<s n="n"/><s n="m"/></r></p></e>
@@ -11010,11 +11010,9 @@
 <e a="delia">       <p><l>inspecție<s n="n"/><s n="f"/></l>           <r>inspecció<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>inspectorat<s n="n"/><s n="nt"/></l>        <r>inspecció<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>inspector<s n="n"/></l>                     <r>inspector<s n="n"/></r></p></e>
-<e r="LR" a="delnou"><p><l>inspirant<s n="n"/></l>                    <r>inspirador<s n="n"/></r></p></e>
 <e>                 <p><l>inspirație<s n="n"/><s n="f"/></l>          <r>inspiració<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>inspirator<s n="n"/></l>                    <r>inspirador<s n="n"/></r></p></e>
-<e r="LR">          <p><l>ins<s n="n"/><s n="f"/></l>                 <r>dona<s n="n"/><s n="f"/></r></p></e>
-<e r="LR">          <p><l>ins<s n="n"/><s n="m"/></l>                 <r>home<s n="n"/><s n="m"/></r></p></e>
+<e r="LR">          <p><l>ins<s n="n"/><s n="m"/></l>                 <r>persona<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>instabilitate<s n="n"/><s n="f"/></l>       <r>inestabilitat<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>instalare<s n="n"/><s n="f"/></l>           <r>instal·lació<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>instalație<s n="n"/><s n="f"/></l>          <r>instal·lació<s n="n"/><s n="f"/></r></p></e>
@@ -12895,7 +12893,7 @@
 <e>                 <p><l>număr<s n="n"/><s n="nt"/></l>              <r>número<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>nume<b/>de<b/>botez<s n="n"/><s n="nt"/></l><r>nom<g><b/>de<b/>pila</g><s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>nume<b/>de<b/>familie<s n="n"/><s n="nt"/></l><r>cognom<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>nume<g><b/>locului</g><s n="n"/></l>        <r>topònim<s n="n"/></r></p></e>
+<e r="LR">          <p><l>nume<g><b/>locului</g><s n="n"/><s n="nt"/></l><r>topònim<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>numeral<s n="n"/><s n="nt"/></l>            <r>numeral<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>numerotare<s n="n"/><s n="f"/></l>          <r>numeració<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>nume<s n="n"/><s n="nt"/></l>               <r>nom<s n="n"/><s n="m"/></r></p></e>
@@ -12921,7 +12919,6 @@
 <e a="delia">       <p><l>obârșie<s n="n"/><s n="f"/></l>             <r>procedència<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>obediență<s n="n"/><s n="f"/></l>           <r>obediència<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>obezitate<s n="n"/><s n="f"/></l>           <r>obesitat<s n="n"/><s n="f"/></r></p></e>
-<e a="delia">       <p><l>obicei<b/>prost<s n="n"/><s n="nt"/></l>    <r>mal<b/>custom<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>obicei<s n="n"/><s n="nt"/></l>             <r>hàbit<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>obiecție<s n="n"/><s n="f"/></l>            <r>objecció<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>obiectivism<s n="n"/><s n="nt"/></l>        <r>objectivisme<s n="n"/><s n="m"/></r></p></e>
@@ -13037,8 +13034,8 @@
 <e a="delia">       <p><l>omidă<s n="n"/><s n="f"/></l>               <r>eruga<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>omisiune<s n="n"/><s n="f"/></l>            <r>omissió<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>omitere<s n="n"/><s n="f"/></l>             <r>omissió<s n="n"/><s n="f"/></r></p></e>
-<e r="RL" a="delia"><p><l>omletă<b/>de<b/>cartofi<s n="n"/><s n="f"/></l><r>truita<b/>de<b/>creïlles<s n="n"/><s n="f"/></r></p></e>
-<e a="delia">       <p><l>omletă<b/>de<b/>cartofi<s n="n"/><s n="f"/></l><r>truita<b/>de<b/>patates<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="delia"><p><l>omletă<g><b/>cu<b/>cartofi</g><s n="n"/><s n="f"/></l><r>truita<g><b/>de<b/>creïlles</g><s n="n"/><s n="f"/></r></p></e>
+<e a="delia">       <p><l>omletă<g><b/>cu<b/>cartofi</g><s n="n"/><s n="f"/></l><r>truita<g><b/>de<b/>patates</g><s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>omletă<s n="n"/><s n="f"/></l>              <r>truita<g><b/>a<b/>la<b/>francesa</g><s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>omletă<s n="n"/><s n="f"/></l>              <r>truita<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>omnipotență<s n="n"/><s n="f"/></l>         <r>omnipotència<s n="n"/><s n="f"/></r></p></e>
@@ -13205,7 +13202,6 @@
 <e>                 <p><l>oxigen<s n="n"/><s n="nt"/><s n="sg"/></l>  <r>oxigen<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="delia">       <p><l>ozeneu<s n="n"/><s n="nt"/></l>             <r>ovni<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>ozn<s n="n"/><s n="nt"/></l>                <r>ovni<s n="n"/><s n="m"/></r></p></e>
-<e r="LR">          <p><l>OZN<s n="n"/><s n="nt"/></l>                <r>ovni<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>ozon<s n="n"/><s n="nt"/><s n="sg"/></l>    <r>ozó<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>păcăleală<s n="n"/><s n="f"/></l>           <r>innocentada<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>păcătos<s n="n"/></l>                       <r>pecador<s n="n"/></r></p></e>
@@ -13405,6 +13401,7 @@
 <e a="mioara">      <p><l>parotidă<s n="n"/><s n="f"/></l>            <r>paròtide<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>paroxism<s n="n"/><s n="nt"/></l>           <r>paroxisme<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>păr<s n="n"/></l>                           <r>pèl<s n="n"/></r></p></e>
+<e>                 <p><l>păr<s n="n"/><s n="m"/><s n="sg"/></l>      <r>cabell<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e a="delia">       <p><l>par<s n="n"/><s n="m"/></l>                 <r>pal<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>parteneriat<s n="n"/><s n="nt"/></l>        <r>cooperació<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>partener<s n="n"/></l>                      <r>soci<s n="n"/></r></p></e>
@@ -17058,7 +17055,7 @@
 <e a="delia">       <p><l>zăbovire<s n="n"/><s n="f"/></l>            <r>demora<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>zăbrea<s n="n"/><s n="f"/></l>              <r>reixa<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>zăcământ<s n="n"/><s n="nt"/></l>           <r>jaciment<s n="n"/><s n="m"/></r></p></e>
-<e a="mioara">      <p><l>zahăr<b/>candel<s n="n"/><s n="nt"/></l>    <r>sucre<b/>candi<s n="n"/><s n="m"/></r></p></e>
+<e a="mioara">      <p><l>zahăr<g><b/>candel</g><s n="n"/><s n="m"/></l>    <r>sucre<b/>candi<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>zaharină<s n="n"/><s n="f"/></l>            <r>sacarina<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>zaharniță<s n="n"/><s n="f"/></l>           <r>sucrera<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>zahăr<s n="n"/></l>                         <r>sucre<s n="n"/></r></p></e>
@@ -20054,11 +20051,12 @@
 <!-- Altres -->
 
 <e a="delnou">      <p><l>Bancă<b/>Mondială<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Banc<b/>Mundial<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="delnou">      <p><l>Comisie<b/>Europeană<s n="np"/><s n="al"/><s n="f"/></l><r>Comissió<b/>Europea<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e a="mioara">      <p><l>Curte<b/>Europeană<s n="np"/><s n="al"/><s n="f"/></l><r>Tribunal<b/>Europeu<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+<e a="delnou">      <p><l>Comisie<b/>Europeană<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Comissió<b/>Europea<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="mioara">      <p><l>Curte<b/>Europeană<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></l><r>Tribunal<b/>Europeu<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>Disney<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Disney<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
 <e>                 <p><l>Discovery<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Discovery<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>Dumnezeu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Déu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="delia">       <p><l>Eurobarometru<s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></l><r>Eurobaròmetre<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="delnou">      <p><l>Europol<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Europol<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="delnou">      <p><l>Fond<b/>Monetar<b/>Internațional<s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></l><r>Fons<b/>Monetari<b/>Internacional<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e>                 <p><l>Ford<s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></l><r>Ford<s n="np"/><s n="al"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -20406,7 +20404,6 @@
 <e r="LR" a="delia"><p><l>datorită<s n="pr"/><s n="gen"/></l>         <r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
 <e r="RL" a="delia"><p><l>datorită<s n="pr"/><s n="gen"/></l>         <r>per<b/>causa<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>de<s n="pr"/></l>                           <r>de<s n="pr"/></r></p></e>
-<e a="del">         <p><l>de<b/>circa<s n="pr"/></l>                  <r>del<b/>voltant<b/>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>de<b/>către<s n="pr"/></l>                  <r>per<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>de<b/>la<s n="pr"/></l>                     <r>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>de<b/>pe<s n="pr"/></l>                     <r>de<s n="pr"/></r></p></e>
@@ -20464,7 +20461,8 @@
 <e>                 <p><l>așa<s n="preadv"/></l>                      <r>tan<s n="preadv"/></r></p></e>
 <e>                 <p><l>bine<s n="preadv"/></l>                     <r>ben<s n="preadv"/></r></p></e>
 <e>                 <p><l>foarte<s n="preadv"/></l>                   <r>molt<s n="preadv"/></r></p></e>
-<e>                 <p><l>la<b/>fel<b/>de<s n="preadv"/></l>          <r>igual<b/>de<s n="preadv"/></r></p></e>
+<e r="RL">          <p><l>la<b/>fel<b/>de<s n="preadv"/></l>          <r>igual<b/>de<s n="preadv"/></r></p></e>
+<e>                 <p><l>la<b/>fel<b/>de<s n="preadv"/></l>          <r>tan<s n="preadv"/></r></p></e>
 <e>                 <p><l>proaspăt<s n="adv"/></l>                    <r>recentment<s n="adv"/></r></p></e>
 <e>                 <p><l>rău<s n="preadv"/></l>                      <r>mal<s n="preadv"/></r></p></e>
 

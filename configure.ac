@@ -1,9 +1,8 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Romanian-Catalan], [1.0.0], [marc.riera.irigoyen@gmail.com], [apertium-ron-cat], [http://wiki.apertium.org/wiki/Apertium-ron-cat])
+AC_INIT([Apertium Romanian-Catalan], [1.0.0], [apertium-stuff@lists.sourceforge.net], [apertium-ron-cat], [http://wiki.apertium.org/wiki/Apertium-ron-cat])
 AM_INIT_AUTOMAKE
 
-AC_PROG_LN_S
 AC_PROG_AWK
 
 PKG_CHECK_MODULES(APERTIUM, apertium >= 3.6.0)
@@ -17,8 +16,8 @@ AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat insta
 
 m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
 
-AP_CHECK_LING([1], [apertium-ron])
-AP_CHECK_LING([2], [apertium-cat])
+AP_CHECK_LING([1], [apertium-ron], [1.0.0])
+AP_CHECK_LING([2], [apertium-cat], [2.8.0])
 
 AP_MKINCLUDE
 

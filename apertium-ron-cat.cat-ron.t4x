@@ -14,6 +14,13 @@
 
   <section-def-attrs>
 
+    <def-attr n="a_tipus">
+      <attr-item tags="adj"/>
+      <attr-item tags="det.ind"/>
+      <attr-item tags="predet"/>
+      <attr-item tags="num"/>
+      <attr-item tags="prn.pro"/>
+    </def-attr>
     <def-attr n="a_def">
       <attr-item tags="def"/>
       <attr-item tags="ind"/>
@@ -41,7 +48,7 @@
 
   <section-rules>
 
-    <rule comment="REGLA: ADJ/DET/PREDET/PRNPRO (ajusta el gènere perquè es generin correctament i elimina el cas per als determinants)">
+    <rule comment="REGLA: ADJ/DET/PREDET/PRNPRO (ajusta el gènere perquè es generin correctament i elimina el determinant per als determinants)">
       <pattern>
         <pattern-item n="ajust_genere"/>
       </pattern>
@@ -96,11 +103,33 @@
             </let>
           </when>
         </choose>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-        </out>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_tipus"/>
+                <lit-tag v="det.ind"/>
+              </equal>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_tipus"/>
+                <clip pos="1" side="tl" part="a_gen"/>
+                <clip pos="1" side="tl" part="a_nbr"/>
+                <clip pos="1" side="tl" part="a_cas"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 

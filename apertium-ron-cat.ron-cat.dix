@@ -5785,7 +5785,6 @@
 <e a="delnou">      <p><l>amplificație<s n="n"/><s n="f"/></l>        <r>amplificació<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>amploare<s n="n"/><s n="f"/></l>            <r>amplitud<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>amprentă<s n="n"/><s n="f"/></l>            <r>empremta<s n="n"/><s n="f"/></r></p></e>
-<e r="RL" a="delnou"><p><l>amprentă<s n="n"/><s n="f"/></l>           <r>impronta<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>amuletă<s n="n"/><s n="f"/></l>             <r>amulet<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>amurg<s n="n"/><s n="nt"/></l>              <r>ocàs<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>amuzament<s n="n"/><s n="nt"/></l>          <r>entreteniment<s n="n"/><s n="m"/></r></p></e>
@@ -10938,7 +10937,6 @@
 <e>                 <p><l>înghițitură<s n="n"/><s n="f"/></l>         <r>glop<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>înghițitură<s n="n"/><s n="f"/></l>         <r>trago<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>inginerie<s n="n"/><s n="f"/></l>           <r>enginyeria<s n="n"/><s n="f"/></r></p></e>
-<e r="RL">          <p><l>inginer<s n="n"/></l>                       <r>engenyer<s n="n"/></r></p></e>
 <e a="delia">       <p><l>inginer<s n="n"/></l>                       <r>enginyer<s n="n"/></r></p></e>
 <e r="LR" a="mioara"><p><l>îngrădire<s n="n"/><s n="f"/></l>          <r>restricció<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>îngrămădire<s n="n"/><s n="f"/></l>         <r>amuntegament<s n="n"/><s n="m"/></r></p></e>
@@ -11980,7 +11978,6 @@
 <e r="LR" a="mioara"><p><l>manoperă<s n="n"/><s n="f"/></l>           <r>mà<g><b/>d'obra</g><s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>mansardă<s n="n"/><s n="f"/></l>            <r>golfa<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="mioara"><p><l>manșă<s n="n"/><s n="f"/></l>              <r>etapa<s n="n"/><s n="f"/></r></p></e>
-<e r="RL" a="delia"><p><l>manșetă<s n="n"/><s n="f"/></l>             <r>bocamànega<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>manșetă<s n="n"/><s n="f"/></l>             <r>bocamàniga<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>manșon<s n="n"/><s n="nt"/></l>             <r>maneguet<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>manșon<s n="n"/><s n="nt"/></l>             <r>maniguet<s n="n"/><s n="m"/></r></p></e>
@@ -12065,12 +12062,10 @@
 <e a="delia">       <p><l>mascotă<s n="n"/><s n="f"/></l>             <r>mascota<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>mascul<s n="n"/></l>                        <r>mascle<s n="n"/></r></p></e>
 <e>                 <p><l>măsea<s n="n"/><s n="f"/></l>               <r>queixal<s n="n"/><s n="m"/></r></p></e>
-<e r="RL">          <p><l>măsea<s n="n"/><s n="f"/></l>               <r>quiexal<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>masificare<s n="n"/><s n="f"/></l>          <r>massificació<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>mașină<b/>de<b/>bărbierit<s n="n"/></l>     <r>màquina<g><b/>d'afaitar</g><s n="n"/></r></p></e>
 <e a="mioara">      <p><l>mașină<b/>de<b/>cusut<s n="n"/></l>         <r>màquina<g><b/>de<b/>cosir</g><s n="n"/></r></p></e>
 <e a="mioara">      <p><l>mașină<b/>de<b/>deszăpezire<s n="n"/></l>   <r>llevaneu<s n="n"/></r></p></e>
-<e r="RL">          <p><l>mașină<b/>de<b/>spălat<s n="n"/><s n="f"/></l><r>llavadora<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>mașină<b/>de<b/>spălat<s n="n"/><s n="f"/></l><r>rentadora<s n="n"/><s n="f"/></r></p></e>
 <e r="RL">          <p><l>mașină<s n="n"/><s n="f"/></l>              <r>cotxe<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>mașină<s n="n"/><s n="f"/></l>              <r>màquina<s n="n"/><s n="f"/></r></p></e>
@@ -12544,7 +12539,6 @@
 <e a="delia">       <p><l>mumie<s n="n"/><s n="f"/></l>               <r>mòmia<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>mumificare<s n="n"/><s n="f"/></l>          <r>momificació<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>muncă<b/>silnică<s n="n"/><s n="f"/><s n="sg"/></l><r>treballs<b/>forçats<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>muncă<s n="n"/><s n="f"/></l>               <r>faena<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>muncă<s n="n"/><s n="f"/></l>               <r>feina<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>muncă<s n="n"/><s n="f"/></l>               <r>treball<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>muncitor<s n="n"/></l>                      <r>obrer<s n="n"/></r></p></e>
@@ -13376,7 +13370,6 @@
 <e a="delia">       <p><l>pardesiu<s n="n"/><s n="nt"/></l>           <r>gavardina<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>pardoseală<s n="n"/><s n="f"/></l>          <r>empostissat<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="delia"><p><l>pardoseală<s n="n"/><s n="f"/></l>          <r>entarimat<s n="n"/><s n="m"/></r></p></e>
-<e r="RL">          <p><l>părere<s n="n"/><s n="f"/></l>              <r>parèixer<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>părere<s n="n"/><s n="f"/></l>              <r>parer<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>parfum<s n="n"/><s n="nt"/></l>             <r>perfum<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>pârghie<s n="n"/><s n="f"/></l>             <r>alçaprem<s n="n"/><s n="m"/></r></p></e>
@@ -13626,7 +13619,6 @@
 <e a="mioara">      <p><l>perversitate<s n="n"/><s n="f"/></l>        <r>perversitat<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>perversiune<s n="n"/><s n="f"/></l>         <r>perversió<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>pescărie<s n="n"/><s n="f"/></l>            <r>peixateria<s n="n"/><s n="f"/></r></p></e>
-<e r="RL" a="delia"><p><l>pescărie<s n="n"/><s n="f"/></l>            <r>pescateria<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>pescar<s n="n"/></l>                        <r>pescador<s n="n"/></r></p></e>
 <e a="delia">       <p><l>pescăruș<s n="n"/><s n="m"/></l>            <r>gavina<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="mioara"><p><l>pescuitor<s n="n"/></l>                    <r>pescador<s n="n"/></r></p></e>
@@ -14928,7 +14920,6 @@
 <e a="delia">       <p><l>rocă<s n="n"/><s n="f"/></l>                <r>roca<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>rochie<s n="n"/><s n="f"/></l>              <r>vestit<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>rochiță<s n="n"/><s n="f"/></l>             <r>vestit<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" a="mioara"><p><l>rochiță<s n="n"/><s n="f"/></l>            <r>vestil<s n="n"/><s n="m"/></r></p></e>
 <e a="delnou">      <p><l>rock-and-roll<s n="n"/><s n="nt"/></l>      <r>rock-and-roll<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>rock<s n="n"/><s n="nt"/><s n="sg"/></l>    <r>rock<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="delnou">      <p><l>rococo<s n="n"/><s n="nt"/><s n="sg"/></l>  <r>rococó<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -16162,7 +16153,7 @@
 <e a="delia">       <p><l>tataie<s n="n"/><s n="m"/><s n="sg"/></l>   <r>iaio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="delia">       <p><l>țâțână<s n="n"/><s n="f"/></l>              <r>polleguera<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>țâță<s n="n"/><s n="f"/></l>                <r>pit<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" a="delia"><p><l>țâță<s n="n"/><s n="f"/></l>                <r>teta<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="delia"><p><l>țâță<s n="n"/><s n="f"/></l>                <r>mamella<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>tată<s n="n"/><s n="m"/></l>                <r>pare<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>taur<s n="n"/></l>                          <r>bou<s n="n"/></r></p></e>
 <e a="delia">       <p><l>taur<s n="n"/></l>                          <r>toro<s n="n"/></r></p></e>
@@ -16288,7 +16279,6 @@
 <e r="LR" a="delia"><p><l>terorist<s n="n"/><s n="m"/></l>            <r>terrorista<s n="n"/><s n="mf"/></r></p></e>
 <e a="delia">       <p><l>terț<s n="n"/></l>                          <r>terç<s n="n"/></r></p></e>
 <e a="delnou">      <p><l>țesătorie<s n="n"/><s n="f"/></l>           <r>teixidoria<s n="n"/><s n="f"/></r></p></e>
-<e r="RL" a="delia"><p><l>țesător<s n="n"/></l>                       <r>teixedor<s n="n"/></r></p></e>
 <e>                 <p><l>țesător<s n="n"/></l>                       <r>teixidor<s n="n"/></r></p></e>
 <e a="delia">       <p><l>țesătură<s n="n"/><s n="f"/></l>            <r>teixit<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>tescovină<s n="n"/><s n="f"/></l>           <r>orujo<s n="n"/><s n="m"/></r></p></e>
@@ -22046,7 +22036,6 @@
 <e>                 <p><l>localiza<s n="vblex"/></l>                  <r>localitzar<s n="vblex"/></r></p></e>
 <e>                 <p><l>localiza<s n="vblex"/></l>                  <r>ubicar<s n="vblex"/></r></p></e>
 <e>                 <p><l>locui<s n="vblex"/></l>                     <r>habitar<s n="vblex"/></r></p></e>
-<e r="RL">          <p><l>locui<s n="vblex"/></l>                     <r>morar<s n="vblex"/></r></p></e>
 <e>                 <p><l>lovi<s n="vblex"/></l>                      <r>copejar<s n="vblex"/></r></p></e>
 <e>                 <p><l>lovi<s n="vblex"/></l>                      <r>impactar<s n="vblex"/></r></p></e>
 <e r="LR" a="delnou"><p><l>lua<g><b/>adio</g><s n="vblex"/></l>       <r>dir<g><b/>adéu</g><s n="vblex"/></r></p></e>

@@ -1,0 +1,51 @@
+! POS
+
+n: _.acr.gender.number.case.definite ;
+np: _.np_type.gender.number.case.definite ;
+pr: _ ;
+
+SN: _.SN_det.np_type.person.gender.number.case.definite ;
+SPrep: _ ;
+
+
+
+! Attributes
+
+gender = (GD m) m f nt mn fn @mf GD ;
+number = (ND sg) sg pl @sp ND ;
+person = (PD p3) p1 p2 p3 PD ;
+case = nom dg ;
+definite = ind def ;
+acr = acr ;
+gen = gen ;
+np_type = ant cog top al ;
+
+SN_det = undet det predet nodet prnsubj ;
+
+
+
+! Rules
+
+SN ->   1: %n
+                [$SN_det=undet,$case=nom,$definite=ind]
+                { %1 } |
+
+        1: %np.ant.m
+                [$SN_det=det,$case=nom,$definite=def]
+                { (if($case=dg) [lui@adj.pos.mn.sg.nom.def _] ) %1[case=nom] } |
+        1: %np.ant.f
+                [$SN_det=det,$case=nom,$definite=def]
+                { (if(1.gen not=gen & $case=dg) [lui@adj.pos.mn.sg.nom.def _ %1[case=nom]] else %1 ) } |
+        1: %np.cog
+                [$SN_det=det,$case=nom,$definite=def]
+                { (if($case=dg) [lui@adj.pos.mn.sg.nom.def _] ) %1[case=nom] } |
+        1: %SN.det.ant SN.det.cog
+                { %1 _1 2 } |
+
+        1: %SN SPrep
+                { %1 _1 2 } ;
+
+
+SPrep -> 1: %de@pr SN.det
+                { 2[case=dg] } ;
+

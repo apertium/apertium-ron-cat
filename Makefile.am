@@ -30,10 +30,7 @@ TARGETS_COMMON =		\
 	$(PREFIX2).autolex.bin	\
 	$(PREFIX2).autogen.bin	\
 	$(PREFIX2).autopgen.bin	\
-	$(PREFIX2).t1x.bin	\
-	$(PREFIX2).t2x.bin	\
-	$(PREFIX2).t3x.bin	\
-	$(PREFIX2).t4x.bin
+	$(PREFIX2).rtx.bin
 
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -136,21 +133,8 @@ $(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
 	apertium-preprocess-transfer $< $@
 
 
-$(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
-	apertium-validate-transfer $<
-	apertium-preprocess-transfer $< $@
-
-$(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
-	apertium-validate-interchunk $<
-	apertium-preprocess-transfer $< $@
-
-$(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
-	apertium-validate-postchunk $<
-	apertium-preprocess-transfer $< $@
-
-$(PREFIX2).t4x.bin: $(BASENAME).$(PREFIX2).t4x
-	apertium-validate-transfer $<
-	apertium-preprocess-transfer $< $@
+$(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
+	rtx-comp $< $@
 
 ###############################################################################
 ## Postgeneration dictionaries
@@ -198,11 +182,7 @@ apertium_ron_cat_DATA=	\
 	$(BASENAME).$(PREFIX1).t1x			\
 	$(BASENAME).$(PREFIX1).t2x			\
 	$(BASENAME).$(PREFIX1).t3x			\
-	$(BASENAME).$(PREFIX2).arx			\
-	$(BASENAME).$(PREFIX2).t1x			\
-	$(BASENAME).$(PREFIX2).t2x			\
-	$(BASENAME).$(PREFIX2).t3x			\
-	$(BASENAME).$(PREFIX2).t4x
+	$(BASENAME).$(PREFIX2).arx
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode

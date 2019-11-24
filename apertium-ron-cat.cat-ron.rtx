@@ -2,15 +2,19 @@
 
 adj: _.adj_type.gender.number.case.definite ;
 adj_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(adj)[gender=mn] elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(adj)[gender=fn] else 1(adj) ) ;
+det: _.adj_type.gender.number.case ;
+det_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(det)[gender=mn] elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(det)[gender=fn] else 1(det) ) ;
 n: _.acr.gender.number.case.definite ;
 np: _.np_type.gender.number.case.definite ;
 pr: _ ;
 vblex: _.tense.person.number ;
+vbser: _.tense.person.number ;
 vb_impers: _.tense ;
 vb_pp: _.tense.gender.number ;
 vb_pp_conc: (if(1.gender=m & 1.number=sg) 1(vb_pp)[gender=mn] elif(1.gender=f & 1.number=pl) 1(vb_pp)[gender=fn] else 1(vb_pp) ) ;
 
 SAdj: _.adj_type.gender_chunk.number.case.definite ;
+SDet: _.adj_type.gender_chunk.number.case ;
 SN: _.SN_det.np_type.person.gender_chunk.number.case.definite ;
 SPrep: _ ;
 SV: _.vb_type.vb_cnj.tense.person.number ;
@@ -20,7 +24,7 @@ SV: _.vb_type.vb_cnj.tense.person.number ;
 ! Attributes
 
 acr = acr ;
-adj_type = ord pos ;
+adj_type = def dem ord pos ;
 case = nom dg ;
 definite = ind def ;
 gen = gen ;
@@ -46,6 +50,20 @@ SAdj -> 1: %adj
                 { %1(adj_conc) } ;
 
 
+SDet -> 1: %det.def
+                [$case=nom]
+                { %1(det_conc) } |
+        1: %det.pos
+                [$case=nom]
+                { %1(adj_conc)[definite=ind] } |
+        2: %adj.pos
+                [$case=nom]
+                { %1(adj_conc)[definite=ind] } |
+        1: %det.dem
+                [$case=nom]
+                { %1(det_conc)} ;
+
+
 SN ->   1: %n
                 [$SN_det=undet,$case=nom,$definite=ind]
                 { %1 } |
@@ -61,12 +79,28 @@ SN ->   1: %n
                 { (if($case=dg) [lui@adj.pos.mn.sg.nom.def _] ) %1[case=nom] } |
         1: %SN.det.ant SN.det.cog
                 { %1 _1 2 } |
+        1: %np.top
+                [$SN_det=det,$case=nom,$definite=def]
+                { %1 } |
 
-        1: %SN SPrep
+        2: %SN SPrep
                 { %1 _1 2 } |
 
         2: %SN SAdj
-                { %1 _1 %2 } ;
+                { %1 _1 2[gender=$gender,number=$number] } |
+
+        1: SDet.def %SN.undet
+                [$SN_det=det]
+                { %2[definite=def] } |
+        1: SDet.dem %SN.undet
+                [$SN_det=det]
+                { %1 _1 2[gender=$gender,number=$number] } |
+        3: SDet.pos %SN.undet
+                [$SN_det=det]
+                { %2[definite=def] _1 1[gender=$gender,number=$number] } |
+        3: %SN.undet SDet.pos 
+                [$SN_det=det]
+                { %1[definite=def] _1 2[gender=$gender,number=$number] } ;
 
 
 SPrep -> 1: %de@pr SN.det
@@ -105,5 +139,40 @@ SV ->   1: %vblex.pri
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
         1: %vblex.pp
+                [$vb_cnj=impers]
+                { %1(vb_pp_conc) } |
+
+        1: %vbser.pri
+                [$vb_cnj=cnj]
+                { %1 } |
+        1: %vbser.fti
+                [$vb_cnj=cnj]
+                { vrea@vaux.pri.$person.$number _ 1(vb_impers)[tense=inf] } |
+        1: %vbser.cni
+                [$vb_cnj=cnj]
+                { avea@vbavea.$tense.$person.$number _ 1(vb_impers)[tense=inf] } |
+        1: %vbser.pis
+                [$vb_cnj=cnj,$tense=pri]
+                { %1 } |
+        1: %vbser.imp
+                [$vb_cnj=cnj,$person=(if(1.person=p3 & 1.number=pl) p2 else 1.person)] ! cantin > cântați
+                { %1 } |
+        1: %vbser.prs
+                [$vb_cnj=cnj]
+                { %1 } |
+        1: %vbser.pii
+                [$vb_cnj=cnj]
+                { %1 } |
+        1: %vbser.ifi
+                [$vb_cnj=cnj]
+                { %1 } |
+
+        1: %vbser.inf
+                [$vb_cnj=impers]
+                { %1(vb_impers) } |
+        1: %vbser.ger
+                [$vb_cnj=impers]
+                { %1(vb_impers) } |
+        1: %vbser.pp
                 [$vb_cnj=impers]
                 { %1(vb_pp_conc) } ;

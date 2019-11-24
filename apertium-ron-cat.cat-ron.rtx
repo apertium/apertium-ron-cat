@@ -1,30 +1,50 @@
 ! POS
 
+adj: _.adj_type.gender.number.case.definite ;
+adj_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(adj)[gender=mn] elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(adj)[gender=fn] else 1(adj) ) ;
 n: _.acr.gender.number.case.definite ;
 np: _.np_type.gender.number.case.definite ;
 pr: _ ;
+vblex: _.tense.person.number ;
+vb_impers: _.tense ;
+vb_pp: _.tense.gender.number ;
+vb_pp_conc: (if(1.gender=m & 1.number=sg) 1(vb_pp)[gender=mn] elif(1.gender=f & 1.number=pl) 1(vb_pp)[gender=fn] else 1(vb_pp) ) ;
 
-SN: _.SN_det.np_type.person.gender.number.case.definite ;
+SAdj: _.adj_type.gender_chunk.number.case.definite ;
+SN: _.SN_det.np_type.person.gender_chunk.number.case.definite ;
 SPrep: _ ;
+SV: _.vb_type.vb_cnj.tense.person.number ;
 
 
 
 ! Attributes
 
-gender = (GD m) m f nt mn fn @mf GD ;
-number = (ND sg) sg pl @sp ND ;
-person = (PD p3) p1 p2 p3 PD ;
+acr = acr ;
+adj_type = ord pos ;
 case = nom dg ;
 definite = ind def ;
-acr = acr ;
 gen = gen ;
+gender = (GD m) m f nt mn fn @mf @mfn GD ;
+gender_chunk = (GD m) m f nt GD ;
 np_type = ant cog top al ;
+number = (ND sg) sg pl @sp ND ;
+person = (PD p3) p1 p2 p3 PD ;
+tense = pri fti cni imp prs pii ifi inf ger pp ;
+vb_type = vblex vbser ;
+vb_cnj = cnj impers ;
 
 SN_det = undet det predet nodet prnsubj ;
 
+gender>gender_chunk: mf GD, mfn GD, mn m, fn f ;
+gender_chunk>gender: GD GD ;
 
 
 ! Rules
+
+SAdj -> 1: %adj
+                [$case=nom,$definite=ind]
+                { %1(adj_conc) } ;
+
 
 SN ->   1: %n
                 [$SN_det=undet,$case=nom,$definite=ind]
@@ -43,9 +63,47 @@ SN ->   1: %n
                 { %1 _1 2 } |
 
         1: %SN SPrep
-                { %1 _1 2 } ;
+                { %1 _1 2 } |
+
+        2: %SN SAdj
+                { %1 _1 %2 } ;
 
 
 SPrep -> 1: %de@pr SN.det
                 { 2[case=dg] } ;
 
+
+SV ->   1: %vblex.pri
+                [$vb_cnj=cnj]
+                { %1 } |
+        1: %vblex.fti
+                [$vb_cnj=cnj]
+                { vrea@vaux.pri.$person.$number _ 1(vb_impers)[tense=inf] } |
+        1: %vblex.cni
+                [$vb_cnj=cnj]
+                { avea@vbavea.$tense.$person.$number _ 1(vb_impers)[tense=inf] } |
+        1: %vblex.pis
+                [$vb_cnj=cnj,$tense=pri]
+                { %1 } |
+        1: %vblex.imp
+                [$vb_cnj=cnj,$person=(if(1.person=p3 & 1.number=pl) p2 else 1.person)] ! cantin > cântați
+                { %1 } |
+        1: %vblex.prs
+                [$vb_cnj=cnj]
+                { %1 } |
+        1: %vblex.pii
+                [$vb_cnj=cnj]
+                { %1 } |
+        1: %vblex.ifi
+                [$vb_cnj=cnj]
+                { %1 } |
+
+        1: %vblex.inf
+                [$vb_cnj=impers]
+                { %1(vb_impers) } |
+        1: %vblex.ger
+                [$vb_cnj=impers]
+                { %1(vb_impers) } |
+        1: %vblex.pp
+                [$vb_cnj=impers]
+                { %1(vb_pp_conc) } ;

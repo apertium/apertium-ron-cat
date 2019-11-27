@@ -2,11 +2,12 @@
 
 adj: _.adj_type.gender.number.case.definite ;
 adj_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(adj)[gender=mn] elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(adj)[gender=fn] else 1(adj) ) ;
+adv: _.adv_type ;
 det: _.adj_type.gender.number.case ;
 det_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(det)[gender=mn] elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(det)[gender=fn] else 1(det) ) ;
 n: _.acr.gender.number.case.definite ;
 np: _.np_type.gender.number.case.definite ;
-pr: _ ;
+pr: _.gen ;
 vbavea: _.tense.person.number ;
 vbhaver: _.tense.person.number ;
 vblex: _.tense.person.number ;
@@ -17,9 +18,10 @@ vb_pp: _.tense.gender.number ;
 vb_pp_conc: (if(1.gender=m & 1.number=sg) 1(vb_pp)[gender=mn] elif(1.gender=f & 1.number=pl) 1(vb_pp)[gender=fn] else 1(vb_pp) ) ;
 
 SAdj: _.adj_type.gender_chunk.number.case.definite ;
+SAdv: _.adv_type ;
 SDet: _.adj_type.gender_chunk.number.case ;
 SN: _.SN_det.np_type.person.gender_chunk.number.case.definite ;
-SPrep: _ ;
+SPrep: _.gen ;
 SV: _.vb_type.vb_cnj.tense.person.number ;
 
 
@@ -28,6 +30,7 @@ SV: _.vb_type.vb_cnj.tense.person.number ;
 
 acr = acr ;
 adj_type = def dem ord pos ;
+adv_type = itg ;
 case = nom dg ;
 definite = ind def ;
 gen = gen ;
@@ -51,6 +54,10 @@ gender_chunk>gender: GD GD ;
 SAdj -> 1: %adj
                 [$case=nom,$definite=ind]
                 { %1(adj_conc) } ;
+
+
+SAdv -> 1: %adv
+                { 1 } ;
 
 
 SDet -> 1: %det.def
@@ -101,13 +108,23 @@ SN ->   1: %n
         3: SDet.pos %SN.undet
                 [$SN_det=det]
                 { %2[definite=def] _1 1[gender=$gender,number=$number] } |
+        3: SDet.pos %SN.undet SPrep
+                [$SN_det=det]
+                { %2[definite=def] _1 1[gender=$gender,number=$number] _2 3 } |
         3: %SN.undet SDet.pos 
                 [$SN_det=det]
                 { %1[definite=def] _1 2[gender=$gender,number=$number] } ;
 
 
-SPrep -> 1: %de@pr SN.det
-                { 2[case=dg] } ;
+SPrep -> 0: %pr
+                { 1 } |
+
+         0: %de@SPrep SN
+                { 2[case=dg] } |
+         1: %SPrep SN
+                { 1 _1 2[definite=(if(1.lem=cu) def else 2.definite)] } |
+         2: %SPrep.gen SN
+                { 1 _1 2[case=dg] } ;
 
 
 SV ->   1: %vblex.pri
@@ -137,7 +154,7 @@ SV ->   1: %vblex.pri
 
         1: %vblex.inf
                 [$vb_cnj=impers]
-                { %1(vb_impers) } |
+                { (if($tense=pp) %1(vb_pp_conc) else %1(vb_impers)) } |
         1: %vblex.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
@@ -172,7 +189,7 @@ SV ->   1: %vblex.pri
 
         1: %vbser.inf
                 [$vb_cnj=impers]
-                { %1(vb_impers) } |
+                { (if($tense=pp) %1(vb_pp_conc) else %1(vb_impers)) } |
         1: %vbser.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
@@ -239,10 +256,17 @@ SV ->   1: %vblex.pri
 
         1: %vbmod.inf
                 [$vb_cnj=impers]
-                { %1(vb_impers) } |
+                { (if($tense=pp) %1(vb_pp_conc) else %1(vb_impers)) } |
         1: %vbmod.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
         1: %vbmod.pp
                 [$vb_cnj=impers]
-                { %1(vb_pp_conc) } ;
+                { %1(vb_pp_conc) } |
+
+        2: %merge@SV.vblex.cnj.pri SV.*.impers.inf
+                [$lem=2.lem,$tense=ifi]
+                { avea@vbavea.pri.$person.$number _1 2[tense=pp] } |
+        2: %avea@SV.vbavea.cnj.pri SV.*.impers.pp
+                [$lem=2.lem,$tense=ifi]
+                { 1[person=$person,number=$number] _1 2 } ;

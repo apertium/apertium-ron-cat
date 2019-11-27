@@ -23119,7 +23119,7 @@
 <e a="delia">       <p><l>ului<s n="vblex"/></l>                      <r>esbalair<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>umaniza<s n="vblex"/></l>                   <r>humanitzar<s n="vblex"/></r></p></e>
 <e a="delnou">      <p><l>umbla<g><b/>brambura</g><s n="vblex"/></l>  <r>vagar<s n="vblex"/></r></p></e>
-<e>                 <p><l>umbla<s n="vblex"/></l>                     <r>anar<s n="vblex"/></r></p></e>
+<e r="LR">          <p><l>umbla<s n="vblex"/></l>                     <r>anar<s n="vblex"/></r></p></e>
 <e>                 <p><l>umbla<s n="vblex"/></l>                     <r>caminar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>umbri<s n="vblex"/></l>                     <r>aombrar<s n="vblex"/></r></p></e>
 <e a="delia">       <p><l>umezi<s n="vblex"/></l>                     <r>humitejar<s n="vblex"/></r></p></e>

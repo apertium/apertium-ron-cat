@@ -11922,7 +11922,8 @@
 <e r="RL">          <p><l>mamă<s n="n"/><s n="f"/></l>                <r>mamà<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>mamă<s n="n"/><s n="f"/></l>                <r>mare<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>mamelă<s n="n"/><s n="f"/></l>              <r>mama<s n="n"/><s n="f"/></r></p></e>
-<e a="mioara">      <p><l>mameluc<s n="n"/></l>                       <r>mameluc<s n="n"/></r></p></e>
+<e>                 <p><l>mamelă<s n="n"/><s n="f"/></l>              <r>mamella<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>mameluc<s n="n"/><s n="m"/></l>             <r>mameluc<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>mămică<s n="n"/><s n="f"/></l>              <r>mamà<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>mamifer<s n="n"/><s n="nt"/></l>            <r>mamífer<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>mamografie<s n="n"/><s n="f"/></l>          <r>mamografia<s n="n"/><s n="f"/></r></p></e>
@@ -12396,7 +12397,7 @@
 <e a="delia">       <p><l>moară<s n="n"/><s n="f"/></l>               <r>molí<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>moarte<s n="n"/><s n="f"/></l>              <r>defunció<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>moarte<s n="n"/><s n="f"/></l>              <r>mort<s n="n"/><s n="f"/></r></p></e>
-<e a="mioara">      <p><l>moașă<s n="n"/><s n="f"/></l>               <r>llevadora<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>moașă<s n="n"/><s n="f"/></l>               <r>llevador<s n="n"/><s n="f"/></r></p></e>
 <e r="LR">          <p><l>moaștă<s n="n"/><s n="f"/><s n="pl"/></l>   <r>relíquia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e a="delnou">      <p><l>mobilare<s n="n"/><s n="f"/></l>            <r>moblament<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>mobilă<s n="n"/><s n="f"/></l>              <r>moble<s n="n"/><s n="m"/></r></p></e>
@@ -17221,7 +17222,6 @@
 <e a="mioara">      <p><l>Canare<s n="np"/><s n="top"/><s n="f"/></l> <r>Canàries<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Castellón<b/>de<b/>la<b/>Plana<s n="np"/><s n="top"/><s n="nt"/></l><r>Castelló<b/>de<b/>la<b/>Plana<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>                 <p><l>Catalonia<s n="np"/><s n="top"/><s n="f"/></l><r>Catalunya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e a="mioara">      <p><l>Catalunia<s n="np"/><s n="top"/><s n="f"/></l><r>Catalunya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>Caucaz<s n="np"/><s n="top"/><s n="nt"/></l><r>Caucas<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>                 <p><l>Cecenia<s n="np"/><s n="top"/><s n="f"/></l><r>Txetxènia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Cehia<s n="np"/><s n="top"/><s n="f"/></l>  <r>Txèquia<s n="np"/><s n="top"/><s n="f"/></r></p></e>

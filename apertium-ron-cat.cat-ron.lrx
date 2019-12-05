@@ -1,8 +1,33 @@
 <rules>
+
   <rule>
     <match lemma="de" tags="pr">
       <select lemma="din" tags="pr"/>
     </match>
     <match tags="np.top.*"/>
   </rule>
+
+  <rule>
+    <match lemma="segle" tags="n.*"/>
+    <match tags="num.*">
+      <select tags="adj.ord.*"/>
+    </match>
+  </rule>
+  <rule>
+    <match lemma="segle" tags="n.*"/>
+    <match tags="num.*">
+      <select tags="adj.ord.*"/>
+    </match>
+    <match tags="cnjcoo"/>
+    <match tags="num.*">
+      <select tags="adj.ord.*"/>
+    </match>
+  </rule>
+  <rule>
+    <match tags="np.ant.*"/>
+    <match tags="num.*">
+      <select tags="adj.ord.*"/>
+    </match>
+  </rule>
+
 </rules>

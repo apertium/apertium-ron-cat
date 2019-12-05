@@ -1,13 +1,18 @@
 ! POS
 
 adj: _.adj_type.gender.number.case.definite ;
-adj_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(adj)[gender=mn] elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(adj)[gender=fn] else 1(adj) ) ;
+adj_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt | 1.gender=m | 1.gender=nt) & 1.number=sg) 1(adj)[gender=mn] elif((1.gender_chunk=f | 1.gender_chunk=nt | 1.gender=f | 1.gender=nt) & 1.number=pl) 1(adj)[gender=fn] else 1(adj) ) ;
 adv: _.adv_type ;
 det: _.adj_type.gender.number.case ;
 det_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(det)[gender=mn] elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(det)[gender=fn] else 1(det) ) ;
 n: _.acr.gender.number.case.definite ;
+num: _.gender.number ;
+num_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(num)[gender=mn] elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(num)[gender=fn] else 1(num) ) ;
+num_digits: _ ;
 np: _.np_type.gender.number.case.definite ;
 pr: _.gen ;
+prn: _.prn_type.prn_type2.gender.number.case ;
+prnpers: _.prn_type.person.gender.number.case ;
 vbavea: _.tense.person.number ;
 vbhaver: _.tense.person.number ;
 vblex: _.tense.person.number ;
@@ -21,7 +26,8 @@ SAdj: _.adj_type.gender_chunk.number.case.definite ;
 SAdv: _.adv_type ;
 SDet: _.adj_type.gender_chunk.number.case ;
 SN: _.SN_det.np_type.person.gender_chunk.number.case.definite ;
-SPrep: _.gen ;
+SNum: _.gender_chunk.number ;
+SPrep: _.SPrep_type.gen ;
 SV: _.vb_type.vb_cnj.tense.person.number ;
 
 
@@ -39,11 +45,14 @@ gender_chunk = (GD m) m f nt GD ;
 np_type = ant cog top al ;
 number = (ND sg) sg pl @sp ND ;
 person = (PD p3) p1 p2 p3 PD ;
+prn_type = tn itg ;
+prn_type2 = pos ;
 tense = pri fti cni imp prs pii ifi inf ger pp ;
 vb_type = vbavea vblex vbmod vbser ;
 vb_cnj = cnj impers ;
 
-SN_det = undet det predet nodet prnsubj ;
+SN_det = undet det predet nodet prnpers ;
+SPrep_type = pr SN ;
 
 gender>gender_chunk: mf GD, mfn GD, mn m, fn f ;
 gender_chunk>gender: GD GD ;
@@ -53,7 +62,21 @@ gender_chunk>gender: GD GD ;
 
 SAdj -> 1: %adj
                 [$case=nom,$definite=ind]
-                { %1(adj_conc) } ;
+                { %1(adj_conc) } |
+        2: %adj.ord
+                [$case=nom,$definite=ind]
+                { (if(($gender_chunk=m | $gender_chunk=nt) & $number=sg)
+                        al@det.def.mn.$number
+                elif(($gender_chunk=f | $gender_chunk=nt) & $number=pl)
+                        al@det.def.fn.$number
+                else al@det.def.$gender.$number) _ %1(adj_conc) } |
+        2: %num.[gender].[number] ?(1.pos_tag/tl=adj)
+                [$case=nom,$definite=ind]
+                { (if(($gender_chunk=m | $gender_chunk=nt) & $number=sg)
+                        al@det.def.mn.$number
+                elif(($gender_chunk=f | $gender_chunk=nt) & $number=pl)
+                        al@det.def.fn.$number
+                else al@det.def.$gender.$number) _ %1(adj_conc) } ;
 
 
 SAdv -> 1: %adv
@@ -63,12 +86,21 @@ SAdv -> 1: %adv
 SDet -> 1: %det.def
                 [$case=nom]
                 { %1(det_conc) } |
+        1: %det.ind
+                [$case=nom]
+                { %1(det_conc)[adj_type=ind] } |
         1: %det.pos
                 [$case=nom]
                 { %1(adj_conc)[definite=ind] } |
+        2: %"el seu"@det.pos
+                [$case=nom]
+                { %1(adj_conc)[gender=1.gender/ref,number=1.number/ref,definite=ind] } |
         2: %adj.pos
                 [$case=nom]
                 { %1(adj_conc)[definite=ind] } |
+        3: %seu@adj.pos
+                [$case=nom]
+                { %1(adj_conc)[gender=1.gender/ref,number=1.number/ref,definite=ind] } |
         1: %det.dem
                 [$case=nom]
                 { %1(det_conc)} ;
@@ -92,6 +124,19 @@ SN ->   1: %n
         1: %np.top
                 [$SN_det=det,$case=nom,$definite=def]
                 { %1 } |
+        1: %np.al
+                [$SN_det=undet,$case=nom,$definite=ind]
+                { %1 } |
+
+        2: %prn.tn.[person] !Compte amb el datiu, que crea un error de generació
+                [$SN_det=prnpers,$case=nom]
+                { %1(prnpers) } |
+        1: %prn.tn
+                [$SN_det=nodet,$case=nom]
+                { %1 } |
+        1: %prn.itg
+                [$SN_det=nodet,$case=nom]
+                { %1 } |
 
         2: %SN SPrep
                 { %1 _1 2 } |
@@ -102,6 +147,8 @@ SN ->   1: %n
         1: SDet.def %SN.undet
                 [$SN_det=det]
                 { %2[definite=def] } |
+        1: SDet.def %SN.det.ant
+                { %2 } |
         1: SDet.dem %SN.undet
                 [$SN_det=det]
                 { %1 _1 2[gender=$gender,number=$number] } |
@@ -113,18 +160,30 @@ SN ->   1: %n
                 { %2[definite=def] _1 1[gender=$gender,number=$number] _2 3 } |
         3: %SN.undet SDet.pos 
                 [$SN_det=det]
-                { %1[definite=def] _1 2[gender=$gender,number=$number] } ;
+                { %1[definite=def] _1 2[gender=$gender,number=$number] } |
+
+        1: SNum %SN.undet
+                { 1[gender=$gender,number=$number] _1 %2 } ;
+
+
+SNum ->  0: %num
+                { %1(num_digits) } |
+         1: %num.[gender]
+                { %1(num_conc) } ;
 
 
 SPrep -> 0: %pr
+                [$SPrep_type=pr]
                 { 1 } |
-
-         0: %de@SPrep SN
-                { 2[case=dg] } |
-         1: %SPrep SN
+         0: %SPrep.pr SN
+                [$SPrep_type=SN]
                 { 1 _1 2[definite=(if(1.lem=cu) def else 2.definite)] } |
-         2: %SPrep.gen SN
-                { 1 _1 2[case=dg] } ;
+         1: %SPrep.pr.gen SN
+                [$SPrep_type=SN]
+                { 1 _1 2[case=dg] } |
+         1: %de@SPrep.pr SN
+                [$SPrep_type=SN]
+                { 2[case=dg] } ;
 
 
 SV ->   1: %vblex.pri

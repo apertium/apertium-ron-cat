@@ -4,6 +4,9 @@
     <anaphor>
       <parameter-item has-tags="det pos"/>
     </anaphor>
+    <anaphor>
+      <parameter-item has-tags="adj pos"/>
+    </anaphor>
     <antecedent>
       <parameter-item has-tags="n"/>
     </antecedent>

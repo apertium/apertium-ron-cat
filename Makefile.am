@@ -163,10 +163,6 @@ EXTRA_DIST=					\
 		$(BASENAME).$(PREFIX1).t1x	\
 		$(BASENAME).$(PREFIX1).t2x	\
 		$(BASENAME).$(PREFIX1).t3x	\
-		$(BASENAME).$(PREFIX2).t1x	\
-		$(BASENAME).$(PREFIX2).t2x	\
-		$(BASENAME).$(PREFIX2).t3x	\
-		$(BASENAME).$(PREFIX2).t4x	\
 		modes.xml
 
 ###############################################################################

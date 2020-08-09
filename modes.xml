@@ -109,12 +109,13 @@
       <program name="lrx-proc">
         <file name="cat-ron.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaph">
+      <program name="apertium-anaphora">
         <file name="apertium-ron-cat.cat-ron.arx"/>
       </program>
-      <program name="rtx-proc -a" debug-suff="transfer">
+      <program name="rtx-proc -a">
         <file name="cat-ron.rtx.bin"/>
       </program>
+      <program name="apertium-posttransfer" debug-suff="posttransfer"/>
       <program name="lt-proc $1">
         <file name="cat-ron.autogen.bin"/>
       </program>

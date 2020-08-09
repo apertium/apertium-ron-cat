@@ -1,33 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rules>
 
-  <rule>
-    <match lemma="de" tags="pr">
-      <select lemma="din" tags="pr"/>
-    </match>
-    <match tags="np.top.*"/>
+  <!-- Numerals -->
+
+  <rule lm="nombres_romans">
+    <match lemma="segle" tags="n.*"/>
+    <match tags="num.*"><remove tags="num.*"/></match>
+  </rule>
+  <rule lm="nombres_romans">
+    <match lemma="segle" tags="n.m.pl"/>
+    <match tags="num.*"><remove tags="num.*"/></match>
+    <match tags="cnjcoo"/>
+    <match tags="num.*"><remove tags="num.*"/></match>
+  </rule>
+  <rule lm="nombres_romans">
+    <match tags="np.ant.*"/>
+    <match tags="num.*"><remove tags="num.*"/></match>
   </rule>
 
-  <rule>
-    <match lemma="segle" tags="n.*"/>
-    <match tags="num.*">
-      <select tags="adj.ord.*"/>
-    </match>
-  </rule>
-  <rule>
-    <match lemma="segle" tags="n.*"/>
-    <match tags="num.*">
-      <select tags="adj.ord.*"/>
-    </match>
-    <match tags="cnjcoo"/>
-    <match tags="num.*">
-      <select tags="adj.ord.*"/>
-    </match>
-  </rule>
-  <rule>
-    <match tags="np.ant.*"/>
-    <match tags="num.*">
-      <select tags="adj.ord.*"/>
-    </match>
+
+  <!-- Preposicions -->
+
+  <rule lm="de">
+    <match lemma="de" tags="pr"><select lemma="din" tags="pr"/></match>
+    <match tags="np.top.*"/>
   </rule>
 
 </rules>

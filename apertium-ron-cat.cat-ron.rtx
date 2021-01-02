@@ -20,7 +20,7 @@ pr: _.gen ;
 preadv: _ ;
 predet: _.adj_type.gender.number.case ;
 prn: _.prn_type.prn_type2.gender.number.case ;
-prnclt: _.prn_type.prn_refadv.person.gender_clt.number_clt.case ;
+prnclt: _.prn_clt.prn_refadv.person.gender_clt.number_clt.case ;
 prnpers: _.prn_type.person.gender.number.case ;
 rel: _.prn_type.gender.number.case ;
 vbavea: _.tense.person.number ;
@@ -32,7 +32,7 @@ vb_impers: _.tense ;
 vb_pp: _.tense.gender.number ;
 vb_pp_conc: (if(1.gender=m & 1.number=sg) 1(vb_pp)[gender=mn] elif(1.gender=f & 1.number=pl) 1(vb_pp)[gender=fn] elif(1.gender=nt & 1.number=sg) 1(vb_pp)[gender=mn] elif(1.gender=nt & 1.number=pl) 1(vb_pp)[gender=fn] else 1(vb_pp) ) ;
 
-Clt: _.prn_type.prn_refadv.person.gender_clt.number_clt.case ;
+Clt: _.prn_clt.prn_refadv.person.gender_clt.number_clt.case ;
 PV: _.person.gender_chunk.number ;
 SAdj: _.adj_type.gender_chunk.number.case.definite ;
 SAdv: _.adv_type ;
@@ -60,10 +60,11 @@ np_type = ant cog top al ;
 number = (ND sg) sg pl @sp ND ;
 number_clt = sg pl sp ;
 person = (PD p3) p1 p2 p3 PD ;
+prn_clt = pro enc ;
 prn_refadv = ref adv ;
-prn_type = tn itg pro enc an nn ;
+prn_type = tn itg an nn ;
 prn_type2 = pos ;
-tense = pri fti cni imp prs pii ifi inf ger pp ;
+tense = pri fti cni imp prs pii ifi pis inf ger pp ;
 vb_type = vbavea vblex vbmod vbser ;
 vb_cnj = cnj impers ;
 
@@ -81,17 +82,26 @@ adjord_nodet = prim întâi I ;
 num_de = zero unu doi trei patru cinci șase șapte opt nouă zece
          unsprezece doisprezece treisprezece paisprezece cincisprezece șaisprezece șaptesprezece optsprezece nouăsprezece
          0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 ;
+elimina_clt = li em ens ;
 
 
 
 ! Rules
 
-Clt ->  1: %prn.enc
-                [$lem=1.lem]
-                { (if(($lem not= "hi") & ($lem not= "en")) [%1(prnclt)[lem=$lem]]) } |
-        1: %prn.pro
-                [$lem=1.lem]
-                { (if(($lem not= "hi") & ($lem not= "en")) [%1(prnclt)[lem=$lem]]) } ;
+Clt ->  1: %prn.[prn_clt]
+                [$lem=1.lem,/sl=1[lem=1.lem/sl]]
+                { %1(prnclt)[lem=$lem] } |
+        2: %prn.[prn_clt].adv [$lem=1.lem] {} |
+        
+        2: %Clt Clt ?(1.prn_clt=2.prn_clt)
+                { (if($prn_clt=pro) [%1[case=dg] _1 2[prn_clt=pro]] else [%1[case=dg] + 2])  } |
+
+        3: %Clt Clt ?(1.prn_clt=2.prn_clt & 2.lem/sl incl elimina_clt)  ! Si el segon pronom és elimina_clt, desapareix
+                { %1 } |
+        4: Clt.[prn_clt].ref %Clt ?(1.prn_clt=2.prn_clt)  ! Si el primer pronom és ref, desapareix
+                { %2 } |
+        5: %Clt Clt.[prn_clt].adv ?(1.prn_clt=2.prn_clt)  ! Si el segon pronom és adv, desapareix i no hi ha el canvi a datiu
+                { %1 } ;
 
 
 SAdj -> 1: %adj
@@ -286,140 +296,104 @@ SNum ->  0: %num
                 { 1 _1 %2 } ;
 
 
-SV ->   1: %vblex.pri
+SV ->   1: %vblex
                 [$vb_cnj=cnj]
                 { %1 } |
-        1: %vblex.fti
+        2: %vblex.fti
                 [$vb_cnj=cnj]
                 { vrea@vaux.pri.$person.$number _ 1(vb_impers)[tense=inf] } |
-        1: %vblex.cni
+        2: %vblex.cni
                 [$vb_cnj=cnj]
                 { avea@vbavea.$tense.$person.$number _ 1(vb_impers)[tense=inf] } |
-        1: %vblex.pis
+        2: %vblex.pis
                 [$vb_cnj=cnj,$tense=pri]
                 { %1 } |
-        1: %vblex.imp
+        2: %vblex.imp
                 [$vb_cnj=cnj,$person=(if(1.person=p3 & 1.number=pl) p2 else 1.person)] ! cantin > cântați
                 { %1 } |
-        1: %vblex.prs
-                [$vb_cnj=cnj]
-                { %1 } |
-        1: %vblex.pii
-                [$vb_cnj=cnj]
-                { %1 } |
-        1: %vblex.ifi
-                [$vb_cnj=cnj]
-                { %1 } |
 
-        1: %vblex.inf
+        2: %vblex.inf
                 [$vb_cnj=impers]
                 { (if($tense=pp) %1(vb_pp_conc) else %1(vb_impers)) } |
-        1: %vblex.ger
+        2: %vblex.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
-        1: %vblex.pp
+        2: %vblex.pp
                 [$vb_cnj=impers]
                 { %1(vb_pp_conc)[gender=$gender_chunk,number=$number] } |
 
-        1: %vbser.pri
+        1: %vbser
                 [$vb_cnj=cnj]
                 { %1 } |
-        1: %vbser.fti
+        2: %vbser.fti
                 [$vb_cnj=cnj]
                 { vrea@vaux.pri.$person.$number _ 1(vb_impers)[tense=inf] } |
-        1: %vbser.cni
+        2: %vbser.cni
                 [$vb_cnj=cnj]
                 { avea@vbavea.$tense.$person.$number _ 1(vb_impers)[tense=inf] } |
-        1: %vbser.pis
+        2: %vbser.pis
                 [$vb_cnj=cnj,$tense=pri]
                 { %1 } |
-        1: %vbser.imp
+        2: %vbser.imp
                 [$vb_cnj=cnj,$person=(if(1.person=p3 & 1.number=pl) p2 else 1.person)] ! cantin > cântați
                 { %1 } |
-        1: %vbser.prs
-                [$vb_cnj=cnj]
-                { %1 } |
-        1: %vbser.pii
-                [$vb_cnj=cnj]
-                { %1 } |
-        1: %vbser.ifi
-                [$vb_cnj=cnj]
-                { %1 } |
 
-        1: %vbser.inf
+        2: %vbser.inf
                 [$vb_cnj=impers]
                 { (if($tense=pp) %1(vb_pp_conc) else %1(vb_impers)) } |
-        1: %vbser.ger
+        2: %vbser.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
-        1: %vbser.pp
+        2: %vbser.pp
                 [$vb_cnj=impers]
                 { %1(vb_pp_conc) } |
 
-        1: %vbhaver.pri
-                [$vb_cnj=cnj]
+        1: %vbhaver
+                [$vb_cnj=cnj,$tense=pri]
                 { %1 } |
-        1: %vbhaver.fti
+        2: %vbhaver.fti
                 [$vb_cnj=cnj]
                 { vrea@vaux.pri.$person.$number _ fi@vbser.inf } |
-        1: %vbhaver.cni
+        2: %vbhaver.cni
                 [$vb_cnj=cnj]
                 { %1 } |
-        1: %vbhaver.pis
-                [$vb_cnj=cnj,$tense=pri]
-                { %1 } |
-        1: %vbhaver.prs
-                [$vb_cnj=cnj,$tense=pri]
-                { %1 } |
-        1: %vbhaver.pii
-                [$vb_cnj=cnj,$tense=pri]
-                { %1 } |
-        1: %vbhaver.ifi
-                [$vb_cnj=cnj,$tense=pri]
+        2: %vbhaver.pis
+                [$vb_cnj=cnj,$tense=cni]
                 { %1 } |
 
-        1: %vbhaver.inf
+        2: %vbhaver.inf
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
-        1: %vbhaver.ger
-                [$vb_cnj=impers]
-                { %1(vb_impers)[tense=inf] } |
-        1: %vbhaver.pp
-                [$vb_cnj=impers]
-                { %1(vb_impers)[tense=inf] } |
+        2: %vbhaver.ger
+                [$vb_cnj=impers,$tense=inf]
+                { %1(vb_impers) } |
+        2: %vbhaver.pp
+                [$vb_cnj=impers,$tense=inf]
+                { %1(vb_impers) } |
 
-        1: %vbmod.pri
+        1: %vbmod
                 [$vb_cnj=cnj]
                 { (if(1.lem equalcl trebui) %1[person=p3,number=sg] else %1) } |
-        1: %vbmod.fti
+        2: %vbmod.fti
                 [$vb_cnj=cnj]
                 { vrea@vaux.pri.$person.$number _ 1(vb_impers)[tense=inf] } |
-        1: %vbmod.cni
+        2: %vbmod.cni
                 [$vb_cnj=cnj]
                 { avea@vbavea.$tense.$person.$number _ 1(vb_impers)[tense=inf] } |
-        1: %vbmod.pis
+        2: %vbmod.pis
                 [$vb_cnj=cnj,$tense=pri]
                 { (if(1.lem equalcl trebui) %1[person=p3,number=sg] else %1) } |
-        1: %vbmod.imp
+        2: %vbmod.imp
                 [$vb_cnj=cnj,$person=(if(1.person=p3 & 1.number=pl) p2 else 1.person)] ! cantin > cântați
                 { (if(1.lem equalcl trebui) %1[person=p3,number=sg] else %1) } |
-        1: %vbmod.prs
-                [$vb_cnj=cnj]
-                { (if(1.lem equalcl trebui) %1[person=p3,number=sg] else %1) } |
-        1: %vbmod.pii
-                [$vb_cnj=cnj]
-                { (if(1.lem equalcl trebui) %1[person=p3,number=sg] else %1) } |
-        1: %vbmod.ifi
-                [$vb_cnj=cnj]
-                { (if(1.lem equalcl trebui) %1[person=p3,number=sg] else %1) } |
 
-        1: %vbmod.inf
+        2: %vbmod.inf
                 [$vb_cnj=impers]
                 { (if($tense=pp) %1(vb_pp_conc) else %1(vb_impers)) } |
-        1: %vbmod.ger
+        2: %vbmod.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
-        1: %vbmod.pp
+        2: %vbmod.pp
                 [$vb_cnj=impers]
                 { %1(vb_pp_conc) } |
 
@@ -429,63 +403,27 @@ SV ->   1: %vblex.pri
         2: %avea@SV.vbavea.cnj.pri SV.*.impers.pp
                 [$lem=2.lem,$tense=ifi]
                 { 1[person=$person,number=$number] _1 2 } |
+        2: %avea@SV.vbavea.cnj.cni SV.*.impers.pp
+                [$lem=2.lem,$tense=pis]
+                { 1[person=$person,number=$number] _ fi@vbser.inf _1 2 } |
 
 
         1: %SV.*.impers.ger Clt.enc
                 { %1 + 2 } |
-        2: %SV.*.impers.ger Clt.enc Clt.enc
-                { (if(3.case not= dg)
-                        [%1 + 2[case=dg] + 3]
-                else
-                        [%1 + 3]) } |
-        3: %SV.*.impers.ger Clt.enc Clt.enc.adv
-                { %1 + 2 + 3 } |
 
         1: %SV.*.impers.inf Clt.enc
-                { 2[prn_type=pro] _1 %1 } |
-        2: %SV.*.impers.inf Clt.enc Clt.enc
-                { (if(2.prn_refadv not= ref) [2[prn_type=pro,case=dg] _1]) (if(3.case not= dg) [3[prn_type=pro] _2]) %1 } |
-        3: %SV.*.impers.inf Clt.enc Clt.enc.adv
-                { 2[prn_type=pro] _1 3[prn_type=pro] _2 %1 } |
+                { 2[prn_clt=pro] _1 %1 } |
 
         1: %SV.*.cnj.imp Clt.enc
                 { %1 + 2 } |
-        2: %SV.*.cnj.imp Clt.enc.ref
+        2: %SV.*.cnj.imp.p2 Clt.enc.ref
                 { %1 + 2[lem="vă",prn_refadv="",person=p2,gender_clt=mf,number_clt=pl] } |
-        2: %SV.*.cnj.imp Clt.enc Clt.enc
-                { (if(3.case not= dg)
-                        [%1 + 2[case=dg] + 3]
-                else
-                        [%1 + 3]) } |
-        3: %SV.*.cnj.imp Clt.enc.ref Clt.enc
-                { (if(3.case not= dg)
-                        [%1 + 2[lem="vă",prn_refadv="",person=p2,gender_clt=mf,number_clt=pl,case=dg] + 3]
-                else
-                        [%1 + 3]) } |
-        3: %SV.*.cnj.imp Clt.enc Clt.enc.adv
-                { %1 + 2 + 3 } |
-        4: %SV.*.cnj.imp Clt.enc.ref Clt.enc.adv
-                { %1 + 2[lem="vă",prn_refadv="",person=p2,gender_clt=mf,number_clt=pl] + 3 } |
 
-        2: %SV.*.cnj.ifi Clt.enc
-                { 2[prn_type=pro] _1 %1 } |
-        4: %SV.*.cnj.ifi Clt.enc Clt.enc
-                { 2[prn_type=pro,case=dg] (if(3.case not= dg) [_1 3[prn_type=pro]]) _2 %1 } |
-        5: %SV.*.cnj.ifi Clt.enc Clt.enc.adv
-                { 2[prn_type=pro] _1 3[prn_type=pro] _2 %1 } |
-        3: %SV.*.cnj.ifi Clt.enc.p3.f.sg
-                { %1 + 2 } |
+        1: %SV.*.cnj.ifi Clt.enc
+                { 2[prn_clt=pro] _1 %1 } |
 
         1: Clt.pro %SV.*.cnj
                 { 1 _1 %2 } |
-        3: Clt.pro Clt.pro %SV.*.cnj
-                { (if(2.case not= dg) [1[case=dg] _1] ) 2 _2 %3 } |
-        4: Clt.pro Clt.pro.adv %SV.*.cnj
-                { 1 _1 2 _2 %3 } |
-        2: Clt.pro.p3.f.sg %SV.*.cnj.ifi
-                { %2 + 1[prn_type=enc] } |
-        4: Clt.pro Clt.pro.p3.f.sg %SV.*.cnj.ifi
-                { 1[case=dg] _1 %3 + 2[prn_type=enc] } |
 
         1: SAdv %SV
                 { 1 _1 %2 } |

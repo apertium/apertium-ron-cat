@@ -225,6 +225,9 @@ test: all
 	echo "casă" | apertium -d . ron-cat | tee .test-mt
 	@echo "casa" > .test-ref
 	@diff .test-ref .test-mt
+	echo "casă" | apertium -d . ron-cat_iec2017 | tee .test-mt
+	@echo "casa" > .test-ref
+	@diff .test-ref .test-mt
 	echo "casa" | apertium -d . cat-ron | tee .test-mt
 	@echo "casă" > .test-ref
 	@diff .test-ref .test-mt

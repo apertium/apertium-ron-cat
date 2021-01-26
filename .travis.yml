@@ -15,3 +15,4 @@ before_install:
 script:
     - ./autogen.sh --with-lang1=./apertium-ron --with-lang2=./apertium-cat
     - make langs
+    - make test

@@ -5263,9 +5263,9 @@
 <e r="LR">          <p><l>fiecare<s n="det"/><s n="ind"/><s n="mn"/><s n="sg"/></l><r>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR">          <p><l>fiecare<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL">          <p><l>fiecare<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></l><r>cada<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
-<e>                 <p><l>mai<b/>mulți<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>divers<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-<e>                 <p><l>mai<b/>mulți<s n="det"/><s n="ind"/><s n="fn"/><s n="pl"/></l><r>divers<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="RL">          <p><l>mai<b/>mulți<s n="det"/><s n="ind"/><s n="GD"/><s n="pl"/></l><r>més<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>                 <p><l>mai<b/>mult<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>divers<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+<e>                 <p><l>mai<b/>mult<s n="det"/><s n="ind"/><s n="fn"/><s n="pl"/></l><r>divers<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL">          <p><l>mai<b/>mult<s n="det"/><s n="ind"/><s n="GD"/><s n="pl"/></l><r>més<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR">          <p><l>niciun<s n="det"/><s n="ind"/><s n="mn"/><s n="sg"/></l><r>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR">          <p><l>niciun<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL">          <p><l>niciun<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></l><r>cap<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -5316,9 +5316,9 @@
 
 <e>                 <p><l>BBC<s n="n"/><s n="acr"/><s n="nt"/></l>    <r>BBC<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
 <e>                 <p><l>FMI<s n="n"/><s n="acr"/><s n="nt"/></l>    <r>FMI<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
-<e r="RL">          <p><l>GPS<s n="n"/><s n="nt"/><s n="ND"/></l>     <r>GPS<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR">          <p><l>GPS<s n="n"/><s n="nt"/><s n="sg"/></l>     <r>GPS<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR">          <p><l>GPS<s n="n"/><s n="nt"/><s n="pl"/></l>     <r>GPS<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL">          <p><l>GPS<s n="n"/><s n="acr"/><s n="nt"/><s n="ND"/></l><r>GPS<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR">          <p><l>GPS<s n="n"/><s n="acr"/><s n="nt"/><s n="sg"/></l><r>GPS<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR">          <p><l>GPS<s n="n"/><s n="acr"/><s n="nt"/><s n="pl"/></l><r>GPS<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
 <e>                 <p><l>ONU<s n="n"/><s n="acr"/><s n="m"/></l>     <r>ONU<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>PRO<s n="n"/><s n="acr"/></l>               <r>PRO<s n="n"/><s n="acr"/></r></p></e>
 <e>                 <p><l>TVA<s n="n"/><s n="acr"/><s n="nt"/><s n="sg"/></l><r>IVA<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
@@ -15710,7 +15710,8 @@
 <e>                 <p><l>splendoare<s n="n"/><s n="f"/></l>          <r>esplendor<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>splină<s n="n"/><s n="f"/></l>              <r>melsa<s n="n"/><s n="f"/></r></p></e>
 <e a="mioara">      <p><l>sponsorizare<s n="n"/><s n="f"/></l>        <r>esponsorització<s n="n"/><s n="f"/></r></p></e>
-<e a="mioara">      <p><l>sponsor<s n="n"/></l>                       <r>patrocinador<s n="n"/></r></p></e>
+<e a="mioara">      <p><l>sponsor<s n="n"/><s n="m"/></l>             <r>patrocinador<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="mioara"><p><l>sponsor<s n="n"/><s n="m"/></l>            <r>patrocinador<s n="n"/><s n="f"/></r></p></e>
 <e a="delnou">      <p><l>spontaneitate<s n="n"/><s n="f"/></l>       <r>espontaneïtat<s n="n"/><s n="f"/></r></p></e>
 <e r="LR">          <p><l>sporire<s n="n"/><s n="f"/></l>             <r>augment<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>spor<s n="n"/><s n="nt"/></l>               <r>increment<s n="n"/><s n="m"/></r></p></e>

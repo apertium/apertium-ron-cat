@@ -1,0 +1,14 @@
+{
+    "cat-ron": {
+        "input": "cat-ron-input.txt",
+        "mode": "cat-ron"
+    },
+    "ron-cat": {
+        "input": "ron-cat-input.txt",
+        "mode": "ron-cat"
+    },
+    "ron-cat_iec2017": {
+        "input": "ron-cat_iec2017-input.txt",
+        "mode": "ron-cat_iec2017"
+    }
+}

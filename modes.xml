@@ -34,11 +34,11 @@
         <file name="apertium-ron-cat.ron-cat.t3x"/>
         <file name="ron-cat.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="ron-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="ron-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="ron-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="ron-cat.autopgen.bin"/>
@@ -46,7 +46,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ron-cat_iec2017" install="yes">
+  <mode name="ron-cat_pre2017" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="ron-cat.automorf.bin"/>
@@ -79,11 +79,14 @@
         <file name="apertium-ron-cat.ron-cat.t3x"/>
         <file name="ron-cat.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="ron-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="ron-cat.autopgen-diacritics-nous.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="pre2017prefs">
+        <file name="ron-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="ron-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="ron-cat.autopgen.bin"/>

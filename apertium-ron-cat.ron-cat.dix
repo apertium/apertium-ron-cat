@@ -15096,7 +15096,6 @@
 <e a="delia">       <p><l>sânge<s n="n"/><s n="nt"/><s n="sg"/></l>   <r>sang<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="mioara">      <p><l>sanie<s n="n"/><s n="f"/></l>               <r>trineu<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="delia"><p><l>sân<s n="n"/></l>                           <r>pit<s n="n"/></r></p></e>
-<e>                 <p><l>sân<s n="n"/></l>                           <r>si<s n="n"/></r></p></e>
 <e>                 <p><l>șansă<s n="n"/><s n="f"/></l>               <r>fortuna<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>șantaj<s n="n"/><s n="nt"/></l>             <r>xantatge<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>șantier<s n="n"/><s n="nt"/></l>            <r>obra<s n="n"/><s n="f"/></r></p></e>
@@ -15194,7 +15193,6 @@
 <e a="delia">       <p><l>schi<s n="n"/><s n="nt"/></l>               <r>esquí<s n="n"/><s n="m"/></r></p></e>
 <e a="mioara">      <p><l>schismă<s n="n"/><s n="f"/></l>             <r>cisma<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>schiță<s n="n"/><s n="f"/></l>              <r>esbós<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>schit<s n="n"/></l>                         <r>ermita<s n="n"/></r></p></e>
 <e a="mioara">      <p><l>schit<s n="n"/><s n="nt"/></l>              <r>ermita<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>science-fiction<s n="n"/><s n="nt"/><s n="sg"/></l><r>ciència-ficció<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" a="delnou"><p><l>scindare<s n="n"/><s n="f"/></l>           <r>escissió<s n="n"/><s n="f"/></r></p></e>

@@ -37,7 +37,7 @@
       <program name="lt-proc $1 -b">
         <file name="ron-cat.autogen.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="ron-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
@@ -85,7 +85,7 @@
       <program name="cg-proc" debug-suff="pre2017prefs">
         <file name="ron-cat.pre2017_prefs.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="ron-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">

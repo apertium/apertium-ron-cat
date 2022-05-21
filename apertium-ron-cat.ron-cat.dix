@@ -9584,7 +9584,9 @@
 <e>                 <p><l>fapt<s n="n"/></l>                          <r>feta<s n="n"/></r></p></e>
 <e>                 <p><l>fapt<s n="n"/><s n="nt"/></l>               <r>fet<s n="n"/><s n="m"/></r></p></e>
 <e a="delnou">      <p><l>fărâmițare<s n="n"/><s n="f"/></l>          <r>trossejament<s n="n"/><s n="m"/></r></p></e>
-<e a="delnou">      <p><l>faraon<s n="n"/></l>                        <r>faraó<s n="n"/></r></p></e>
+<e r="LR" a="delnou"><p><l>faraon<s n="n"/><s n="m"/></l>             <r>faraó<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL" a="delnou"><p><l>faraon<s n="n"/><s n="m"/></l>             <r>faraó<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="delnou"><p><l>faraon<s n="n"/><s n="m"/></l>             <r>faraó<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>făraș<s n="n"/><s n="nt"/></l>              <r>recollidor<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>farfurie<b/>zburătoare<s n="n"/><s n="f"/></l><r>plat<b/>volador<s n="n"/><s n="m"/></r></p></e>
 <e a="delia">       <p><l>farfurie<s n="n"/><s n="f"/></l>            <r>plat<s n="n"/><s n="m"/></r></p></e>

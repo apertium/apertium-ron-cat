@@ -7,8 +7,8 @@
         "input": "ron-cat-input.txt",
         "mode": "ron-cat"
     },
-    "ron-cat_iec2017": {
-        "input": "ron-cat_iec2017-input.txt",
-        "mode": "ron-cat_iec2017"
+    "ron-cat_pre2017": {
+        "input": "ron-cat_pre2017-input.txt",
+        "mode": "ron-cat_pre2017"
     }
 }

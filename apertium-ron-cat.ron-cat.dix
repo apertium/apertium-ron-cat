@@ -397,7 +397,6 @@
 <e>                 <p><l>amabil</l>                                  <r>amable</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>amăgit</l>                                  <r>enganyat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>amăgitor</l>                                <r>fal·laç</r></p><par n="4-3sg__adj"/></e>
-<e>                 <p><l>amăgitor</l>                                <r>fal·laç</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>amânat</l>                                  <r>demorat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>amănunțit</l>                               <r>detallat</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>amărât</l>                                  <r>amargat</r></p><par n="4-4__adj"/></e>
@@ -1401,7 +1400,6 @@
 <e>                 <p><l>diplomatic</l>                              <r>diplomàtic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>diplomat</l>                                <r>diplomat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>direct</l>                                  <r>directe</r></p><par n="4-3pl__adj"/></e>
-<e>                 <p><l>direct</l>                                  <r>directe</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>disciplinat</l>                             <r>disciplinat</r></p><par n="4-4__adj"/></e>
 <e a="delnou">      <p><l>discografic</l>                             <r>discogràfic</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>discontinuu</l>                             <r>discontinu</r></p><par n="4-4__adj"/></e>
@@ -3046,7 +3044,6 @@
 <e>                 <p><l>negociabil</l>                              <r>negociable</r></p><par n="4-2__adj"/></e>
 <e>                 <p><l>negricios</l>                               <r>negrós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>negru</l>                                   <r>negre</r></p><par n="4-3pl__adj"/></e>
-<e>                 <p><l>negru</l>                                   <r>negre</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>neguvernamental</l>                         <r>no<b/>governamental</r></p><par n="4-2__adj"/></e>
 <e a="delia">       <p><l>nehotărât</l>                               <r>indecís</r></p><par n="4-4__adj"/></e>
 <e a="mioara">      <p><l>neidentificat</l>                           <r>no<b/>identificat</r></p><par n="4-4__adj"/></e>
@@ -3881,7 +3878,6 @@
 <e a="delia">       <p><l>săptămânal</l>                              <r>setmanal</r></p><par n="4-2__adj"/></e>
 <e a="mioara">      <p><l>săpunos</l>                                 <r>sabonós</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>sărac</l>                                   <r>pobre</r></p><par n="4-3pl__adj"/></e>
-<e>                 <p><l>sărac</l>                                   <r>pobre</r></p><par n="4-4__adj"/></e>
 <e a="delia">       <p><l>sărat</l>                                   <r>salat</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>sârbesc</l>                                 <r>serbi</r></p><par n="4-4__adj"/></e>
 <e>                 <p><l>sârb</l>                                    <r>serbi</r></p><par n="4-4__adj"/></e>
@@ -21563,7 +21559,6 @@
 <e a="delnou">      <p><l>fi<g><b/>stăpân<b/>pe<b/>situație</g><s n="vblex"/></l><r>dominar<g><b/>la<b/>situació</g><s n="vblex"/></r></p></e>
 <e>                 <p><l>fi<g><b/>teamă</g><s n="vblex"/></l>        <r>tenir<g><b/>por</g><s n="vblex"/></r></p></e>
 <e r="LR">          <p><l>fi<g><b/>vorba</g><s n="vblex"/></l>        <r>tractar<s n="vblex"/></r></p></e>
-<e r="RL">          <p><l>fi<s n="vbser"/></l>                        <r>estar<s n="vblex"/></r></p></e>
 <e>                 <p><l>fi</l>                                      <r>haver</r></p><par n="haver-hi__vblex"/></e>
 <e a="mioara">      <p><l>figura<s n="vblex"/></l>                    <r>figurar<s n="vblex"/></r></p></e>
 <e a="del">         <p><l>filma<s n="vblex"/></l>                     <r>filmar<s n="vblex"/></r></p></e>

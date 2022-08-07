@@ -34,15 +34,15 @@ unset IFS
 for i in "${!modes[@]}"; do
     printf "== %.45s\n" "${modenames[$i]} ============================================"
     if [[ $ENCLITICS = true ]] && [[ $TRIMMED = false ]]; then
-        bash inconsistency.sh -et ${modes[$i]} auto > .testvoc
+        bash generation.sh -e "<prn><enc>" -u -a ${modes[$i]} > .testvoc
     elif [[ $ENCLITICS = true ]]; then
-        bash inconsistency.sh -e ${modes[$i]} auto > .testvoc
+        bash generation.sh -e "<prn><enc>" -a ${modes[$i]} > .testvoc
     elif [[ $TRIMMED = false ]]; then
-        bash inconsistency.sh -t ${modes[$i]} auto > .testvoc
+        bash generation.sh -u -a ${modes[$i]} > .testvoc
     else
-        bash inconsistency.sh ${modes[$i]} auto > .testvoc
+        bash generation.sh -a ${modes[$i]} > .testvoc
     fi
-    grep -vP '(?!\\)\/.*   --------->   [^#].*\\\/' .testvoc | grep -vP '^\^@.*   --------->   \\@.*' | grep -e ' #' -e '\\\/' -e ' \\@' > testvoc-errors.${modes[$i]}.txt
+    cat .testvoc | grep -e ' #' -e ' @' -e '/' > testvoc-errors.${modes[$i]}.txt
 
     if ! [[ $QUIET ]]; then
         bash inconsistency-summary.sh .testvoc ${modes[$i]}
@@ -53,7 +53,7 @@ done
 if [[ $UNKNOWNS ]]; then
     for i in "${!langs[@]}"; do
         printf "== %.45s\n" "${langnames[$i]} ============================================"
-        pushd ../../ > /dev/null; bash dev/testvoc/bidix-unknowns.sh ${langs[$i]} | grep -v ":<:" | grep -v "<prn><enc>" > dev/testvoc/testvoc-missing.${langs[$i]}.txt; popd > /dev/null;
+        pushd ../../ > /dev/null; bash dev/testvoc/bidix-unknowns.sh ${langs[$i]} | grep -v ":<:" | grep -v "REGEX" | grep -v "<prn><enc>" > dev/testvoc/testvoc-missing.${langs[$i]}.txt; popd > /dev/null;
         printf "%s\n" "Missing entries: $(cat testvoc-missing.${langs[$i]}.txt | wc -l)"
     done
 fi

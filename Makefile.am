@@ -5,7 +5,11 @@
 LANG1=ron
 LANG2=cat
 
+VAR1=#leave empty
+LANG2C=$(LANG2)$(VAR1)
+
 PREFIX1=$(LANG1)-$(LANG2)
+PREFIX1C=$(LANG1)-$(LANG2C)
 PREFIX2=$(LANG2)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
@@ -16,7 +20,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1).automorf.bin	\
 	$(PREFIX1).prob		\
 	$(PREFIX1).rlx.bin	\
-	$(PREFIX1).autobil.bin	\
+	$(PREFIX1C).autobil.bin 	\
 	$(PREFIX1).autolex.bin	\
 	$(PREFIX1).autogen.bin	\
 	$(PREFIX1).autopgen.bin	\
@@ -104,9 +108,15 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/$(LANG2).rlx.bin
 ## Bilingual dictionaries
 ###############################################################################
 
-$(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
+.deps/$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
+	cp $< $@
+
+.deps/$(PREFIX1).cat.dix: .deps/$(PREFIX1).dix
+	apertium-genvrdix cat $< >$@
+
+$(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
 	apertium-validate-dictionary $<
-	lt-comp lr $< $@
+	lt-comp --var-right=cat lr $< $@
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $<

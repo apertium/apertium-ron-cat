@@ -17354,7 +17354,7 @@
 <e>                 <p><l>Móra<b/>d'Ebre<s n="np"/><s n="top"/><s n="f"/></l><r>Móra<b/>d'Ebre<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Morella<s n="np"/><s n="top"/><s n="f"/></l><r>Morella<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Moscova<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Moscou<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>                 <p><l>München<s n="np"/><s n="top"/><s n="nt"/></l><r>Munic<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>München<s n="np"/><s n="top"/><s n="nt"/></l><r>Múnic<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>                 <p><l>Muntenegru<s n="np"/><s n="top"/><s n="nt"/></l><r>Montenegro<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>                 <p><l>Muntenia<s n="np"/><s n="top"/><s n="f"/></l><r>Muntènia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Mureș<s n="np"/><s n="top"/><s n="nt"/></l> <r>Mureș<s n="np"/><s n="top"/><s n="m"/></r></p></e>
@@ -17422,7 +17422,7 @@
 <e>                 <p><l>Scoția<s n="np"/><s n="top"/><s n="f"/></l> <r>Escòcia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Serbia<s n="np"/><s n="top"/><s n="f"/></l> <r>Sèrbia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Seul<s n="np"/><s n="top"/><s n="nt"/></l>  <r>Seül<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-<e>                 <p><l>Shanghai<s n="np"/><s n="top"/><s n="nt"/></l><r>Xangai<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Shanghai<s n="np"/><s n="top"/><s n="nt"/></l><r>Shanghai<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>                 <p><l>Siberia<s n="np"/><s n="top"/><s n="f"/></l><r>Sibèria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Sibiu<s n="np"/><s n="top"/><s n="nt"/></l> <r>Sibiu<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>                 <p><l>Sicilia<s n="np"/><s n="top"/><s n="f"/></l><r>Sicília<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -17482,7 +17482,7 @@
 <e a="mioara">      <p><l>Varșovia<s n="np"/><s n="top"/><s n="f"/></l><r>Varsòvia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Vaslui<s n="np"/><s n="top"/><s n="nt"/></l><r>Vaslui<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>                 <p><l>Veneția<s n="np"/><s n="top"/><s n="f"/></l><r>Venècia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>                 <p><l>Veneto<s n="np"/><s n="top"/><s n="nt"/></l><r>Vèneto<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>                 <p><l>Veneto<s n="np"/><s n="top"/><s n="nt"/></l><r>Vènet<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>                 <p><l>Venezuela<s n="np"/><s n="top"/><s n="f"/></l><r>Veneçuela<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e r="LR" a="mioara"><p><l>Vestfalia<s n="np"/><s n="top"/><s n="f"/></l><r>Westfàlia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>                 <p><l>Vic<s n="np"/><s n="top"/><s n="nt"/></l>   <r>Vic<s n="np"/><s n="top"/><s n="m"/></r></p></e>

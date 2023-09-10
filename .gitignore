@@ -24,3 +24,7 @@
 /dev/testvoc/testvoc-errors.cat-ron.txt
 /dev/testvoc/testvoc-missing.ron.txt
 /dev/testvoc/testvoc-missing.cat.txt
+/*.hfst
+/*.zhfst
+/.DS_Store
+/prefs

@@ -19,10 +19,10 @@
       <program name="lrx-proc">
         <file name="ron-cat.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaph">
+      <program name="apertium-anaphora">
         <file name="apertium-ron-cat.ron-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-ron-cat.ron-cat.t1x"/>
         <file name="ron-cat.t1x.bin"/>
       </program>
@@ -34,11 +34,11 @@
         <file name="apertium-ron-cat.ron-cat.t3x"/>
         <file name="ron-cat.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="ron-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="ron-cat.autopgen-diacritics-nous.bin"/>
+      <program name="cg-proc -n -g" debug-suff="prefs">
+        <file name="ron-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="ron-cat.autopgen.bin"/>
@@ -64,10 +64,10 @@
       <program name="lrx-proc">
         <file name="ron-cat.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaph">
+      <program name="apertium-anaphora">
         <file name="apertium-ron-cat.ron-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -b" >
         <file name="apertium-ron-cat.ron-cat.t1x"/>
         <file name="ron-cat.t1x.bin"/>
       </program>
@@ -79,11 +79,14 @@
         <file name="apertium-ron-cat.ron-cat.t3x"/>
         <file name="ron-cat.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="ron-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="ron-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc" debug-suff="pre2017prefs">
+        <file name="ron-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -n -g" debug-suff="prefs">
+        <file name="ron-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="ron-cat.autopgen.bin"/>
@@ -115,7 +118,6 @@
       <program name="rtx-proc -a">
         <file name="cat-ron.rtx.bin"/>
       </program>
-      <program name="apertium-posttransfer" debug-suff="posttransfer"/>
       <program name="lt-proc $1">
         <file name="cat-ron.autogen.bin"/>
       </program>
@@ -150,4 +152,3 @@
   </mode>
 
 </modes>
-

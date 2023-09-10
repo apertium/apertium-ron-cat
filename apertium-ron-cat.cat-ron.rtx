@@ -94,7 +94,7 @@ Clt ->  1: %prn.[prn_clt]
         2: %prn.[prn_clt].adv [$lem=1.lem] {} |
         
         2: %Clt Clt ?(1.prn_clt=2.prn_clt)
-                { (if($prn_clt=pro) [%1[case=dg] _1 2[prn_clt=pro]] else [%1[case=dg] + 2])  } |
+                { (if($prn_clt=pro) [%1[case=dg] _ 2[prn_clt=pro]] else [%1[case=dg] + 2])  } |
 
         3: %Clt Clt ?(1.prn_clt=2.prn_clt & 2.lem/sl incl elimina_clt)  ! Si el segon pronom és elimina_clt, desapareix
                 { %1 } |
@@ -136,7 +136,7 @@ SAdj -> 1: %adj
                 else [al@det.def.$gender.$number _ %1(adj_conc)[case=nom,definite=ind]] ) } |
 
         1: SAdv %SAdj
-                { 1 _1 %2 } |
+                { 1 _ %2 } |
 
         0: %SV.*.impers.pp
                 { %1 } ;
@@ -148,9 +148,9 @@ SAdv -> 1: %adv
                 { 1 } |
 
         1: el@det.def.m.sg %num
-                { în@pr _1 2(num_digits) } |
+                { în@pr _ 2(num_digits) } |
         1: en@pr %num
-                { 1 _1 2(num_digits) } ;
+                { 1 _ 2(num_digits) } ;
 
 
 SDet -> 1: %det.def
@@ -201,10 +201,10 @@ SPredet -> 1: %predet
 
 SPrep -> 0: %pr SN
                 [$SPrep_type=SN]
-                { 1 _1 2[definite=(if(1.lem=cu) def else ind)] } | ! Pot ser def sense cu si té complements
+                { 1 _ 2[definite=(if(1.lem=cu) def else ind)] } | ! Pot ser def sense cu si té complements
          1: %pr.gen SN
                 [$SPrep_type=SN]
-                { 1 _1 2[case=dg] } |
+                { 1 _ 2[case=dg] } |
          1: %de@pr SN
                 [$SPrep_type=SN]
                 { 2[case=dg] } ;
@@ -224,7 +224,7 @@ SN ->   1: %n
                 [$SN_det=det,$case=nom,$definite=def]
                 { (if($case=dg) [lui@adj.pos.mn.sg.nom.def _] ) %1[case=nom,definite=def] } |
         1: %SN.det.ant SN.det.cog
-                { %1 _1 2 } |
+                { %1 _ 2 } |
         1: %np.top
                 [$SN_det=det,$case=nom,$definite=def]
                 { %1[definite=def] } |
@@ -243,17 +243,17 @@ SN ->   1: %n
                 { %1 } |
 
         2: %SN SPrep
-                { %1 _1 2 } |
+                { %1 _ 2 } |
 
         2: %SN SAdj
                 [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number=(if(1.number=ND)2.number else 1.number)]
-                { %1 _1 2[gender=$gender,number=$number] } |
+                { %1 _ 2[gender=$gender,number=$number] } |
         2: SAdj.ord %SN
                 [$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
-                { %1 _1 2[gender=$gender,number=$number] } |
+                { %1 _ 2[gender=$gender,number=$number] } |
         3: SAdj.ord %SN ?(1.lem/tl=întâi)
                 [$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
-                { 2[gender=$gender,number=$number,definite=def] _1 %1 } |
+                { 2[gender=$gender,number=$number,definite=def] _ %1 } |
 
         1: SDet.def %SN.undet
                 [$SN_det=det,$definite=def,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
@@ -262,30 +262,30 @@ SN ->   1: %n
                 { %2 } |
         1: SDet.dem %SN.undet
                 [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
-                { %1[gender=$gender,number=$number] _1 2 } |
+                { %1[gender=$gender,number=$number] _ 2 } |
         1: SDet.ind %SN.undet
                 [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
-                { %1[gender=$gender,number=$number] _1 2 } |
+                { %1[gender=$gender,number=$number] _ 2 } |
         3: SDet.pos %SN.undet
                 [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
-                { %2[definite=def] _1 1[gender=$gender,number=$number] } |
+                { %2[definite=def] _ 1[gender=$gender,number=$number] } |
         3: SDet.pos %SN.undet SPrep
                 [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
-                { %2[definite=def] _1 1[gender=$gender,number=$number] _2 3 } |
+                { %2[definite=def] _ 1[gender=$gender,number=$number] _ 3 } |
         3: %SN.undet SDet.pos 
                 [$SN_det=det,$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number=(if(1.number=ND)2.number else 1.number)]
-                { %1[definite=def] _1 2[gender=$gender,number=$number] } |
+                { %1[definite=def] _ 2[gender=$gender,number=$number] } |
 
         1: SPredet.def %SN.det
                 [$SN_det=predet,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
-                { %1 _1 %2[case=nom,definite=def] } |
+                { %1 _ %2[case=nom,definite=def] } |
 
         1: SNum %SN.undet
                 [$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
-                { 1[gender=$gender] (if(1.lem not incl num_de)[_ de@pr]) _1 %2 } |
+                { 1[gender=$gender] (if(1.lem not incl num_de)[_ de@pr]) _ %2 } |
 
         2: %SN que@rel SV ! Per fer la concordança del verb de la hem de saber si el verb és transitiu o intrasitiu
-                { %1 _1 2 _2 3 } ;
+                { %1 _ 2 _ 3 } ;
 
 
 SNum ->  0: %num
@@ -293,7 +293,7 @@ SNum ->  0: %num
          1: %num.[gender]
                 { %1(num_conc) } |
          2: SNum %SNum
-                { 1 _1 %2 } ;
+                { 1 _ %2 } ;
 
 
 SV ->   1: %vblex
@@ -399,20 +399,20 @@ SV ->   1: %vblex
 
         2: %merge@SV.vblex.cnj.pri SV.*.impers.inf
                 [$lem=2.lem,$tense=ifi]
-                { avea@vbavea.pri.$person.$number _1 2[tense=pp] } |
+                { avea@vbavea.pri.$person.$number _ 2[tense=pp] } |
         2: %avea@SV.vbavea.cnj.pri SV.*.impers.pp
                 [$lem=2.lem,$tense=ifi]
-                { 1[person=$person,number=$number] _1 2 } |
+                { 1[person=$person,number=$number] _ 2 } |
         2: %avea@SV.vbavea.cnj.cni SV.*.impers.pp
                 [$lem=2.lem,$tense=pis]
-                { 1[person=$person,number=$number] _ fi@vbser.inf _1 2 } |
+                { 1[person=$person,number=$number] _ fi@vbser.inf _ 2 } |
 
 
         1: %SV.*.impers.ger Clt.enc
                 { %1 + 2 } |
 
         1: %SV.*.impers.inf Clt.enc
-                { 2[prn_clt=pro] _1 %1 } |
+                { 2[prn_clt=pro] _ %1 } |
 
         1: %SV.*.cnj.imp Clt.enc
                 { %1 + 2 } |
@@ -420,18 +420,18 @@ SV ->   1: %vblex
                 { %1 + 2[lem="vă",prn_refadv="",person=p2,gender_clt=mf,number_clt=pl] } |
 
         1: %SV.*.cnj.ifi Clt.enc
-                { 2[prn_clt=pro] _1 %1 } |
+                { 2[prn_clt=pro] _ %1 } |
 
         1: Clt.pro %SV.*.cnj
-                { 1 _1 %2 } |
+                { 1 _ %2 } |
 
         1: SAdv %SV
-                { 1 _1 %2 } |
+                { 1 _ %2 } |
 
         2: %SV.*.cnj SAdj.$gender
-                { %1 _1 %2 };
+                { %1 _ %2 };
 
 
 PV ->   0: SN.$person SV.*.cnj
                 [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number=(if(1.number=ND)2.number else 1.number)]
-                { %1 _1 %2 } ;
+                { %1 _ %2 } ;

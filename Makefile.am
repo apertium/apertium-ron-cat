@@ -5,21 +5,27 @@
 LANG1=ron
 LANG2=cat
 
+VAR1=#leave empty
+LANG2C=$(LANG2)$(VAR1)
+
 PREFIX1=$(LANG1)-$(LANG2)
+PREFIX1C=$(LANG1)-$(LANG2C)
 PREFIX2=$(LANG2)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
+
+TARGETS_PREFS = prefs/$(PREFIX1).xml
 
 TARGETS_COMMON =		\
 	$(PREFIX1).automorf.bin	\
 	$(PREFIX1).prob		\
 	$(PREFIX1).rlx.bin	\
-	$(PREFIX1).autobil.bin	\
+	$(PREFIX1C).autobil.bin 	\
 	$(PREFIX1).autolex.bin	\
 	$(PREFIX1).autogen.bin	\
 	$(PREFIX1).autopgen.bin	\
-	$(PREFIX1).autopgen-diacritics-vells.bin 	\
-	$(PREFIX1).autopgen-diacritics-nous.bin	\
+	$(PREFIX1).prefs.rlx.bin	\
+	$(PREFIX1).pre2017_prefs.rlx.bin \
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin	\
@@ -30,7 +36,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).autolex.bin	\
 	$(PREFIX2).autogen.bin	\
 	$(PREFIX2).autopgen.bin	\
-	$(PREFIX2).rtx.bin
+	$(PREFIX2).rtx.bin	\
+ 	prefs/$(PREFIX1).xml
 
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -98,9 +105,15 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/$(LANG2).rlx.bin
 ## Bilingual dictionaries
 ###############################################################################
 
-$(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
+.deps/$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
+	cp $< $@
+
+.deps/$(PREFIX1).cat.dix: .deps/$(PREFIX1).dix
+	apertium-genvrdix cat $< >$@
+
+$(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
 	apertium-validate-dictionary $<
-	lt-comp lr $< $@
+	lt-comp --var-right=cat lr $< $@
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $<
@@ -143,14 +156,39 @@ $(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
 $(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
 	cp $< $@
 
-$(PREFIX1).autopgen-diacritics-vells.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritics-vells.bin
-	cp $< $@
-
-$(PREFIX1).autopgen-diacritics-nous.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritics-nous.bin
-	cp $< $@
-
 $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
 	cp $< $@
+
+###############################################################################
+## Variant preferences
+###############################################################################
+
+$(PREFIX1).pre2017_prefs.rlx.bin: $(AP_SRC2)/$(LANG2).pre2017_prefs.rlx.bin
+	cp $< $@
+
+$(PREFIX1).prefs.rlx.bin: $(AP_SRC2)/$(LANG2).prefs.rlx.bin
+	cp $< $@
+
+###############################################################################
+## Preferences
+###############################################################################
+
+prefs/$(LANG2).preferences.xml: $(AP_SRC2)/$(LANG2).preferences.xml
+	$(MKDIR_P) prefs
+	cp $< $@
+
+define mergePrefs =
+$(MKDIR_P) prefs
+echo '<preferences>' >$@.tmp
+for f in $^; do xmllint --xpath '/preferences/preference' "$$f"; done >>$@.tmp
+echo '</preferences>' >>$@.tmp
+mv $@.tmp $@
+endef
+
+# uncomment when we have bilingual preferences
+# prefs/$(PREFIX1).xml: $(LANG2).preferences.xml $(PREFIX1).preferences.xml
+prefs/$(PREFIX1).xml: prefs/$(LANG2).preferences.xml 
+		$(mergePrefs)
 
 ###############################################################################
 ## Distribution
@@ -163,7 +201,8 @@ EXTRA_DIST=					\
 		$(BASENAME).$(PREFIX1).t1x	\
 		$(BASENAME).$(PREFIX1).t2x	\
 		$(BASENAME).$(PREFIX1).t3x	\
-		modes.xml
+		modes.xml	\
+		$(PREFIX1).preferences.xml
 
 ###############################################################################
 ## Installation
@@ -181,9 +220,11 @@ apertium_ron_cat_DATA=	\
 	$(BASENAME).$(PREFIX2).arx
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
-noinst_DATA=modes/$(PREFIX1).mode
+noinst_DATA=modes/$(PREFIX1).mode $(TARGETS_PREFS)
 
 install-data-local: install-modes
+	$(MKDIR_P) $(DESTDIR)$(apertium_modesdir)/../prefs
+	$(INSTALL_DATA) $(TARGETS_PREFS) $(DESTDIR)$(apertium_modesdir)/../prefs
 
 ###############################################################################
 ## Cleanup
@@ -198,10 +239,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "casă" | apertium -d . ron-cat | tee .test-mt
-	@echo "casa" > .test-ref
-	@diff .test-ref .test-mt
-	echo "casa" | apertium -d . cat-ron | tee .test-mt
-	@echo "casă" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test

@@ -1,82 +1,91 @@
-! POS
+!!! Recusive transfer for Catalan->Romanian
 
-adj: _.adj_type.gender.number.case.definite ;
-adj_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt | 1.gender=m | 1.gender=nt) & 1.number=sg) 1(adj)[gender=mn]
-          elif((1.gender_chunk=f | 1.gender_chunk=nt | 1.gender=f | 1.gender=nt) & 1.number=pl) 1(adj)[gender=fn]
-          else 1(adj) ) ;
-adv: _.adv_type ;
-det: _.adj_type.gender.number.case ;
-det_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(det)[gender=mn]
-          elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(det)[gender=fn]
-          else 1(det) ) ;
-n: _.acr.gender.number.case.definite ;
-num: _.gender.number ;
-num_conc: (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(num)[gender=mn]
-          elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(num)[gender=fn]
-          else 1(num) ) ;
-num_digits: _ ;
-np: _.np_type.gender.number.case.definite ;
-pr: _.gen ;
-preadv: _ ;
-predet: _.adj_type.gender.number.case ;
-prn: _.prn_type.prn_type2.gender.number.case ;
-prnclt: _.prn_clt.prn_refadv.person.gender_clt.number_clt.case ;
-prnpers: _.prn_type.person.gender.number.case ;
-rel: _.prn_type.gender.number.case ;
-vbavea: _.tense.person.number ;
-vbhaver: _.tense.person.number ;
-vblex: _.tense.person.number ;
-vbmod: _.tense.person.number ;
-vbser: _.tense.person.number ;
-vb_impers: _.tense ;
-vb_pp: _.tense.gender.number ;
-vb_pp_conc: (if(1.gender=m & 1.number=sg) 1(vb_pp)[gender=mn] elif(1.gender=f & 1.number=pl) 1(vb_pp)[gender=fn] elif(1.gender=nt & 1.number=sg) 1(vb_pp)[gender=mn] elif(1.gender=nt & 1.number=pl) 1(vb_pp)[gender=fn] else 1(vb_pp) ) ;
+!!! Attribute categories
 
-Clt: _.prn_clt.prn_refadv.person.gender_clt.number_clt.case ;
-PV: _.person.gender_chunk.number ;
-SAdj: _.adj_type.gender_chunk.number.case.definite ;
-SAdv: _.adv_type ;
-SDet: _.adj_type.gender_chunk.number.case ;
-SN: _.SN_det.np_type.person.gender_chunk.number.case.definite ;
-SNum: _.gender_chunk.number ;
-SPredet: _.adj_type.gender_chunk.number.case ;
-SPrep: _.SPrep_type.gen ;
-SV: _.vb_type.vb_cnj.tense.person.gender_chunk.number ;
+gender = (GD m) m f nt mn fn @mf @mfn GD ;              ! Gender for dix entries except clitics. <GD> is replaced by <m> by default. <mf> and <mfn> are never replaced.
+gender_chunk = (GD m) m f nt GD ;                       ! Gender for chunks. <GD> is replaced by <m> by default.
+gender_clitic = m f nt mn fn mf mfn ;                   ! Gender for clitics.
+number = (ND sg) sg pl @sp ND ;                         ! Number for dix entries except clitics. <ND> is replaced by <sg> by default.
+number_clitic = sg pl sp ;                              ! Number for clitics.
+case = nom dg ;                                         ! Case for nouns and adjectives (nominative, dative/genitive)
+definite = ind def ;                                    ! Definite article for nouns and adjectives
+person = (PD p3) p1 p2 p3 PD ;                          ! Person for verbs and clitics
+tense = pri fti cni imp prs pii ifi pis inf ger pp ;    ! Tense for verbs
 
-
-
-! Attributes
-
-acr = acr ;
-adj_type = def dem ind ord pos ;
-adv_type = itg ;
-case = nom dg ;
-definite = ind def ;
-gen = gen ;
-gender = (GD m) m f nt mn fn @mf @mfn GD ;
-gender_chunk = (GD m) m f nt GD ;
-gender_clt = m f nt mn fn mf mfn ;
-np_type = ant cog top al ;
-number = (ND sg) sg pl @sp ND ;
-number_clt = sg pl sp ;
-person = (PD p3) p1 p2 p3 PD ;
-prn_clt = pro enc ;
+acr = acr ;                                             ! Optional tag for nouns which are acronyms.
+adj_type = def dem ind ord pos ;                        ! Optional tag for adjectives with a type.
+adv_type = itg ;                                        ! Optional tag for adverbs with a type.
+gen = gen ;                                             ! Optional tag for prepositions which require the following noun in dative/genitive.
+np_type = ant cog top al ;                              ! Type of proper noun.
+prn_clitic = pro enc ;                                  ! Type of clitic pronoun.
 prn_refadv = ref adv ;
-prn_type = tn itg an nn ;
-prn_type2 = pos ;
-tense = pri fti cni imp prs pii ifi pis inf ger pp ;
-vb_type = vbavea vblex vbmod vbser ;
-vb_cnj = cnj impers ;
+prn_type = tn itg an nn ;                               ! Type of pronoun.
+prn_type2 = pos ;                                       ! Second type of pronoun.
+vb_type = vbavea vblex vbmod vbser ;                    ! Type of verb.
+vb_cnj = cnj impers ;                                   ! Conjugation status of a verb (conjugated form, impersonal form).
 
-SN_det = undet det predet nodet prnpers ;
-SPrep_type = pr SN ;
-
-gender>gender_chunk: mf GD, mfn GD, mn m, fn f ;
-gender_chunk>gender: GD GD ;
+SN_det = undet det predet nodet prnpers ;               ! Determiner status of a SN.
+SPrep_type = pr SN ;                                    ! Type of SPrep (only preposition, preposition + SN).
 
 
 
-! Lists
+!!! Tag rewrite rules
+
+gender > gender_chunk: mf GD, mfn GD, mn m, fn f ;
+gender_chunk > gender: GD GD ;
+
+
+
+!!! Output patterns
+
+adj:        (if((1.gender_chunk=m | 1.gender_chunk=nt | 1.gender=m | 1.gender=nt) & 1.number=sg) 1(adj_dix)[gender=mn]
+            elif((1.gender_chunk=f | 1.gender_chunk=nt | 1.gender=f | 1.gender=nt) & 1.number=pl) 1(adj_dix)[gender=fn]
+            else 1(adj_dix)) ;
+adj_dix:    _.adj_type.gender.number.case.definite ;
+adv:        _.adv_type ;
+det:        (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(det_dix)[gender=mn]
+            elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(det_dix)[gender=fn]
+            else 1(det_dix)) ;
+det_dix:    _.adj_type.gender.number.case ;
+n:          _.acr.gender.number.case.definite ;
+np:         _.np_type.gender.number.case.definite ;
+num:        (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(num_dix)[gender=mn]
+            elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(num_dix)[gender=fn]
+            else 1(num_dix) ) ;
+num_dix:    _.gender.number ;
+num_digits: _ ;
+pr:         _.gen ;
+preadv:     _ ;
+predet:     _.adj_type.gender.number.case ;
+prn:        _.prn_type.prn_type2.gender.number.case ;
+prnclt:     _.prn_clitic.prn_refadv.person.gender_clitic.number_clitic.case ;
+prnpers:    _.prn_type.person.gender.number.case ;
+rel:        _.prn_type.gender.number.case ;
+vbavea:     _.tense.person.number ;
+vbhaver:    _.tense.person.number ;
+vblex:      _.tense.person.number ;
+vbmod:      _.tense.person.number ;
+vbser:      _.tense.person.number ;
+vb_impers:  _.tense ;
+vb_pp:      (if((1.gender_chunk=m | 1.gender_chunk=nt) & 1.number=sg) 1(vb_pp_dix)[gender=mn]
+            elif((1.gender_chunk=f | 1.gender_chunk=nt) & 1.number=pl) 1(vb_pp_dix)[gender=fn]
+            else 1(vb_pp_dix) ) ;
+vb_pp_dix:  _.tense.gender.number ;
+
+Clt:        _.prn_clitic.prn_refadv.person.gender_clitic.number_clitic.case ;
+PV:         _.person.gender_chunk.number ;
+SAdj:       _.adj_type.gender_chunk.number.case.definite ;
+SAdv:       _.adv_type ;
+SDet:       _.adj_type.gender_chunk.number.case ;
+SN:         _.SN_det.np_type.person.gender_chunk.number.case.definite ;
+SNum:       _.gender_chunk.number ;
+SPredet:    _.adj_type.gender_chunk.number.case ;
+SPrep:      _.SPrep_type.gen ;
+SV:         _.vb_type.vb_cnj.tense.person.gender_chunk.number ;
+
+
+
+!!! Lexical lists
 
 adjord_nodet = prim întâi I ;
 num_de = zero unu doi trei patru cinci șase șapte opt nouă zece
@@ -86,54 +95,54 @@ elimina_clt = li em ens ;
 
 
 
-! Rules
+!!! Reduction rules
 
-Clt ->  1: %prn.[prn_clt]
+Clt ->  1: %prn.[prn_clitic]
                 [$lem=1.lem,/sl=1[lem=1.lem/sl]]
                 { %1(prnclt)[lem=$lem] } |
-        2: %prn.[prn_clt].adv [$lem=1.lem] {} |
+        2: %prn.[prn_clitic].adv [$lem=1.lem] {} |
         
-        2: %Clt Clt ?(1.prn_clt=2.prn_clt)
-                { (if($prn_clt=pro) [%1[case=dg] _ 2[prn_clt=pro]] else [%1[case=dg] + 2])  } |
+        2: %Clt Clt ?(1.prn_clitic=2.prn_clitic)
+                { (if($prn_clitic=pro) [%1[case=dg] _ 2[prn_clitic=pro]] else [%1[case=dg] + 2])  } |
 
-        3: %Clt Clt ?(1.prn_clt=2.prn_clt & 2.lem/sl incl elimina_clt)  ! Si el segon pronom és elimina_clt, desapareix
+        3: %Clt Clt ?(1.prn_clitic=2.prn_clitic & 2.lem/sl incl elimina_clt)  ! Si el segon pronom és elimina_clt, desapareix
                 { %1 } |
-        4: Clt.[prn_clt].ref %Clt ?(1.prn_clt=2.prn_clt)  ! Si el primer pronom és ref, desapareix
+        4: Clt.[prn_clitic].ref %Clt ?(1.prn_clitic=2.prn_clitic)  ! Si el primer pronom és ref, desapareix
                 { %2 } |
-        5: %Clt Clt.[prn_clt].adv ?(1.prn_clt=2.prn_clt)  ! Si el segon pronom és adv, desapareix i no hi ha el canvi a datiu
+        5: %Clt Clt.[prn_clitic].adv ?(1.prn_clitic=2.prn_clitic)  ! Si el segon pronom és adv, desapareix i no hi ha el canvi a datiu
                 { %1 } ;
 
 
 SAdj -> 1: %adj
                 [$adj_type="",$case=nom,$definite=ind]
-                { %1(adj_conc)[adj_type=""] } |
+                { %1[adj_type=""] } |
         2: %antepenúltim@adj
                 [$adj_type="ord",$case=nom,$definite=ind]
-                { %1(adj_conc) } |
+                { %1 } |
         2: %penúltim@adj
                 [$adj_type="ord",$case=nom,$definite=ind]
-                { %1(adj_conc) } |
+                { %1 } |
         2: %últim@adj
                 [$adj_type="ord",$case=nom,$definite=ind]
-                { %1(adj_conc) } |
+                { %1 } |
         2: %adj.ord
                 [$adj_type="ord",$case=nom,$definite=ind]
                 { (if($lem incl adjord_nodet)
-                        %1(adj_conc)
+                        %1
                 elif(($gender_chunk=m | $gender_chunk=nt) & $number=sg)
-                        [al@det.def.mn.$number _ %1(adj_conc)[case=nom,definite=ind]]
+                        [al@det.def.mn.$number _ %1[case=nom,definite=ind]]
                 elif(($gender_chunk=f | $gender_chunk=nt) & $number=pl)
-                        [al@det.def.fn.$number _ %1(adj_conc)[case=nom,definite=ind]]
-                else [al@det.def.$gender.$number _ %1(adj_conc)[case=nom,definite=ind]] ) } |
+                        [al@det.def.fn.$number _ %1[case=nom,definite=ind]]
+                else [al@det.def.$gender.$number _ %1[case=nom,definite=ind]] ) } |
         2: %num.[gender].[number] ?(1.pos_tag/tl=adj)
                 [$case=nom,$definite=ind]
                 { (if($lem incl adjord_nodet)
-                        %1(adj_conc)
+                        %1
                 elif(($gender_chunk=m | $gender_chunk=nt) & $number=sg)
-                        [al@det.def.mn.$number _ %1(adj_conc)[case=nom,definite=ind]]
+                        [al@det.def.mn.$number _ %1[case=nom,definite=ind]]
                 elif(($gender_chunk=f | $gender_chunk=nt) & $number=pl)
-                        [al@det.def.fn.$number _ %1(adj_conc)[case=nom,definite=ind]]
-                else [al@det.def.$gender.$number _ %1(adj_conc)[case=nom,definite=ind]] ) } |
+                        [al@det.def.fn.$number _ %1[case=nom,definite=ind]]
+                else [al@det.def.$gender.$number _ %1[case=nom,definite=ind]] ) } |
 
         1: SAdv %SAdj
                 { 1 _ %2 } |
@@ -155,48 +164,48 @@ SAdv -> 1: %adv
 
 SDet -> 1: %det.def
                 [$case=nom]
-                { %1(det_conc) } |
+                { %1 } |
         2: %"l'altre"@det.def
                 [$case=nom,$adj_type=ind]
-                { %1(adj_conc)[adj_type=ind,definite=def] } |
+                { %1(det_dix)[adj_type=ind,definite=def] } |
         1: %det.ind
                 [$case=nom,$adj_type=ind]
-                { %1(det_conc)[adj_type=ind] } |
+                { %1[adj_type=ind] } |
         1: %det.pos
                 [$case=nom]
-                { %1(adj_conc)[definite=ind] } |
+                { %1(adj)[definite=ind] } |
         2: %"el seu"@det.pos
                 [$case=nom,$gender_chunk=1.gender/sl,$number=1.number/sl]
-                { 1(adj_conc)[gender=1.gender/ref,number=1.number/ref,case=nom,definite=ind] } |
+                { 1(adj)[gender=1.gender/ref,number=1.number/ref,case=nom,definite=ind] } |
         2: %adj.pos
                 [$case=nom]
-                { %1(adj_conc)[definite=ind] } |
+                { %1[definite=ind] } |
         3: %seu@adj.pos
                 [$case=nom,$gender_chunk=1.gender/sl,$number=1.number/sl]
-                { 1(adj_conc)[gender=1.gender/ref,number=1.number/ref,case=nom,definite=ind] } |
+                { 1[gender=1.gender/ref,number=1.number/ref,case=nom,definite=ind] } |
         1: %det.dem
                 [$case=nom]
-                { %1(det_conc)} |
+                { %1} |
         2: %adj.ind
                 [$adj_type=ind,$case=nom]
-                { %1(adj_conc)[adj_type=ind,definite=ind] } |
+                { %1[adj_type=ind,definite=ind] } |
         2: %bastant@adj
                 [$adj_type="ind",$case=nom]
-                { %1(adj_conc)[adj_type=ind,definite=ind] } |
+                { %1[adj_type=ind,definite=ind] } |
         2: %força@adj
                 [$adj_type="ind",$case=nom]
-                { %1(adj_conc)[adj_type=ind,definite=ind] } |
+                { %1[adj_type=ind,definite=ind] } |
         2: %més@adj
                 [$adj_type="ind",$case=nom]
-                { %1(det_conc)[adj_type=ind] } |
+                { %1[adj_type=ind] } |
         2: %molt@adj
                 [$adj_type="ind",$case=nom]
-                { %1(adj_conc)[adj_type=ind,definite=ind] } ;
+                { %1[adj_type=ind,definite=ind] } ;
 
 
 SPredet -> 1: %predet
                 [$case=nom]
-                { %1(det_conc) } ;
+                { %1 } ;
 
 
 SPrep -> 0: %pr SN
@@ -291,7 +300,7 @@ SN ->   1: %n
 SNum ->  0: %num
                 { %1(num_digits) } |
          1: %num.[gender]
-                { %1(num_conc) } |
+                { %1 } |
          2: SNum %SNum
                 { 1 _ %2 } ;
 
@@ -314,13 +323,13 @@ SV ->   1: %vblex
 
         2: %vblex.inf
                 [$vb_cnj=impers]
-                { (if($tense=pp) %1(vb_pp_conc) else %1(vb_impers)) } |
+                { (if($tense=pp) %1(vb_pp) else %1(vb_impers)) } |
         2: %vblex.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
         2: %vblex.pp
                 [$vb_cnj=impers]
-                { %1(vb_pp_conc)[gender=$gender_chunk,number=$number] } |
+                { %1(vb_pp)[gender=$gender_chunk,number=$number] } |
 
         1: %vbser
                 [$vb_cnj=cnj]
@@ -340,13 +349,13 @@ SV ->   1: %vblex
 
         2: %vbser.inf
                 [$vb_cnj=impers]
-                { (if($tense=pp) %1(vb_pp_conc) else %1(vb_impers)) } |
+                { (if($tense=pp) %1(vb_pp) else %1(vb_impers)) } |
         2: %vbser.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
         2: %vbser.pp
                 [$vb_cnj=impers]
-                { %1(vb_pp_conc) } |
+                { %1(vb_pp) } |
 
         1: %vbhaver
                 [$vb_cnj=cnj,$tense=pri]
@@ -389,13 +398,13 @@ SV ->   1: %vblex
 
         2: %vbmod.inf
                 [$vb_cnj=impers]
-                { (if($tense=pp) %1(vb_pp_conc) else %1(vb_impers)) } |
+                { (if($tense=pp) %1(vb_pp) else %1(vb_impers)) } |
         2: %vbmod.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
         2: %vbmod.pp
                 [$vb_cnj=impers]
-                { %1(vb_pp_conc) } |
+                { %1(vb_pp) } |
 
         2: %merge@SV.vblex.cnj.pri SV.*.impers.inf
                 [$lem=2.lem,$tense=ifi]
@@ -412,15 +421,15 @@ SV ->   1: %vblex
                 { %1 + 2 } |
 
         1: %SV.*.impers.inf Clt.enc
-                { 2[prn_clt=pro] _ %1 } |
+                { 2[prn_clitic=pro] _ %1 } |
 
         1: %SV.*.cnj.imp Clt.enc
                 { %1 + 2 } |
         2: %SV.*.cnj.imp.p2 Clt.enc.ref
-                { %1 + 2[lem="vă",prn_refadv="",person=p2,gender_clt=mf,number_clt=pl] } |
+                { %1 + 2[lem="vă",prn_refadv="",person=p2,gender_clitic=mf,number_clitic=pl] } |
 
         1: %SV.*.cnj.ifi Clt.enc
-                { 2[prn_clt=pro] _ %1 } |
+                { 2[prn_clitic=pro] _ %1 } |
 
         1: Clt.pro %SV.*.cnj
                 { 1 _ %2 } |

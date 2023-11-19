@@ -88,6 +88,7 @@ SV:         _.vb_type.vb_cnj.tense.person.gender_chunk.number ;
 !!! Lexical lists
 
 adjord_nodet = prim întâi I ;
+adjord = últim penúltim antepenúltim ;
 num_de = zero unu doi trei patru cinci șase șapte opt nouă zece
          unsprezece doisprezece treisprezece paisprezece cincisprezece șaisprezece șaptesprezece optsprezece nouăsprezece
          0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 ;
@@ -116,13 +117,7 @@ Clt ->  1: %prn.[prn_clitic]
 SAdj -> 1: %adj
                 [$adj_type="",$case=nom,$definite=ind]
                 { %1[adj_type=""] } |
-        2: %antepenúltim@adj
-                [$adj_type="ord",$case=nom,$definite=ind]
-                { %1 } |
-        2: %penúltim@adj
-                [$adj_type="ord",$case=nom,$definite=ind]
-                { %1 } |
-        2: %últim@adj
+        2: %[adjord]@adj
                 [$adj_type="ord",$case=nom,$definite=ind]
                 { %1 } |
         2: %adj.ord

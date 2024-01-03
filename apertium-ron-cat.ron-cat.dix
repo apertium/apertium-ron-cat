@@ -6180,7 +6180,9 @@
 <e a="mioara">      <p><l>asin<s n="n"/><s n="m"/></l>                <r>ase<s n="n"/><s n="m"/></r></p></e>
 <e a="delnou">      <p><l>asistență<b/>de<b/>pre-aderare<s n="n"/><s n="f"/></l><r>ajuda<g><b/>de<b/>preadhesió</g><s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>asistență<s n="n"/><s n="f"/></l>           <r>assistència<s n="n"/><s n="f"/></r></p></e>
-<e>                 <p><l>asistent<s n="n"/></l>                      <r>assistent<s n="n"/></r></p></e>
+<e r="LR">          <p><l>asistent<s n="n"/><s n="f"/></l>            <r>assistent<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL">          <p><l>asistent<s n="n"/><s n="GD"/></l>           <r>assistent<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR">          <p><l>asistent<s n="n"/><s n="m"/></l>            <r>assistent<s n="n"/><s n="mf"/></r></p></e>
 <e>                 <p><l>asociație<s n="n"/><s n="f"/></l>           <r>associació<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>asociere<s n="n"/><s n="f"/></l>            <r>associació<s n="n"/><s n="f"/></r></p></e>
 <e a="delia">       <p><l>asortiment<s n="n"/><s n="nt"/></l>         <r>assortiment<s n="n"/><s n="m"/></r></p></e>
@@ -20422,10 +20424,10 @@
 <e>                 <p><l>în<b/>ceea<b/>ce<b/>privește<s n="pr"/></l> <r>pel<b/>que<b/>concerneix<s n="pr"/></r></p></e>
 <e>                 <p><l>în<b/>fața<s n="pr"/><s n="gen"/></l>       <r>davant<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>în<b/>legătură<b/>cu<s n="pr"/></l>         <r>en<b/>relació<b/>amb<s n="pr"/></r></p></e>
-<e a="delia">       <p><l>în<b/>privința<s n="pr"/></l>               <r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
+<e a="delia">       <p><l>în<b/>privința<s n="pr"/><s n="gen"/></l>   <r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
 <e>                 <p><l>în<b/>termen<b/>de<s n="pr"/></l>           <r>en<b/>un<b/>termini<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>în<b/>timpul<s n="pr"/><s n="gen"/></l>     <r>durant<s n="pr"/></r></p></e>
-<e a="delnou">      <p><l>în<b/>toiul<s n="pr"/></l>                  <r>al<b/>cor<b/>de<s n="pr"/></r></p></e>
+<e a="delnou">      <p><l>în<b/>toiul<s n="pr"/><s n="gen"/></l>      <r>al<b/>cor<b/>de<s n="pr"/></r></p></e>
 <e>                 <p><l>începând<b/>cu<s n="pr"/></l>               <r>a<b/>partir<b/>de<s n="pr"/></r></p></e>
 <e r="LR">          <p><l>înspre<s n="pr"/></l>                       <r>cap<b/>a<s n="pr"/></r></p></e>
 <e>                 <p><l>între<s n="pr"/></l>                        <r>entre<s n="pr"/></r></p></e>

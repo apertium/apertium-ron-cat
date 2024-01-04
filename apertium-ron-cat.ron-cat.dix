@@ -15750,8 +15750,7 @@
 <e>                 <p><l>stăpân<s n="n"/><s n="f"/></l>              <r>mestressa<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>stăpân<s n="n"/><s n="m"/></l>              <r>amo<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>stare<s n="n"/><s n="f"/></l>               <r>estat<s n="n"/><s n="m"/></r></p></e>
-<e>                 <p><l>star<s n="n"/></l>                          <r>estrela<s n="n"/></r></p></e>
-<e r="LR" a="mioara"><p><l>star<s n="n"/><s n="nt"/></l>              <r>estrella<s n="n"/><s n="f"/></r></p></e>
+<e a="mioara">      <p><l>star<s n="n"/><s n="nt"/></l>               <r>estrella<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="delnou"><p><l>start<s n="n"/><s n="nt"/></l>             <r>arrencada<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>stăruință<s n="n"/><s n="f"/></l>           <r>empenyorament<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>stăruință<s n="n"/><s n="f"/></l>           <r>obstinació<s n="n"/><s n="f"/></r></p></e>
@@ -15778,7 +15777,6 @@
 <e a="delia">       <p><l>stavilă<s n="n"/><s n="f"/></l>             <r>trava<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>steag<s n="n"/><s n="nt"/></l>              <r>bandera<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>stea<s n="n"/><s n="f"/></l>                <r>estel<s n="n"/><s n="m"/></r></p></e>
-<e r="RL">          <p><l>stea<s n="n"/><s n="f"/></l>                <r>estrela<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>stea<s n="n"/><s n="f"/></l>                <r>estrella<s n="n"/><s n="f"/></r></p></e>
 <e>                 <p><l>stejar<s n="n"/><s n="m"/></l>              <r>roure<s n="n"/><s n="m"/></r></p></e>
 <e>                 <p><l>stemă<s n="n"/><s n="f"/></l>               <r>escut<s n="n"/><s n="m"/></r></p></e>

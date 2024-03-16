@@ -6,12 +6,13 @@
       <program name="lt-proc -w">
         <file name="ron-cat.automorf.bin"/>
       </program>
-      <program name="cg-proc -w" debug-suff="disamb">
+      <program name="cg-proc" debug-suff="disamb">
         <file name="ron-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -gp $2">
         <file name="ron-cat.prob"/>
       </program>
+      <program name="apertium-extract-caps"/>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ron-cat.autobil.bin"/>
@@ -34,11 +35,15 @@
         <file name="apertium-ron-cat.ron-cat.t3x"/>
         <file name="ron-cat.t3x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1 -b">
         <file name="ron-cat.autogen.bin"/>
       </program>
       <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="ron-cat.prefs.rlx.bin"/>
+      </program>
+      <program name="apertium-restore-caps">
+        <file name="ron-cat.crx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="ron-cat.autopgen.bin"/>
@@ -51,12 +56,13 @@
       <program name="lt-proc -w">
         <file name="ron-cat.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc">
         <file name="ron-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -gp $2">
         <file name="ron-cat.prob"/>
       </program>
+      <program name="apertium-extract-caps"/>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ron-cat.autobil.bin"/>
@@ -79,6 +85,7 @@
         <file name="apertium-ron-cat.ron-cat.t3x"/>
         <file name="ron-cat.t3x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1 -b">
         <file name="ron-cat.autogen.bin"/>
       </program>
@@ -87,6 +94,9 @@
       </program>
       <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="ron-cat.prefs.rlx.bin"/>
+      </program>
+      <program name="apertium-restore-caps">
+        <file name="ron-cat.crx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="ron-cat.autopgen.bin"/>
@@ -99,12 +109,13 @@
       <program name="lt-proc -w">
         <file name="cat-ron.automorf.bin"/>
       </program>
-      <program name="cg-proc -w" debug-suff="disamb">
+      <program name="cg-proc" debug-suff="disamb">
         <file name="cat-ron.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -gp $2">
         <file name="cat-ron.prob"/>
       </program>
+      <program name="apertium-extract-caps"/>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="cat-ron.autobil.bin"/>
@@ -131,8 +142,12 @@
         <file name="apertium-ron-cat.cat-ron.t4x"/>
         <file name="cat-ron.t4x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="apertium-posttransfer"/>
+      <program name="lt-proc $1 -b">
         <file name="cat-ron.autogen.bin"/>
+      </program>
+      <program name="apertium-restore-caps">
+        <file name="cat-ron.crx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="cat-ron.autopgen.bin"/>

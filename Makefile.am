@@ -29,6 +29,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin	\
+	$(PREFIX1).crx.bin	\
 	$(PREFIX2).automorf.bin	\
 	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
@@ -40,6 +41,7 @@ TARGETS_COMMON =		\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin	\
 	$(PREFIX2).t4x.bin	\
+	$(PREFIX2).crx.bin	\
  	prefs/$(PREFIX1).xml
 
 
@@ -174,6 +176,18 @@ $(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
 
 $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
 	cp $< $@
+
+###############################################################################
+## Capitalization restoration
+###############################################################################
+
+$(PREFIX1).crx.bin: $(BASENAME).$(PREFIX1).crx
+	apertium-validate-crx $<
+	apertium-compile-caps $< $@
+
+$(PREFIX2).crx.bin: $(BASENAME).$(PREFIX2).crx
+	apertium-validate-crx $<
+	apertium-compile-caps $< $@
 
 ###############################################################################
 ## Variant preferences

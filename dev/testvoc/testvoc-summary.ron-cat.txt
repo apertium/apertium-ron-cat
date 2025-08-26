@@ -1,18 +1,18 @@
-dissabte, 28 de setembre de 2024, 19:08:42 CEST
+dimarts, 26 d’agost de 2025, 12:43:40 CEST
 ================================================
 POS	Total	Clean	With @	With #	Clean %
-vblex	105221	105221	0	0	100
+vblex	787043	787043	0	0	100
 n	90384	90384	0	0	100
 adj	68432	68432	0	0	100
 np	4432	4432	0	0	100
 adv	614	614	0	0	100
+vbmod	363	363	0	0	100
+vbser	307	307	0	0	100
 prn	214	214	0	0	100
 num	163	163	0	0	100
 det	82	82	0	0	100
 pr	66	66	0	0	100
-vbmod	49	49	0	0	100
 cnjadv	46	46	0	0	100
-vbser	42	42	0	0	100
 ij	28	28	0	0	100
 rel	24	24	0	0	100
 cnjcoo	17	17	0	0	100
